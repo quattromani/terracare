@@ -1,0 +1,43 @@
+/* ==========================================================================
+    Pills -- Version: 1.9.0.0 - Compiled: timestamp()
+   ========================================================================== */
+label + .pill,
+.pill + label {
+  margin-left: 0.33333em;
+}
+
+.pill,
+.pill-black,
+.pill-white,
+.pill-red {
+  padding-top: 0.125em;
+  padding-right: 0.75em;
+  padding-bottom: 0.125em;
+  padding-left: 0.75em;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #555555;
+  font-size: 13px;
+  font-size: 1.3rem;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: white;
+}
+.pill-white {
+  background: white;
+  -webkit-box-shadow: inset 0 0 0 1px #555555;
+  -moz-box-shadow: inset 0 0 0 1px #555555;
+  box-shadow: inset 0 0 0 1px #555555;
+  color: #555555;
+}
+.pill-red {
+  background: #74111d;
+}

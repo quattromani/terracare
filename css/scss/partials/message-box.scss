@@ -1,0 +1,77 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Message Boxes -- Version: 0.2.1 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.info-box {
+  border-left: .3em solid $color-primary-blue;
+  background: lighten($color-primary-blue, 50%);
+  color: $color-primary-blue;
+}
+
+.error-box {
+  border-left: .3em solid $color-primary-red;
+  background: lighten($color-primary-red, 40%);
+  color: $color-primary-red;
+}
+
+.valid-box {
+  border-left: .3em solid $color-secondary-green;
+  background: lighten($color-primary-green, 20%);
+  color: $color-secondary-green;
+}
+
+[class*='message-'] {
+  display: flex;
+  align-items: center;
+  background: $color-light-light-grey;
+  font-weight: 700;
+
+  &:before {
+    display: flex;
+    align-items: center;
+    @include font-family($fontawesome, 36);
+    padding: .25em 1em;
+  }
+}
+
+.message {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
+}
+
+@-webkit-keyframes rotation {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(359deg); }
+}
+
+.message-loading {
+  color: #333;
+
+  &:before {
+    content: '\f013';
+    animation: rotation 1.5s infinite linear;
+  }
+}
+
+.message-warning {
+  color: $color-primary-red;
+
+  &:before {
+    background: lighten($color-primary-red, 20%);
+    content: '\f071';
+  }
+}
+
+.message-valid {
+  color: $color-secondary-green;
+
+  &:before {
+    background: $color-primary-green;
+    content: '\f00c';
+  }
+}

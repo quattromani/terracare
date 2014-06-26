@@ -1,0 +1,126 @@
+/* ==========================================================================
+    Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
+   ========================================================================== */
+.color-white {
+  background: white;
+}
+
+.color-black {
+  background: black;
+}
+
+.color-grey {
+  background: #555555;
+}
+
+.color-light-grey {
+  background: #cccccc;
+}
+
+.color-primary-red {
+  background: #74111d;
+}
+
+.color-primary-green {
+  background: #21660f;
+}
+
+.color-primary-blue {
+  background: #0b4d42;
+}
+
+.color-primary-brown {
+  background: #793c12;
+}
+
+.color-secondary-red {
+  background: #4c060e;
+}
+
+.color-secondary-green {
+  background: #58b340;
+}
+
+.color-secondary-blue {
+  background: #3ca694;
+}
+
+.color-secondary-brown {
+  background: #5b3821;
+}
+
+.text {
+  color: #555555;
+}
+
+.color-text {
+  background: #555555;
+}
+
+.color-link {
+  background: #74111d;
+}
+
+.color-error {
+  background: red;
+}
+
+.color-info {
+  background: #3ca694;
+}
+
+.color-success {
+  background: #58b340;
+}
+
+.link {
+  color: #74111d;
+}
+
+.text-grey {
+  color: #555555;
+}
+
+.text-light-grey {
+  color: #cccccc;
+}
+
+.text-link {
+  color: #74111d;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-info {
+  color: #3ca694;
+}
+
+.text-muted,
+.muted {
+  color: #555555;
+}
+
+.text-warning,
+.text-error {
+  color: red;
+}
+
+.error,
+.is-error {
+  background: #ff8080;
+  color: red;
+}
+
+.text-success {
+  color: #58b340;
+}
+
+.ie9 .gradient {
+  filter: none;
+}
+
+.ie9 [class*="gradient"] {
+  filter: none;
+}

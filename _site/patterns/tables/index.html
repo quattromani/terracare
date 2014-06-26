@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en-us"><!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Tables |  TERRACARE ASSOCIATES</title>
+	<meta name="description" content="" />
+    <meta name="author" content="Max Quattromani">
+    <meta name="rating" content="general">
+    <meta name="keywords" content="" />
+
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimal-ui">
+
+	<link rel="stylesheet" href="/terracare/css/main.css" >
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="/terracare/css/fonts/icons/font-awesome.min.css">
+    <link rel="stylesheet" id="printCSS" media="print" href="/css/print.css">
+    <link rel="stylesheet" href="/terracare/css/syntax.css">
+    <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body class="styleguide">
+<!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+	    <!-- Begin Content Wrapper -->
+    <div class="content">
+      <div class="container">
+
+<a class="logo" href="/terracare/">
+  <span class="h1 fs40">TERRACARE ASSOCIATES</span>
+  <span class="logo_slash link fs40">/</span>
+  <span class="h1 division fs40">Pattern Library</span>
+</a>
+
+<hr>
+
+    <span id="table-anchor" class="h2 jumpTo-anchor">Table</span>
+
+<div class="right">
+  <a class="btn btn-primary" href="tables">Isolate</a>
+</div>
+
+<div class="box-column clear">
+
+  <!-- Table Component -->
+  <table>
+    <thead>
+      <tr>
+        <th colspan="2">Items</th>
+        <th class="qty">Qty</th>
+        <th class="price">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="item">Envisioning Information <span>By Edward R. Tufte – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$33.32</td>
+      </tr>
+      <tr>
+        <td class="item">Outliers <span>By Malcolm Gladwell – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">2</td>
+        <td class="price">$33.58 <span>($16.79 × 2)</span></td>
+      </tr>
+      <tr>
+        <td class="item">Don’t Make Me Think <span>By Steve Krug – Paperback</span></td>
+        <td class="stock out">Out of Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$22.80</td>
+      </tr>
+      <tr>
+        <td class="item">Steve Jobs <span>By Walter Isaacson – Hardcover</span></td>
+        <td class="stock in">In Stock</td>
+        <td class="qty">1</td>
+        <td class="price">$17.49</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr class="sub">
+        <td colspan="3">Subtotal</td>
+        <td>$107.19</td>
+      </tr>
+      <tr class="tax">
+        <td colspan="3">Tax</td>
+        <td>$10.71</td>
+      </tr>
+      <tr class="total">
+        <td colspan="3">Total</td>
+        <td>$117.90</td>
+      </tr>
+    </tfoot>
+  </table>
+  <!-- .Table Component -->
+
+<div class="highlight"><pre><code class="html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th colspan=&quot;2&quot;&gt;Items&lt;/th&gt;
+      &lt;th class=&quot;qty&quot;&gt;Qty&lt;/th&gt;
+      &lt;th class=&quot;price&quot;&gt;Price&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;item&quot;&gt;Envisioning Information &lt;span&gt;By Edward R. Tufte – Hardcover&lt;/span&gt;&lt;/td&gt;
+      &lt;td class=&quot;stock in&quot;&gt;In Stock&lt;/td&gt;
+      &lt;td class=&quot;qty&quot;&gt;1&lt;/td&gt;
+      &lt;td class=&quot;price&quot;&gt;$33.32&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;item&quot;&gt;Outliers &lt;span&gt;By Malcolm Gladwell – Hardcover&lt;/span&gt;&lt;/td&gt;
+      &lt;td class=&quot;stock in&quot;&gt;In Stock&lt;/td&gt;
+      &lt;td class=&quot;qty&quot;&gt;2&lt;/td&gt;
+      &lt;td class=&quot;price&quot;&gt;$33.58 &lt;span&gt;($16.79 × 2)&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;item&quot;&gt;Don’t Make Me Think &lt;span&gt;By Steve Krug – Paperback&lt;/span&gt;&lt;/td&gt;
+      &lt;td class=&quot;stock out&quot;&gt;Out of Stock&lt;/td&gt;
+      &lt;td class=&quot;qty&quot;&gt;1&lt;/td&gt;
+      &lt;td class=&quot;price&quot;&gt;$22.80&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;item&quot;&gt;Steve Jobs &lt;span&gt;By Walter Isaacson – Hardcover&lt;/span&gt;&lt;/td&gt;
+      &lt;td class=&quot;stock in&quot;&gt;In Stock&lt;/td&gt;
+      &lt;td class=&quot;qty&quot;&gt;1&lt;/td&gt;
+      &lt;td class=&quot;price&quot;&gt;$17.49&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr class=&quot;sub&quot;&gt;
+      &lt;td colspan=&quot;3&quot;&gt;Subtotal&lt;/td&gt;
+      &lt;td&gt;$107.19&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;tax&quot;&gt;
+      &lt;td colspan=&quot;3&quot;&gt;Tax&lt;/td&gt;
+      &lt;td&gt;$10.71&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&quot;total&quot;&gt;
+      &lt;td colspan=&quot;3&quot;&gt;Total&lt;/td&gt;
+      &lt;td&gt;$117.90&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre></div>
+
+</div>
+
+
+	</div>
+    </div>
+    <!-- ./End Content Wrapper -->
+	    <!-- Footer Component -->
+    <footer class="container" role="contentinfo">
+
+      <span class="small-body-text">&copy; <span id="year" class="getYear">year</span>, Terracare Associates</span>
+
+    </footer>
+    <!-- ./Footer Component -->
+
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/terracare/js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script src="/terracare/js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="/terracare/js/global_init.js"></script>
+    <script src="/terracare/js/vendor/respond.js"></script>
+    <script src="/terracare/js/build/production.min.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    </body>
+</html>
+
