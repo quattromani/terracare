@@ -1,8 +1,8 @@
 // Base Site Settings
-$site-width: 1024px;
+$site-width: 1280px;
 
 // Navigation
-$nav-items: 7;
+$nav-items: 6;
 
 // ---------------------------------------------------------------------- //
 
@@ -75,12 +75,12 @@ $form-focus: $color-light-grey;
 $base-font-size: 16;
 $base-line-height: 1.443;
 
-$base-font: Tahoma, Verdana, Segoe, sans-serif;
+$base-font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-$base-font-alt: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$base-font-alt: $base-font;
 $arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
-$heading-font: $base-font;
-$heading-font-alt: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$heading-font: 'CooperHewitt-Semibold', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+$heading-font-alt: 'CooperHewitt-Book', 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 $fontawesome: 'FontAwesome';
 $pre: Inconsolata,Monaco,Consolas,'Andale Mono','Bitstream Vera Sans Mono','Courier New',Courier,monospace;
 
@@ -88,9 +88,9 @@ $heading-list: (
   h1   42   200   $heading-font,
   h2   36   200   $heading-font,
   h3   30   700   $heading-font-alt,
-  h4   24   200   $heading-font,
+  h4   24   200   $heading-font-alt,
   h5   18   700   $heading-font-alt,
-  h6   18   100   $heading-font
+  h6   18   100   $heading-font-alt
 );
 
 $lede-text: ($base-font-size * 1.375);

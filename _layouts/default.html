@@ -1,11 +1,18 @@
 {% include head.html %}
 
-	{% include content.html %}
+  <div class="content">
+    <div class="container">
+      <a class="logo" href="{{site.baseurl}}/">
+        <h1>{{site.name}}</h1>
+      </a>
+    </div>
+  </div>
 
-<a class="logo" href="{{site.baseurl}}/">
-	<h1>{{site.name}}</h1>
-</a>
-    {% include nav.html %}
+  {% include nav.html %}
+  <figure>
+    <img class="page-banner" src="images/{{ page.banner }}" alt="{{ page.alt }}">
+  </figure>
+  {% include content.html %}
 
     {{ content }}
 

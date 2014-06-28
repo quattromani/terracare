@@ -6,13 +6,16 @@ baseurl: /terracare
 exclude: ['node_modules', 'scss']
 
 navigation:
-- text: What we do
-  url: /en/what-we-do/
-- text: Who we are
-  url: /en/who-we-are/
-- text: Projects
-  url: /en/projects/
-  layout: project
-- text: Blog
-  url: /en/blog/
+- text: Public Services
+  url: /public-services
+- text: Commercial Services
+  url: /commercial-services
+- text: Responsibility
+  url: /responsibility
+- text: About Us
+  url: /about-us
+- text: Blog / News
+  url: /blog
   layout: post
+- text: Careers
+  url: /careers

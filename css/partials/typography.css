@@ -3,7 +3,7 @@
    ========================================================================== */
 html {
   height: 100%;
-  font-family: Tahoma, Verdana, Segoe, sans-serif, Arial, Sans-Serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -25,23 +25,30 @@ textarea {
 }
 
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro Lt';
-  src: url("fonts/NHaasGroteskDSPro-45Lt.eot");
-  src: url("fonts/NHaasGroteskDSPro-45Lt.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("fonts/NHaasGroteskDSPro-45Lt.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-45Lt.svg#c13997a2298a59559618b48f712f1222") format("svg");
+  font-family: 'CooperHewitt-Bold';
+  src: url("fonts/CooperHewitt-Bold.eot");
+  src: url("fonts/CooperHewitt-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Bold.woff") format("woff"), url("fonts/CooperHewitt-Bold.ttf") format("truetype"), url("fonts/CooperHewitt-Bold.svg#CooperHewitt-Bold") format("svg");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro';
-  src: url("fonts/NHaasGroteskDSPro-55Rg.eot");
-  src: url("fonts/NHaasGroteskDSPro-55Rg.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-55Rg.woff") format("woff"), url("fonts/NHaasGroteskDSPro-55Rg.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-55Rg.svg#b6ad3c4b853b178e80a67cafd99e8515") format("svg");
+  font-family: 'CooperHewitt-Semibold';
+  src: url("fonts/CooperHewitt-Semibold.eot");
+  src: url("fonts/CooperHewitt-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Semibold.woff") format("woff"), url("fonts/CooperHewitt-Semibold.ttf") format("truetype"), url("fonts/CooperHewitt-Semibold.svg#CooperHewitt-Semibold") format("svg");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro 75';
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot");
-  src: url("fonts/NHaasGroteskDSPro-75Bd.eot?#iefix") format("embedded-opentype"), url("fonts/NHaasGroteskDSPro-75Bd.woff") format("woff"), url("fonts/NHaasGroteskDSPro-75Bd.ttf") format("truetype"), url("fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29") format("svg");
+  font-family: 'CooperHewitt-Book';
+  src: url("fonts/CooperHewitt-Book.eot");
+  src: url("fonts/CooperHewitt-Book.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Book.woff") format("woff"), url("fonts/CooperHewitt-Book.ttf") format("truetype"), url("fonts/CooperHewitt-Book.svg#CooperHewitt-Book") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'CooperHewitt-Light';
+  src: url("fonts/CooperHewitt-Light.eot");
+  src: url("fonts/CooperHewitt-Light.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Light.woff") format("woff"), url("fonts/CooperHewitt-Light.ttf") format("truetype"), url("fonts/CooperHewitt-Light.svg#CooperHewitt-Light") format("svg");
   font-style: normal;
   font-weight: 400;
 }
@@ -53,7 +60,7 @@ textarea {
   font-style: normal;
 }
 .base-font {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .base-font-alt {
@@ -105,7 +112,7 @@ a {
   padding-left: 0;
   background: transparent;
   vertical-align: baseline;
-  font-family: Tahoma, Verdana, Segoe, sans-serif, Arial, Sans-Serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -128,7 +135,7 @@ a:hover {
    ========================== */
 h1,
 .h1 {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family: "CooperHewitt-Semibold", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200;
@@ -151,7 +158,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family: "CooperHewitt-Semibold", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200;
@@ -174,7 +181,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700;
@@ -197,7 +204,7 @@ h3,
 
 h4,
 .h4 {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200;
@@ -205,7 +212,7 @@ h4,
 
 h5,
 .h5 {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700;
@@ -213,7 +220,7 @@ h5,
 
 h6,
 .h6 {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100;
@@ -254,7 +261,7 @@ blockquote {
 
 p,
 .p {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   word-wrap: break-word;
 }
 p:only-child,
@@ -368,7 +375,7 @@ samp {
 
 .logo_slash,
 .division {
-  font-family: Tahoma, Verdana, Segoe, sans-serif, Arial, Sans-Serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

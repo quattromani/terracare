@@ -24,34 +24,45 @@ textarea {
 }
 
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro Lt';
-  src: url('fonts/NHaasGroteskDSPro-45Lt.eot');
-  src: url('fonts/NHaasGroteskDSPro-45Lt.eot?#iefix') format('embedded-opentype'),
-       url('fonts/NHaasGroteskDSPro-45Lt.woff') format('woff'),
-       url('fonts/NHaasGroteskDSPro-45Lt.ttf') format('truetype'),
-       url('fonts/NHaasGroteskDSPro-45Lt.svg#c13997a2298a59559618b48f712f1222') format('svg');
+  font-family: 'CooperHewitt-Bold';
+  src: url('fonts/CooperHewitt-Bold.eot');
+  src: url('fonts/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/CooperHewitt-Bold.woff') format('woff'),
+       url('fonts/CooperHewitt-Bold.ttf') format('truetype'),
+       url('fonts/CooperHewitt-Bold.svg#CooperHewitt-Bold') format('svg');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro';
-  src: url('fonts/NHaasGroteskDSPro-55Rg.eot');
-  src: url('fonts/NHaasGroteskDSPro-55Rg.eot?#iefix') format('embedded-opentype'),
-       url('fonts/NHaasGroteskDSPro-55Rg.woff') format('woff'),
-       url('fonts/NHaasGroteskDSPro-55Rg.ttf') format('truetype'),
-       url('fonts/NHaasGroteskDSPro-55Rg.svg#b6ad3c4b853b178e80a67cafd99e8515') format('svg');
+  font-family: 'CooperHewitt-Semibold';
+  src: url('fonts/CooperHewitt-Semibold.eot');
+  src: url('fonts/CooperHewitt-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/CooperHewitt-Semibold.woff') format('woff'),
+       url('fonts/CooperHewitt-Semibold.ttf') format('truetype'),
+       url('fonts/CooperHewitt-Semibold.svg#CooperHewitt-Semibold') format('svg');
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'NeueHaasGroteskDisp Pro 75';
-  src: url('fonts/NHaasGroteskDSPro-75Bd.eot');
-  src: url('fonts/NHaasGroteskDSPro-75Bd.eot?#iefix') format('embedded-opentype'),
-       url('fonts/NHaasGroteskDSPro-75Bd.woff') format('woff'),
-       url('fonts/NHaasGroteskDSPro-75Bd.ttf') format('truetype'),
-       url('fonts/NHaasGroteskDSPro-75Bd.svg#3c83350684bc0527723a7e2b4313fd29') format('svg');
+  font-family: 'CooperHewitt-Book';
+  src: url('fonts/CooperHewitt-Book.eot');
+  src: url('fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'),
+       url('fonts/CooperHewitt-Book.woff') format('woff'),
+       url('fonts/CooperHewitt-Book.ttf') format('truetype'),
+       url('fonts/CooperHewitt-Book.svg#CooperHewitt-Book') format('svg');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'CooperHewitt-Light';
+  src: url('fonts/CooperHewitt-Light.eot');
+  src: url('fonts/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
+       url('fonts/CooperHewitt-Light.woff') format('woff'),
+       url('fonts/CooperHewitt-Light.ttf') format('truetype'),
+       url('fonts/CooperHewitt-Light.svg#CooperHewitt-Light') format('svg');
   font-style: normal;
   font-weight: 400;
 }

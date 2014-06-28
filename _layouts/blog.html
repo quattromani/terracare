@@ -1,0 +1,24 @@
+{% include head.html %}
+
+  <div class="content">
+    <div class="container">
+      <a class="logo" href="{{site.baseurl}}/">
+        <h1>{{site.name}}</h1>
+      </a>
+    </div>
+  </div>
+
+  {% include nav.html %}
+  {% include content.html %}
+    <div class="row">
+      <div class="two-thirds">
+        {{ content }}
+      </div>
+      <div class="thirds">
+        {{ content }}
+      </div>
+    </div>
+
+	{% include end_content.html %}
+	{% include footer.html %}
+{% include foot.html %}
