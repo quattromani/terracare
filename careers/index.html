@@ -3,3 +3,160 @@ layout: default
 title: Careers / Jobs
 class: careers
 ---
+
+<div class="row">
+  <p class="lede">Terracare Associates is always interested in talented, enthusiastic, and experienced individuals to join our team. We look for high-caliber, high-potential employees who are looking for the chance to grow and make a difference. We offer variety, flexibility, competitive pay, opportunities to grow, and overall job satisfaction.</p>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="half">
+    <h3>Current Opportunities</h3>
+
+    <h4>California</h4>
+    <ul>
+      <li>Landscape Enhancement Manager (Sacramento)</li>
+      <li>Commercial Sales representative (Sacramento)</li>
+    </ul>
+
+    <hr>
+
+    <h4>Colorado</h4>
+    <ul>
+      <li>Concrete Foreman</li>
+      <li>Estimator</li>
+      <li>Irrigation Technicians</li>
+      <li>Landscape Maintenance Crew Members</li>
+      <li>Enhancement and Flower Crew Members</li>
+      <li>Right of Way and Road Maintenance Crew Members</li>
+      <li>Diesel Mechanic</li>
+      <li>CDL Drivers</li>
+    </ul>
+
+    <hr>
+
+    <h4>Utah</h4>
+    <ul>
+      <li>Certified Traffic Control Technician</li>
+      <li>Right of Way and Road Maintenance Crew Members</li>
+      <li>Concrete Worker</li>
+      <li>CDL Drivers</li>
+    </ul>
+  </div>
+
+  <div class="half">
+
+    <form action="/" method="post" novalidate>
+      <fieldset>
+        <h3>Contact Information</h3>
+        <p>* Indicates a required field</p>
+
+        <!-- First Name / Last Name -->
+        <div class="row">
+          <div class="half">
+            <div class="formitem first-name">
+              <label class="required" for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="fname" pattern="[a-zA-Z]+" autocomplete="name" tabindex="1" required>
+              <span title="Please enter your First Name"></span>
+            </div>
+          </div>
+
+          <div class="half">
+            <div class="formitem last-name">
+              <label class="required" for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="lname" autocomplete="name" tabindex="3" required>
+              <span title="Please enter your Last Name"></span>
+            </div>
+          </div>
+        </div>
+        <!-- .First Name / Last Name -->
+
+        <!-- Phone -->
+        <div class="row clearfix">
+          <div class="formitem phone-number">
+            <label for="phone-number" class="required">Phone Number</label>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="9" required>
+            <span title="Gonna need dem digits"></span>
+          </div>
+        </div>
+        <!-- .Phone -->
+
+        <!-- Email Address -->
+        <div class="row">
+          <div class="formitem email">
+            <label for="email" class="required">Email Address:</label>
+            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="11" required>
+            <span title="Please enter your Email Address"></span>
+          </div>
+        </div>
+        <!-- .Email Address -->
+
+        <!-- Desired Field -->
+        <div class="row">
+          <div class="formitem state">
+            <label for="state" class="required">State:</label>
+            <select name="state" id="state" tabindex="7" required>
+              <option value="">Please Select a State</option>
+              <option value="CA">California</option>
+              <option value="CO" selected="selected">Colorado</option>
+              <option value="UT">Utah</option>
+            </select>
+          </div>
+        </div>
+        <!-- .Desired Field -->
+
+        <!-- About -->
+        <div class="row">
+          <div class="formitem textarea">
+            <label for="textarea">Tell us about your skills:</label>
+            <textarea id="textarea" tabindex="13"></textarea>
+          </div>
+        </div>
+        <!-- .About -->
+
+        <div class="row">
+          <div class="formitem state">
+            <label for="state" class="required">State:</label>
+            <select name="state" id="state" tabindex="7" required>
+              <option value="">Please Select a State</option>
+              <option value="CA">California</option>
+              <option value="CO" selected="selected">Colorado</option>
+              <option value="UT">Utah</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Referral -->
+        <div class="row">
+        <label class="required">Were you referred by a Terracare employee?</label>
+          <div class="formitem">
+            <input type="radio" class="radio" id="radio-this" name="referred" value="yes">
+            <label for="radio-this">Yes</label>
+          </div>
+          <div class="formitem">
+            <input type="radio" class="radio" id="radio-that" name="referred" value="no">
+            <label for="radio-that">No</label>
+          </div>
+        </div>
+        <div class="row"></div>
+        <!-- .Referral -->
+
+        <div id="fillit">
+          If you see this, leave this form field blank.
+          <input id="improve" type="text" name="confirm" value="">
+        </div>
+
+        <div class="formitem">
+          <button class="btn btn-primary" type="submit" name="submit" value="submit">
+            <span>Submit</span>
+          </button>
+
+          <button type="reset" name="reset" value="reset">
+            <span>Clear</span>
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

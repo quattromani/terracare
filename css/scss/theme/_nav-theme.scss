@@ -6,62 +6,83 @@
     ========================================================================== */
 
     nav {
-      background: $color-primary-red;
-      color: $color-white;
+      .container {
+        display: table;
+        width: 100%;
+      }
 
       ul {
-        list-style-type: none;
-        margin:0;
-        padding:0;
-        @include bp(bp-medium) {
-          position: static;
-          display: none;
-        }
+        display: table-row;
+        width: 100%;
+        z-index: 9999;
 
         li {
-          display:inline-block;
-          float: left;
-          text-align: center;
-          @include bp(bp-medium) {
-            width: 100%;
-          }
-          a {
-            width: 100%;
-            color: $color-white;
-          }
+          display: table-cell;
+          width: (100% / $nav-items);
 
-          ul {
-            display: none;
-
-            li {
+          @include bp(bp-large) {
+            &:hover ul {
+              position: absolute;
               display: block;
-              float: none;
+              width: auto;
 
-              a {
-                width: auto;
-                padding: 0 20px;
+              li {
+                display: block;
+                min-width: 10.5em;
+                @include padding;
 
-                &:hover + .hidden,
-                &.hidden:hover {
+                a {
                   display: block;
+                  width: 100%;
+                  @include padding(.25em);
+                  background: $color-white;
+
+                  &:hover {
+                    background: whitesmoke;
+                  }
                 }
               }
             }
           }
-        }
-        @include padding($padding);
 
-        &.active {
-          background: darken($color-primary-red, 5%);
+          &:hover {
+            background: whitesmoke;
+          }
+
+          a {
+            display: table-cell;
+            @include padding(.25em);
+            font-weight: 200;
+            vertical-align: middle;
+          }
+
+          @include bp(bp-medium) {
+            display: block;
+            width: 100%;
+
+            &:hover ul {
+              display: none;
+            }
+
+            ul.hidden {
+              display: block;
+
+              li {
+                padding-left: 1em;
+              }
+            }
+          }
         }
-        &:hover {
-          background: $color-secondary-red;
+
+        @include bp(bp-medium) {
+          position: static;
+          display: none;
         }
       }
 
       .show-menu {
         display: none;
-        @include padding($padding / 2);
+        @include padding($padding / 2, 0);
         @include bp(bp-medium) {
           display:block;
         }
@@ -73,5 +94,6 @@
 
       input[type=checkbox]:checked ~ .navigation {
         display: block;
+        background: white;
       }
     }

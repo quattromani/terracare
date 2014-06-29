@@ -1,29 +1,6 @@
 /* ==========================================================================
     Typography -- Version: 1.9.0.1  - Compiled: timestamp()
    ========================================================================== */
-html {
-  height: 100%;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
-  font-size: 10px;
-  color: #555555;
-  -webkit-font-smoothing: antialiased;
-}
-
-body,
-button,
-input,
-select,
-textarea {
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.443;
-  letter-spacing: .035em;
-}
-
 @font-face {
   font-family: 'CooperHewitt-Bold';
   src: url("fonts/CooperHewitt-Bold.eot");
@@ -121,6 +98,7 @@ a {
   color: #74111d;
   text-decoration: none;
   cursor: pointer;
+  transition: .2s;
 }
 a img {
   border: 0 none;

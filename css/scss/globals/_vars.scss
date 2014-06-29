@@ -1,8 +1,8 @@
 // Base Site Settings
-$site-width: 1280px;
+$site-width: 1024px;
 
 // Navigation
-$nav-items: 7;
+$nav-items: 6;
 
 // ---------------------------------------------------------------------- //
 
@@ -11,7 +11,7 @@ $site-column-count: 12;
 $site-gutter-width: 2%;
 
 // Breakpoints
-$bp-big: 68.75em;
+$bp-large: 68.75em;
 $bp-medium: 62em;
 $bp-small: 40em;
 
@@ -74,6 +74,8 @@ $form-focus: $color-light-grey;
 // Fonts
 $base-font-size: 16;
 $base-line-height: 1.443;
+  // Declare mixin need for px
+  $support-legacy: true;
 
 $base-font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;

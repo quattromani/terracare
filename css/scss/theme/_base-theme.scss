@@ -3,21 +3,29 @@
 
 /* ==========================================================================
     Base Theme -- Version: 0.4.0 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-body {
-  @include background-gradient($color-white, lighten(#cee5f8, 9%));
-  background-attachment: fixed;
-}
+    body {
+      @include background-gradient($color-white, lighten(#cee5f8, 9%));
+      background-attachment: fixed;
+    }
 
-a.logo {
-  color: inherit;
-  &:hover {
-    border-bottom: none;
-    color: inherit;
-  }
-}
+    .banner {
+      background: $color-primary-green;
+      color: $color-white;
 
-footer.container {
-	@include margin($margin, auto);
-}
+      a.logo {
+        &:hover {
+          border-bottom: none;
+          color: inherit;
+        }
+
+        .h3 {
+          color: $color-white;
+        }
+      }
+    }
+
+    footer.container {
+     @include margin($margin, auto);
+   }

@@ -1,0 +1,52 @@
+/* ==========================================================================
+    Image Content Panels -- Version: 0.2.1 - Compiled: timestamp()
+   ========================================================================== */
+.image-content-panel {
+  position: relative;
+  padding-top: 2em;
+  padding-right: 4em;
+  padding-bottom: 2em;
+  padding-left: 4em;
+  color: white;
+}
+.image-content-panel img {
+  background-size: auto;
+  background-position: 85% 15%;
+}
+.image-content-panel .disclaimer {
+  position: absolute;
+  bottom: .5rem;
+  left: 1rem;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+@media (max-width: 62em) {
+  .image-content-panel .panel .image-banner,
+  .image-content-panel .panel .image-banner.right,
+  .image-content-panel .panel .image-banner.left,
+  .image-content-panel .panel .image-banner.center {
+    position: relative;
+    float: none;
+    width: 100% !important;
+    left: 0 !important;
+  }
+}
+@media (max-width: 40em) {
+  .image-content-panel {
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+  }
+}
+.image-content-panel h1 {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.image-banner {
+  position: relative;
+  padding: 1em 2em;
+}

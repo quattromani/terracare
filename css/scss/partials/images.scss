@@ -47,7 +47,7 @@ img {
 
 // Responsive Images
 [class*='image-focus-'] {
-  min-height: 200px;
+  min-height: 150px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@ img {
 }
 
 .image-focus-3 {
-  background-position: 50% center;
+  background-position: center center;
 }
 
 .image-focus-4 {

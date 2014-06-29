@@ -4,6 +4,10 @@
 /* ==========================
 	  Reset
    ========================== */
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, ins, kbd, q, samp, small, strong, var, b, i, dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
   margin-top: 0;
   margin-right: 0;
@@ -20,18 +24,70 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 
 html {
+  height: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-size: 10px;
+  color: #555555;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-article, aside, figure, footer, header, hgroup, nav, section {
-  display: block;
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.443;
+  letter-spacing: .035em;
+}
+
+.ie body[style] {
+  font-size: 16px !important;
 }
 
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+    Base Theme -- Version: 0.4.0 - Compiled: timestamp()
+    ========================================================================== */
+body {
+  background-color: white;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f6fafe));
+  background-image: -webkit-linear-gradient(top, white, #f6fafe);
+  background-image: -moz-linear-gradient(top, white, #f6fafe);
+  background-image: -ms-linear-gradient(top, white, #f6fafe);
+  background-image: -o-linear-gradient(top, white, #f6fafe);
+  background-image: linear-gradient(top, white, #f6fafe);
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='white', EndColorStr='#f6fafe')"; */
+  background-attachment: fixed;
+}
+
+.banner {
+  background: #21660f;
+  color: white;
+}
+.banner a.logo:hover {
+  border-bottom: none;
+  color: inherit;
+}
+.banner a.logo .h3 {
+  color: white;
+}
+
+footer.container {
+  margin-top: 1em;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-left: auto;
 }

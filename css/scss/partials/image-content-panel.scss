@@ -1,0 +1,49 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Image Content Panels -- Version: 0.2.1 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.image-content-panel {
+  position: relative;
+  @include padding(2em, 4em);
+  color: $text-white;
+
+  img {
+    background-size: auto;
+    background-position: 85% 15%;
+  }
+
+  .disclaimer {
+    position: absolute;
+    bottom: .5rem;
+    left: 1rem;
+    @include font-size($disclaimer-text);
+  }
+
+  @include bp(bp-medium) {
+    .panel .image-banner,
+    .panel .image-banner.right,
+    .panel .image-banner.left,
+    .panel .image-banner.center {
+      position: relative;
+      float: none;
+      width: 100% !important;
+      left: 0 !important;
+    }
+  }
+
+  @include bp(bp-small) {
+    @include padding(.5em);
+  }
+
+  h1 {
+    @include margin;
+  }
+}
+
+.image-banner {
+  position: relative;
+  padding: 1em 2em;
+}

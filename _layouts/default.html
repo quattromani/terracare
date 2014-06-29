@@ -1,17 +1,25 @@
 {% include head.html %}
 
+<div class="banner">
   <div class="content">
     <div class="container">
       <a class="logo" href="{{site.baseurl}}/">
-        <h1>{{site.name}}</h1>
+        <span class="h3">{{site.name}}</span>
       </a>
     </div>
   </div>
+</div>
 
   {% include nav.html %}
-  <figure>
-    <img class="page-banner" src="images/{{ page.banner }}" alt="{{ page.alt }}">
-  </figure>
+  <div class="image-content-panel panel image-focus-3" style="background-image: url(images/{{ page.banner }})" alt="{{ page.alt }}">
+    <div class="container">
+
+      <h1>Hello, World</h1>
+      <p class="lede">We are Terracare</p>
+      <div class="btn button-primary mobile-full">button</div>
+    </div>
+  </div>
+
   {% include content.html %}
 
     {{ content }}
