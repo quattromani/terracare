@@ -3,21 +3,75 @@
 
 /* ==========================================================================
     Nav Theme -- Version: 0.4.0 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-nav {
-  background: $color-primary-red;
-  color: $color-white;
-  .container {
-  	@include padding;
-  }
-  li {
-  	@include padding($padding);
-  	&.active {
-      background: darken($color-primary-red, 5%);
+    nav {
+      background: $color-primary-red;
+      color: $color-white;
+
+      ul {
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        @include bp(bp-medium) {
+          position: static;
+          display: none;
+        }
+
+        li {
+          display:inline-block;
+          float: left;
+          text-align: center;
+          @include bp(bp-medium) {
+            width: 100%;
+          }
+          a {
+            width: 100%;
+            color: $color-white;
+          }
+
+          ul {
+            display: none;
+
+            li {
+              display: block;
+              float: none;
+
+              a {
+                width: auto;
+                padding: 0 20px;
+
+                &:hover + .hidden,
+                &.hidden:hover {
+                  display: block;
+                }
+              }
+            }
+          }
+        }
+        @include padding($padding);
+
+        &.active {
+          background: darken($color-primary-red, 5%);
+        }
+        &:hover {
+          background: $color-secondary-red;
+        }
+      }
+
+      .show-menu {
+        display: none;
+        @include padding($padding / 2);
+        @include bp(bp-medium) {
+          display:block;
+        }
+      }
+
+      input[type=checkbox]{
+        display: none;
+      }
+
+      input[type=checkbox]:checked ~ .navigation {
+        display: block;
+      }
     }
-  	&:hover {
-  		background: $color-secondary-red;
-  	}
-  }
-}

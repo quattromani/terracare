@@ -532,28 +532,63 @@ nav ul {
   width: 100%; }
   nav ul li {
     display: table-cell;
-    width: 16.66667%; }
+    width: 14.28571%; }
 
 /* ==========================================================================
     Nav Theme -- Version: 0.4.0 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 nav {
   background: #74111d;
   color: white; }
-  nav .container {
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 0; }
-  nav li {
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     padding-top: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
     padding-left: 1em; }
-    nav li.active {
+    @media (max-width: 62em) {
+      nav ul {
+        position: static;
+        display: none; } }
+    nav ul li {
+      display: inline-block;
+      float: left;
+      text-align: center; }
+      @media (max-width: 62em) {
+        nav ul li {
+          width: 100%; } }
+      nav ul li a {
+        width: 100%;
+        color: white; }
+      nav ul li ul {
+        display: none; }
+        nav ul li ul li {
+          display: block;
+          float: none; }
+          nav ul li ul li a {
+            width: auto;
+            padding: 0 20px; }
+            nav ul li ul li a:hover + .hidden, nav ul li ul li a.hidden:hover {
+              display: block; }
+    nav ul.active {
       background: #5e0e17; }
-    nav li:hover {
+    nav ul:hover {
       background: #4c060e; }
+  nav .show-menu {
+    display: none;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em; }
+    @media (max-width: 62em) {
+      nav .show-menu {
+        display: block; } }
+  nav input[type=checkbox] {
+    display: none; }
+  nav input[type=checkbox]:checked ~ .navigation {
+    display: block; }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()

@@ -1,18 +1,37 @@
 <nav class="nav-primary" role="navigation" >
 	<div class="container">
-		{% unless page.layout == 'front' %}
-    <ul class="navigation">
-      {% for link in site.navigation %}
-      {% assign current = nil %}
-      {% if page.url == link.url or page.layout == link.layout %}
-      {% assign current = 'current' %}
-      {% endif %}
 
-      <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
-        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+    <label for="show-menu" class="show-menu"><i class="fa fa-bars fa-2x"></i></label>
+    <input type="checkbox" id="show-menu" role="button">
+
+		<ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="/public=services">Public Services</a>
+        <ul class="hidden">
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">ipsum</a></li>
+        </ul>
       </li>
-      {% endfor %}
+      <li>
+        <a href="/commercial-services">Commercial Services</a>
+        <ul class="hidden">
+          <li><a href="#">lorem</a></li>
+          <li><a href="#">ipsum</a></li>
+          <li><a href="#">dolor</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="/resposibility">Responsibility</a>
+        <ul>
+          <li><a href="">lorem</a></li>
+          <li><a href="">ipsum</a></li>
+          <li><a href="">dolor</a></li>
+        </ul>
+      </li>
+      <li><a href="/about-us">About Us</a></li>
+      <li><a href="/blog">Blog / News</a></li>
+      <li><a href="Careers">Careers</a></li>
     </ul>
-    {% endunless %}
   </div>
 </nav>

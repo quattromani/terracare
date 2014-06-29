@@ -4,18 +4,3 @@ highlighter: true
 baseurl: /terracare
 
 exclude: ['node_modules', 'scss']
-
-navigation:
-- text: Public Services
-  url: /public-services
-- text: Commercial Services
-  url: /commercial-services
-- text: Responsibility
-  url: /responsibility
-- text: About Us
-  url: /about-us
-- text: Blog / News
-  url: /blog
-  layout: post
-- text: Careers
-  url: /careers
