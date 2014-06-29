@@ -38,7 +38,7 @@ nav ul li {
     padding-right: 0.25em;
     padding-bottom: 0.25em;
     padding-left: 0.25em;
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
   }
   nav ul li:hover ul li a:hover {
     background: whitesmoke;
