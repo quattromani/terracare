@@ -13,12 +13,12 @@ banner-cta: ""
     <h3>Blog</h3>
     {% for post in site.posts offset: 0 limit: 10 %}
     <h4>
-        <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
     </h4>
     {{ post.date | date_to_string }}
     {{ post.content }}
     <hr>
-{% endfor %}
+    {% endfor %}
   </div>
 
   <div class="third">
