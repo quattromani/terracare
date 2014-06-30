@@ -59,11 +59,7 @@ textarea {
     Base Theme -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
 body {
-  background-color: white;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f6fafe));
-  background-image: -webkit-linear-gradient(top, white, #f6fafe);
-  background-image: linear-gradient(top, white, #f6fafe);
-  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='white', EndColorStr='#f6fafe')"; */
+  background: url(/terracare/images/bg.png) center top repeat;
   background-attachment: fixed; }
 
 .banner {
@@ -80,6 +76,21 @@ footer.container {
   margin-right: auto;
   margin-bottom: 1em;
   margin-left: auto; }
+  footer.container .fa {
+    color: #cccccc;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease; }
+  footer.container .fa-linkedin-square:hover {
+    color: #0065aa; }
+  footer.container .fa-youtube-square:hover {
+    color: #db1117; }
+  footer.container .fa-facebook-square:hover {
+    color: #3b5998; }
+  footer.container .fa-twitter-square:hover {
+    color: #1c96db; }
+  @media (max-width: 62em) {
+    footer.container {
+      text-align: center; } }
 
 /* Layout */
 /* ==========================================================================
@@ -581,7 +592,7 @@ nav ul {
             padding-right: 0.25em;
             padding-bottom: 0.25em;
             padding-left: 0.25em;
-            background: rgba(255, 255, 255, 0.9); }
+            background: rgba(255, 255, 255, 0.95); }
             nav ul li:hover ul li a:hover {
               background: whitesmoke; } }
     nav ul li:hover {
@@ -594,6 +605,8 @@ nav ul {
       padding-left: 0.25em;
       font-weight: 200;
       vertical-align: middle; }
+    nav ul li.active {
+      background: whitesmoke; }
     @media (max-width: 62em) {
       nav ul li {
         display: block;
@@ -800,11 +813,6 @@ a {
   padding-left: 0;
   background: transparent;
   vertical-align: baseline;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-weight: 700;
   color: #74111d;
   text-decoration: none;
@@ -2057,7 +2065,7 @@ button,
   background: none;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 700;
   text-align: center;
   color: #74111d;
@@ -2611,6 +2619,9 @@ datalist,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none; }
 
+textarea {
+  min-height: 10em; }
+
 ::-webkit-input-placeholder {
   color: #cccccc;
   font-weight: 100; }
@@ -2651,7 +2662,7 @@ input.switch:empty ~ label,
 input.radio:empty ~ label {
   position: relative;
   float: left;
-  text-indent: 3em;
+  text-indent: 2em;
   cursor: pointer; }
 
 input.switch:empty ~ label:before,

@@ -38,7 +38,7 @@ nav ul li {
     padding-right: 0.25em;
     padding-bottom: 0.25em;
     padding-left: 0.25em;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
   }
   nav ul li:hover ul li a:hover {
     background: whitesmoke;
@@ -55,6 +55,9 @@ nav ul li a {
   padding-left: 0.25em;
   font-weight: 200;
   vertical-align: middle;
+}
+nav ul li.active {
+  background: whitesmoke;
 }
 @media (max-width: 62em) {
   nav ul li {

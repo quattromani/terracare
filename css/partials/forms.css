@@ -96,6 +96,10 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
+textarea {
+  min-height: 10em;
+}
+
 ::-webkit-input-placeholder {
   color: #cccccc;
   font-weight: 100;
@@ -146,7 +150,7 @@ input.switch:empty ~ label,
 input.radio:empty ~ label {
   position: relative;
   float: left;
-  text-indent: 3em;
+  text-indent: 2em;
   cursor: pointer;
 }
 

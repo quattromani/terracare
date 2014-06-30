@@ -35,7 +35,7 @@
                   display: block;
                   width: 100%;
                   @include padding(.25em);
-                  background: rgba($color-white, .9);
+                  background: rgba($color-white, .95);
 
                   &:hover {
                     background: whitesmoke;
@@ -55,6 +55,11 @@
             font-weight: 200;
             vertical-align: middle;
           }
+
+          &.active {
+            background: whitesmoke;
+          }
+
 
           @include bp(bp-medium) {
             display: block;

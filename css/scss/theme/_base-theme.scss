@@ -6,7 +6,7 @@
     ========================================================================== */
 
     body {
-      @include background-gradient($color-white, lighten(#cee5f8, 9%));
+      background: url(/terracare/images/bg.png) center top repeat;
       background-attachment: fixed;
     }
 
@@ -28,4 +28,28 @@
 
     footer.container {
      @include margin($margin, auto);
+
+     .fa {
+      color: $color-light-grey;
+      @include transition(color, .2s, ease);
+    }
+    .fa-linkedin-square:hover {
+      color: #0065aa;
+    }
+
+    .fa-youtube-square:hover {
+      color: #db1117;
+    }
+
+    .fa-facebook-square:hover {
+        color: #3b5998;
+     }
+
+     .fa-twitter-square:hover {
+        color: #1c96db;
+     }
+
+     @include bp(bp-medium) {
+        text-align: center;
+     }
    }

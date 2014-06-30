@@ -17,7 +17,7 @@ button,
   border: 0;
   background: none;
   @include font-size($base-font-size);
-  font-family: $heading-font-alt;
+  font-family: $base-font;
   font-weight: 700;
   text-align: center;
   color: $link;

@@ -3,20 +3,34 @@
 <div class="banner">
   <div class="content">
     <div class="container">
-      <a class="logo" href="{{site.baseurl}}/">
-        <span class="h3">{{site.name}}</span>
-      </a>
+
+      <div class="half">
+        <a class="logo" href="{{site.baseurl}}/">
+          <span class="h3">{{site.name}}</span>
+        </a>
+      </div>
+
+      <div class="half">
+        <div class="text-right">
+          <a class="btn button-primary mobile-full" href="/terracare/contact-us">Contact Us</a>
+          <a class="btn button-primary mobile-full" href="/terracare/request-a-bid">Request a Bid</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
 
   {% include nav.html %}
-  <div class="image-content-panel panel image-focus-3" style="background-image: url(/images/{{ page.banner }})" alt="{{ page.alt }}">
+  <div class="image-content-panel panel image-focus-3" style="background-image: url(/terracare/images/{{ page.banner }})" alt="{{ page.alt }}">
     <div class="container">
 
-      <h1>Hello, World</h1>
-      <p class="lede">We are Terracare</p>
-      <div class="btn button-primary mobile-full">button</div>
+      <h1>{{ page.banner-heading }}</h1>
+      <p class="lede">{{ page.banner-sub-heading }}</p>
+
+      {% if page.banner-cta != '' %}
+      <a class="btn button-primary mobile-full" href="{{ page.banner-cta-url }}">{{ page.banner-cta }}</a>
+      {% endif %}
     </div>
   </div>
 
