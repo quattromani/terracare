@@ -1,6 +1,6 @@
 name: TERRACARE ASSOCIATES
 markdown: redcarpet
 highlighter: true
-baseurl: /terracare
+baseurl: terracare
 
 exclude: ['node_modules', 'scss']
