@@ -19,6 +19,7 @@
         z-index: 9999;
 
         li {
+          position: relative;
           display: table-cell;
           width: (100% / $nav-items);
 
@@ -66,6 +67,21 @@
 
           &.active {
             background: $color-secondary-blue;
+
+            &:before {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 1.75em;
+              left: 50%;
+              width: 0;
+              height: 0;
+              margin-left: -.75em;
+              border-color: $color-secondary-blue transparent transparent transparent;
+              border-style: solid;
+              border-width: .75em;
+              z-index: 9999;
+            }
           }
 
 

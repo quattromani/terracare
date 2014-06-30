@@ -63,7 +63,7 @@ body {
   background-attachment: fixed; }
 
 .banner {
-  background: #21660f;
+  background: #58b340;
   color: white; }
   .banner a.logo:hover {
     border-bottom: none;
@@ -576,6 +576,7 @@ nav {
     width: 100%;
     z-index: 9999; }
     nav ul li {
+      position: relative;
       display: table-cell;
       width: 16.66667%; }
       @media (min-width: 68.75em) {
@@ -616,6 +617,19 @@ nav {
           color: white; }
       nav ul li.active {
         background: #3ca694; }
+        nav ul li.active:before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 1.75em;
+          left: 50%;
+          width: 0;
+          height: 0;
+          margin-left: -.75em;
+          border-color: #3ca694 transparent transparent transparent;
+          border-style: solid;
+          border-width: .75em;
+          z-index: 9999; }
       @media (max-width: 62em) {
         nav ul li {
           display: block;
@@ -758,27 +772,27 @@ nav {
     Typography -- Version: 1.9.0.1  - Compiled: timestamp()
    ========================================================================== */
 @font-face {
-  font-family: 'CooperHewitt-Bold';
-  src: url("fonts/CooperHewitt-Bold.eot");
-  src: url("fonts/CooperHewitt-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Bold.woff") format("woff"), url("fonts/CooperHewitt-Bold.ttf") format("truetype"), url("fonts/CooperHewitt-Bold.svg#CooperHewitt-Bold") format("svg");
+  font-family: 'SourcesansPro-Bold';
+  src: url("fonts/SourcesansPro-Bold.eot");
+  src: url("fonts/SourcesansPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/SourcesansPro-Bold.woff") format("woff"), url("fonts/SourcesansPro-Bold.ttf") format("truetype"), url("fonts/SourcesansPro-Bold.svg#SourcesansPro-Bold") format("svg");
   font-style: normal;
   font-weight: 400; }
 @font-face {
-  font-family: 'CooperHewitt-Semibold';
-  src: url("fonts/CooperHewitt-Semibold.eot");
-  src: url("fonts/CooperHewitt-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Semibold.woff") format("woff"), url("fonts/CooperHewitt-Semibold.ttf") format("truetype"), url("fonts/CooperHewitt-Semibold.svg#CooperHewitt-Semibold") format("svg");
+  font-family: 'SourcesansPro-Semibold';
+  src: url("fonts/SourcesansPro-Semibold.eot");
+  src: url("fonts/SourcesansPro-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/SourcesansPro-Semibold.woff") format("woff"), url("fonts/SourcesansPro-Semibold.ttf") format("truetype"), url("fonts/SourcesansPro-Semibold.svg#SourcesansPro-Semibold") format("svg");
   font-style: normal;
   font-weight: 400; }
 @font-face {
-  font-family: 'CooperHewitt-Book';
-  src: url("fonts/CooperHewitt-Book.eot");
-  src: url("fonts/CooperHewitt-Book.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Book.woff") format("woff"), url("fonts/CooperHewitt-Book.ttf") format("truetype"), url("fonts/CooperHewitt-Book.svg#CooperHewitt-Book") format("svg");
+  font-family: 'SourcesansPro-Regular';
+  src: url("fonts/SourcesansPro-Regular.eot");
+  src: url("fonts/SourcesansPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/SourcesansPro-Regular.woff") format("woff"), url("fonts/SourcesansPro-Regular.ttf") format("truetype"), url("fonts/SourcesansPro-Regular.svg#SourcesansPro-Regular") format("svg");
   font-style: normal;
   font-weight: 400; }
 @font-face {
-  font-family: 'CooperHewitt-Light';
-  src: url("fonts/CooperHewitt-Light.eot");
-  src: url("fonts/CooperHewitt-Light.eot?#iefix") format("embedded-opentype"), url("fonts/CooperHewitt-Light.woff") format("woff"), url("fonts/CooperHewitt-Light.ttf") format("truetype"), url("fonts/CooperHewitt-Light.svg#CooperHewitt-Light") format("svg");
+  font-family: 'SourcesansPro-Light';
+  src: url("fonts/SourcesansPro-Light.eot");
+  src: url("fonts/SourcesansPro-Light.eot?#iefix") format("embedded-opentype"), url("fonts/SourcesansPro-Light.woff") format("woff"), url("fonts/SourcesansPro-Light.ttf") format("truetype"), url("fonts/SourcesansPro-Light.svg#SourcesansPro-Light") format("svg");
   font-style: normal;
   font-weight: 400; }
 @font-face {
@@ -849,7 +863,7 @@ a {
    ========================== */
 h1,
 .h1 {
-  font-family: "CooperHewitt-Semibold", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "SourcesansPro-Semibold", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200;
@@ -867,7 +881,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: "CooperHewitt-Semibold", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "SourcesansPro-Semibold", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200;
@@ -885,7 +899,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "SourcesansPro-Regular", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700;
@@ -903,21 +917,21 @@ h3,
 
 h4,
 .h4 {
-  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "SourcesansPro-Regular", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200; }
 
 h5,
 .h5 {
-  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "SourcesansPro-Regular", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700; }
 
 h6,
 .h6 {
-  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: "SourcesansPro-Regular", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100; }
@@ -2272,12 +2286,14 @@ button,
         margin-top: 0.5em; } }
 
 .cta {
-  -webkit-box-shadow: inset 0 0 0 1px #74111d;
-  box-shadow: inset 0 0 0 1px #74111d; }
+  -webkit-box-shadow: inset 0 0 0 2px #0b4d42;
+  box-shadow: inset 0 0 0 2px #0b4d42;
+  color: #0b4d42; }
   .cta:hover {
     background: none;
-    -webkit-box-shadow: inset 0 0 0 1px #4c060e;
-    box-shadow: inset 0 0 0 1px #4c060e; }
+    -webkit-box-shadow: inset 0 0 0 2px #117a68;
+    box-shadow: inset 0 0 0 2px #117a68;
+    color: #117a68; }
 
 @-webkit-keyframes rotation {
   from {
@@ -2358,7 +2374,7 @@ label + .pill,
   background: #454545;
   font-size: 13px;
   font-size: 1.3rem;
-  font-family: "CooperHewitt-Book", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "SourcesansPro-Regular", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

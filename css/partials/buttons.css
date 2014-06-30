@@ -235,15 +235,17 @@ button.btn-sm,
 }
 
 .cta {
-  -webkit-box-shadow: inset 0 0 0 1px #74111d;
-  -moz-box-shadow: inset 0 0 0 1px #74111d;
-  box-shadow: inset 0 0 0 1px #74111d;
+  -webkit-box-shadow: inset 0 0 0 2px #0b4d42;
+  -moz-box-shadow: inset 0 0 0 2px #0b4d42;
+  box-shadow: inset 0 0 0 2px #0b4d42;
+  color: #0b4d42;
 }
 .cta:hover {
   background: none;
-  -webkit-box-shadow: inset 0 0 0 1px #4c060e;
-  -moz-box-shadow: inset 0 0 0 1px #4c060e;
-  box-shadow: inset 0 0 0 1px #4c060e;
+  -webkit-box-shadow: inset 0 0 0 2px #117a68;
+  -moz-box-shadow: inset 0 0 0 2px #117a68;
+  box-shadow: inset 0 0 0 2px #117a68;
+  color: #117a68;
 }
 
 @-webkit-keyframes rotation {
