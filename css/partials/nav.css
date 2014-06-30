@@ -42,7 +42,7 @@ nav ul li {
     padding-right: 0.25em;
     padding-bottom: 0.25em;
     padding-left: 0.25em;
-    background: rgba(11, 77, 66, 0.95);
+    background: rgba(11, 77, 66, 0.9);
     color: white;
   }
   nav ul li:hover ul li a:hover {

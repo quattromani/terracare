@@ -26,6 +26,17 @@
       }
     }
 
+    .teams .vertical li {
+      position: relative;
+      padding-left: 5.5em;
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 1em;
+      }
+    }
+
     footer.container {
      @include margin($margin, auto);
 

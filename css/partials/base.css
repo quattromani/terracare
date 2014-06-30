@@ -78,6 +78,16 @@ body {
   color: white;
 }
 
+.teams .vertical li {
+  position: relative;
+  padding-left: 5.5em;
+}
+.teams .vertical li img {
+  position: absolute;
+  left: 0;
+  top: 1em;
+}
+
 footer.container {
   margin-top: 1em;
   margin-right: auto;

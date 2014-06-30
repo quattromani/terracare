@@ -71,6 +71,14 @@ body {
   .banner a.logo .h3 {
     color: white; }
 
+.teams .vertical li {
+  position: relative;
+  padding-left: 5.5em; }
+  .teams .vertical li img {
+    position: absolute;
+    left: 0;
+    top: 1em; }
+
 footer.container {
   margin-top: 1em;
   margin-right: auto;
@@ -598,7 +606,7 @@ nav {
               padding-right: 0.25em;
               padding-bottom: 0.25em;
               padding-left: 0.25em;
-              background: rgba(11, 77, 66, 0.95);
+              background: rgba(11, 77, 66, 0.9);
               color: white; }
               nav ul li:hover ul li a:hover {
                 background: #3ca694; } }

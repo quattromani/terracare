@@ -38,7 +38,7 @@
                   display: block;
                   width: 100%;
                   @include padding(.25em);
-                  background: rgba($color-primary-blue, .95);
+                  background: rgba($color-primary-blue, .9);
                   color: $color-white;
 
                   &:hover {
