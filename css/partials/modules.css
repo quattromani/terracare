@@ -1,6 +1,6 @@
 /* ==========================================================================
     Modules -- Version: 0.4.0 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 .box-column {
   padding: 1em;
   margin-top: 0.5em;
@@ -26,4 +26,20 @@ hr {
   border: 0;
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid white;
+}
+hr.below-desktop {
+  display: none;
+}
+@media (max-width: 62em) {
+  hr.below-desktop {
+    display: block;
+    border: none;
+  }
+}
+@media (max-width: 40em) {
+  hr.below-desktop {
+    display: block;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid white;
+  }
 }

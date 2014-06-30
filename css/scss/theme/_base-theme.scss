@@ -29,7 +29,13 @@
     footer.container {
      @include margin($margin, auto);
 
-     .fa {
+    .social {
+      @include bp(bp-large) {
+        text-align: right;
+      }
+    }
+
+    .fa {
       color: $color-light-grey;
       @include transition(color, .2s, ease);
     }
@@ -42,14 +48,14 @@
     }
 
     .fa-facebook-square:hover {
-        color: #3b5998;
-     }
+      color: #3b5998;
+    }
 
-     .fa-twitter-square:hover {
-        color: #1c96db;
-     }
+    .fa-twitter-square:hover {
+      color: #1c96db;
+    }
 
-     @include bp(bp-medium) {
-        text-align: center;
-     }
-   }
+    @include bp(bp-medium) {
+      text-align: center;
+    }
+  }

@@ -134,7 +134,7 @@ $i: 1;
     @include font-size(nth($value, 2));
     font-weight: nth($value, 3);
     @if $i <= 3 {
-      color: $color-primary-brown;
+      color: $color-grey;
       @include bp(bp-medium) {
         @include font-size(nth($value, 2) * .875);
       }
@@ -258,6 +258,10 @@ samp {
 
 .fa {
   @include font-family($fontawesome);
+
+  &-60 {
+    @include font-size(60);
+  }
 }
 
 /* ==========================

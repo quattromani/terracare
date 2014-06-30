@@ -7,6 +7,7 @@
 
 .image-content-panel {
   position: relative;
+  @include margin(0,0,1em);
   @include padding(2em, 4em);
   color: $text-white;
 
@@ -38,8 +39,15 @@
     @include padding(.5em);
   }
 
-  h1 {
+  h1,
+  p.lede  {
     @include margin;
+    color: $color-white;
+    text-shadow: 0px 1px 2px $color-grey;
+  }
+
+  p.lede {
+    font-weight: 700;
   }
 }
 

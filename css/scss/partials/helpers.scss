@@ -3,29 +3,29 @@
 
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-.clear {
-  clear: both;
-}
+    .clear {
+      clear: both;
+    }
 
-.relative {
-  position: relative;
-}
+    .relative {
+      position: relative;
+    }
 
-.center {
-  @include center;
-}
+    .center {
+      @include center;
+    }
 
-.left {
-  float: left;
-  left: 0;
-}
+    .left {
+      float: left;
+      left: 0;
+    }
 
-.right {
-  float: right;
-  right: 0;
-}
+    .right {
+      float: right;
+      right: 0;
+    }
 
 // Font Size Helpers
 @for $i from 10 through 60 {

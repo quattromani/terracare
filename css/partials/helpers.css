@@ -1,6 +1,6 @@
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 .clear {
   clear: both;
 }
@@ -1053,7 +1053,7 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px solid #555555;
+  border: 1px solid #454545;
 }
 
 .bordered-dotted {
@@ -1061,27 +1061,27 @@
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border: 1px dotted #555555;
+  border: 1px dotted #454545;
 }
 
 .bordered-left,
 .bordered-left-dark {
   padding-left: 2%;
-  border-left: 1px dotted #555555;
+  border-left: 1px dotted #454545;
 }
 
 .bordered-left-dark {
-  border-left: 1px solid #555555;
+  border-left: 1px solid #454545;
 }
 
 .bordered-right,
 .bordered-right-dark {
   padding-right: 2%;
-  border-right: 1px dotted #555555;
+  border-right: 1px dotted #454545;
 }
 
 .bordered-right-dark {
-  border-right: 1px solid #555555;
+  border-right: 1px solid #454545;
 }
 
 .column-count-2 {

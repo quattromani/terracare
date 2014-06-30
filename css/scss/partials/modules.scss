@@ -3,21 +3,36 @@
 
 /* ==========================================================================
     Modules -- Version: 0.4.0 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-.box-column {
-  @extend %clearfix !optional;
-  padding: ($padding);
-  @include margin($margin / 2, 0, $margin);
-  background: $site-background;
-  border: 1px solid $color-light-grey;
-  @include border-radius;
-  overflow: auto;
-}
+    .box-column {
+      @extend %clearfix !optional;
+      padding: ($padding);
+      @include margin($margin / 2, 0, $margin);
+      background: $site-background;
+      border: 1px solid $color-light-grey;
+      @include border-radius;
+      overflow: auto;
+    }
 
-hr {
-  @include margin($margin, 0);
-  border: 0;
-  border-top: 1px solid $text-light-grey;
-  border-bottom: 1px solid $text-white;
-}
+    hr {
+      @include margin($margin, 0);
+      border: 0;
+      border-top: 1px solid $text-light-grey;
+      border-bottom: 1px solid $text-white;
+
+      &.below-desktop {
+        display: none;
+
+        @include bp(bp-medium) {
+          display: block;
+          border: none;
+        }
+
+        @include bp(bp-small) {
+          display: block;
+          border-top: 1px solid $text-light-grey;
+          border-bottom: 1px solid $text-white;
+        }
+      }
+    }

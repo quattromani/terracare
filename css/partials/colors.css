@@ -10,7 +10,7 @@
 }
 
 .color-grey {
-  background: #555555;
+  background: #454545;
 }
 
 .color-light-grey {
@@ -50,11 +50,11 @@
 }
 
 .text {
-  color: #555555;
+  color: #454545;
 }
 
 .color-text {
-  background: #555555;
+  background: #454545;
 }
 
 .color-link {
@@ -78,7 +78,7 @@
 }
 
 .text-grey {
-  color: #555555;
+  color: #454545;
 }
 
 .text-light-grey {
@@ -99,7 +99,7 @@
 
 .text-muted,
 .muted {
-  color: #555555;
+  color: #454545;
 }
 
 .text-warning,

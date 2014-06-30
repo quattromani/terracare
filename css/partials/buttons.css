@@ -116,7 +116,7 @@ button.btn-black,
 .button.btn-black:hover,
 button.btn-black:hover,
 .cta.btn-black:hover {
-  background: #555555;
+  background: #454545;
 }
 .btn:disabled, .btn.js-disabled, .btn.disabled,
 .button:disabled,
@@ -130,7 +130,7 @@ button.disabled,
 .cta.disabled {
   cursor: default;
   background: #cccccc;
-  color: #555555;
+  color: #454545;
 }
 .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active,
 .button:disabled:hover,
@@ -152,7 +152,7 @@ button.disabled:active,
 .cta.disabled:hover,
 .cta.disabled:active {
   background: #cccccc;
-  color: #555555;
+  color: #454545;
 }
 .btn.block,
 .button.block,
@@ -230,7 +230,7 @@ button.btn-sm,
   .cta.mobile-full,
   .cta.mobile-full +
   .cta.mobile-full {
-    margin-top: 1em;
+    margin-top: 0.5em;
   }
 }
 

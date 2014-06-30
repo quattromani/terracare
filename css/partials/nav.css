@@ -4,6 +4,9 @@
 /* ==========================================================================
     Nav Theme -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
+nav {
+  background: #0b4d42;
+}
 nav .container {
   display: table;
   width: 100%;
@@ -38,14 +41,15 @@ nav ul li {
     padding-right: 0.25em;
     padding-bottom: 0.25em;
     padding-left: 0.25em;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(11, 77, 66, 0.95);
+    color: white;
   }
   nav ul li:hover ul li a:hover {
-    background: whitesmoke;
+    background: #3ca694;
   }
 }
 nav ul li:hover {
-  background: whitesmoke;
+  background: #3ca694;
 }
 nav ul li a {
   display: table-cell;
@@ -55,9 +59,13 @@ nav ul li a {
   padding-left: 0.25em;
   font-weight: 200;
   vertical-align: middle;
+  color: white;
+}
+nav ul li a:hover {
+  color: white;
 }
 nav ul li.active {
-  background: whitesmoke;
+  background: #3ca694;
 }
 @media (max-width: 62em) {
   nav ul li {
@@ -86,6 +94,7 @@ nav .show-menu {
   padding-right: 0;
   padding-bottom: 0.5em;
   padding-left: 0;
+  color: white;
 }
 @media (max-width: 62em) {
   nav .show-menu {
@@ -97,5 +106,18 @@ nav input[type=checkbox] {
 }
 nav input[type=checkbox]:checked ~ .navigation {
   display: block;
-  background: white;
+  background: #0b4d42;
+}
+nav input[type=checkbox]:checked ~ .navigation li {
+  border-top: 1px solid #43b9a5;
+  background: #08372f;
+}
+nav input[type=checkbox]:checked ~ .navigation li:first-child {
+  border: none;
+}
+nav input[type=checkbox]:checked ~ .navigation li li {
+  background: #3ca694;
+}
+nav input[type=checkbox]:checked ~ .navigation > li.js-last {
+  margin-bottom: .5em;
 }
