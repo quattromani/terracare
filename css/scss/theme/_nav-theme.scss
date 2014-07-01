@@ -21,23 +21,28 @@
         li {
           position: relative;
           display: table-cell;
-          width: (100% / $nav-items);
+          @include padding;
 
           @include bp(bp-large) {
             &:hover ul {
               position: absolute;
               display: block;
-              width: auto;
+              left: 0;
 
               li {
                 display: block;
                 min-width: 10.5em;
                 @include padding;
+                border-bottom: 1px solid rgba($color-primary-blue, .75);
+
+                &.js-last {
+                  border: none;
+                }
 
                 a {
                   display: block;
                   width: 100%;
-                  @include padding(.25em);
+                  @include padding(.25em, .75em);
                   background: rgba($color-primary-blue, .9);
                   color: $color-white;
 
@@ -54,8 +59,8 @@
           }
 
           a {
-            display: table-cell;
-            @include padding(.25em);
+            display: block;
+            @include padding(.25em, .75em);
             font-weight: 200;
             vertical-align: middle;
             color: $color-white;

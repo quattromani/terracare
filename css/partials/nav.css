@@ -19,13 +19,16 @@ nav ul {
 nav ul li {
   position: relative;
   display: table-cell;
-  width: 16.66667%;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
 }
 @media (min-width: 68.75em) {
   nav ul li:hover ul {
     position: absolute;
     display: block;
-    width: auto;
+    left: 0;
   }
   nav ul li:hover ul li {
     display: block;
@@ -34,14 +37,18 @@ nav ul li {
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
+    border-bottom: 1px solid rgba(11, 77, 66, 0.75);
+  }
+  nav ul li:hover ul li.js-last {
+    border: none;
   }
   nav ul li:hover ul li a {
     display: block;
     width: 100%;
     padding-top: 0.25em;
-    padding-right: 0.25em;
+    padding-right: 0.75em;
     padding-bottom: 0.25em;
-    padding-left: 0.25em;
+    padding-left: 0.75em;
     background: rgba(11, 77, 66, 0.9);
     color: white;
   }
@@ -53,11 +60,11 @@ nav ul li:hover {
   background: #3ca694;
 }
 nav ul li a {
-  display: table-cell;
+  display: block;
   padding-top: 0.25em;
-  padding-right: 0.25em;
+  padding-right: 0.75em;
   padding-bottom: 0.25em;
-  padding-left: 0.25em;
+  padding-left: 0.75em;
   font-weight: 200;
   vertical-align: middle;
   color: white;

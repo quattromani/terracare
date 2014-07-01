@@ -1,0 +1,35 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Sticky -- Version: 0.2.1
+    ========================================================================== */
+
+    .sticky {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      @include padding(1em, 0);
+      background: $color-primary-blue;
+
+      span {
+        color: $color-light-grey;
+      }
+
+      .cta {
+        color: $color-white;
+        border: 2px solid $color-white;
+      }
+    }
+
+    .js-fixed {
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      z-index: 9999;
+    }
+
+    .spacer {
+      background: $text;
+    }

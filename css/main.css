@@ -76,6 +76,8 @@ body {
     color: inherit; }
   .banner a.logo .h3 {
     color: white; }
+  .banner a.logo .thin {
+    font-weight: 100; }
 
 .teams .vertical li {
   position: relative;
@@ -84,6 +86,18 @@ body {
     position: absolute;
     left: 0;
     top: 1em; }
+
+.fixed-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-top: 1em;
+  padding-right: 0;
+  padding-bottom: 1em;
+  padding-left: 0;
+  background: #0b4d42;
+  color: white; }
 
 footer.container {
   margin-top: 1em;
@@ -592,26 +606,32 @@ nav {
     nav ul li {
       position: relative;
       display: table-cell;
-      width: 16.66667%; }
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 0;
+      padding-left: 0; }
       @media (min-width: 68.75em) {
         nav ul li:hover ul {
           position: absolute;
           display: block;
-          width: auto; }
+          left: 0; }
           nav ul li:hover ul li {
             display: block;
             min-width: 10.5em;
             padding-top: 0;
             padding-right: 0;
             padding-bottom: 0;
-            padding-left: 0; }
+            padding-left: 0;
+            border-bottom: 1px solid rgba(11, 77, 66, 0.75); }
+            nav ul li:hover ul li.js-last {
+              border: none; }
             nav ul li:hover ul li a {
               display: block;
               width: 100%;
               padding-top: 0.25em;
-              padding-right: 0.25em;
+              padding-right: 0.75em;
               padding-bottom: 0.25em;
-              padding-left: 0.25em;
+              padding-left: 0.75em;
               background: rgba(11, 77, 66, 0.9);
               color: white; }
               nav ul li:hover ul li a:hover {
@@ -619,11 +639,11 @@ nav {
       nav ul li:hover {
         background: #3ca694; }
       nav ul li a {
-        display: table-cell;
+        display: block;
         padding-top: 0.25em;
-        padding-right: 0.25em;
+        padding-right: 0.75em;
         padding-bottom: 0.25em;
-        padding-left: 0.25em;
+        padding-left: 0.75em;
         font-weight: 200;
         vertical-align: middle;
         color: white; }
@@ -2565,6 +2585,34 @@ label + .pill,
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #f0f2f5; }
+
+/* ==========================================================================
+    Sticky -- Version: 0.2.1
+    ========================================================================== */
+.sticky {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1em;
+  padding-right: 0;
+  padding-bottom: 1em;
+  padding-left: 0;
+  background: #0b4d42; }
+  .sticky span {
+    color: #cccccc; }
+  .sticky .cta {
+    color: white;
+    border: 2px solid white; }
+
+.js-fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 9999; }
+
+.spacer {
+  background: #454545; }
 
 /* ===========================================================================================
     Accessibility  / 508 Compliance -- Version: 0.4.2 - Compiled: timestamp()

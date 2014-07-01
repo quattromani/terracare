@@ -6,6 +6,8 @@
     <input type="checkbox" id="show-menu" role="button">
 
 		<ul class="navigation">
+      <li {% if current[1] == '/' %}class='active'{% endif %}>
+        <a href="/terracare" class="text-center"><i class="fa fa-home"></i></a>
       <li {% if current[1] == 'public-services' %}class='active'{% endif %}>
         <a href="/terracare/public-services">Public Services</a>
         <ul class="hidden">
@@ -38,10 +40,11 @@
       <li {% if current[1] == 'about-us' %}class='active'{% endif %}>
         <a href="/terracare/about-us">About Us</a>
         <ul class="hidden">
+          <li><a href="/terracare/about-us/company-profile">Company Profile</a></li>
           <li><a href="/terracare/about-us/teams">Our Teams</a></li>
-          <li><a href="/terracare/about-us/locations">Locations</a></li>
           <li><a href="/terracare/about-us/customer-service">Customer Service</a></li>
           <li><a href="/terracare/about-us/credentials">Credentials</a></li>
+          <li><a href="/terracare/about-us/locations">Locations</a></li>
         </ul>
       </li>
       <li {% if current[1] == 'blog' %}class='active'{% endif %}><a href="/terracare/blog">Blog / News</a></li>
