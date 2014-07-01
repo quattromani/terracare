@@ -1,0 +1,167 @@
+---
+layout: default
+title: Request a Bid
+class: contact
+banner: joy.jpg
+banner-heading: "Talk to Us"
+banner-sub-heading: "We look forward to serving you!"
+banner-cta: "Request a Bid"
+---
+
+<div class="row">
+
+  <div class="half">
+
+    <form action="/" method="post">
+      <fieldset>
+        <h3>{{ page.title }}</h3>
+        <p>* Indicates a required field</p>
+
+        <!-- First Name / Last Name -->
+        <div class="row">
+          <div class="half">
+            <div class="formitem first-name">
+              <label class="required" for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="fname" pattern="[a-zA-Z]+" autocomplete="name" tabindex="1" required>
+            </div>
+          </div>
+
+          <div class="half">
+            <div class="formitem last-name">
+              <label class="required" for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="lname" autocomplete="name" tabindex="3" required>
+            </div>
+          </div>
+        </div>
+        <!-- .First Name / Last Name -->
+
+        <!-- Phone -->
+        <div class="row clearfix">
+          <div class="formitem phone-number">
+            <label for="phone-number" class="required">Phone Number</label>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="9" required>
+          </div>
+        </div>
+        <!-- .Phone -->
+
+        <!-- Email Address -->
+        <div class="row">
+          <div class="formitem email">
+            <label for="email" class="required">Email Address:</label>
+            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="11" required>
+          </div>
+        </div>
+        <!-- .Email Address -->
+
+        <!-- Desired Field -->
+        <div class="row">
+          <div class="formitem">
+            <label for="field" class="required">Desired Field:</label>
+            <select name="field" id="field" tabindex="7" required>
+              <option value="---" selected="selected">---</option>
+              <option value="Account Manager">Account Manager</option>
+              <option value="Assistant Project Manager">Assistant Project Manager</option>
+              <option value="Aquatics">Aquatics</option>
+              <option value="Branch Manager">Branch Manager</option>
+              <option value="Business Development">Business Development</option>
+              <option value="CDL Driver">CDL Driver</option>
+              <option value="Concrete Foreman">Concrete Foreman</option>
+              <option value="Concrete Worker">Concrete Worker</option>
+              <option value="Diesel Mechanic">Diesel Mechanic</option>
+              <option value="Enhancement Manager">Enhancement Manager</option>
+              <option value="Enhancement Crew">Enhancement Crew</option>
+              <option value="Estimator">Estimator</option>
+              <option value="Flower Crew">Flower Crew</option>
+              <option value="Irrigation Manager">Irrigation Manager</option>
+              <option value="Irrigation Technician">Irrigation Technician</option>
+              <option value="Landscape Construction">Landscape Construction</option>
+              <option value="Landscape Foreman">Landscape Foreman</option>
+              <option value="Landscape Laborer">Landscape Laborer</option>
+              <option value="Mechanic">Mechanic</option>
+              <option value="On-call CDL Snow Driver">On-call CDL Snow Driver</option>
+              <option value="Operations Manager">Operations Manager</option>
+              <option value="Plant Healthcare Tech.">Plant Healthcare Tech.</option>
+              <option value="Project Manager">Project Manager</option>
+              <option value="Road Maintenance Crew">Road Maintenance Crew</option>
+              <option value="Snow Driver">Snow Driver</option>
+              <option value="Snow Crew">Snow Crew</option>
+              <option value="Small Equipment Mechanic">Small Equipment Mechanic</option>
+              <option value="Traffic Control Technician">Traffic Control Technician</option>
+            </select>
+          </div>
+        </div>
+        <!-- .Desired Area -->
+
+        <!-- About -->
+        <div class="row">
+          <div class="formitem textarea">
+            <label for="textarea">Tell us about your skills:</label>
+            <textarea id="textarea" placeholder="Tell us about your skills or cut and paste a resume." tabindex="13"></textarea>
+          </div>
+        </div>
+        <!-- .About -->
+
+        <!-- Desired Area -->
+        <div class="row">
+          <div class="formitem state">
+            <label for="state" class="required">Where are you seeking employment?</label>
+            <select name="state" id="state" tabindex="7" required>
+              <option value="" selected="selected">Please Select a location</option>
+              <option value="CA - Bay Area">CA - Bay Area</option>
+              <option value="CA - Sacramento Area">CA - Sacramento Area</option>
+              <option value="CO - Denver North">CO - Denver North</option>
+              <option value="CO - Denver South">CO - Denver South</option>
+              <option value="UT - Cottonwood Heights">UT - Cottonwood Heights</option>
+            </select>
+          </div>
+        </div>
+        <!-- .Desired Field -->
+
+        <!-- Referral -->
+        <div class="row">
+          <label class="required">Were you referred by a Terracare employee?</label>
+          <div class="formitem">
+            <input type="radio" class="radio" id="radio-this" name="referred" value="yes">
+            <label for="radio-this">Yes</label>
+          </div>
+          <div class="formitem">
+            <input type="radio" class="radio" id="radio-that" name="referred" value="no">
+            <label for="radio-that">No</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="formitem email">
+            <label for="referral-name" class="required">If so, by whom?</label>
+            <input id="referral-name" type="text" name="referral-name" pattern="[a-zA-Z]+" tabindex="11" required>
+          </div>
+        </div>
+        <!-- .Referral -->
+
+        <div id="fillit">
+          If you see this, leave this form field blank.
+          <input id="improve" type="text" name="confirm" value="">
+        </div>
+
+        <div class="formitem">
+          <button class="btn btn-primary" type="submit" name="submit" value="submit">
+            <span>Submit</span>
+          </button>
+
+          <button type="reset" name="reset" value="reset">
+            <span>Clear</span>
+          </button>
+        </div>
+      </fieldset>
+    </form>
+    <hr class="below-desktop">
+  </div>
+
+  <div class="half">
+
+    <h3>Media Kit</h3>
+
+    <p>The <a href="{{ site.baseurl }}/assets/pdf/Terracare-Associates-Media-Kit.pdf">Terracare Associates Media Kit</a> provides information about our history, experience, values, and services.  We welcome you to download the media kit, review it, and then contact us for more information.</p>
+
+  </div>
+
+</div>

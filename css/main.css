@@ -61,11 +61,19 @@ textarea {
 body {
   background: url(/terracare/images/bg.png) center top repeat;
   background-attachment: fixed; }
+  body.services {
+    margin-bottom: 85px; }
+    @media (max-width: 62em) {
+      body.services {
+        margin-bottom: 110px; } }
+    @media (max-width: 40em) {
+      body.services {
+        margin-bottom: 150px; } }
 
 .banner {
   background: #58b340;
   color: white; }
-  @media (min-width: 68.75em) {
+  @media (min-width: 62em) {
     .banner {
       padding-top: 1em;
       padding-right: 1em;
@@ -79,10 +87,10 @@ body {
   .banner a.logo .thin {
     font-weight: 100; }
 
-.teams .vertical li {
+.teams .bio li {
   position: relative;
   padding-left: 5.5em; }
-  .teams .vertical li img {
+  .teams .bio li img {
     position: absolute;
     left: 0;
     top: 1em; }
@@ -104,7 +112,7 @@ footer.container {
   margin-right: auto;
   margin-bottom: 1em;
   margin-left: auto; }
-  @media (min-width: 68.75em) {
+  @media (min-width: 62em) {
     footer.container .social {
       text-align: right; } }
   footer.container .fa {
@@ -181,8 +189,8 @@ footer.container {
 
 .half {
   float: left;
-  width: 49%;
-  margin-right: 2%; }
+  width: 48.5%;
+  margin-right: 3%; }
   .marginless .half {
     float: left;
     width: 50%;
@@ -197,8 +205,8 @@ footer.container {
 
 .third {
   float: left;
-  width: 32%;
-  margin-right: 2%; }
+  width: 31.33333%;
+  margin-right: 3%; }
   .marginless .third {
     float: left;
     width: 33.33333%;
@@ -208,8 +216,8 @@ footer.container {
   @media (max-width: 62em) {
     .third {
       float: left;
-      width: 49%;
-      margin-right: 2%; }
+      width: 48.5%;
+      margin-right: 3%; }
       .third:nth-child(even) {
         margin-right: 0; } }
   @media (max-width: 40em) {
@@ -220,8 +228,8 @@ footer.container {
 
 .fourth {
   float: left;
-  width: 23.5%;
-  margin-right: 2%; }
+  width: 22.75%;
+  margin-right: 3%; }
   .marginless .fourth {
     float: left;
     width: 25%;
@@ -231,8 +239,8 @@ footer.container {
   @media (max-width: 62em) {
     .fourth {
       float: left;
-      width: 49%;
-      margin-right: 2%; }
+      width: 48.5%;
+      margin-right: 3%; }
       .fourth:nth-child(even) {
         margin-right: 0; } }
   @media (max-width: 40em) {
@@ -244,8 +252,8 @@ footer.container {
 
 .fifth {
   float: left;
-  width: 18.4%;
-  margin-right: 2%; }
+  width: 17.6%;
+  margin-right: 3%; }
   .marginless .fifth {
     float: left;
     width: 20%;
@@ -255,8 +263,8 @@ footer.container {
   @media (max-width: 62em) {
     .fifth {
       float: left;
-      width: 49%;
-      margin-right: 2%; }
+      width: 48.5%;
+      margin-right: 3%; }
       .fifth:nth-child(even) {
         margin-right: 0; } }
   @media (max-width: 40em) {
@@ -268,8 +276,8 @@ footer.container {
 
 .sixth {
   float: left;
-  width: 15%;
-  margin-right: 2%; }
+  width: 14.16667%;
+  margin-right: 3%; }
   .marginless .sixth {
     float: left;
     width: 16.66667%;
@@ -279,15 +287,15 @@ footer.container {
   @media (max-width: 62em) {
     .sixth {
       float: left;
-      width: 32%;
-      margin-right: 2%; }
+      width: 31.33333%;
+      margin-right: 3%; }
       .sixth:nth-child(3n) {
         margin-right: 0; } }
 
 .seventh {
   float: left;
-  width: 12.57143%;
-  margin-right: 2%; }
+  width: 11.71429%;
+  margin-right: 3%; }
   .marginless .seventh {
     float: left;
     width: 14.28571%;
@@ -297,15 +305,15 @@ footer.container {
   @media (max-width: 62em) {
     .seventh {
       float: left;
-      width: 32%;
-      margin-right: 2%; }
+      width: 31.33333%;
+      margin-right: 3%; }
       .seventh:nth-child(3n) {
         margin-right: 0; } }
 
 .eighth {
   float: left;
-  width: 10.75%;
-  margin-right: 2%; }
+  width: 9.875%;
+  margin-right: 3%; }
   .marginless .eighth {
     float: left;
     width: 12.5%;
@@ -315,22 +323,22 @@ footer.container {
   @media (max-width: 62em) {
     .eighth {
       float: left;
-      width: 23.5%;
-      margin-right: 2%; }
+      width: 22.75%;
+      margin-right: 3%; }
       .eighth:nth-child(4n) {
         margin-right: 0; } }
   @media (max-width: 40em) {
     .eighth {
       float: left;
-      width: 49%;
-      margin-right: 2%; }
+      width: 48.5%;
+      margin-right: 3%; }
       .eighth:nth-child(2n) {
         margin-right: 0; } }
 
 .ninth {
   float: left;
-  width: 9.33333%;
-  margin-right: 2%; }
+  width: 8.44444%;
+  margin-right: 3%; }
   .marginless .ninth {
     float: left;
     width: 11.11111%;
@@ -340,15 +348,15 @@ footer.container {
   @media (max-width: 62em) {
     .ninth {
       float: left;
-      width: 32%;
-      margin-right: 2%; }
+      width: 31.33333%;
+      margin-right: 3%; }
       .ninth:nth-child(3n) {
         margin-right: 0; } }
 
 .tenth {
   float: left;
-  width: 8.2%;
-  margin-right: 2%; }
+  width: 7.3%;
+  margin-right: 3%; }
   .marginless .tenth {
     float: left;
     width: 10%;
@@ -358,22 +366,22 @@ footer.container {
   @media (max-width: 62em) {
     .tenth {
       float: left;
-      width: 23.5%;
-      margin-right: 2%; }
+      width: 22.75%;
+      margin-right: 3%; }
       .tenth:nth-child(4n) {
         margin-right: 0; } }
   @media (max-width: 40em) {
     .tenth {
       float: left;
-      width: 49%;
-      margin-right: 2%; }
+      width: 48.5%;
+      margin-right: 3%; }
       .tenth:nth-child(2n) {
         margin-right: 0; } }
 
 .eleventh {
   float: left;
-  width: 7.27273%;
-  margin-right: 2%; }
+  width: 6.36364%;
+  margin-right: 3%; }
   .marginless .eleventh {
     float: left;
     width: 9.09091%;
@@ -383,22 +391,22 @@ footer.container {
   @media (max-width: 62em) {
     .eleventh {
       float: left;
-      width: 23.5%;
-      margin-right: 2%; }
+      width: 22.75%;
+      margin-right: 3%; }
       .eleventh:nth-child(4n) {
         margin-right: 0; } }
   @media (max-width: 40em) {
     .eleventh {
       float: left;
-      width: 49%;
-      margin-right: 2%; }
+      width: 48.5%;
+      margin-right: 3%; }
       .eleventh:nth-child(2n) {
         margin-right: 0; } }
 
 .twelfth {
   float: left;
-  width: 6.5%;
-  margin-right: 2%; }
+  width: 5.58333%;
+  margin-right: 3%; }
   .marginless .twelfth {
     float: left;
     width: 8.33333%;
@@ -408,22 +416,22 @@ footer.container {
   @media (max-width: 62em) {
     .twelfth {
       float: left;
-      width: 15%;
-      margin-right: 2%; }
+      width: 14.16667%;
+      margin-right: 3%; }
       .twelfth:nth-child(6n) {
         margin-right: 0; } }
   @media (max-width: 62em) {
     .twelfth {
       float: left;
-      width: 32%;
-      margin-right: 2%; }
+      width: 31.33333%;
+      margin-right: 3%; }
       .twelfth:nth-child(3n) {
         margin-right: 0; } }
 
 .golden-long {
   float: left;
-  width: 61.04079%;
-  margin-right: 2%; }
+  width: 60.65884%;
+  margin-right: 3%; }
   .marginless .golden-long {
     float: left;
     width: 61.8047%;
@@ -433,8 +441,8 @@ footer.container {
 
 .golden-short {
   float: left;
-  width: 36.95921%;
-  margin-right: 2%; }
+  width: 36.34116%;
+  margin-right: 3%; }
   .marginless .golden-short {
     float: left;
     width: 38.1953%;
@@ -444,8 +452,8 @@ footer.container {
 
 .two-fifths {
   float: left;
-  width: 38.8%;
-  margin-right: 2%; }
+  width: 38.2%;
+  margin-right: 3%; }
   .marginless .two-fifths {
     float: left;
     width: 40%;
@@ -455,13 +463,13 @@ footer.container {
   @media (max-width: 62em) {
     .two-fifths {
       float: left;
-      width: 49%;
-      margin-right: 2%; } }
+      width: 48.5%;
+      margin-right: 3%; } }
 
 .three-fifths {
   float: left;
-  width: 59.2%;
-  margin-right: 2%; }
+  width: 58.8%;
+  margin-right: 3%; }
   .marginless .three-fifths {
     float: left;
     width: 60%;
@@ -476,8 +484,8 @@ footer.container {
 
 .four-fifths {
   float: left;
-  width: 79.6%;
-  margin-right: 2%; }
+  width: 79.4%;
+  margin-right: 3%; }
   .marginless .four-fifths {
     float: left;
     width: 80%;
@@ -492,8 +500,8 @@ footer.container {
 
 .two-thirds {
   float: left;
-  width: 66%;
-  margin-right: 2%; }
+  width: 65.66667%;
+  margin-right: 3%; }
   .marginless .two-thirds {
     float: left;
     width: 66.66667%;
@@ -508,8 +516,8 @@ footer.container {
 
 .three-fourths {
   float: left;
-  width: 74.5%;
-  margin-right: 2%; }
+  width: 74.25%;
+  margin-right: 3%; }
   .marginless .three-fourths {
     float: left;
     width: 75%;
@@ -524,8 +532,8 @@ footer.container {
 
 .three-eighths {
   float: left;
-  width: 36.25%;
-  margin-right: 2%; }
+  width: 35.625%;
+  margin-right: 3%; }
   .marginless .three-eighths {
     float: left;
     width: 37.5%;
@@ -540,8 +548,8 @@ footer.container {
 
 .five-eighths {
   float: left;
-  width: 61.75%;
-  margin-right: 2%; }
+  width: 61.375%;
+  margin-right: 3%; }
   .marginless .five-eighths {
     float: left;
     width: 62.5%;
@@ -610,7 +618,7 @@ nav {
       padding-right: 0;
       padding-bottom: 0;
       padding-left: 0; }
-      @media (min-width: 68.75em) {
+      @media (min-width: 62em) {
         nav ul li:hover ul {
           position: absolute;
           display: block;
@@ -651,7 +659,7 @@ nav {
           color: white; }
       nav ul li.active {
         background: #3ca694; }
-        @media (min-width: 68.75em) {
+        @media (min-width: 62em) {
           nav ul li.active:before {
             content: '';
             display: block;
@@ -1886,7 +1894,7 @@ samp {
 
 .bordered-left,
 .bordered-left-dark {
-  padding-left: 2%;
+  padding-left: 3%;
   border-left: 1px dotted #454545; }
 
 .bordered-left-dark {
@@ -1894,7 +1902,7 @@ samp {
 
 .bordered-right,
 .bordered-right-dark {
-  padding-right: 2%;
+  padding-right: 3%;
   border-right: 1px dotted #454545; }
 
 .bordered-right-dark {
@@ -2601,6 +2609,9 @@ label + .pill,
   background: #0b4d42; }
   .sticky span {
     color: #cccccc; }
+    @media (max-width: 40em) {
+      .sticky span {
+        text-align: center; } }
   .sticky .cta {
     color: white;
     border: 2px solid white; }

@@ -8,6 +8,17 @@
     body {
       background: url(/terracare/images/bg.png) center top repeat;
       background-attachment: fixed;
+
+      &.services {
+        margin-bottom: 85px;
+
+        @include bp(bp-medium) {
+          margin-bottom: 110px;
+        }
+        @include bp(bp-small) {
+          margin-bottom: 150px;
+        }
+      }
     }
 
     .banner {
@@ -34,7 +45,7 @@
       }
     }
 
-    .teams .vertical li {
+    .teams .bio li {
       position: relative;
       padding-left: 5.5em;
 

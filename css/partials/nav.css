@@ -24,7 +24,7 @@ nav ul li {
   padding-bottom: 0;
   padding-left: 0;
 }
-@media (min-width: 68.75em) {
+@media (min-width: 62em) {
   nav ul li:hover ul {
     position: absolute;
     display: block;
@@ -75,7 +75,7 @@ nav ul li a:hover {
 nav ul li.active {
   background: #3ca694;
 }
-@media (min-width: 68.75em) {
+@media (min-width: 62em) {
   nav ul li.active:before {
     content: '';
     display: block;

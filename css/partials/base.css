@@ -65,12 +65,25 @@ body {
   background: url(/terracare/images/bg.png) center top repeat;
   background-attachment: fixed;
 }
+body.services {
+  margin-bottom: 85px;
+}
+@media (max-width: 62em) {
+  body.services {
+    margin-bottom: 110px;
+  }
+}
+@media (max-width: 40em) {
+  body.services {
+    margin-bottom: 150px;
+  }
+}
 
 .banner {
   background: #58b340;
   color: white;
 }
-@media (min-width: 68.75em) {
+@media (min-width: 62em) {
   .banner {
     padding-top: 1em;
     padding-right: 1em;
@@ -89,11 +102,11 @@ body {
   font-weight: 100;
 }
 
-.teams .vertical li {
+.teams .bio li {
   position: relative;
   padding-left: 5.5em;
 }
-.teams .vertical li img {
+.teams .bio li img {
   position: absolute;
   left: 0;
   top: 1em;
@@ -118,7 +131,7 @@ footer.container {
   margin-bottom: 1em;
   margin-left: auto;
 }
-@media (min-width: 68.75em) {
+@media (min-width: 62em) {
   footer.container .social {
     text-align: right;
   }

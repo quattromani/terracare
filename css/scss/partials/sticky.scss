@@ -15,6 +15,10 @@
 
       span {
         color: $color-light-grey;
+
+        @include bp(bp-small) {
+          text-align: center;
+        }
       }
 
       .cta {
