@@ -102,6 +102,11 @@ a img {
 a:hover {
   color: #4c060e;
 }
+a[href$='.pdf']:after {
+  margin-left: .5em;
+  content: '\f1c1';
+  font-family: "FontAwesome";
+}
 
 /* ==========================
 	  Headings

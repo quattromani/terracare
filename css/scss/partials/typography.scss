@@ -119,6 +119,12 @@ a {
   &:hover {
     color: $link-hover;
   }
+
+  &[href$='.pdf']:after {
+    margin-left: .5em;
+    content: '\f1c1';
+    font-family: $fontawesome;
+  }
 }
 
 /* ==========================
