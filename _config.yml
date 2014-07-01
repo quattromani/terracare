@@ -1,6 +1,18 @@
 name: Terracare Associates
+url: http://terracareassociates.com
 markdown: redcarpet
 highlighter: true
 baseurl: /terracare
 
 exclude: ['node_modules', 'scss']
+
+sitemap:
+  file: "/sitemap.xml"
+  exclude:
+      - "/atom.xml"
+      - "/feed.xml"
+      - "/feed/index.xml"
+  include_posts:
+      - "/index.html"
+  change_frequency_name: "change_frequency"
+  priority_name: "priority"
