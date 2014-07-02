@@ -1,54 +1,86 @@
-{% assign current = page.url | downcase | split: '/' %}
+{% assign current = page.url | split: '/' %}
 <nav class="nav-primary" role="navigation" >
 	<div class="container">
 
     <label for="show-menu" class="show-menu"><i class="fa fa-bars"></i> Menu</label>
     <input type="checkbox" id="show-menu" role="button">
 
-		<ul class="navigation">
-      <li {% if current[1] == '/' %}class='active'{% endif %}>
-        <a href="/terracare" class="text-center"><i class="fa fa-home"></i></a>
-      <li {% if current[1] == 'public-services' %}class='active'{% endif %}>
-        <a href="/terracare/public-services">Public Services</a>
+    <ul class="navigation">
+      {% for nav in site.data.nav %}
+      {% if nav.child_links %}
+      {% if nav.name == page.title %}
+      <li {% if current[0] == '{{ nav.active }}' %}class='active'{% endif %}>
+        {% else %}
+      <li {% if current[0] == '{{ nav.active }}' %}class='active'{% endif %}>
+        {% endif %}
+        <a href="{{ site.baseurl }}{{ nav.url }}" class="text-center">{{ nav.name }}</a>
         <ul class="hidden">
-          <li><a href="/terracare/public-services/parks-streetscape">Parks / Streetscape</a></li>
-          <li><a href="/terracare/public-services/public-works">Public Works</a></li>
-          <li><a href="/terracare/public-services/roadway-maintenance">Roadway Maintenance</a></li>
-          <li><a href="/terracare/public-services/p3-consulting">P3 Consulting</a></li>
-          <li><a href="/terracare/public-services/snow-removal">Snow Removal</a></li>
+          {% for child_link in nav.child_links %}
+          <li>
+            <a href="{{ site.baseurl }}{{ nav.url }}{{ child_link.url }}">{{ child_link.name }}</a>
+          </li>
+          {% endfor %}
         </ul>
       </li>
-      <li {% if current[1] == 'private-services' %}class='active'{% endif %}>
-        <a href="/terracare/private-services">Private Services</a>
-        <ul class="hidden">
-          <li><a href="/terracare/private-services/landscape-maintenance">Landscape</a></li>
-          <li><a href="/terracare/private-services/water-management">Water Management</a></li>
-          <li><a href="/terracare/private-services/lake-management">Lake Management</a></li>
-          <li><a href="/terracare/private-services/parking-streets">Parking Lots &amp; Streets</a></li>
-          <li><a href="/terracare/private-services/snow-removal">Snow Removal</a></li>
-        </ul>
+      {% elsif nav.name == page.title %}
+      <li {% if current[0] == '{{ nav.active }}' %}class='active'{% endif %}>
+        <a href="{{ site.baseurl }}{{ nav.url }}" class="text-center">{{ nav.name }}</a>
       </li>
-      <li {% if current[1] == 'responsibility' %}class='active'{% endif %}>
-        <a href="/terracare/responsibility">Responsibility</a>
-        <ul class="hidden">
-          <li><a href="/terracare/responsibility/safety">Safety</a></li>
-          <li><a href="/terracare/responsibility/water-management">Water Management</a></li>
-          <li><a href="/terracare/responsibility/sustainability-policy">Sustainability Policy</a></li>
-          <li><a href="/terracare/responsibility/community-investment">Community Investment</a></li>
-        </ul>
+      {% else %}
+      <li {% if current[0] == '{{ nav.active }}' %}class='active'{% endif %}>
+        <a href="{{ site.baseurl }}{{ nav.url }}" class="text-center">{{ nav.name }}</a>
       </li>
-      <li {% if current[1] == 'about-us' %}class='active'{% endif %}>
-        <a href="/terracare/about-us">About Us</a>
-        <ul class="hidden">
-          <li><a href="/terracare/about-us/company-profile">Company Profile</a></li>
-          <li><a href="/terracare/about-us/teams">Our Teams</a></li>
-          <li><a href="/terracare/about-us/customer-service">Customer Service</a></li>
-          <li><a href="/terracare/about-us/credentials">Credentials</a></li>
-          <li><a href="/terracare/about-us/locations">Locations</a></li>
-        </ul>
-      </li>
-      <li {% if current[1] == 'blog' %}class='active'{% endif %}><a href="/terracare/blog">Blog / News</a></li>
-      <li {% if current[1] == 'careers' %}class='active'{% endif %}><a href="/terracare/careers">Careers</a></li>
+      {% endif %}
+      {% endfor %}
     </ul>
   </div>
 </nav>
+
+
+
+
+      <!-- <ul class="navigation">
+        <li {% if current[1] == '/' %}class='active'{% endif %}>
+          <a href="/terracare" class="text-center"><i class="fa fa-home"></i></a>
+          <li {% if current[1] == 'public-services' %}class='active'{% endif %}>
+            <a href="/terracare/public-services">Public Services</a>
+            <ul class="hidden">
+              <li><a href="/terracare/public-services/parks-streetscape">Parks / Streetscape</a></li>
+              <li><a href="/terracare/public-services/public-works">Public Works</a></li>
+              <li><a href="/terracare/public-services/roadway-maintenance">Roadway Maintenance</a></li>
+              <li><a href="/terracare/public-services/p3-consulting">P3 Consulting</a></li>
+              <li><a href="/terracare/public-services/snow-removal">Snow Removal</a></li>
+            </ul>
+          </li>
+          <li {% if current[1] == 'private-services' %}class='active'{% endif %}>
+            <a href="/terracare/private-services">Private Services</a>
+            <ul class="hidden">
+              <li><a href="/terracare/private-services/landscape-maintenance">Landscape</a></li>
+              <li><a href="/terracare/private-services/water-management">Water Management</a></li>
+              <li><a href="/terracare/private-services/lake-management">Lake Management</a></li>
+              <li><a href="/terracare/private-services/parking-streets">Parking Lots &amp; Streets</a></li>
+              <li><a href="/terracare/private-services/snow-removal">Snow Removal</a></li>
+            </ul>
+          </li>
+          <li {% if current[1] == 'responsibility' %}class='active'{% endif %}>
+            <a href="/terracare/responsibility">Responsibility</a>
+            <ul class="hidden">
+              <li><a href="/terracare/responsibility/safety">Safety</a></li>
+              <li><a href="/terracare/responsibility/water-management">Water Management</a></li>
+              <li><a href="/terracare/responsibility/sustainability-policy">Sustainability Policy</a></li>
+              <li><a href="/terracare/responsibility/community-investment">Community Investment</a></li>
+            </ul>
+          </li>
+          <li {% if current[1] == 'about-us' %}class='active'{% endif %}>
+            <a href="/terracare/about-us">About Us</a>
+            <ul class="hidden">
+              <li><a href="/terracare/about-us/company-profile">Company Profile</a></li>
+              <li><a href="/terracare/about-us/teams">Our Teams</a></li>
+              <li><a href="/terracare/about-us/customer-service">Customer Service</a></li>
+              <li><a href="/terracare/about-us/credentials">Credentials</a></li>
+              <li><a href="/terracare/about-us/locations">Locations</a></li>
+            </ul>
+          </li>
+          <li {% if current[1] == 'blog' %}class='active'{% endif %}><a href="/terracare/blog">Blog / News</a></li>
+          <li {% if current[1] == 'careers' %}class='active'{% endif %}><a href="/terracare/careers">Careers</a></li>
+        </ul> -->
