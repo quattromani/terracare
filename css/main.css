@@ -1125,14 +1125,16 @@ samp {
   left: -.1em;
   color: #5f5f5f; }
 
-.logo {
+.banner .row {
+  vertical-align: middle; }
+.banner .logo {
   color: white;
   line-height: 1; }
   @media (max-width: 40em) {
-    .logo {
+    .banner .logo {
       display: inline-block;
       text-align: center; } }
-  .logo .light {
+  .banner .logo .light {
     font-family: SourceSansPro-Light, Arial, Sans-Serif;
     font-style: normal;
     font-weight: normal;
@@ -1140,7 +1142,7 @@ samp {
     font-size: 1.6rem;
     font-size: 50px;
     font-size: 5rem; }
-  .logo .bold {
+  .banner .logo .bold {
     font-family: SourceSansPro-Bold, Arial, Sans-Serif;
     font-style: normal;
     font-weight: normal;
@@ -1148,6 +1150,11 @@ samp {
     font-size: 1.6rem;
     font-size: 50px;
     font-size: 5rem; }
+.banner .two-fifths {
+  margin-top: 0.5em;
+  margin-right: 0;
+  margin-bottom: 0.5em;
+  margin-left: 0; }
 
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: timestamp()

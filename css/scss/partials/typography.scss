@@ -292,22 +292,33 @@ mark {
       color: lighten($color-grey, 10%);
     }
 
-    .logo {
-      color: $color-white;
-      line-height: 1;
-
-      @include bp(bp-small) {
-        display: inline-block;
-        text-align: center;
+    .banner {
+      .row {
+        vertical-align: middle;
       }
 
-      .light {
-        @include font-family(SourceSansPro-Light);
-        @include font-size(50);
+      .logo {
+        color: $color-white;
+        line-height: 1;
+
+        @include bp(bp-small) {
+          display: inline-block;
+          text-align: center;
+        }
+
+        .light {
+          @include font-family(SourceSansPro-Light);
+          @include font-size(50);
+        }
+
+        .bold {
+          @include font-family(SourceSansPro-Bold);
+          @include font-size(50);
+        }
       }
 
-      .bold {
-        @include font-family(SourceSansPro-Bold);
-        @include font-size(50);
+      .two-fifths {
+        @include margin(.5em, 0);
       }
     }
+
