@@ -352,7 +352,7 @@
   }
 
   @include bp(bp-medium) {
-    @include col($site-column-count / 2);
+    @include col($site-column-count);
   }
 }
 

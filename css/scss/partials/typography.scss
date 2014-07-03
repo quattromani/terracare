@@ -3,129 +3,129 @@
 
 /* ==========================================================================
     Typography -- Version: 1.9.0.1  - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-@font-face {
-  font-family: 'SourceSansPro-Bold';
-  src: url('fonts/SourceSansPro-Bold.eot');
-  src: url('fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
-       url('fonts/SourceSansPro-Bold.woff') format('woff'),
-       url('fonts/SourceSansPro-Bold.ttf') format('truetype'),
-       url('fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
+    @font-face {
+      font-family: 'SourceSansPro-Bold';
+      src: url('fonts/SourceSansPro-Bold.eot');
+      src: url('fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/SourceSansPro-Bold.woff') format('woff'),
+      url('fonts/SourceSansPro-Bold.ttf') format('truetype'),
+      url('fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+      font-style: normal;
+      font-weight: 400;
+    }
 
-@font-face {
-  font-family: 'SourceSansPro-Semibold';
-  src: url('fonts/SourceSansPro-Semibold.eot');
-  src: url('fonts/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),
-       url('fonts/SourceSansPro-Semibold.woff') format('woff'),
-       url('fonts/SourceSansPro-Semibold.ttf') format('truetype'),
-       url('fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
+    @font-face {
+      font-family: 'SourceSansPro-Semibold';
+      src: url('fonts/SourceSansPro-Semibold.eot');
+      src: url('fonts/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('fonts/SourceSansPro-Semibold.woff') format('woff'),
+      url('fonts/SourceSansPro-Semibold.ttf') format('truetype'),
+      url('fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold') format('svg');
+      font-style: normal;
+      font-weight: 400;
+    }
 
-@font-face {
-  font-family: 'SourceSansPro-Regular';
-  src: url('fonts/SourceSansPro-Regular.eot');
-  src: url('fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
-       url('fonts/SourceSansPro-Regular.woff') format('woff'),
-       url('fonts/SourceSansPro-Regular.ttf') format('truetype'),
-       url('fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
+    @font-face {
+      font-family: 'SourceSansPro-Regular';
+      src: url('fonts/SourceSansPro-Regular.eot');
+      src: url('fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/SourceSansPro-Regular.woff') format('woff'),
+      url('fonts/SourceSansPro-Regular.ttf') format('truetype'),
+      url('fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+      font-style: normal;
+      font-weight: 400;
+    }
 
-@font-face {
-  font-family: 'SourceSansPro-Light';
-  src: url('fonts/SourceSansPro-Light.eot');
-  src: url('fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
-       url('fonts/SourceSansPro-Light.woff') format('woff'),
-       url('fonts/SourceSansPro-Light.ttf') format('truetype'),
-       url('fonts/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
+    @font-face {
+      font-family: 'SourceSansPro-Light';
+      src: url('fonts/SourceSansPro-Light.eot');
+      src: url('fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+      url('fonts/SourceSansPro-Light.woff') format('woff'),
+      url('fonts/SourceSansPro-Light.ttf') format('truetype'),
+      url('fonts/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
+      font-style: normal;
+      font-weight: 400;
+    }
 
-@font-face {
-  font-family: $fontawesome;
-  src: url('fonts/icons/fontawesome-webfont.eot');
-  src: url('fonts/icons/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/icons/fontawesome-webfont.svg#svgFontAwesome') format('svg'),
-       url('fonts/icons/fontawesome-webfont.woff') format("woff"),
-       url('fonts/icons/fontawesome-webfont.ttf') format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+    @font-face {
+      font-family: $fontawesome;
+      src: url('fonts/icons/fontawesome-webfont.eot');
+      src: url('fonts/icons/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+      url('fonts/icons/fontawesome-webfont.svg#svgFontAwesome') format('svg'),
+      url('fonts/icons/fontawesome-webfont.woff') format("woff"),
+      url('fonts/icons/fontawesome-webfont.ttf') format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
 
-.base-font {
-  font-family: $base-font;
-}
+    .base-font {
+      font-family: $base-font;
+    }
 
-.base-font-alt {
-  font-family: $base-font-alt;
-}
+    .base-font-alt {
+      font-family: $base-font-alt;
+    }
 
-.arial {
-  font-family: $arial;
-}
+    .arial {
+      font-family: $arial;
+    }
 
-.arialBold {
-  font-family: $arial-bold;
-}
+    .arialBold {
+      font-family: $arial-bold;
+    }
 
 /* ==========================
 	  Body Text
    ========================== */
 
-.lede {
-  @include font-size($lede-text);
-}
+   .lede {
+    @include font-size($lede-text);
+  }
 
-.body-text {
-  @include font-size($body-text);
-}
+  .body-text {
+    @include font-size($body-text);
+  }
 
-.small-body-text {
-  @include font-size($small-body-text);
-}
+  .small-body-text {
+    @include font-size($small-body-text);
+  }
 
-.disclaimer-text {
-  @include font-size($disclaimer-text);
-}
+  .disclaimer-text {
+    @include font-size($disclaimer-text);
+  }
 
 /* ==========================
 	  Links
    ========================== */
 
-a {
-  @include margin;
-  @include padding;
-  background: transparent;
-  vertical-align: baseline;
-  font-weight: 700;
-  color: $link;
-  text-decoration: none;
-  cursor: pointer;
-  transition: .2s;
-
-  img {
-    border: 0 none;
+   a {
+    @include margin;
+    @include padding;
+    background: transparent;
+    vertical-align: baseline;
+    font-weight: 700;
+    color: $link;
     text-decoration: none;
-  }
+    cursor: pointer;
+    transition: .2s;
 
-  &:hover {
-    color: $link-hover;
-  }
+    img {
+      border: 0 none;
+      text-decoration: none;
+    }
 
-  &[href$='.pdf']:after {
-    margin-left: .5em;
-    content: '\f1c1';
-    font-family: $fontawesome;
+    &:hover {
+      color: $link-hover;
+    }
+
+    &[href$='.pdf']:after {
+      margin-left: .5em;
+      content: '\f1c1';
+      font-family: $fontawesome;
+    }
   }
-}
 
 /* ==========================
 	  Headings
@@ -238,56 +238,76 @@ mark {
 /* ==========================
 	  Pre
    ========================== */
-pre {
-  @include margin($margin, 0, 0);
-  background-color: $color-light-light-grey;
-  @include border-radius;
-  overflow: auto;
-  padding: $padding;
-  word-wrap: break-word;
-}
-
-kbd,
-samp {
-  font-family: $pre;
-  color: $color-primary-green;
-}
-
-.valid,
-.is-valid {
-  color: $color-primary-green;
-}
-
-.code-comment {
-  @include opacity(.5);
-}
-
-.fa {
-  @include font-family($fontawesome);
-
-  &-60 {
-    @include font-size(60);
+   pre {
+    @include margin($margin, 0, 0);
+    background-color: $color-light-light-grey;
+    @include border-radius;
+    overflow: auto;
+    padding: $padding;
+    word-wrap: break-word;
   }
-}
+
+  kbd,
+  samp {
+    font-family: $pre;
+    color: $color-primary-green;
+  }
+
+  .valid,
+  .is-valid {
+    color: $color-primary-green;
+  }
+
+  .code-comment {
+    @include opacity(.5);
+  }
+
+  .fa {
+    @include font-family($fontawesome);
+
+    &-60 {
+      @include font-size(60);
+    }
+  }
 
 /* ==========================
     Logo
-   ========================== */
+    ========================== */
 
-.GLG {
-  font-family: "NeueHaasGroteskDisp Pro 75", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bolder;
-  letter-spacing: -1px;
-}
+    .GLG {
+      font-family: "NeueHaasGroteskDisp Pro 75", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bolder;
+      letter-spacing: -1px;
+    }
 
-.logo_slash,
-.division {
-  @include font-family($base-font);
-  font-weight: 200;
-}
+    .logo_slash,
+    .division {
+      @include font-family($base-font);
+      font-weight: 200;
+    }
 
-.division {
-  position: relative;
-  left: -.1em;
-  color: lighten($color-grey, 10%);
-}
+    .division {
+      position: relative;
+      left: -.1em;
+      color: lighten($color-grey, 10%);
+    }
+
+    .logo {
+      color: $color-white;
+      line-height: 1;
+
+      @include bp(bp-small) {
+        display: inline-block;
+        text-align: center;
+      }
+
+      .light {
+        @include font-family(SourceSansPro-Light);
+        @include font-size(50);
+      }
+
+      .bold {
+        @include font-family(SourceSansPro-Bold);
+        @include font-size(50);
+      }
+    }
