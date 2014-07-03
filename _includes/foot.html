@@ -5,7 +5,20 @@
     <script src="{{ site.baseurl }}/js/global_init.js"></script>
     <script src="{{ site.baseurl }}/js/vendor/respond.js"></script>
     <script src="{{ site.baseurl }}/js/build/production.min.js"></script>
+    <script src="{{ site.baseurl }}/owl-carousel/owl.carousel.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#carousel").owlCarousel({
+          autoPlay: true,
+          navigation : false,
+          slideSpeed : 300,
+          paginationSpeed : 400,
+          singleItem:true,
+        });
+      });
+    </script>
 
     {% include google_analytics.html %}
-    </body>
+</body>
 </html>

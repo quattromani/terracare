@@ -6,7 +6,9 @@
     ========================================================================== */
 
     nav {
+      position: relative;
       background: $color-primary-blue;
+      z-index: 9999;
 
       .container {
         display: table;
@@ -16,7 +18,6 @@
       ul {
         display: table-row;
         width: 100%;
-        z-index: 9999;
 
         li {
           position: relative;

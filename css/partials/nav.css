@@ -5,7 +5,9 @@
     Nav Theme -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
 nav {
+  position: relative;
   background: #0b4d42;
+  z-index: 9999;
 }
 nav .container {
   display: table;
@@ -14,7 +16,6 @@ nav .container {
 nav ul {
   display: table-row;
   width: 100%;
-  z-index: 9999;
 }
 nav ul li {
   position: relative;

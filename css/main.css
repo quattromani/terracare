@@ -603,14 +603,15 @@ footer.container {
     Nav Theme -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
 nav {
-  background: #0b4d42; }
+  position: relative;
+  background: #0b4d42;
+  z-index: 9999; }
   nav .container {
     display: table;
     width: 100%; }
   nav ul {
     display: table-row;
-    width: 100%;
-    z-index: 9999; }
+    width: 100%; }
     nav ul li {
       position: relative;
       display: table-cell;
@@ -2927,8 +2928,7 @@ img {
     margin-right: 0;
     margin-bottom: 0;
     margin-left: 0;
-    color: white;
-    text-shadow: 0px 1px 2px #454545; }
+    color: white; }
   .image-content-panel p.lede {
     font-weight: 700; }
 
