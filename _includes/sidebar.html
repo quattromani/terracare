@@ -1,0 +1,13 @@
+<h2>{{ page.title }}</h2>
+
+<ul class="vertical lined">
+  {% for nav in site.data.nav %}
+  {% for child_link in nav.child_links %}
+  {% if nav.name == page.title %}
+  <li>
+    <a href="{{ site.baseurl }}{{ nav.url }}{{ child_link.url }}">{{ child_link.name }}</a>
+  </li>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</ul>
