@@ -2607,7 +2607,7 @@ label + .pill,
   padding-right: 0;
   padding-bottom: 1em;
   padding-left: 0;
-  background: #0b4d42; }
+  background: rgba(11, 77, 66, 0.9); }
   .sticky span {
     color: #cccccc; }
     @media (max-width: 40em) {
