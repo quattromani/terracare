@@ -1,7 +1,11 @@
-<ul class="horizontal slashes">
-  {% for path in page.parent_paths %}
-  <li><a href="{{ path }}">{{ page.parents[forloop.index0] }}</a> <span class="divider">/</span></li>
-  {% endfor %}
-  <li class="active">{{ page.title }}</li>
-</ul>
+<div class="breadcrumbs">
+  <div class="container">
+    <ul class="horizontal slashes">
+      {% for nav in site.data.nav %}
+        <li>{{ nav.name }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
+<p>{{ page.url | remove:'index.html' | split:'/' | first }}</p>

@@ -161,3 +161,41 @@ footer.container .fa-twitter-square:hover {
     text-align: center;
   }
 }
+
+.breadcrumbs {
+  padding-top: 0.5em;
+  padding-right: 0;
+  padding-bottom: 0.5em;
+  padding-left: 0;
+  background: #313131;
+  color: #cccccc;
+}
+
+.anchor {
+  margin-top: 1em;
+  margin-right: 0;
+  margin-bottom: 0.75em;
+  margin-left: 0;
+  padding-top: 0.75em;
+  padding-right: 0;
+  padding-bottom: 0.75em;
+  padding-left: 0;
+  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.9);
+  color: white;
+}
+.anchor .third {
+  text-align: center;
+}
+.anchor a.cta {
+  -webkit-box-shadow: inset 0 0 0 2px #cccccc;
+  -moz-box-shadow: inset 0 0 0 2px #cccccc;
+  box-shadow: inset 0 0 0 2px #cccccc;
+  color: #cccccc;
+}
+.anchor a.cta:hover {
+  -webkit-box-shadow: inset 0 0 0 2px white;
+  -moz-box-shadow: inset 0 0 0 2px white;
+  box-shadow: inset 0 0 0 2px white;
+  color: white;
+}

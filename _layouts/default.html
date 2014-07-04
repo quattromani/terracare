@@ -5,18 +5,19 @@
 {% include nav.html %}
 
 <div class="image-content-panel panel image-focus-3" style="background-image: url(/terracare/images/banners/{{ page.banner }})" alt="{{ page.alt }}">
-  <div class="container">
-   <h1>{{ page.banner-heading }}</h1>
-   <p class="lede">{{ page.banner-sub-heading }}</p>
+  <div class="feature">
+    <div class="container">
+      <h1>{{ page.banner-heading }}</h1>
+      <p class="lede">{{ page.banner-sub-heading }}</p>
 
-   {% if page.banner-cta != '' %}
-   <a class="btn button-primary mobile-full" href="{{ page.banner-cta-url }}">{{ page.banner-cta }}</a>
-   {% endif %}
- </div>
+      {% if page.banner-cta != '' %}
+      <a class="btn button-primary mobile-full" href="{{ page.banner-cta-url }}">{{ page.banner-cta }}</a>
+      {% endif %}
+    </div>
+  </div>
 </div>
 
 {% include content.html %}
-{% include breadcrumbs.html %}
 {{ content }}
 
 {% include end_content.html %}
