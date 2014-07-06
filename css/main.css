@@ -94,6 +94,10 @@ body {
     position: absolute;
     left: 0;
     top: 1em; }
+  .teams .bio li .job-title {
+    font-weight: bold; }
+  .teams .bio li .education {
+    font-style: italic; }
 
 .fixed-footer {
   position: absolute;
