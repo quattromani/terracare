@@ -78,7 +78,7 @@
       url: "/locations"
       active: "about-us"
 
-- name: "Blog / News"
+- name: "Blog"
   url: "/blog"
   active: "blog"
 

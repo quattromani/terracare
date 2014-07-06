@@ -8,33 +8,33 @@
     <ul class="navigation">
       {% for nav in site.data.nav %}
       {% if nav.child_links %}
-      {% if nav.name == page.title %}
-      <li {% if current[0] == '{{ nav.active }}' %}class='active'{% endif %}>
+      {% if nav.name == page.parent %}
+      <li class="active">
         {% else %}
-      <li {% if current[0] == '{{ nav.active }}' %}class='active'{% endif %}>
+        <li>
+          {% endif %}
+          <a href="{{ site.baseurl }}{{ nav.url }}" class="text-center">{{ nav.name }}</a>
+          <ul class="hidden">
+            {% for child_link in nav.child_links %}
+            <li>
+              <a href="{{ site.baseurl }}{{ nav.url }}{{ child_link.url }}">{{ child_link.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% elsif nav.name == page.parent %}
+        <li class="active">
+          <a href="{{ site.baseurl }}{{ nav.url }}" class="text-center">{{ nav.name }}</a>
+        </li>
+        {% else %}
+        <li>
+          <a href="{{ site.baseurl }}{{ nav.url }}" class="text-center">{{ nav.name }}</a>
+        </li>
         {% endif %}
-        <a href="{{ site.baseurl }}{{ nav.url }}" class="text-center">{{ nav.name }}</a>
-        <ul class="hidden">
-          {% for child_link in nav.child_links %}
-          <li>
-            <a href="{{ site.baseurl }}{{ nav.url }}{{ child_link.url }}">{{ child_link.name }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
-      {% elsif nav.name == page.title %}
-      <li {% if current[0] == '{{ nav.active }}' %}class='active'{% endif %}>
-        <a href="{{ site.baseurl }}{{ nav.url }}" class="text-center">{{ nav.name }}</a>
-      </li>
-      {% else %}
-      <li {% if current[0] == '{{ nav.active }}' %}class='active'{% endif %}>
-        <a href="{{ site.baseurl }}{{ nav.url }}" class="text-center">{{ nav.name }}</a>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
-</nav>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
 
 
 
