@@ -2,11 +2,11 @@
 
 {% include banner.html %}
 
-  {% include nav.html %}
-  <div class="image-content-panel panel image-focus-3" style="background-image: url(/terracare/images/{{ page.banner }})" alt="{{ page.alt }}">
+{% include nav.html %}
+<div class="image-content-panel panel image-focus-3" style="background-image: url(/terracare/images/banners/{{ page.banner }})" alt="{{ page.alt }}">
+  <div class="feature">
     <div class="container">
-
-      <h1>{{ page.title }}</h1>
+      <h1>{{ page.banner-heading }}</h1>
       <p class="lede">{{ page.banner-sub-heading }}</p>
 
       {% if page.banner-cta != '' %}
@@ -14,12 +14,13 @@
       {% endif %}
     </div>
   </div>
+</div>
 
-  {% include content.html %}
+{% include content.html %}
 
-    {{ content }}
+{{ content }}
 
-	{% include end_content.html %}
-	{% include footer.html %}
-  {% include sticky-footer.html %}
+{% include end_content.html %}
+{% include footer.html %}
+{% include sticky-footer.html %}
 {% include foot.html %}

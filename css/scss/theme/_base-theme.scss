@@ -9,8 +9,8 @@
       background: url(/terracare/images/bg.png) center top repeat;
       background-attachment: fixed;
 
-      &.services {
-        margin-bottom: 85px;
+      &.sticky-footer {
+        margin-bottom: 80px;
 
         @include bp(bp-medium) {
           margin-bottom: 110px;
@@ -66,63 +66,68 @@
       color: $color-white;
     }
 
-    footer.container {
-     @include margin($margin, auto);
+    footer {
+      @include padding(1em, 0);
+      @include rgba($color-black, .05);
 
-     .social {
-      @include bp(bp-large) {
-        text-align: right;
+      .row  {
+        vertical-align: middle;
+      }
+
+      .social {
+        @include bp(bp-large) {
+          text-align: right;
+        }
+      }
+
+      .fa {
+        color: $color-light-grey;
+        @include transition(color, .2s, ease);
+      }
+      .fa-linkedin-square:hover {
+        color: #0065aa;
+      }
+
+      .fa-youtube-square:hover {
+        color: #db1117;
+      }
+
+      .fa-facebook-square:hover {
+        color: #3b5998;
+      }
+
+      .fa-twitter-square:hover {
+        color: #1c96db;
+      }
+
+      @include bp(bp-medium) {
+        text-align: center;
       }
     }
 
-    .fa {
+    .breadcrumbs {
+      @include padding(.5em, 0);
+      background: #313131;
       color: $color-light-grey;
-      @include transition(color, .2s, ease);
-    }
-    .fa-linkedin-square:hover {
-      color: #0065aa;
     }
 
-    .fa-youtube-square:hover {
-      color: #db1117;
-    }
+    .anchor {
+      @include margin(1em, 0, 0);
+      @include padding(.75em, 0);
+      @include rgba(#333, .9);
+      color: $color-white;
 
-    .fa-facebook-square:hover {
-      color: #3b5998;
-    }
+      .third {
+        text-align: center;
+      }
 
-    .fa-twitter-square:hover {
-      color: #1c96db;
-    }
+      a.cta {
+        @include box-shadow(inset 0 0 0 2px $color-light-grey);
+        color: $color-light-grey;
 
-    @include bp(bp-medium) {
-      text-align: center;
-    }
-  }
-
-  .breadcrumbs {
-    @include padding(.5em, 0);
-    background: #313131;
-    color: $color-light-grey;
-  }
-
-  .anchor {
-    @include margin(1em, 0, 0);
-    @include padding(.75em, 0);
-    @include rgba(#333, .9);
-    color: $color-white;
-
-    .third {
-      text-align: center;
-    }
-
-    a.cta {
-      @include box-shadow(inset 0 0 0 2px $color-light-grey);
-      color: $color-light-grey;
-
-      &:hover {
-        @include box-shadow(inset 0 0 0 2px $color-white);
-        color: $color-white;
+        &:hover {
+          @include box-shadow(inset 0 0 0 2px $color-white);
+          color: $color-white;
+        }
       }
     }
-  }

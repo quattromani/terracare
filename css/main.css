@@ -61,13 +61,13 @@ textarea {
 body {
   background: url(/terracare/images/bg.png) center top repeat;
   background-attachment: fixed; }
-  body.services {
-    margin-bottom: 85px; }
+  body.sticky-footer {
+    margin-bottom: 80px; }
     @media (max-width: 62em) {
-      body.services {
+      body.sticky-footer {
         margin-bottom: 110px; } }
     @media (max-width: 40em) {
-      body.services {
+      body.sticky-footer {
         margin-bottom: 150px; } }
 
 .banner {
@@ -107,28 +107,32 @@ body {
   background: #0b4d42;
   color: white; }
 
-footer.container {
-  margin-top: 1em;
-  margin-right: auto;
-  margin-bottom: 1em;
-  margin-left: auto; }
+footer {
+  padding-top: 1em;
+  padding-right: 0;
+  padding-bottom: 1em;
+  padding-left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.05); }
+  footer .row {
+    vertical-align: middle; }
   @media (min-width: 62em) {
-    footer.container .social {
+    footer .social {
       text-align: right; } }
-  footer.container .fa {
+  footer .fa {
     color: #cccccc;
     -webkit-transition: color 0.2s ease;
     transition: color 0.2s ease; }
-  footer.container .fa-linkedin-square:hover {
+  footer .fa-linkedin-square:hover {
     color: #0065aa; }
-  footer.container .fa-youtube-square:hover {
+  footer .fa-youtube-square:hover {
     color: #db1117; }
-  footer.container .fa-facebook-square:hover {
+  footer .fa-facebook-square:hover {
     color: #3b5998; }
-  footer.container .fa-twitter-square:hover {
+  footer .fa-twitter-square:hover {
     color: #1c96db; }
   @media (max-width: 62em) {
-    footer.container {
+    footer {
       text-align: center; } }
 
 .breadcrumbs {
