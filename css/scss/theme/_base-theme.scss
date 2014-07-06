@@ -107,7 +107,7 @@
   }
 
   .anchor {
-    @include margin(1em, 0, .75em);
+    @include margin(1em, 0, 0);
     @include padding(.75em, 0);
     @include rgba(#333, .9);
     color: $color-white;
