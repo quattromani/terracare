@@ -11,6 +11,18 @@
       @include padding(2em, 4em);
       color: $text-white;
 
+      &:after {
+        content: "";
+        position:absolute;
+        z-index: -1;
+        width: 96%;
+        bottom: 0;
+        height: 10px;
+        left: 2%;
+        border-radius: 100px / 5px;
+        box-shadow:0 0 18px rgba(0,0,0,0.6);
+      }
+
       img {
         background-size: auto;
         background-position: 85% 15%;
