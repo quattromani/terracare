@@ -30,14 +30,17 @@
 
       a.logo {
         color: $color-secondary-green;
+        line-height: .75;
 
         &:hover {
           border-bottom: none;
           color: inherit;
         }
 
-        .thin {
+        .light {
+          @include font-size(45);
           font-weight: 100;
+          letter-spacing: .09em;
         }
       }
     }

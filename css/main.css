@@ -79,12 +79,16 @@ body {
       padding-bottom: 1em;
       padding-left: 1em; } }
   .banner a.logo {
-    color: #58b340; }
+    color: #58b340;
+    line-height: .75; }
     .banner a.logo:hover {
       border-bottom: none;
       color: inherit; }
-    .banner a.logo .thin {
-      font-weight: 100; }
+    .banner a.logo .light {
+      font-size: 45px;
+      font-size: 4.5rem;
+      font-weight: 100;
+      letter-spacing: .09em; }
 
 .teams .bio li {
   position: relative;
