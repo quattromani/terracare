@@ -80,8 +80,7 @@ body.sticky-footer {
 }
 
 .banner {
-  background: #58b340;
-  color: white;
+  background: white;
 }
 @media (min-width: 62em) {
   .banner {
@@ -91,12 +90,12 @@ body.sticky-footer {
     padding-left: 1em;
   }
 }
+.banner a.logo {
+  color: #58b340;
+}
 .banner a.logo:hover {
   border-bottom: none;
   color: inherit;
-}
-.banner a.logo .h3 {
-  color: white;
 }
 .banner a.logo .thin {
   font-weight: 100;

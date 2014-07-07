@@ -71,21 +71,20 @@ body {
         margin-bottom: 150px; } }
 
 .banner {
-  background: #58b340;
-  color: white; }
+  background: white; }
   @media (min-width: 62em) {
     .banner {
       padding-top: 1em;
       padding-right: 1em;
       padding-bottom: 1em;
       padding-left: 1em; } }
-  .banner a.logo:hover {
-    border-bottom: none;
-    color: inherit; }
-  .banner a.logo .h3 {
-    color: white; }
-  .banner a.logo .thin {
-    font-weight: 100; }
+  .banner a.logo {
+    color: #58b340; }
+    .banner a.logo:hover {
+      border-bottom: none;
+      color: inherit; }
+    .banner a.logo .thin {
+      font-weight: 100; }
 
 .teams .bio li {
   position: relative;
@@ -760,77 +759,85 @@ nav {
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
    ========================================================================== */
-.color-white {
+.bg-white {
   background: white; }
 
-.color-black {
+.bg-black {
   background: black; }
 
-.color-grey {
+.bg-grey {
   background: #454545; }
 
-.color-light-grey {
+.bg-light-grey {
   background: #cccccc; }
 
-.color-primary-red {
+.bg-primary-red {
   background: #74111d; }
 
-.color-primary-green {
+.bg-primary-green {
   background: #21660f; }
 
-.color-primary-blue {
+.bg-primary-blue {
   background: #0b4d42; }
 
-.color-primary-brown {
+.bg-primary-brown {
   background: #793c12; }
 
-.color-secondary-red {
+.bg-secondary-red {
   background: #4c060e; }
 
-.color-secondary-green {
+.bg-secondary-green {
   background: #58b340; }
 
-.color-secondary-blue {
+.bg-secondary-blue {
   background: #3ca694; }
 
-.color-secondary-brown {
+.bg-secondary-brown {
   background: #5b3821; }
 
-.text {
+.text,
+.color-text {
   color: #454545; }
 
-.color-text {
-  background: #454545; }
+.color-primary-red {
+  color: #74111d; }
 
+.color-secondary-red {
+  color: #4c060e; }
+
+.color-primary-green {
+  color: #21660f; }
+
+.color-secondary-green {
+  color: #58b340; }
+
+.color-primary-blue {
+  color: #0b4d42; }
+
+.color-secondary-blue {
+  color: #3ca694; }
+
+.link,
 .color-link {
-  background: #74111d; }
+  color: #74111d; }
 
 .color-error {
-  background: red; }
+  color: red; }
 
 .color-info {
-  background: #3ca694; }
+  color: #3ca694; }
 
 .color-success {
-  background: #58b340; }
+  color: #58b340; }
 
-.link {
-  color: #74111d; }
-
-.text-grey {
+.color-grey {
   color: #454545; }
 
-.text-light-grey {
+.color-light-grey {
   color: #cccccc; }
 
-.text-link {
-  color: #74111d; }
-
-.text-white {
+.color-white {
   color: white; }
-
-.text-info {
-  color: #3ca694; }
 
 .text-muted,
 .muted {

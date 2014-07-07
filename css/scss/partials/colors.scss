@@ -5,102 +5,112 @@
     Colors & Gradients -- Version: 0.4.3 - Compiled: #{timestamp()}
    ========================================================================== */
 
-.color-white {
+.bg-white {
   background: $color-white;
 }
 
-.color-black {
+.bg-black {
   background: $color-black;
 }
 
-.color-grey {
+.bg-grey {
   background: $color-grey;
 }
 
-.color-light-grey {
+.bg-light-grey {
   background: $color-light-grey;
 }
 
-.color-primary-red {
+.bg-primary-red {
   background: $color-primary-red;
 }
 
-.color-primary-green {
+.bg-primary-green {
   background: $color-primary-green;
 }
 
-.color-primary-blue {
+.bg-primary-blue {
   background: $color-primary-blue;
 }
 
-.color-primary-brown {
+.bg-primary-brown {
   background: $color-primary-brown;
 }
 
-.color-secondary-red {
+.bg-secondary-red {
   background: $color-secondary-red;
 }
 
-.color-secondary-green {
+.bg-secondary-green {
   background: $color-secondary-green;
 }
 
-.color-secondary-blue {
+.bg-secondary-blue {
   background: $color-secondary-blue;
 }
 
-.color-secondary-brown {
+.bg-secondary-brown {
   background: $color-secondary-brown;
 }
 
 // Typography Colors
 
-.text {
+.text,
+.color-text {
   color: $text;
 }
 
-.color-text {
-  background: $text;
+.color-primary-red {
+  color: $color-primary-red;
 }
 
+.color-secondary-red {
+  color: $color-secondary-red;
+}
+
+.color-primary-green {
+  color: $color-primary-green;
+}
+
+.color-secondary-green {
+  color: $color-secondary-green;
+}
+
+.color-primary-blue {
+  color: $color-primary-blue;
+}
+
+.color-secondary-blue {
+  color: $color-secondary-blue;
+}
+
+.link,
 .color-link {
-  background: $link;
-}
-
-.color-error {
-  background: $text-error;
-}
-
-.color-info {
-  background: $text-info;
-}
-
-.color-success {
-  background: $text-success;
-}
-
-.link {
   color: $link;
 }
 
-.text-grey {
+.color-error {
+  color: $text-error;
+}
+
+.color-info {
+  color: $text-info;
+}
+
+.color-success {
+  color: $text-success;
+}
+
+.color-grey {
   color: $text-grey;
 }
 
-.text-light-grey {
+.color-light-grey {
   color: $text-light-grey;
 }
 
-.text-link {
-  color: $text-link;
-}
-
-.text-white {
+.color-white {
   color: $text-white;
-}
-
-.text-info {
-  color: $text-info;
 }
 
 .text-muted,

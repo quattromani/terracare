@@ -22,21 +22,18 @@
     }
 
     .banner {
-      background: $color-secondary-green;
-      color: $color-white;
+      background: $color-white;
 
       @include bp(bp-large) {
         @include padding(1em);
       }
 
       a.logo {
+        color: $color-secondary-green;
+
         &:hover {
           border-bottom: none;
           color: inherit;
-        }
-
-        .h3 {
-          color: $color-white;
         }
 
         .thin {

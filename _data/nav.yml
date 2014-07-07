@@ -20,6 +20,9 @@
     - name: "Snow Removal"
       url: "/snow-removal"
       active: "public-services"
+    - name: "Traffic Control"
+      url: "/traffic-control"
+      active: "public-services"
 
 - name: "Private Services"
   url: "/private-services"
