@@ -94,15 +94,24 @@ body.sticky-footer {
   color: #58b340;
   line-height: .75;
 }
+@media (max-width: 40em) {
+  .banner a.logo {
+    width: 100%;
+  }
+}
 .banner a.logo:hover {
   border-bottom: none;
   color: inherit;
 }
 .banner a.logo .light {
-  font-size: 45px;
-  font-size: 4.5rem;
   font-weight: 100;
   letter-spacing: .09em;
+}
+@media (min-width: 62em) {
+  .banner a.logo .light {
+    font-size: 45px;
+    font-size: 4.5rem;
+  }
 }
 
 .teams .bio li {

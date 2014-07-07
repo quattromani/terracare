@@ -31,6 +31,9 @@
       a.logo {
         color: $color-secondary-green;
         line-height: .75;
+        @include bp(bp-small) {
+          width: 100%;
+        }
 
         &:hover {
           border-bottom: none;
@@ -38,7 +41,9 @@
         }
 
         .light {
-          @include font-size(45);
+          @include bp(bp-large) {
+            @include font-size(45);
+          }
           font-weight: 100;
           letter-spacing: .09em;
         }
