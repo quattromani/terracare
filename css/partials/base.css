@@ -145,6 +145,10 @@ footer {
 footer .row {
   vertical-align: middle;
 }
+footer a {
+  color: #454545;
+  font-weight: 200;
+}
 @media (min-width: 62em) {
   footer .social {
     text-align: right;
