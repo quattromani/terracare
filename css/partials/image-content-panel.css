@@ -28,6 +28,9 @@
   background-size: auto;
   background-position: 85% 15%;
 }
+.image-content-panel h1 {
+  color: #cccccc;
+}
 .image-content-panel .disclaimer {
   position: absolute;
   bottom: .5rem;
@@ -66,7 +69,7 @@
   background-color: black;
   background-color: rgba(0, 0, 0, 0.35);
 }
-.image-content-panel .feature h1 {
+.image-content-panel .feature h2 {
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;

@@ -28,6 +28,10 @@
         background-position: 85% 15%;
       }
 
+      h1 {
+        color: $color-light-grey;
+      }
+
       .disclaimer {
         position: absolute;
         bottom: .5rem;
@@ -59,7 +63,7 @@
         @include padding($padding / 2);
         @include rgba($color-black, .35);
 
-        h1 {
+        h2 {
           @include margin;
           color: $color-light-grey;
         }
