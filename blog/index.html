@@ -15,6 +15,13 @@ banner-cta: ""
     <h4>
       <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
     </h4>
+    {% assign author = site.data.authors[post.author] %}
+    {% if author %}
+    <span>
+      Written by <a href="mailto:{{ author.email }}">{{ author.name }}</a>
+    </span>
+    {% endif %}
+    <br>
     {{ post.date | date_to_string }}
     {{ post.content }}
     <hr>

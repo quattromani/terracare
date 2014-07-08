@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Terracare Associates Ty Wilson receives landscape certification highest status"
+date:   2014-05-02 14:07:13
+categories: certification
+author: cristin_tarr
+---
+<img src="{{ site.baseurl }}/images/blog/Ty-Wilson.jpg" alt="Ty Wilson Photo" width="250px" height="250px" style="float:left; border: 5px solid white; margin-right: 10px;">
+
+April 2014 — PLANET, the national landscape industry trade association, announces that Ty Wilson, Branch Manager at Terracare Associates in Elk Grove, CA has earned the Landscape Industry Certified Technician designation and is now nationally certified.  
+The achievement of the Landscape Industry Certified designation demonstrates a distinguished level of professionalism. Certification is voluntary and it represents a professional’s dedication to exhibiting superior knowledge in his or her field.  Only a select few, approximately 1% of landscape professionals working in the United States today, are certified.  
+
+PLANET’s Landscape Industry Certified program, supported and used internationally, offers seven different certifications that include expertise in lawn care, interior plant care, horticulture, landscape care, and business management.  
+
+For more information about Terracare Associates careers visit www.myterracare.com and to learn more about becoming Landscape Industry Certified or hiring a certified professional, visit www.loveyourlandscape.com.  
+
+Terracare Associates is a leading landscape maintenance and public infrastructure management company in the Western United States. Each day, Terracare Associates’ almost 400 employees strive to exceed industry standards and build long term partnerships with our clients to achieve absolute customer confidence.  During all seasons, the company’s certified and experienced employees manage, maintain and improve landscapes, parks, roadways and infrastructures for a beautiful, healthy, safe and sustainable outdoor environment.  
+
+PLANET, the Professional Landcare Network, is the national trade association representing more than 100,000 landscape industry professionals, who create and maintain healthy, green living spaces for communities across America. PLANET members are committed to the highest standards in industry education, best practices, and business professionalism. Many of PLANET’s professionals have attained the status of becoming Landscape Industry Certified, achieving the greatest level of industry expertise and knowledge. Visit PLANET at www.landcarenetwork.org.
+
+[jekyll-gh]: https://github.com/mojombo/jekyll
+[jekyll]:    http://jekyllrb.com
