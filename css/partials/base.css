@@ -97,6 +97,7 @@ body.sticky-footer {
 @media (max-width: 40em) {
   .banner a.logo {
     width: 100%;
+    text-align: center;
   }
 }
 .banner a.logo:hover {
@@ -104,14 +105,10 @@ body.sticky-footer {
   color: inherit;
 }
 .banner a.logo .light {
+  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: 100;
   letter-spacing: .09em;
-}
-@media (min-width: 62em) {
-  .banner a.logo .light {
-    font-size: 45px;
-    font-size: 4.5rem;
-  }
 }
 
 .teams .bio li {

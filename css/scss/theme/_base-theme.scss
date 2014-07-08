@@ -33,6 +33,7 @@
         line-height: .75;
         @include bp(bp-small) {
           width: 100%;
+          text-align: center;
         }
 
         &:hover {
@@ -41,9 +42,7 @@
         }
 
         .light {
-          @include bp(bp-large) {
-            @include font-size(45);
-          }
+          @include font-size(45);
           font-weight: 100;
           letter-spacing: .09em;
         }
