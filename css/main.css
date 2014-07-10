@@ -716,7 +716,7 @@ nav {
             content: '';
             display: block;
             position: absolute;
-            top: 1.75em;
+            top: 100%;
             left: 50%;
             width: 0;
             height: 0;
@@ -1129,7 +1129,7 @@ pre {
   margin-bottom: 0;
   margin-left: 0;
   background-color: whitesmoke;
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   overflow: auto;
@@ -1951,7 +1951,7 @@ samp {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 1px solid #cccccc;
@@ -1960,7 +1960,7 @@ samp {
     margin-bottom: 0; }
 
 .border-radius {
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
 
@@ -2227,7 +2227,7 @@ button,
   padding-right: 1em;
   padding-bottom: 0.375em;
   padding-left: 1em;
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   border: 0;
@@ -2487,6 +2487,38 @@ button,
     text-align: center; } }
 
 /* ==========================================================================
+    Blog -- Version: 0.2.1 - Compiled: timestamp()
+    ========================================================================== */
+.blog .blog-cap {
+  position: relative;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  -webkit-box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
+  box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
+  background-color: white; }
+  .blog .blog-cap:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -.75em;
+    border-color: white transparent transparent transparent;
+    border-style: solid;
+    border-width: .75em;
+    z-index: 99999; }
+.blog .blog-content {
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  background-color: #f9f9f9; }
+
+/* ==========================================================================
     Pills -- Version: 1.9.0.0 - Compiled: timestamp()
    ========================================================================== */
 label + .pill,
@@ -2630,7 +2662,7 @@ label + .pill,
   max-width: 90%;
   margin: auto;
   margin-top: -16em;
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: none repeat scroll 0 0 #fff;
@@ -2653,7 +2685,7 @@ label + .pill,
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border-radius: 3px 3px 0 0;
+  border-radius: 5px 5px 0 0;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #f0f2f5; }
@@ -2675,7 +2707,7 @@ label + .pill,
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 5px 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #f0f2f5; }
@@ -2766,7 +2798,7 @@ select {
   margin-left: 0;
   border: 1px solid #cccccc;
   outline: none;
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   font-weight: 300;
@@ -2931,7 +2963,7 @@ img {
   border: 0; }
 
 .image-rounded {
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
 
@@ -3108,16 +3140,15 @@ td {
     Modules -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
 .box-column {
-  padding: 1em;
   margin-top: 0.5em;
   margin-right: 0;
   margin-bottom: 1em;
   margin-left: 0;
-  background: white;
-  border: 1px solid #cccccc;
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
   overflow: auto; }
 
 hr {
@@ -3171,7 +3202,7 @@ hr {
   padding-bottom: 0.5em;
   padding-left: 1em;
   border: 0;
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: rgba(0, 0, 0, 0.675);
@@ -3200,14 +3231,14 @@ hr {
 .viewport {
   top: 0;
   right: 0;
-  border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
 
 .loadtime {
   bottom: 0;
   left: 0;
-  border-radius: 0 3px 0 0;
+  border-radius: 0 5px 0 0;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
 
@@ -3240,7 +3271,7 @@ hr {
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box; }
   .styleguide .colors.color-white, .styleguide .color-white.grid {
@@ -3249,7 +3280,7 @@ hr {
     .styleguide .colors, .styleguide .grid {
       margin-bottom: 1em; } }
 .styleguide .swatch {
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   overflow: auto; }
@@ -3272,7 +3303,7 @@ hr {
   color: #454545;
   text-align: center; }
 .styleguide .grid {
-  border-radius: 3px;
+  border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #3ca694; }

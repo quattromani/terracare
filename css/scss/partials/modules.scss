@@ -7,11 +7,9 @@
 
     .box-column {
       @extend %clearfix !optional;
-      padding: ($padding);
       @include margin($margin / 2, 0, $margin);
-      background: $site-background;
-      border: 1px solid $color-light-grey;
       @include border-radius;
+      @include box-shadow;
       overflow: auto;
     }
 

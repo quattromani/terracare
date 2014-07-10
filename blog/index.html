@@ -12,20 +12,28 @@ banner-cta: ""
 <div class="row">
   <div class="two-thirds">
     {% for post in site.posts offset: 0 limit: 10 %}
-    <h4>
-      <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
-    </h4>
-    {% assign author = site.data.authors[post.author] %}
-    {% if author %}
-    <span>
-      Written by <a href="mailto:{{ author.email }}">{{ author.name }}{% if author.title %} - {{ author.title }}{% endif %}</a>
-    </span>
-    {% endif %}
-    <br>
-    {{ post.date | date_to_string }}
-    <hr>
-    {{ post.content }}
-    <hr>
+    <div class="box-column">
+      <div class="blog-cap">
+        <h4>
+          <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
+        </h4>
+        {% assign author = site.data.authors[post.author] %}
+        {% if author %}
+        <span>
+          Written by <a href="mailto:{{ author.email }}">{{ author.name }}{% if author.title %} - {{ author.title }}{% endif %}</a>
+        </span>
+        {% endif %}
+        <br>
+
+        <strong>
+          {{ post.date | date_to_string }}
+        </strong>
+      </div>
+
+      <div class="blog-content">
+        {{ post.content }}
+      </div>
+    </div>
     {% endfor %}
   </div>
 
