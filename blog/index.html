@@ -11,7 +11,7 @@ banner-cta: ""
 
 <div class="row">
   <div class="two-thirds">
-    {% for post in site.posts offset: 0 limit: 10 %}
+    {% for post in paginator.posts %}
     <div class="box-column">
       <div class="blog-cap">
         <h4>
@@ -35,6 +35,21 @@ banner-cta: ""
       </div>
     </div>
     {% endfor %}
+
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+      <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+      {% else %}
+      <span class="previous">Previous</span>
+      {% endif %}
+      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+      {% else %}
+      <span class="next ">Next</span>
+      {% endif %}
+    </div>
   </div>
 
   <div class="third">
