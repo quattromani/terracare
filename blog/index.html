@@ -18,7 +18,7 @@ banner-cta: ""
     {% assign author = site.data.authors[post.author] %}
     {% if author %}
     <span>
-      Written by <a href="mailto:{{ author.email }}">{{ author.name }}</a>
+      Written by <a href="mailto:{{ author.email }}">{{ author.name }}{% if author.title %} - {{ author.title }}{% endif %}</a>
     </span>
     {% endif %}
     <br>

@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Terracare Associates Ty Wilson receives landscape certification highest status"
+date:   2014-05-02 14:07:13
+categories: certification
+author: paul_gebinine
+---
+<img src="{{ site.baseurl }}/images/blog/Ty-Wilson.jpg" alt="Ty Wilson Photo" width="250px" height="250px" style="float:left; border: 5px solid white; margin-right: 10px;">
+
+Water Management part 1
+
+
+
+
+Commercial Landscape: 
+Five Steps to Maximize Water Efficiency
+
+Design your Water Management Plan:  It’s Time!
+
+Submitted by Nick Vizcay, Account Manager, Terracare Associates, Martinez
+“Drought” is the scary word for municipalities, property and facility managers especially in the Western United States due to its severity and the multi-year impact on regions. The challenge is to create an aesthetically beautiful landscape, while working with significant water
+
+restrictions.  In 2014, California’s Governor Brown declared a statewide drought emergency asking all Californians to reduce their water use by 20%. Similar drought situations plagued Colorado and Utah in 2002 and 2012.  It does not seem there is an end to water restrictions; water management is the new norm. (See USA Drought Monitor)
+
+Caring and taking action about our individual and collective water use is environmentally responsible, but maximizing water efficiencies can also be a significant savings in water costs.  Landscape professionals need to work closely with property managers to help evaluate, install, monitor and manage their irrigation systems.  Managing expectations and educating property managers and tenants is key when transitioning to a true water management program.  Here are the five steps:
+
+
+      1. Education –Most public and commercial properties can benefit from a variety of water reduction modifications.  Understanding what is optimal for your property takes some commitment to learn about best practices, innovative irrigation tools and accessibility to resources for better water conservation.   Replacing heads and nozzles, utilizing flow sensors and installing smart controllers are a few of many options to review.  Learning and working closely with your irrigation specialist will help you save money and conserve water.  Ask your irrigation specialist about any rebates your county may have.  A great way to start is to participate in water management seminars to contact us to  learn more>>>>.
+
+2. Evaluate and Audit – Start with a bench mark.  Find out the challenges to the current water system, water runoff, leaking pipes, damaged nozzles etc.  Obtaining an irrigation system evaluation and water audit is a critical first step to assess current systems and determine how to improve management of outdoor water systems. 
+
+3. Design – Working in partnership with your irrigation manager is important to build the best and most efficient system.  The design would review and may include budget constraints, scheduling, nozzle conversions, water flow, soil management, plant removal and replacement (i.e. xeriscape), rain sensors and smart controllers.
+
+
+4. Implement- Once the design is complete the fun begins with implementation of the changes and enhancements of the water management project. Implementation can be in phases and is focused on maximizing savings and water efficiencies from day one of installations, repairs and replacements.  The goal is for the capital investment to pay off as early as possible and in some cases cost savings are realized (with rebate programs) within a year.
+
+5. Monitor - Finally, overtime your landscape company continues to view water flow and inspect for leaks and nozzle repair.  In addition it is important to track and measure the effects of your water efficiency updates. Local water districts help to monitor usage and costs.   Questions to ask:  Is less water being consumed each month or year over year? Are the investments in water efficient updates to your property set to pay off, when?  Check out rebate programs, cash for grass and installations incentives at your water districts or cities where you reside.  You may be surprised how lucrative they can be on large properties.
+
+CASE STUDY:
+
+CLIENT:         Silverado Springs HOA
+DATE:            October 2013
+PROJECT:     Remove approx 20,000 sf of turf, Install drought tolerant plants, Convert irrigation to drip, Install bark
+RESULTS:   Saved approx. 256,000 gallons of water YTD
+
+Drought restrictions are serious, but less apparent as we all have easy access to water.  The United Nation 2012 report stated that only 11% of the population has easy access to clean water.  A Water Management Plan is not only necessary, it saves money, water and is responsible.  Start today: It’s Time!
+
+Terracare Associates offers free educational seminars on water management and best practices in irrigation systems.  Interested? Find out more>>>>
+
+[jekyll-gh]: https://github.com/mojombo/jekyll
+[jekyll]:    http://jekyllrb.com
