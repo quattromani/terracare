@@ -35,4 +35,19 @@
           border-bottom: 1px solid $text-white;
         }
       }
+
+      &.blog {
+        width: 50%;
+        @include margin($margin, auto);
+        border: none;
+        text-align: center;
+
+        &:after {
+          content: '\f141';
+          @include font-family($fontawesome);
+          @include font-size(40);
+          color: $color-light-grey;
+       }
+      }
     }
+

@@ -43,3 +43,23 @@ hr.below-desktop {
     border-bottom: 1px solid white;
   }
 }
+hr.blog {
+  width: 50%;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-left: auto;
+  border: none;
+  text-align: center;
+}
+hr.blog:after {
+  content: '\f141';
+  font-family: "FontAwesome", Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-size: 40px;
+  font-size: 4rem;
+  color: #cccccc;
+}
