@@ -4,6 +4,9 @@ markdown: redcarpet
 highlighter: true
 baseurl: /terracare
 
+paginate: 5
+paginate_path: "blog/page:num"
+
 exclude: ['node_modules', 'scss']
 
 sitemap:
