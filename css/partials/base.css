@@ -91,7 +91,7 @@ body.sticky-footer {
   }
 }
 .banner a.logo {
-  color: #58b340;
+  color: #4a7817;
   line-height: .75;
 }
 @media (max-width: 40em) {
@@ -109,6 +109,10 @@ body.sticky-footer {
   font-size: 4.5rem;
   font-weight: 100;
   letter-spacing: .09em;
+}
+.banner a.logo img {
+  float: left;
+  height: 94px;
 }
 
 .teams .bio li {

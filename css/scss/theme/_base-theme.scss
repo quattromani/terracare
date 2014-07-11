@@ -28,8 +28,9 @@
         @include padding(1em);
       }
 
+
       a.logo {
-        color: $color-secondary-green;
+        color: #4a7817;
         line-height: .75;
         @include bp(bp-small) {
           width: 100%;
@@ -45,6 +46,11 @@
           @include font-size(45);
           font-weight: 100;
           letter-spacing: .09em;
+        }
+
+        img {
+          float: left;
+          height: 94px;
         }
       }
     }
