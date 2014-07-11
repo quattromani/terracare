@@ -1,18 +1,16 @@
 ---
 layout: post
-title:  "Terracare Associates Ty Wilson receives landscape certification highest status"
-date:   2014-05-02 14:07:13
-categories: certification
-author: paul_gebinine
+title:  "Service Projects - Earth Day Celebrations"
+date:   2014-05-02 15:07:13
+categories: community investment
+author: cristin_tarr
 ---
-<img src="{{ site.baseurl }}/images/blog/Ty-Wilson.jpg" alt="Ty Wilson Photo" width="250px" height="250px" style="float:left; border: 5px solid white; margin-right: 10px;">
+<img src="{{ site.baseurl }}/images/blog/community_definition.jpg" alt="Community Definition Photo" width="332px" height="80px" style="float:right; border: 5px solid white; margin-right: 10px;">
 
-Service Projects - Earth Day Celebrations
-It’s Your Community!
-Submitted by Cristin Tarr- TerracareAssociates
+####It’s Your Community!
 
 
-Community - what do you think about when you hear this word? Most everyone feels they belong to a community. Simply, it can be the neighborhood where people live. It can also bring one a feeling of being unified with others and working together for a common goal. 
+**Community** - what do you think about when you hear this word? Most everyone feels they belong to a community. Simply, it can be the neighborhood where people live. It can also bring one a feeling of being unified with others and working together for a common goal. 
 
 
 Now let's take it another step and think of a business community. Do you get the same feeling of working together? Businesses are a reflection of their community through their actions. Companies have a role to play in society and collaborating with other business and community partners can make a positive impact on local challenges. Planet, a professional landscape care association, encourages collaborative community projects through their yearly Planet Day of Service. Our company, Terracare Associates, is involved in a big way.
@@ -29,21 +27,21 @@ Terracare Associates President Dean Murphy, sincerely believes in giving back as
 
 So how do we do this? I am glad you asked. Here are some of the projects we worked on in the April’s Earth Day Celebration:
 
-Columbine Memorial, Littleton Colorado
+**Columbine Memorial, Littleton Colorado**
 Several years ago, Dean Murphy’s daughter was playing softball at Clement Park and came up with the idea that her dad’s company should get involved with the Columbine Memorial, the company has been helping ever since. This outdoor memorial was beautifully built in 2007 to commemorate the tragic shooting at Columbine High school. The foundation did not have continuous funding to maintain the perennials, trees, pavers, mulch and mowing. Now with a year round upkeep, both our employees at Terracare Associates, and the community as a whole, benefits from the landscape maintenance. Each year in April, just before the anniversary, our company’s field staff ensures the memorial is a beautiful peaceful place for remembrance.
-
-Elk Grove Community Garden, Elk Grove California
+<hr>
+**Elk Grove Community Garden, Elk Grove California**
 
 The Elk Grove Community Garden and Learning Center provides a place where individuals and families can successfully grow fresh, healthy produce along with a perfect place to meet and learn about gardening. In April , Terracare Associates, assisted with a renovation of the Community Garden, including irrigation upgrades, and retrofitting and plant installation along the perimeter of the garden.
 
-
-Hagemann Farm – Livermore, California
+<hr>
+**Hagemann Farm – Livermore, California**
 Hagemann Farm is the oldest working farm in Northern California. Home to a program for children with walking and other disabilities who work with horses to improve life skills. The City of Livermore (including the Mayor) is heading up this volunteer project. About 100 or so volunteers, and Terracare helped to organize the volunteers into productive groups to accomplish a “clean up” of the farm as well as a landscape enhancement for the entryway.
-
-Riverside Cemetery – Brighton, Colorado
+<hr>
+**Riverside Cemetery – Brighton, Colorado**
 Riverside Cemetery, founded in 1876, is Denver’s oldest operating cemetery and is designated as a national historic district. The cemetery currently faces challenges due to the loss in 2001 of its “handshake agreement” to water rights from the South Platte River. Terracare Associates teamed up with Colorado Association of Lawn Care Professionals (CALCP), to remove dead trees, and aerate, amend, and seed, native grass seeds and plantings over several acres to return the land to its native use while offering a beautiful landscape.
 
-
+<hr class="blog">
 Thanks for letting us share our love of community with you personally. Let us know how your organization is getting involved.  Post on our facebook or comment on this blog.   Let’s all share in the success because ~ It’s our community!
 
 [jekyll-gh]: https://github.com/mojombo/jekyll

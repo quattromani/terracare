@@ -2,7 +2,7 @@
 layout: post
 title:  "Outdoor Pests 1"
 date:   2014-03-20 13:34:13
-categories: certification
+categories: pests, aquatics
 author: paul_gebinine
 ---
 

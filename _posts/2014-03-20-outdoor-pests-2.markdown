@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Terracare Associates Ty Wilson receives landscape certification highest status"
-date:   2014-05-02 14:07:13
-categories: certification
-author: paul_gebinine
+title:  "Outdoor Pests 2"
+date:   2014-03-02 13:34:13
+categories: pests, aquatics
+author: stuart_perry
 ---
 <img src="{{ site.baseurl }}/images/blog/Ty-Wilson.jpg" alt="Ty Wilson Photo" width="250px" height="250px" style="float:left; border: 5px solid white; margin-right: 10px;">
 
