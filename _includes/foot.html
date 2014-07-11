@@ -5,20 +5,44 @@
     <script src="{{ site.baseurl }}/js/global_init.js"></script>
     <script src="{{ site.baseurl }}/js/vendor/respond.min.js"></script>
     <script src="{{ site.baseurl }}/js/build/production.min.js"></script>
-    <script src="{{ site.baseurl }}/owl-carousel/owl.carousel.min.js"></script>
+    <script src="{{ site.baseurl }}/slick/slick.min.js"></script>
 
     <script>
       $(document).ready(function() {
-        $("#carousel").owlCarousel({
-          autoPlay: false,
-          navigation : false,
-          slideSpeed : 1000,
-          paginationSpeed : 1000,
-          items: 3
+        $('.slick-carousel').slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 640,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+          ]
         });
       });
     </script>
 
     {% include google_analytics.html %}
-</body>
-</html>
+  </body>
+  </html>
