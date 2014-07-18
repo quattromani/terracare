@@ -25,11 +25,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 html {
   height: 100%;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-size: 10px;
   color: #454545;
   -ms-text-size-adjust: 100%;
@@ -105,14 +103,21 @@ body.sticky-footer {
   color: inherit;
 }
 .banner a.logo .light {
-  font-size: 45px;
-  font-size: 4.5rem;
   font-weight: 100;
   letter-spacing: .09em;
+  color: #454545;
 }
 .banner a.logo img {
   float: left;
   height: 94px;
+}
+.banner a.light {
+  font-weight: 100;
+  letter-spacing: .09em;
+  color: #454545;
+}
+.banner a.light:hover {
+  color: #58b340;
 }
 
 .teams .bio li {
@@ -229,4 +234,18 @@ footer .fa-twitter-square:hover {
   -moz-box-shadow: inset 0 0 0 2px white;
   box-shadow: inset 0 0 0 2px white;
   color: white;
+}
+
+.leaf-icon {
+  height: 75px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(45), M12=-sin(45), M21=sin(45), M22=cos(45))";
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(45), M12=-sin(45), M21=sin(45), M22=cos(45));
+  zoom: 1;
 }

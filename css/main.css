@@ -24,11 +24,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 html {
   height: 100%;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-size: 10px;
   color: #454545;
   -ms-text-size-adjust: 100%;
@@ -89,13 +87,18 @@ body {
       border-bottom: none;
       color: inherit; }
     .banner a.logo .light {
-      font-size: 45px;
-      font-size: 4.5rem;
       font-weight: 100;
-      letter-spacing: .09em; }
+      letter-spacing: .09em;
+      color: #454545; }
     .banner a.logo img {
       float: left;
       height: 94px; }
+  .banner a.light {
+    font-weight: 100;
+    letter-spacing: .09em;
+    color: #454545; }
+    .banner a.light:hover {
+      color: #58b340; }
 
 .teams .bio li {
   position: relative;
@@ -184,6 +187,19 @@ footer {
       -webkit-box-shadow: inset 0 0 0 2px white;
       box-shadow: inset 0 0 0 2px white;
       color: white; }
+
+.leaf-icon {
+  height: 75px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(45), M12=-sin(45), M21=sin(45), M22=cos(45))";
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(45), M12=-sin(45), M21=sin(45), M22=cos(45));
+  zoom: 1; }
 
 /* Layout */
 /* ==========================================================================
@@ -658,7 +674,9 @@ footer {
     ========================================================================== */
 nav {
   position: relative;
-  background: #0b4d42;
+  margin-bottom: -31px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 9999; }
   nav .container {
     display: table;
@@ -830,7 +848,7 @@ nav {
 
 .link,
 .color-link {
-  color: #74111d; }
+  color: #21660f; }
 
 .color-error {
   color: red; }
@@ -878,29 +896,23 @@ nav {
     Typography -- Version: 1.9.0.1  - Compiled: timestamp()
     ========================================================================== */
 @font-face {
-  font-family: 'SourceSansPro-Bold';
-  src: url("fonts/SourceSansPro-Bold.eot");
-  src: url("fonts/SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/SourceSansPro-Bold.woff") format("woff"), url("fonts/SourceSansPro-Bold.ttf") format("truetype"), url("fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold") format("svg");
+  font-family: 'Gotham Thin';
+  src: url("fonts/gotham-thin-webfont.eot");
+  src: url("fonts/gotham-thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/gotham-thin-webfont.woff") format("woff"), url("fonts/gotham-thin-webfont.ttf") format("truetype"), url("fonts/gotham-thin-webfont.svg#2612f69d108fca39cb109c03ae310193") format("svg");
+  font-style: normal;
+  font-weight: 200; }
+@font-face {
+  font-family: 'Gotham Book';
+  src: url("fonts/gotham-book-webfont.eot");
+  src: url("fonts/gotham-book-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/gotham-book-webfont.woff") format("woff"), url("fonts/gotham-book-webfont.ttf") format("truetype"), url("fonts/gotham-book-webfont.svg#7510147900d23fa3ad697e74bf146ea2") format("svg");
   font-style: normal;
   font-weight: 400; }
 @font-face {
-  font-family: 'SourceSansPro-Semibold';
-  src: url("fonts/SourceSansPro-Semibold.eot");
-  src: url("fonts/SourceSansPro-Semibold.eot?#iefix") format("embedded-opentype"), url("fonts/SourceSansPro-Semibold.woff") format("woff"), url("fonts/SourceSansPro-Semibold.ttf") format("truetype"), url("fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold") format("svg");
+  font-family: 'Gotham Bold';
+  src: url("fonts/gotham-bold-webfont.eot");
+  src: url("fonts/gotham-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/gotham-bold-webfont.woff") format("woff"), url("fonts/gotham-bold-webfont.ttf") format("truetype"), url("fonts/gotham-bold-webfont.svg#6a327a217ddd10461b1acdc4d224fee0") format("svg");
   font-style: normal;
-  font-weight: 400; }
-@font-face {
-  font-family: 'SourceSansPro-Regular';
-  src: url("fonts/SourceSansPro-Regular.eot");
-  src: url("fonts/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/SourceSansPro-Regular.woff") format("woff"), url("fonts/SourceSansPro-Regular.ttf") format("truetype"), url("fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular") format("svg");
-  font-style: normal;
-  font-weight: 400; }
-@font-face {
-  font-family: 'SourceSansPro-Light';
-  src: url("fonts/SourceSansPro-Light.eot");
-  src: url("fonts/SourceSansPro-Light.eot?#iefix") format("embedded-opentype"), url("fonts/SourceSansPro-Light.woff") format("woff"), url("fonts/SourceSansPro-Light.ttf") format("truetype"), url("fonts/SourceSansPro-Light.svg#SourceSansPro-Light") format("svg");
-  font-style: normal;
-  font-weight: 400; }
+  font-weight: 700; }
 @font-face {
   font-family: "FontAwesome";
   src: url("fonts/icons/fontawesome-webfont.eot");
@@ -908,10 +920,10 @@ nav {
   font-weight: normal;
   font-style: normal; }
 .base-font {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 .base-font-alt {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 .arial {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
@@ -952,8 +964,7 @@ a {
   padding-left: 0;
   background: transparent;
   vertical-align: baseline;
-  font-weight: 700;
-  color: #74111d;
+  color: #21660f;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: .2s;
@@ -962,7 +973,7 @@ a {
     border: 0 none;
     text-decoration: none; }
   a:hover {
-    color: #4c060e; }
+    color: #58b340; }
   a[href$='.pdf']:after {
     margin-left: .5em;
     content: '\f1c1';
@@ -973,7 +984,7 @@ a {
    ========================== */
 h1,
 .h1 {
-  font-family: "SourceSansPro-Semibold", Arial, sans-serif;
+  font-family: "Gotham Bold", Arial, sans-serif;
   font-size: 42px;
   font-size: 4.2rem;
   font-weight: 200;
@@ -991,7 +1002,7 @@ h1,
 
 h2,
 .h2 {
-  font-family: "SourceSansPro-Semibold", Arial, sans-serif;
+  font-family: "Gotham Bold", Arial, sans-serif;
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: 200;
@@ -1009,7 +1020,7 @@ h2,
 
 h3,
 .h3 {
-  font-family: "SourceSansPro-Regular", Arial, sans-serif;
+  font-family: "Gotham Book", Arial, sans-serif;
   font-size: 30px;
   font-size: 3rem;
   font-weight: 700;
@@ -1027,21 +1038,21 @@ h3,
 
 h4,
 .h4 {
-  font-family: "SourceSansPro-Regular", Arial, sans-serif;
+  font-family: "Gotham Book", Arial, sans-serif;
   font-size: 24px;
   font-size: 2.4rem;
   font-weight: 200; }
 
 h5,
 .h5 {
-  font-family: "SourceSansPro-Regular", Arial, sans-serif;
+  font-family: "Gotham Book", Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 700; }
 
 h6,
 .h6 {
-  font-family: "SourceSansPro-Regular", Arial, sans-serif;
+  font-family: "Gotham Book", Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   font-weight: 100; }
@@ -1078,7 +1089,7 @@ blockquote {
 
 p,
 .p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   word-wrap: break-word; }
   p:only-child,
   .p:only-child {
@@ -1158,9 +1169,7 @@ samp {
 .fa {
   font-family: "FontAwesome", Arial, Sans-Serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem; }
+  font-weight: normal; }
   .fa-60 {
     font-size: 60px;
     font-size: 6rem; }
@@ -1175,11 +1184,9 @@ samp {
 
 .logo_slash,
 .division {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-weight: 200; }
 
 .division {
@@ -1197,21 +1204,13 @@ samp {
       display: inline-block;
       text-align: center; } }
   .banner .logo .light {
-    font-family: SourceSansPro-Light, Arial, Sans-Serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-size: 50px;
-    font-size: 5rem; }
+    font-family: Gotham Book, Arial, Sans-Serif;
+    font-style: 30;
+    font-weight: normal; }
   .banner .logo .bold {
-    font-family: SourceSansPro-Bold, Arial, Sans-Serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-size: 50px;
-    font-size: 5rem; }
+    font-family: Gotham Bold, Arial, Sans-Serif;
+    font-style: 40;
+    font-weight: normal; }
 
 /* ==========================================================================
     Helpers -- Version: 1.9.0.0 - Compiled: timestamp()
@@ -2237,10 +2236,10 @@ button,
   background: none;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 700;
   text-align: center;
-  color: #74111d;
+  color: #21660f;
   cursor: pointer; }
   .btn:hover,
   .button:hover,
@@ -2542,11 +2541,9 @@ label + .pill,
   background: #454545;
   font-size: 13px;
   font-size: 1.3rem;
-  font-family: "SourceSansPro-Regular", Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "Gotham Book", Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-weight: 700;
   color: white; }
   .pill-white {
@@ -2596,10 +2593,8 @@ label + .pill,
     -ms-flex-align: center;
     align-items: center;
     font-family: "FontAwesome", Arial, Sans-Serif;
-    font-style: normal;
+    font-style: 36;
     font-weight: normal;
-    font-size: 36px;
-    font-size: 3.6rem;
     padding: .25em 1em; }
 
 .message {
@@ -2849,7 +2844,7 @@ input[type="checkbox"], input[type="radio"] {
     box-shadow: none; }
 
 input::-webkit-datetime-edit-fields-wrapper {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 select,
 datalist,
@@ -3186,8 +3181,6 @@ hr {
       font-family: "FontAwesome", Arial, Sans-Serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 16px;
-      font-size: 1.6rem;
       font-size: 40px;
       font-size: 4rem;
       color: #cccccc; }

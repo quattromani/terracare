@@ -43,14 +43,24 @@
         }
 
         .light {
-          @include font-size(45);
           font-weight: 100;
           letter-spacing: .09em;
+          color: $color-grey;
         }
 
         img {
           float: left;
           height: 94px;
+        }
+      }
+
+      a.light {
+        font-weight: 100;
+        letter-spacing: .09em;
+        color: $color-grey;
+
+        &:hover {
+          color: $link-hover;
         }
       }
     }
@@ -154,4 +164,10 @@
           color: $color-white;
         }
       }
+    }
+
+    .leaf-icon {
+      height: 75px;
+      @include margin(0, auto);
+      @include rotate(45);
     }

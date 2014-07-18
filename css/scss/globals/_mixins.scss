@@ -51,11 +51,10 @@
   font-size: $size * 0.1rem;
 }
 
-@mixin font-family($font, $size: $base-font-size, $style: normal, $weight: normal) {
+@mixin font-family($font, $style: normal, $weight: normal) {
   font-family: $font,Arial,Sans-Serif;
   font-style: $style;
   font-weight: $weight;
-  @include font-size($size);
 }
 
 // Column / Grid Control
@@ -226,9 +225,9 @@ $marginless-col-width: $width / $site-column-count;
 
 // Transform
 @mixin rotate($degrees) {
-  -webkit-transform: rotate($degrees);
-     -moz-transform: rotate($degrees);
-       -o-transform: rotate($degrees);
+  -webkit-transform: rotate($degrees + deg);
+  -moz-transform: rotate($degrees + deg);
+  transform: rotate($degrees + deg);
   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
       filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
   zoom: 1;

@@ -23,11 +23,9 @@ label + .pill,
   background: #454545;
   font-size: 13px;
   font-size: 1.3rem;
-  font-family: "SourceSansPro-Regular", Arial, sans-serif, Arial, Sans-Serif;
+  font-family: "Gotham Book", Arial, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  font-size: 1.6rem;
   font-weight: 700;
   color: white;
 }

@@ -6,47 +6,36 @@
     ========================================================================== */
 
     @font-face {
-      font-family: 'SourceSansPro-Bold';
-      src: url('fonts/SourceSansPro-Bold.eot');
-      src: url('fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
-      url('fonts/SourceSansPro-Bold.woff') format('woff'),
-      url('fonts/SourceSansPro-Bold.ttf') format('truetype'),
-      url('fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+      font-family: 'Gotham Thin';
+      src: url('fonts/gotham-thin-webfont.eot');
+      src: url('fonts/gotham-thin-webfont.eot?#iefix') format('embedded-opentype'),
+      url('fonts/gotham-thin-webfont.woff') format('woff'),
+      url('fonts/gotham-thin-webfont.ttf')  format('truetype'),
+      url('fonts/gotham-thin-webfont.svg#2612f69d108fca39cb109c03ae310193') format('svg');
+      font-style: normal;
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: 'Gotham Book';
+      src: url('fonts/gotham-book-webfont.eot');
+      src: url('fonts/gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+      url('fonts/gotham-book-webfont.woff') format('woff'),
+      url('fonts/gotham-book-webfont.ttf')  format('truetype'),
+      url('fonts/gotham-book-webfont.svg#7510147900d23fa3ad697e74bf146ea2') format('svg');
       font-style: normal;
       font-weight: 400;
     }
 
     @font-face {
-      font-family: 'SourceSansPro-Semibold';
-      src: url('fonts/SourceSansPro-Semibold.eot');
-      src: url('fonts/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),
-      url('fonts/SourceSansPro-Semibold.woff') format('woff'),
-      url('fonts/SourceSansPro-Semibold.ttf') format('truetype'),
-      url('fonts/SourceSansPro-Semibold.svg#SourceSansPro-Semibold') format('svg');
+      font-family: 'Gotham Bold';
+      src: url('fonts/gotham-bold-webfont.eot');
+      src: url('fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+      url('fonts/gotham-bold-webfont.woff') format('woff'),
+      url('fonts/gotham-bold-webfont.ttf')  format('truetype'),
+      url('fonts/gotham-bold-webfont.svg#6a327a217ddd10461b1acdc4d224fee0') format('svg');
       font-style: normal;
-      font-weight: 400;
-    }
-
-    @font-face {
-      font-family: 'SourceSansPro-Regular';
-      src: url('fonts/SourceSansPro-Regular.eot');
-      src: url('fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
-      url('fonts/SourceSansPro-Regular.woff') format('woff'),
-      url('fonts/SourceSansPro-Regular.ttf') format('truetype'),
-      url('fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
-      font-style: normal;
-      font-weight: 400;
-    }
-
-    @font-face {
-      font-family: 'SourceSansPro-Light';
-      src: url('fonts/SourceSansPro-Light.eot');
-      src: url('fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
-      url('fonts/SourceSansPro-Light.woff') format('woff'),
-      url('fonts/SourceSansPro-Light.ttf') format('truetype'),
-      url('fonts/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
-      font-style: normal;
-      font-weight: 400;
+      font-weight: 700;
     }
 
     @font-face {
@@ -105,7 +94,6 @@
     @include padding;
     background: transparent;
     vertical-align: baseline;
-    font-weight: 700;
     color: $link;
     text-decoration: none;
     cursor: pointer;
@@ -307,13 +295,11 @@ mark {
         }
 
         .light {
-          @include font-family(SourceSansPro-Light);
-          @include font-size(50);
+          @include font-family(Gotham Book, 30);
         }
 
         .bold {
-          @include font-family(SourceSansPro-Bold);
-          @include font-size(50);
+          @include font-family(Gotham Bold, 40);
         }
       }
     }

@@ -6,7 +6,9 @@
     ========================================================================== */
 nav {
   position: relative;
-  background: #0b4d42;
+  margin-bottom: -31px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 9999;
 }
 nav .container {

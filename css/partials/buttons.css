@@ -27,10 +27,10 @@ button,
   background: none;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 700;
   text-align: center;
-  color: #74111d;
+  color: #21660f;
   cursor: pointer;
 }
 .btn:hover,
