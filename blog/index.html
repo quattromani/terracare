@@ -31,7 +31,7 @@ banner-cta: ""
       </div>
 
       <div class="blog-content">
-        {{ post.content }}
+        {{ post.content | truncatewords: 50 }}
       </div>
     </div>
     {% endfor %}
