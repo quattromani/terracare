@@ -1,0 +1,34 @@
+# Be sure to follow this structure:
+# state:
+#   -title: Job title
+
+banner:
+  - img: 'at&t.jpg'
+    alt: 'AT&amp;T Corporate Complex - Commercial Landscape'
+    title: COMMERCIAL LANDSCAPE
+    text: Absolute customer confidence everyday
+    location: AT&amp;T Corporate Complex, California
+
+  - img: 'arapahoe_road.jpg'
+    alt: 'Arapahoe Road - Public Infrastructure'
+    title: PUBLIC INFRASTRUCTURE
+    text: Absolute customer confidence everyday
+    location: AT&amp;T Corporate Complex, California
+
+  - img: 'Victoria_by_the_Bay.jpg'
+    alt: 'Victoria by the Bay, California - Public Landscape'
+    title: PUBLIC LANDSCAPE
+    text: Absolute customer confidence everyday
+    location: AT&amp;T Corporate Complex, California
+
+  - img: 'TMA_with_bee.jpg'
+    alt: 'Transportation Management Association - Responsibility'
+    title: RESPONSIBILITY
+    text: Absolute customer confidence everyday
+    location: AT&amp;T Corporate Complex, California
+
+  - img: 'snow_removal.jpg'
+    alt: 'Snow Plows - Snow Removal'
+    title: SNOW REMOVAL
+    text: Absolute customer confidence everyday
+    location: AT&amp;T Corporate Complex, California
