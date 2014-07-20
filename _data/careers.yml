@@ -1,0 +1,23 @@
+# Be sure to follow this structure:
+# state:
+#   -title: Job title
+
+california:
+  - title: Landscape Enhancement Manager (Sacramento)
+  - title: Commercial Sales representative (Sacramento)
+
+colorado:
+  - title: Concrete Foreman
+  - title: Estimator
+  - title: Irrigation Technicians
+  - title: Landscape Maintenance Crew Members
+  - title: Enhancement and Flower Crew Members
+  - title: Right of Way and Road Maintenance Crew Members
+  - title: Diesel Mechanic
+  - title: CDL Drivers
+
+utah:
+  - title: Certified Traffic Control Technician
+  - title: Right of Way and Road Maintenance Crew Members
+  - title: Concrete Worker
+  - title: CDL Drivers

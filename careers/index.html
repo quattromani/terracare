@@ -18,35 +18,35 @@ banner-cta: ""
 <div class="row">
   <div class="half">
     <h3>Current Opportunities</h3>
-
     <h4>California</h4>
     <ul class="bulleted">
-      <li>Landscape Enhancement Manager (Sacramento)</li>
-      <li>Commercial Sales representative (Sacramento)</li>
+      {% for item in site.data.careers.california %}
+      <li>
+        {{ item.title }}
+      </li>
+      {% endfor %}
     </ul>
 
     <hr>
 
     <h4>Colorado</h4>
     <ul class="bulleted">
-      <li>Concrete Foreman</li>
-      <li>Estimator</li>
-      <li>Irrigation Technicians</li>
-      <li>Landscape Maintenance Crew Members</li>
-      <li>Enhancement and Flower Crew Members</li>
-      <li>Right of Way and Road Maintenance Crew Members</li>
-      <li>Diesel Mechanic</li>
-      <li>CDL Drivers</li>
+      {% for item in site.data.careers.colorado %}
+      <li>
+        {{ item.title }}
+      </li>
+      {% endfor %}
     </ul>
 
     <hr>
 
     <h4>Utah</h4>
     <ul class="bulleted">
-      <li>Certified Traffic Control Technician</li>
-      <li>Right of Way and Road Maintenance Crew Members</li>
-      <li>Concrete Worker</li>
-      <li>CDL Drivers</li>
+      {% for item in site.data.careers.utah %}
+      <li>
+        {{ item.title }}
+      </li>
+      {% endfor %}
     </ul>
   </div>
 
