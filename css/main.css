@@ -208,11 +208,8 @@ footer {
   .image-content-panel img {
     width: 100%; }
 
-.callout-box {
-  background: white;
-  padding: .5em;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15); }
+.excitement {
+  position: relative; }
 
 /* Layout */
 /* ==========================================================================
@@ -228,6 +225,7 @@ footer {
   z-index: 0; }
 
 .container {
+  position: relative;
   display: block;
   max-width: 1024px;
   margin-top: 0;
@@ -2722,6 +2720,23 @@ label + .pill,
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #f0f2f5; }
+
+/* ==========================================================================
+    Call-Outs -- Version: 0.2.1 - Compiled: timestamp()
+    ========================================================================== */
+.callouts {
+  position: absolute;
+  bottom: 0; }
+  .callouts .callout {
+    background: white;
+    padding: .5em;
+    border-radius: 0;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.15); }
+    .callouts .callout-message {
+      display: none; }
 
 /* ==========================================================================
     Sticky -- Version: 0.2.1

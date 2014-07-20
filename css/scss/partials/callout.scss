@@ -1,0 +1,26 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    Call-Outs -- Version: 0.2.1 - Compiled: #{timestamp()}
+    ========================================================================== */
+
+    .callouts {
+      position: absolute;
+      bottom: 0;
+
+      .callout {
+        background: $color-white;
+        padding: .5em;
+        @include border-radius(0);
+        @include box-shadow;
+
+        &-message {
+          display: none;
+        }
+
+        &-box {
+
+        }
+      }
+    }

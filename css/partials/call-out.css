@@ -1,0 +1,10 @@
+/* ==========================================================================
+    Call-Outs -- Version: 0.2.1 - Compiled: timestamp()
+    ========================================================================== */
+.callout .box {
+  background: white;
+  padding: .5em;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+}

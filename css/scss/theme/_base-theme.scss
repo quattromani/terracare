@@ -182,8 +182,6 @@
   }
 }
 
-.callout-box {
-  background: $color-white;
-  padding: .5em;
-  @include box-shadow;
+.excitement {
+  position: relative;
 }
