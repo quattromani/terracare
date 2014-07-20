@@ -171,3 +171,19 @@
       @include margin(0, auto);
       @include rotate(45);
     }
+
+.image-content-panel {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+
+.callout-box {
+  background: $color-white;
+  padding: .5em;
+  @include box-shadow;
+}

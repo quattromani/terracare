@@ -8,7 +8,6 @@
     .image-content-panel {
       position: relative;
       @include margin;
-      @include padding(2em, 4em);
       color: $text-white;
 
       &:after {
@@ -29,6 +28,7 @@
       }
 
       h1 {
+        @include margin;
         color: $color-light-grey;
       }
 
@@ -57,7 +57,7 @@
 
       .feature  {
         position: absolute;
-        bottom: 0;
+        bottom: 4em;
         left: 0;
         width: 100%;
         @include padding($padding / 2);

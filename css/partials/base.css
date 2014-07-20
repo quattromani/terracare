@@ -249,3 +249,20 @@ footer .fa-twitter-square:hover {
   filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(45), M12=-sin(45), M21=sin(45), M22=cos(45));
   zoom: 1;
 }
+
+.image-content-panel {
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+}
+.image-content-panel img {
+  width: 100%;
+}
+
+.callout-box {
+  background: white;
+  padding: .5em;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+}
