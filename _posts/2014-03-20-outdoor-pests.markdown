@@ -2,7 +2,9 @@
 layout: post
 title:  "Outdoor Pests 1"
 date:   2014-03-20 13:33:13
-categories: pests, aquatics
+categories: 
+    - pests 
+    - aquatics
 author: paul_gebinine
 ---
 

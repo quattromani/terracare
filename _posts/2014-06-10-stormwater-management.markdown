@@ -3,7 +3,8 @@ layout: post
 title:  "Stormwater Management"
 sub-title: "It’s our responsibility and more…"
 date:   2014-06-10 14:50:13
-categories: water management
+categories: 
+    - water
 author: cristin_tarr
 ---
 
