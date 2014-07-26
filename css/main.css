@@ -945,7 +945,9 @@ nav {
 /* ==========================
 	  Body Text
    ========================== */
-.lede {
+.lede,
+p:first-of-type {
+  margin-bottom: 1em;
   font-size: 22px;
   font-size: 2.2rem; }
 
