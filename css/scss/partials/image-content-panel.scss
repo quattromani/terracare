@@ -7,6 +7,7 @@
 
     .image-content-panel {
       position: relative;
+      height: 550px;
       @include margin;
       color: $text-white;
 
@@ -23,8 +24,8 @@
       }
 
       img {
-        background-size: auto;
-        background-position: center bottom;
+        background-size: cover;
+        background-position: bottom;
       }
 
       h1 {

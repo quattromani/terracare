@@ -3,6 +3,7 @@
     ========================================================================== */
 .image-content-panel {
   position: relative;
+  height: 550px;
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -21,8 +22,8 @@
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
 }
 .image-content-panel img {
-  background-size: auto;
-  background-position: center bottom;
+  background-size: cover;
+  background-position: bottom;
 }
 .image-content-panel h1 {
   margin-top: 0;
