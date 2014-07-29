@@ -22,7 +22,6 @@
   box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
 }
 .image-content-panel img {
-  width: 100%;
   background-size: cover;
   background-position: bottom;
 }
