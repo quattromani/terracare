@@ -48,9 +48,11 @@
 /* ==========================
 	  Body Text
    ========================== */
-.lede,
-p:first-of-type {
+.lede {
   margin-bottom: 1em;
+  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 22px;
   font-size: 2.2rem;
 }
