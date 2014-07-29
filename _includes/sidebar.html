@@ -1,4 +1,4 @@
-<h2>{{ page.parent }}</h2>
+<h2>{% if page.sidebar != null %}{{ page.sidebar }}{% else %}{{ page.parent }}{% endif %}</h2>
 
 <ul class="vertical lined">
   {% for nav in site.data.nav %}
