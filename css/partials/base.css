@@ -253,3 +253,13 @@ footer .fa-twitter-square:hover {
 .excitement {
   position: relative;
 }
+
+.project-gallery img {
+  width: 100%;
+  height: 175px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  background-size: 100% auto;
+}

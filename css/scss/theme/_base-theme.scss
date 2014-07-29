@@ -175,3 +175,12 @@
 .excitement {
   position: relative;
 }
+
+.project-gallery {
+  img {
+    width: 100%;
+    height: 175px;
+    @include margin;
+    background-size: 100% auto;
+  }
+}
