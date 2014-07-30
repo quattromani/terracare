@@ -2745,6 +2745,8 @@ label + .pill,
 .callouts {
   position: absolute;
   bottom: 0; }
+  .callouts a {
+    color: #454545; }
   .callouts .callout {
     background: white;
     padding: .5em;

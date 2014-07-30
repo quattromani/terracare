@@ -9,6 +9,10 @@
       position: absolute;
       bottom: 0;
 
+      a {
+        color: $text;
+      }
+
       .callout {
         background: $color-white;
         padding: .5em;
@@ -17,10 +21,6 @@
 
         &-message {
           display: none;
-        }
-
-        &-box {
-
         }
       }
     }

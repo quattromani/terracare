@@ -4,9 +4,14 @@
 
     (function($) {
       $.fn.callOutBox = function() {
-      	$('.callout').hover(function() {
-      		$(this).find('.callout-message').toggle();
-      	});
+        if($(window).width() >= mediumBreakPoint){
+        	$('.callout').hover(function(){
+            $('.callout-message').slideDown('fast');
+          },
+          function(){
+            $('.callout-message').slideUp();
+          });
+        }
       }
 
     }(jQuery));
