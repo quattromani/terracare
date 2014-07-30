@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Stormwater Management"
-sub-title: "It’s our responsibility and more…"
+title:  "Stormwater Management: It’s our responsibility and more…"
 date:   2014-06-10 14:50:13
 categories: 
     - water
@@ -11,12 +10,12 @@ author: cristin_tarr
 <img src="{{ site.baseurl }}/images/blog/Water_to_drain.jpg" alt="Water to Drain Photo" width="412px" height="272px" style="float:left; border: 5px solid white; margin-right: 10px;">
 
 #####Why should we care about stormwater management?  
-Originally, stormwater management involved primarily quantity of flow and now equally important is quality of water runoff.  Since 1970’s, the EPA (Environmental Protection Agency) is responsible for managing runoffs in the United States. The EPA utilize computerized mapping and models to best manage water runoff, erosion and pollution problems resulting from weather or other fresh water flow. Because of these regulations, municipalities, counties and the private sector strive to achieve compliance and more.  Many local districts and even the Department of Health are involved in monitoring stormwater runoff. Nick Madrid, Field Manager of public infrastructure division at Terracare Associates, a leading outdoor maintenance company says “Everything we do each day we consider stormwater management.  From our maintenance bays to washing equipment, to road repairs, we evaluate the effects on the environment.”  As a property manager or city public works department it’s important to understand how to integrate stormwater management into your ongoing maintenance strategy to achieve the highest level of public safety.
+Originally, stormwater management involved primarily_quantity_ of flow and now equally important is _quality_ of water runoff.  Since 1970’s, the EPA (Environmental Protection Agency) is responsible for managing runoffs in the United States. The EPA utilize computerized mapping and models to best manage water runoff, erosion and pollution problems resulting from weather or other fresh water flow. Because of these regulations, municipalities, counties and the private sector strive to achieve compliance and more.  Many local districts and even the Department of Health are involved in monitoring stormwater runoff. Nick Madrid, Field Manager of public infrastructure division at Terracare Associates, a leading outdoor maintenance company says “Everything we do each day we consider stormwater management.  From our maintenance bays to washing equipment, to road repairs, we evaluate the effects on the environment.”  As a property manager or city public works department it’s important to understand how to integrate stormwater management into your ongoing maintenance strategy to achieve the highest level of public safety.
 
 <br>
 
-<img src="{{ site.baseurl }}/images/blog/Water_droplets_on_truck.jpg" alt="Water droplets on truck Photo" style="float:right; border: 5px solid white; margin-right: 10px;">
 #####What is storm water management?
+<img src="{{ site.baseurl }}/images/blog/Water_droplets_on_truck.jpg" alt="Water droplets on truck Photo" width="320px" height="180px" style="float:right; border: 5px solid white; margin-right: 10px;">
 Traditionally, storm management is focused on collection of storm water through pipes and drainage transporting water runoff as quickly as possible to stream, creeks, rivers and sometimes sewer system.  However, storm water management includes anytime water flows at facilities, on roads, off of properties into water systems.  Erosion, debris, chemicals, sediment, salt and sand run off are all part of managing water flows that must be filtered before entering sewers or other fresh water sources.  
 
 <br>
@@ -32,12 +31,12 @@ To be EPA compliant it is recommended to follow stormwater Best Management Pract
 
 **To best maintain water runoff, there are several factors to consider:**
 
-<img src="{{ site.baseurl }}/images/blog/stormwater_managment.jpg" alt="Water to Drain Photo" style="float:right; border: 5px solid white; margin-right: 10px;">
+<img src="{{ site.baseurl }}/images/blog/stormwater_managment.jpg" alt="Water to Drain Photo" style="float:right; border: 5px solid white; margin-left: 10px;">
 
-1. Water flow Rate: Anytime water is disrupted from natural flow BMP’s are considered. Higher peak flow rates can result in erosion and more contaminates enter the water stream.   A higher peak flow rate requires more significant storm pipes and drains and continued maintenance.
-2. Water Quality: “What goes in must come out”, this cliché is very appropriate for proper stormwater management.   Poor management of runoff with sediments, chemicals and silt could result in increased contamination and pollution in our waters, impacting fish and wildlife. 
-3. Storm Water Volume: A larger volume means greater destruction and erosion of creek beds leading to bank instability, increase sediment deposition in the lower reaches, and loss of habitat.
-4. Ground water: If groundwater is not allowed to recharge, base flows are reduced leading to longer, drier durations in ditches and streams.
+1. **Water flow Rate:** Anytime water is disrupted from natural flow BMP’s are considered. Higher peak flow rates can result in erosion and more contaminates enter the water stream.   A higher peak flow rate requires more significant storm pipes and drains and continued maintenance.
+2. **Water Quality:** “What goes in must come out”, this cliché is very appropriate for proper stormwater management.   Poor management of runoff with sediments, chemicals and silt could result in increased contamination and pollution in our waters, impacting fish and wildlife. 
+3. **Storm Water Volume:** A larger volume means greater destruction and erosion of creek beds leading to bank instability, increase sediment deposition in the lower reaches, and loss of habitat.
+4. **Ground water:** If groundwater is not allowed to recharge, base flows are reduced leading to longer, drier durations in ditches and streams.
 
 <hr class="blog">
 
@@ -47,18 +46,21 @@ Educating the public and training employees is critically important.  Maintainin
 <br>
 
 #####Typical Best Management Practices (BMPs) may include:
-Equipment maintenance activities should be performed inside when possible.
-Spills should be cleaned up immediately & without water whenever possible
-Floor drains should be sealed and separators installed
-Increasing topsoil and enhancement to slopes, rocks and inclines near roadways
-Infiltration trenches and storm gates
-Storm drains cleaned and maintained
-Pipes, curbs and gutters minimize cracks and other damages
-Detention ponds
-Ditches and Creeks creating easy flow for runoff and less erosion
+- Equipment maintenance activities should be performed inside when possible.
+- Spills should be cleaned up immediately & without water whenever possible
+- Floor drains should be sealed and separators installed
+- Increasing topsoil and enhancement to slopes, rocks and inclines near roadways
+- Infiltration trenches and storm gates
+- Storm drains cleaned and maintained
+- Pipes, curbs and gutters minimize cracks and other damages
+- Detention ponds
+- Ditches and Creeks creating easy flow for runoff and less erosion
+
+<br>
+
 Safety is the number one concern of storm management practices. The importance of storm water management in the reduction of flooding and contaminates getting into the water system cannot be overemphasized.   Hayes says; “This is the way we do business, it goes beyond regulations.  Public safety and protecting our environment is what we believe and the way we conduct business every day at Terracare Associates”.
 <hr class="blog">
-Terracare Associates public works division offer a wide variety of public works management services such as right-of-way mowing, all-inclusive roadway and roadside management packages as well as snow removal on a citywide scale. Find out more contact us
+Terracare Associates public works division offer a wide variety of public works management services such as right-of-way mowing, all-inclusive roadway and roadside management packages as well as snow removal on a citywide scale. [Find Out More](http://terracareassociates.com/contact-us/ "Find Out More")
 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
