@@ -809,6 +809,9 @@ nav {
       background: #3ca694; }
     nav input[type=checkbox]:checked ~ .navigation > li.js-last {
       margin-bottom: .5em; }
+  @media (max-width: 62em) {
+    nav {
+      margin-bottom: -38px; } }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
@@ -848,6 +851,12 @@ nav {
 
 .bg-secondary-brown {
   background: #5b3821; }
+
+.bg-primary-yellow {
+  background: #ffda21; }
+
+.bg-secondary-yellow {
+  background: #ffda21; }
 
 .text,
 .color-text {
@@ -2241,7 +2250,7 @@ dd {
 
 /* ==========================================================================
     Buttons -- Version: 0.4.2 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 .btn,
 .button,
 button,
@@ -2274,12 +2283,12 @@ button,
   .button:hover,
   button:hover,
   .cta:hover {
-    background: #e5e5e5; }
+    background-color: #e5e5e5; }
   .btn:focus,
   .button:focus,
   button:focus,
   .cta:focus {
-    background: #bfbfbf;
+    background-color: #bfbfbf;
     background-image: 0;
     outline: none; }
   .btn.btn-primary, .btn.button-primary,
@@ -2289,7 +2298,7 @@ button,
   button.button-primary,
   .cta.btn-primary,
   .cta.button-primary {
-    background: #58b340;
+    background-color: #58b340;
     color: white; }
     .btn.btn-primary:hover, .btn.button-primary:hover,
     .button.btn-primary:hover,
@@ -2298,51 +2307,51 @@ button,
     button.button-primary:hover,
     .cta.btn-primary:hover,
     .cta.button-primary:hover {
-      background: #21660f; }
+      background-color: #21660f; }
   .btn.btn-error,
   .button.btn-error,
   button.btn-error,
   .cta.btn-error {
-    background: #74111d;
+    background-color: #74111d;
     color: white; }
     .btn.btn-error:hover,
     .button.btn-error:hover,
     button.btn-error:hover,
     .cta.btn-error:hover {
-      background: #df253c; }
+      background-color: #df253c; }
   .btn.btn-success,
   .button.btn-success,
   button.btn-success,
   .cta.btn-success {
-    background: #58b340;
+    background-color: #58b340;
     color: white; }
     .btn.btn-success:hover,
     .button.btn-success:hover,
     button.btn-success:hover,
     .cta.btn-success:hover {
-      background: #21660f; }
+      background-color: #21660f; }
   .btn.btn-info,
   .button.btn-info,
   button.btn-info,
   .cta.btn-info {
-    background: #0b4d42;
+    background-color: #0b4d42;
     color: white; }
     .btn.btn-info:hover,
     .button.btn-info:hover,
     button.btn-info:hover,
     .cta.btn-info:hover {
-      background: #18a68e; }
+      background-color: #18a68e; }
   .btn.btn-black,
   .button.btn-black,
   button.btn-black,
   .cta.btn-black {
-    background: black;
+    background-color: black;
     color: white; }
     .btn.btn-black:hover,
     .button.btn-black:hover,
     button.btn-black:hover,
     .cta.btn-black:hover {
-      background: #454545; }
+      background-color: #454545; }
   .btn:disabled, .btn.js-disabled, .btn.disabled,
   .button:disabled,
   .button.js-disabled,
@@ -2354,7 +2363,7 @@ button,
   .cta.js-disabled,
   .cta.disabled {
     cursor: default;
-    background: #cccccc;
+    background-color: #cccccc;
     color: #454545; }
     .btn:disabled:hover, .btn:disabled:active, .btn.js-disabled:hover, .btn.js-disabled:active, .btn.disabled:hover, .btn.disabled:active,
     .button:disabled:hover,
@@ -2375,7 +2384,7 @@ button,
     .cta.js-disabled:active,
     .cta.disabled:hover,
     .cta.disabled:active {
-      background: #cccccc;
+      background-color: #cccccc;
       color: #454545; }
   .btn.block,
   .button.block,
@@ -2421,40 +2430,40 @@ button,
       button.mobile-full a,
       .cta.mobile-full a {
         display: block;
-        text-align: center; }
-      .btn.mobile-full + .btn.mobile-full,
-      .button.mobile-full + .btn.mobile-full,
-      button.mobile-full + .btn.mobile-full,
-      .cta.mobile-full + .btn.mobile-full, .btn.mobile-full +
-      .button.mobile-full,
-      .button.mobile-full +
-      .button.mobile-full,
-      button.mobile-full +
-      .button.mobile-full,
-      .cta.mobile-full +
-      .button.mobile-full, .btn.mobile-full +
-      button.mobile-full,
-      .button.mobile-full +
-      button.mobile-full,
-      button.mobile-full +
-      button.mobile-full,
-      .cta.mobile-full +
-      button.mobile-full, .btn.mobile-full +
-      .cta.mobile-full,
-      .button.mobile-full +
-      .cta.mobile-full,
-      button.mobile-full +
-      .cta.mobile-full,
-      .cta.mobile-full +
-      .cta.mobile-full {
-        margin-top: 0.5em; } }
+        text-align: center; } }
+  .btn + .btn,
+  .button + .btn,
+  button + .btn,
+  .cta + .btn, .btn +
+  .button,
+  .button +
+  .button,
+  button +
+  .button,
+  .cta +
+  .button, .btn +
+  button,
+  .button +
+  button,
+  button +
+  button,
+  .cta +
+  button, .btn +
+  .cta,
+  .button +
+  .cta,
+  button +
+  .cta,
+  .cta +
+  .cta {
+    margin-top: 1em; }
 
 .cta {
   -webkit-box-shadow: inset 0 0 0 2px #0b4d42;
   box-shadow: inset 0 0 0 2px #0b4d42;
   color: #0b4d42; }
   .cta:hover {
-    background: none;
+    background-color: none;
     -webkit-box-shadow: inset 0 0 0 2px #117a68;
     box-shadow: inset 0 0 0 2px #117a68;
     color: #117a68; }
@@ -2469,6 +2478,21 @@ button,
   display: inline-block;
   -webkit-animation: rotation 1.5s infinite linear;
   animation: rotation 1.5s infinite linear; }
+
+.cta-container {
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  border-bottom: 1px solid #cccccc;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: auto; }
+  .cta-container a.btn.btn-primary {
+    background-color: #ffda21;
+    color: #454545; }
+    .cta-container a.btn.btn-primary:hover {
+      background-color: #edc500; }
 
 /* Firefox */
 @-moz-document url-prefix() {
@@ -3096,6 +3120,7 @@ img {
       left: 0 !important; } }
   @media (max-width: 40em) {
     .image-content-panel {
+      height: 300px;
       padding-top: 0.5em;
       padding-right: 0.5em;
       padding-bottom: 0.5em;
@@ -3131,6 +3156,9 @@ img {
         -webkit-box-shadow: inset 0 0 0 2px white;
         box-shadow: inset 0 0 0 2px white;
         color: white; }
+    @media (max-width: 40em) {
+      .image-content-panel .feature {
+        bottom: 0; } }
 
 .image-banner {
   position: relative;

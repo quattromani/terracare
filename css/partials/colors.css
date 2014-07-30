@@ -49,6 +49,14 @@
   background: #5b3821;
 }
 
+.bg-primary-yellow {
+  background: #ffda21;
+}
+
+.bg-secondary-yellow {
+  background: #ffda21;
+}
+
 .text,
 .color-text {
   color: #454545;

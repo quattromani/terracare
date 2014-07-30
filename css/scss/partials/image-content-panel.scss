@@ -53,6 +53,7 @@
       }
 
       @include bp(bp-small) {
+        height: 300px;
         @include padding(.5em);
       }
 
@@ -82,6 +83,10 @@
             @include box-shadow(inset 0 0 0 2px $color-white);
             color: $color-white;
           }
+        }
+
+        @include bp(bp-small) {
+          bottom: 0;
         }
       }
     }

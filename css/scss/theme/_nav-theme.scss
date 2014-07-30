@@ -150,4 +150,8 @@
           margin-bottom: .5em;
         }
       }
+
+      @include bp(bp-medium) {
+        margin-bottom: -38px;
+      }
     }
