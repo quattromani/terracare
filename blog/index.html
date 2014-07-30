@@ -16,7 +16,7 @@ banner-cta: ""
     <div class="box-column">
       <div class="blog-cap">
         <h4>
-          <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}<br>{{ post.sub-title }}</a>
+          <a href="{{ site.baseurl }}{{ site.prefix }}{{ post.url }}">{{ post.title }}<br>{{ post.sub-title }}</a>
         </h4>
         {% assign author = site.data.authors[post.author] %}
         {% if author %}
