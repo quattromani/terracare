@@ -5,9 +5,15 @@
 banner:
   - img: 'at&t.jpg'
     alt: 'AT&amp;T Corporate Complex - Commercial Landscape'
-    title: COMMERCIAL LANDSCAPE
-    text: Absolute customer confidence everyday
+    title: LEADERS IN OUTDOOR MAINTENANCE
+    text: Timely performance with technical competence
     location: 'AT&amp;T Corporate Complex, California'
+
+  - img: 'native_mowing.JPG'
+    alt: 'AT&amp;T Corporate Complex - Commercial Landscape'
+    title: COMMERICAL LANDSCAPE MANAGEMENT
+    text: Absolute customer confidence
+    location: ''
 
   - img: 'arapahoe_road.jpg'
     alt: 'Arapahoe Road - Public Infrastructure'
@@ -31,4 +37,4 @@ banner:
     alt: 'Snow Plows - Snow Removal'
     title: SNOW REMOVAL
     text: Managing through empowering teams
-    location: 'Denver Tech Center, Colorado'
+    location: 'Cottonwood Heights, Utah'
