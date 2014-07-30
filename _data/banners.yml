@@ -10,8 +10,8 @@ banner:
     location: 'AT&amp;T Corporate Complex, California'
 
   - img: 'native_mowing.JPG'
-    alt: 'AT&amp;T Corporate Complex - Commercial Landscape'
-    title: COMMERICAL LANDSCAPE MANAGEMENT
+    alt: 'Native mowing operations'
+    title: COMMERCIAL LANDSCAPE MANAGEMENT
     text: Absolute customer confidence
     location: ''
 
@@ -30,8 +30,8 @@ banner:
   - img: 'TMA_with_bee.jpg'
     alt: 'Transportation Management Association - Responsibility'
     title: RESPONSIBILITY
-    text:  Investing in safety, environment &  our community
-    location: 'Transportation Management Association'
+    text:  'Investing in safety, environment &  our community'
+    location: 'Transportation Management Association, I25 Urban Corridor, Colorado'
 
   - img: 'snow_removal.JPG'
     alt: 'Snow Plows - Snow Removal'
