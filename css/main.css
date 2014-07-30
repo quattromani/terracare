@@ -2755,8 +2755,6 @@ label + .pill,
     background-clip: padding-box;
     -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.15); }
-    .callouts .callout-message {
-      display: none; }
 
 /* ==========================================================================
     Sticky -- Version: 0.2.1
