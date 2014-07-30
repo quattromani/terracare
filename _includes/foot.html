@@ -8,13 +8,21 @@
 
     <script>
       $(document).ready(function() {
-        $('.slider').slick({
+        $('.main-carousel').slick({
           autoplay: true,
           dots: true,
           arrows: false,
           infinite: true,
           speed: 500,
           fade: true
+        });
+
+        $('.project-carousel').slick({
+          autoplay: true,
+          arrows: false,
+          infinite: true,
+          autoplaySpeed: 5000,
+          speed: 1000
         });
       });
     </script>

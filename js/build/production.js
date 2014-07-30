@@ -106,7 +106,7 @@ $('.progress').progressButton();
             $('.callout-message').slideDown('fast');
           },
           function(){
-            $('.callout-message').slideUp();
+            $('.callout-message').slideUp('slow');
           });
         }
       }
