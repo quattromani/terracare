@@ -192,6 +192,9 @@ footer .fa-facebook-square:hover {
 footer .fa-twitter-square:hover {
   color: #1c96db;
 }
+footer .fa-envelope-square:hover {
+  color: #454545;
+}
 @media (max-width: 62em) {
   footer {
     text-align: center;

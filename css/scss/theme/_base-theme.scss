@@ -134,6 +134,10 @@
         color: #1c96db;
       }
 
+      .fa-envelope-square:hover {
+        color: $text;
+      }
+
       @include bp(bp-medium) {
         text-align: center;
       }
