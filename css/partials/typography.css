@@ -235,6 +235,10 @@ blockquote {
 
 p,
 .p {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0.5em;
+  margin-left: 0;
   font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   word-wrap: break-word;
 }
@@ -255,12 +259,12 @@ p:only-child,
 }
 
 blockquote {
-  width: 75%;
-  margin-top: 0;
-  margin-right: auto;
-  margin-bottom: 0;
-  margin-left: auto;
-  border-left: 3px solid #454545;
+  width: calc(100% - 4em);
+  margin-top: 1em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  border-left: 3px solid #cccccc;
   color: #454545;
   font-style: italic;
   padding-left: 1em;

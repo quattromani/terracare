@@ -69,7 +69,7 @@
 	  Body Text
    ========================== */
 
-   .lede {
+  .lede {
     margin-bottom: 1em;
     @include font-family($base-font);
     @include font-size($lede-text);
@@ -175,6 +175,7 @@ blockquote {
 
 p,
 .p {
+  @include margin(0,0,.5em);
   font-family: $base-font;
   word-wrap: break-word;
 
@@ -192,9 +193,9 @@ p,
 }
 
 blockquote {
-  width: 75%;
-  @include margin(0, auto);
-  border-left: 3px solid $color-grey;
+  width: calc(100% - 4em);
+  @include margin(1em, 2em);
+  border-left: 3px solid $color-light-grey;
   color: $text-grey;
   font-style: italic;
   padding-left: $padding;
