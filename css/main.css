@@ -100,7 +100,7 @@ body {
     .banner a.light:hover {
       color: #5b3821; }
   .banner-ctas {
-    margin-top: 2em; }
+    margin-top: 3em; }
 
 .teams .bio li {
   position: relative;
@@ -2780,8 +2780,8 @@ label + .pill,
     Call-Outs -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
 .callouts {
-  position: absolute;
-  bottom: 0; }
+  position: relative;
+  margin-top: -3.5em; }
   .callouts a {
     color: #454545; }
   .callouts .callout {
@@ -2792,8 +2792,6 @@ label + .pill,
     background-clip: padding-box;
     -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.15); }
-    .callouts .callout-message {
-      display: none; }
 
 /* ==========================================================================
     Sticky -- Version: 0.2.1

@@ -2,8 +2,8 @@
     Call-Outs -- Version: 0.2.1 - Compiled: timestamp()
     ========================================================================== */
 .callouts {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  margin-top: -3.5em;
 }
 .callouts a {
   color: #454545;
@@ -20,7 +20,4 @@
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
-}
-.callouts .callout-message {
-  display: none;
 }

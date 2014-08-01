@@ -6,8 +6,8 @@
     ========================================================================== */
 
     .callouts {
-      position: absolute;
-      bottom: 0;
+      position: relative;
+      margin-top: -3.5em;
 
       a {
         color: $text;
@@ -18,9 +18,5 @@
         padding: .5em;
         @include border-radius(0);
         @include box-shadow;
-
-        &-message {
-          display: none;
-        }
       }
     }
