@@ -720,6 +720,8 @@ nav {
       padding-right: 0;
       padding-bottom: 0;
       padding-left: 0; }
+      nav ul li:hover {
+        background: #21660f; }
       @media (min-width: 62em) {
         nav ul li:hover ul {
           position: absolute;
@@ -745,9 +747,7 @@ nav {
               background: rgba(121, 60, 18, 0.45);
               color: white; }
               nav ul li:hover ul li a:hover {
-                background: rgba(121, 60, 18, 0.75); } }
-      nav ul li:hover {
-        background: #21660f; }
+                background: rgba(33, 102, 15, 0.75); } }
       nav ul li a {
         display: block;
         padding-top: 0.25em;

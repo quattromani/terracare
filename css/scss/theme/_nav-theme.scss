@@ -25,6 +25,10 @@
           display: table-cell;
           @include padding;
 
+          &:hover {
+            background: $color-primary-green;
+          }
+
           @include bp(bp-large) {
             &:hover ul {
               position: absolute;
@@ -49,15 +53,11 @@
                   color: $color-white;
 
                   &:hover {
-                    background: rgba($color-primary-brown, .75);
+                    background: rgba($color-primary-green, .75);
                   }
                 }
               }
             }
-          }
-
-          &:hover {
-            background: $color-primary-green;
           }
 
           a {
@@ -74,6 +74,7 @@
 
           &.active {
             background: $color-primary-green;
+
             @include bp(bp-large) {
               &:before {
                 content: '';
