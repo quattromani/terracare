@@ -28,7 +28,6 @@
         @include padding(1em);
       }
 
-
       a.logo {
         color: #4a7817;
         line-height: .75;
@@ -62,6 +61,10 @@
         &:hover {
           color: $link-hover;
         }
+      }
+
+      &-ctas {
+        margin-top: 2em;
       }
     }
 

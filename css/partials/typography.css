@@ -86,7 +86,7 @@ a {
   padding-left: 0;
   background: transparent;
   vertical-align: baseline;
-  color: #21660f;
+  color: #793c12;
   text-decoration: none;
   cursor: pointer;
   transition: .2s;
@@ -96,7 +96,7 @@ a img {
   text-decoration: none;
 }
 a:hover {
-  color: #58b340;
+  color: #5b3821;
 }
 a[href$='.pdf']:after {
   margin-left: .5em;

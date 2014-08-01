@@ -117,7 +117,10 @@ body.sticky-footer {
   color: #454545;
 }
 .banner a.light:hover {
-  color: #58b340;
+  color: #5b3821;
+}
+.banner-ctas {
+  margin-top: 2em;
 }
 
 .teams .bio li {

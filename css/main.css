@@ -98,7 +98,9 @@ body {
     letter-spacing: .09em;
     color: #454545; }
     .banner a.light:hover {
-      color: #58b340; }
+      color: #5b3821; }
+  .banner-ctas {
+    margin-top: 2em; }
 
 .teams .bio li {
   position: relative;
@@ -730,7 +732,7 @@ nav {
             padding-right: 0;
             padding-bottom: 0;
             padding-left: 0;
-            border-bottom: 1px solid rgba(11, 77, 66, 0.75); }
+            border-bottom: 1px solid rgba(121, 60, 18, 0.15); }
             nav ul li:hover ul li.js-last {
               border: none; }
             nav ul li:hover ul li a {
@@ -740,12 +742,12 @@ nav {
               padding-right: 0.75em;
               padding-bottom: 0.25em;
               padding-left: 0.75em;
-              background: rgba(11, 77, 66, 0.9);
+              background: rgba(121, 60, 18, 0.45);
               color: white; }
               nav ul li:hover ul li a:hover {
-                background: #3ca694; } }
+                background: rgba(121, 60, 18, 0.75); } }
       nav ul li:hover {
-        background: #3ca694; }
+        background: #21660f; }
       nav ul li a {
         display: block;
         padding-top: 0.25em;
@@ -758,7 +760,7 @@ nav {
         nav ul li a:hover {
           color: white; }
       nav ul li.active {
-        background: #3ca694; }
+        background: #21660f; }
         @media (min-width: 62em) {
           nav ul li.active:before {
             content: '';
@@ -769,7 +771,7 @@ nav {
             width: 0;
             height: 0;
             margin-left: -.75em;
-            border-color: #3ca694 transparent transparent transparent;
+            border-color: #21660f transparent transparent transparent;
             border-style: solid;
             border-width: .75em;
             z-index: 99999; } }
@@ -803,12 +805,12 @@ nav {
     display: block;
     background: #0b4d42; }
     nav input[type=checkbox]:checked ~ .navigation li {
-      border-top: 1px solid #43b9a5;
-      background: #08372f; }
+      border-top: 1px solid #65bf4d;
+      background: #1a500c; }
       nav input[type=checkbox]:checked ~ .navigation li:first-child {
         border: none; }
     nav input[type=checkbox]:checked ~ .navigation li li {
-      background: #3ca694; }
+      background: #58b340; }
     nav input[type=checkbox]:checked ~ .navigation > li.js-last {
       margin-bottom: .5em; }
   @media (max-width: 62em) {
@@ -884,7 +886,7 @@ nav {
 
 .link,
 .color-link {
-  color: #21660f; }
+  color: #793c12; }
 
 .color-error {
   color: red; }
@@ -1004,7 +1006,7 @@ a {
   padding-left: 0;
   background: transparent;
   vertical-align: baseline;
-  color: #21660f;
+  color: #793c12;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: .2s;
@@ -1013,7 +1015,7 @@ a {
     border: 0 none;
     text-decoration: none; }
   a:hover {
-    color: #58b340; }
+    color: #5b3821; }
   a[href$='.pdf']:after {
     margin-left: .5em;
     content: '\f1c1';
@@ -2284,7 +2286,7 @@ button,
   font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 700;
   text-align: center;
-  color: #21660f;
+  color: #793c12;
   cursor: pointer; }
   .btn:hover,
   .button:hover,

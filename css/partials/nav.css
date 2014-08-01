@@ -40,7 +40,7 @@ nav ul li {
     padding-right: 0;
     padding-bottom: 0;
     padding-left: 0;
-    border-bottom: 1px solid rgba(11, 77, 66, 0.75);
+    border-bottom: 1px solid rgba(121, 60, 18, 0.15);
   }
   nav ul li:hover ul li.js-last {
     border: none;
@@ -52,15 +52,15 @@ nav ul li {
     padding-right: 0.75em;
     padding-bottom: 0.25em;
     padding-left: 0.75em;
-    background: rgba(11, 77, 66, 0.9);
+    background: rgba(121, 60, 18, 0.45);
     color: white;
   }
   nav ul li:hover ul li a:hover {
-    background: #3ca694;
+    background: rgba(121, 60, 18, 0.75);
   }
 }
 nav ul li:hover {
-  background: #3ca694;
+  background: #21660f;
 }
 nav ul li a {
   display: block;
@@ -76,7 +76,7 @@ nav ul li a:hover {
   color: white;
 }
 nav ul li.active {
-  background: #3ca694;
+  background: #21660f;
 }
 @media (min-width: 62em) {
   nav ul li.active:before {
@@ -88,7 +88,7 @@ nav ul li.active {
     width: 0;
     height: 0;
     margin-left: -.75em;
-    border-color: #3ca694 transparent transparent transparent;
+    border-color: #21660f transparent transparent transparent;
     border-style: solid;
     border-width: .75em;
     z-index: 99999;
@@ -136,14 +136,14 @@ nav input[type=checkbox]:checked ~ .navigation {
   background: #0b4d42;
 }
 nav input[type=checkbox]:checked ~ .navigation li {
-  border-top: 1px solid #43b9a5;
-  background: #08372f;
+  border-top: 1px solid #65bf4d;
+  background: #1a500c;
 }
 nav input[type=checkbox]:checked ~ .navigation li:first-child {
   border: none;
 }
 nav input[type=checkbox]:checked ~ .navigation li li {
-  background: #3ca694;
+  background: #58b340;
 }
 nav input[type=checkbox]:checked ~ .navigation > li.js-last {
   margin-bottom: .5em;
