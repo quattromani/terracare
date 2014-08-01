@@ -35,10 +35,12 @@
 
       &.btn-primary,
       &.button-primary {
+        border-bottom: 3px solid darken($color-button-primary, 7.5%);
         background-color: $color-button-primary;
         color: $color-white;
 
         &:hover {
+          border-bottom: 3px solid $color-button-primary-hover;
           background-color: $color-button-primary-hover;
         }
       }
@@ -164,10 +166,12 @@
       overflow: auto;
 
       a.btn.btn-primary {
+        border-bottom: 3px solid darken($color-primary-yellow, 7.5%);
         background-color: $color-primary-yellow;
         color: $text;
 
         &:hover {
+          border-bottom: 3px solid $color-secondary-yellow;
           background-color: $color-secondary-yellow;
         }
       }
