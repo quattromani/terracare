@@ -275,8 +275,8 @@ button +
   overflow: auto;
 }
 .cta-container a.btn.btn-primary {
-  border-bottom: 3px solid #fad000;
-  background-color: #ffda21;
+  border-bottom: 3px solid #d78a00;
+  background-color: #fda300;
   color: #454545;
 }
 .cta-container a.btn.btn-primary:hover {

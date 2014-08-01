@@ -9,8 +9,11 @@
   color: #454545;
 }
 .callouts .callout {
-  background: white;
-  padding: .5em;
+  background-color: white;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -20,4 +23,16 @@
   -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.callouts .callout:hover {
+  -webkit-transfrom: scale(1.015);
+  transform: scale(1.015);
+}
+.callouts .callout h5 {
+  text-align: center;
 }

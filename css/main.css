@@ -857,10 +857,10 @@ nav {
   background: #5b3821; }
 
 .bg-primary-yellow {
-  background: #ffda21; }
+  background: #fda300; }
 
 .bg-secondary-yellow {
-  background: #ffda21; }
+  background: #fda300; }
 
 .text,
 .color-text {
@@ -2500,8 +2500,8 @@ button,
   background-color: rgba(0, 0, 0, 0.2);
   overflow: auto; }
   .cta-container a.btn.btn-primary {
-    border-bottom: 3px solid #fad000;
-    background-color: #ffda21;
+    border-bottom: 3px solid #d78a00;
+    background-color: #fda300;
     color: #454545; }
     .cta-container a.btn.btn-primary:hover {
       border-bottom: 3px solid #edc500;
@@ -2785,13 +2785,25 @@ label + .pill,
   .callouts a {
     color: #454545; }
   .callouts .callout {
-    background: white;
-    padding: .5em;
+    background-color: white;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
     border-radius: 0;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    .callouts .callout:hover {
+      -webkit-transfrom: scale(1.015);
+      -webkit-transform: scale(1.015);
+      -ms-transform: scale(1.015);
+      transform: scale(1.015); }
+    .callouts .callout h5 {
+      text-align: center; }
 
 /* ==========================================================================
     Sticky -- Version: 0.2.1

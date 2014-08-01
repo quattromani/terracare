@@ -14,9 +14,19 @@
       }
 
       .callout {
-        background: $color-white;
-        padding: .5em;
+        background-color: $color-white;
+        @include padding(.5em);
         @include border-radius(0);
         @include box-shadow;
+        @include transition(all, .2s, ease-in-out);
+
+        &:hover {
+          -webkit-transfrom: scale(1.015);
+          transform: scale(1.015);
+        }
+
+        h5 {
+          text-align: center;
+        }
       }
     }
