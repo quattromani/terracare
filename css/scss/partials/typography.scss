@@ -70,7 +70,7 @@
    ========================== */
 
   .lede {
-    margin-bottom: 1em;
+    margin-bottom: ($margin / 2);
     @include font-family($base-font);
     @include font-size($lede-text);
   }
