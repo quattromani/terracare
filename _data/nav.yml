@@ -5,8 +5,8 @@
   url: "/public-services"
   active: "public-services"
   child_links:
-    - name: "Parks / Streetscape"
-      url: "/parks-streetscape"
+    - name: "Public Landscape"
+      url: "/public-landscape"
       active: "public-services"
     - name: "Public Works"
       url: "/public-works"
