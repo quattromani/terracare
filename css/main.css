@@ -3182,9 +3182,9 @@ img {
     .image-content-panel {
       height: 300px;
       padding-top: 0.5em;
-      padding-right: 0.5em;
+      padding-right: 0;
       padding-bottom: 0.5em;
-      padding-left: 0.5em; } }
+      padding-left: 0; } }
   .image-content-panel .feature {
     position: absolute;
     bottom: 4em;

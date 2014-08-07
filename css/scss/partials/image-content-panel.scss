@@ -55,7 +55,7 @@
 
       @include bp(bp-small) {
         height: 300px;
-        @include padding(.5em);
+        @include padding(.5em, 0);
       }
 
       .feature  {
