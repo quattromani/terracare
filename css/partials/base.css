@@ -113,6 +113,7 @@ body.sticky-footer {
 @media (max-width: 40em) {
   .banner a.logo img {
     float: none;
+    padding-top: .5em;
   }
 }
 .banner a.light {

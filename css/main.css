@@ -94,7 +94,8 @@ body {
       float: left; }
       @media (max-width: 40em) {
         .banner a.logo img {
-          float: none; } }
+          float: none;
+          padding-top: .5em; } }
   .banner a.light {
     font-weight: 100;
     letter-spacing: .09em;

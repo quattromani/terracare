@@ -52,6 +52,7 @@
 
           @include bp(bp-small) {
             float: none;
+            padding-top: .5em;
           }
         }
       }
