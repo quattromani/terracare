@@ -9,24 +9,37 @@
       position: relative;
       margin-top: -3.5em;
 
+      @include bp(bp-small) {
+        @include margin;
+      }
+
       a {
         color: $text;
       }
 
       .callout {
         background-color: $color-white;
-        @include padding(.5em);
+        @include padding(.75em, .75em, .5em);
         @include border-radius(0);
         @include box-shadow;
         @include transition(all, .2s, ease-in-out);
 
         &:hover {
-          -webkit-transfrom: scale(1.015);
-          transform: scale(1.015);
+          @include padding(.5em);
+
+          @include bp(bp-small) {
+            @include padding(.75em, .75em, .5em);
+          }
         }
 
         h5 {
           text-align: center;
+        }
+      }
+
+      .callout-message {
+        @include bp(bp-small) {
+          display: none;
         }
       }
     }

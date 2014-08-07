@@ -10,6 +10,14 @@
   padding-left: 0;
   z-index: 0;
 }
+@media (max-width: 40em) {
+  .content {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+}
 
 .container {
   position: relative;

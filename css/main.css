@@ -93,6 +93,9 @@ body {
     .banner a.logo img {
       float: left;
       padding-right: .5em; }
+      @media (max-width: 40em) {
+        .banner a.logo img {
+          float: none; } }
   .banner a.light {
     font-weight: 100;
     letter-spacing: .09em;
@@ -101,6 +104,15 @@ body {
       color: #5b3821; }
   .banner-ctas {
     margin-top: 3em; }
+    @media (max-width: 40em) {
+      .banner-ctas {
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        text-align: center; }
+        .banner-ctas .text-right {
+          text-align: center; } }
 
 .teams .bio li {
   position: relative;
@@ -241,6 +253,12 @@ footer {
   padding-bottom: 0.5em;
   padding-left: 0;
   z-index: 0; }
+  @media (max-width: 40em) {
+    .content {
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 0;
+      padding-left: 0; } }
 
 .container {
   position: relative;
@@ -816,6 +834,9 @@ nav {
   @media (max-width: 62em) {
     nav {
       margin-bottom: -38px; } }
+  @media (max-width: 40em) {
+    nav {
+      margin-bottom: -47px; } }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
@@ -2782,14 +2803,20 @@ label + .pill,
 .callouts {
   position: relative;
   margin-top: -3.5em; }
+  @media (max-width: 40em) {
+    .callouts {
+      margin-top: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+      margin-left: 0; } }
   .callouts a {
     color: #454545; }
   .callouts .callout {
     background-color: white;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
+    padding-top: 0.75em;
+    padding-right: 0.75em;
     padding-bottom: 0.5em;
-    padding-left: 0.5em;
+    padding-left: 0.75em;
     border-radius: 0;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -2798,12 +2825,21 @@ label + .pill,
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
     .callouts .callout:hover {
-      -webkit-transfrom: scale(1.015);
-      -webkit-transform: scale(1.015);
-      -ms-transform: scale(1.015);
-      transform: scale(1.015); }
+      padding-top: 0.5em;
+      padding-right: 0.5em;
+      padding-bottom: 0.5em;
+      padding-left: 0.5em; }
+      @media (max-width: 40em) {
+        .callouts .callout:hover {
+          padding-top: 0.75em;
+          padding-right: 0.75em;
+          padding-bottom: 0.5em;
+          padding-left: 0.75em; } }
     .callouts .callout h5 {
       text-align: center; }
+  @media (max-width: 40em) {
+    .callouts .callout-message {
+      display: none; } }
 
 /* ==========================================================================
     Sticky -- Version: 0.2.1

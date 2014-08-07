@@ -50,6 +50,10 @@
         img {
           float: left;
           padding-right: .5em;
+
+          @include bp(bp-small) {
+            float: none;
+          }
         }
       }
 
@@ -65,6 +69,15 @@
 
       &-ctas {
         margin-top: 3em;
+
+        @include bp(bp-small) {
+          @include margin;
+          text-align: center;
+
+          .text-right {
+            text-align: center;
+          }
+        }
       }
     }
 

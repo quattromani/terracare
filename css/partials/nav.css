@@ -153,3 +153,8 @@ nav input[type=checkbox]:checked ~ .navigation > li.js-last {
     margin-bottom: -38px;
   }
 }
+@media (max-width: 40em) {
+  nav {
+    margin-bottom: -47px;
+  }
+}

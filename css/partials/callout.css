@@ -5,15 +5,23 @@
   position: relative;
   margin-top: -3.5em;
 }
+@media (max-width: 40em) {
+  .callouts {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+}
 .callouts a {
   color: #454545;
 }
 .callouts .callout {
   background-color: white;
-  padding-top: 0.5em;
-  padding-right: 0.5em;
+  padding-top: 0.75em;
+  padding-right: 0.75em;
   padding-bottom: 0.5em;
-  padding-left: 0.5em;
+  padding-left: 0.75em;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -30,9 +38,24 @@
   transition: all 0.2s ease-in-out;
 }
 .callouts .callout:hover {
-  -webkit-transfrom: scale(1.015);
-  transform: scale(1.015);
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+@media (max-width: 40em) {
+  .callouts .callout:hover {
+    padding-top: 0.75em;
+    padding-right: 0.75em;
+    padding-bottom: 0.5em;
+    padding-left: 0.75em;
+  }
 }
 .callouts .callout h5 {
   text-align: center;
+}
+@media (max-width: 40em) {
+  .callouts .callout-message {
+    display: none;
+  }
 }

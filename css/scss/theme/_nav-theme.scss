@@ -155,4 +155,8 @@
       @include bp(bp-medium) {
         margin-bottom: -38px;
       }
+
+      @include bp(bp-small) {
+        margin-bottom: -47px;
+      }
     }

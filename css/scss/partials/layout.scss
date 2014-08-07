@@ -10,6 +10,10 @@
   overflow: auto;
   @include padding(($padding * 2.5), 0, ($padding / 2));
   z-index: 0;
+
+  @include bp(bp-small) {
+    @include padding;
+  }
 }
 
 .container {

@@ -111,6 +111,11 @@ body.sticky-footer {
   float: left;
   padding-right: .5em;
 }
+@media (max-width: 40em) {
+  .banner a.logo img {
+    float: none;
+  }
+}
 .banner a.light {
   font-weight: 100;
   letter-spacing: .09em;
@@ -121,6 +126,18 @@ body.sticky-footer {
 }
 .banner-ctas {
   margin-top: 3em;
+}
+@media (max-width: 40em) {
+  .banner-ctas {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+  .banner-ctas .text-right {
+    text-align: center;
+  }
 }
 
 .teams .bio li {
