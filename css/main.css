@@ -835,7 +835,7 @@ nav {
     nav {
       margin-bottom: -38px; } }
   @media (max-width: 40em) {
-    nav {
+    .home nav {
       margin-bottom: -47px; } }
 
 /* ==========================================================================

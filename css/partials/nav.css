@@ -154,7 +154,7 @@ nav input[type=checkbox]:checked ~ .navigation > li.js-last {
   }
 }
 @media (max-width: 40em) {
-  nav {
+  .home nav {
     margin-bottom: -47px;
   }
 }
