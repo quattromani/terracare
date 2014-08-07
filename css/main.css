@@ -255,9 +255,9 @@ footer {
   z-index: 0; }
   @media (max-width: 40em) {
     .content {
-      padding-top: 0;
+      padding-top: 1em;
       padding-right: 0;
-      padding-bottom: 0;
+      padding-bottom: 1em;
       padding-left: 0; } }
 
 .container {
