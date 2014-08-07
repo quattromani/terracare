@@ -91,8 +91,7 @@ body {
       letter-spacing: .09em;
       color: #454545; }
     .banner a.logo img {
-      float: left;
-      padding-right: .5em; }
+      float: left; }
       @media (max-width: 40em) {
         .banner a.logo img {
           float: none; } }

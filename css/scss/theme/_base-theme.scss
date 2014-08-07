@@ -49,7 +49,6 @@
 
         img {
           float: left;
-          padding-right: .5em;
 
           @include bp(bp-small) {
             float: none;
