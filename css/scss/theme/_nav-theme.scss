@@ -9,6 +9,7 @@
       position: relative;
       margin-bottom: -31px;
       @include rgba($color-black, .5);
+      z-index: 999;
 
       .container {
         display: table;

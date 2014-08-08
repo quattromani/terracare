@@ -723,7 +723,8 @@ nav {
   position: relative;
   margin-bottom: -31px;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999; }
   nav .container {
     display: table;
     width: 100%; }
@@ -2762,7 +2763,7 @@ label + .pill,
   right: 1em;
   height: 32px;
   width: 32px;
-  background: url("/scaffold/images/modal-close.png") no-repeat;
+  background: url("../images/close.png") no-repeat;
   cursor: pointer; }
 .modal .modal-header {
   padding-top: 1em;
