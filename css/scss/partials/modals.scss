@@ -13,10 +13,10 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: #000;
+    background: $color-black;
     zoom: 1;
-    @include opacity(.5);
-    z-index: 9999;
+    @include opacity(.35);
+    z-index: 9998;
   }
 
   .modal-container {
@@ -32,12 +32,12 @@
     margin: auto;
     margin-top: -16em;
     @include border-radius;
-    background: none repeat scroll 0 0 #fff;
+    background: none repeat scroll 0 0 $color-white;
     color: $text;
-    z-index: 99999;
+    z-index: 9999;
 
     > .modal-content {
-      @include box-shadow(0 0 5px 2px #555);
+      @include box-shadow(0 0 5px 2px $text);
     }
   }
 

@@ -723,8 +723,7 @@ nav {
   position: relative;
   margin-bottom: -31px;
   background-color: black;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 9999; }
+  background-color: rgba(0, 0, 0, 0.5); }
   nav .container {
     display: table;
     width: 100%; }
@@ -2727,14 +2726,14 @@ label + .pill,
   left: 0;
   height: 100%;
   width: 100%;
-  background: #000;
+  background: black;
   zoom: 1;
-  filter: alpha(opacity=50);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 0.5;
-  z-index: 9999; }
+  filter: alpha(opacity=35);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+  -moz-opacity: 0.35;
+  -khtml-opacity: 0.35;
+  opacity: 0.35;
+  z-index: 9998; }
 .modal .modal-container {
   display: none;
   position: fixed;
@@ -2750,12 +2749,12 @@ label + .pill,
   border-radius: 5px;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: none repeat scroll 0 0 #fff;
+  background: none repeat scroll 0 0 white;
   color: #454545;
-  z-index: 99999; }
+  z-index: 9999; }
   .modal .modal-container > .modal-content {
-    -webkit-box-shadow: 0 0 5px 2px #555555;
-    box-shadow: 0 0 5px 2px #555555; }
+    -webkit-box-shadow: 0 0 5px 2px #454545;
+    box-shadow: 0 0 5px 2px #454545; }
 .modal .modal-close {
   position: absolute;
   float: right;
