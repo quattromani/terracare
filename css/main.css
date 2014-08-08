@@ -724,7 +724,7 @@ nav {
   margin-bottom: -31px;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 999; }
+  z-index: 9; }
   nav .container {
     display: table;
     width: 100%; }
@@ -792,7 +792,7 @@ nav {
             border-color: #21660f transparent transparent transparent;
             border-style: solid;
             border-width: .75em;
-            z-index: 99999; } }
+            z-index: 99; } }
       @media (max-width: 62em) {
         nav ul li {
           display: block;
