@@ -2521,12 +2521,14 @@ button,
   background-color: rgba(0, 0, 0, 0.2);
   overflow: auto; }
   .cta-container a.btn.btn-primary {
+    border-top: 1px solid #fda300;
     border-bottom: 3px solid #d78a00;
     background-color: #fda300;
     color: #454545; }
     .cta-container a.btn.btn-primary:hover {
-      border-bottom: 3px solid #edc500;
-      background-color: #edc500; }
+      border-bottom: 3px solid #fda300;
+      border-top: 1px solid #d78a00;
+      background-color: #fda300; }
 
 /* Firefox */
 @-moz-document url-prefix() {
