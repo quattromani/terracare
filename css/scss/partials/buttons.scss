@@ -125,10 +125,9 @@
           }
         }
 
-      }
-
-      & + & {
-        margin-top: $margin;
+        & + & {
+          margin-top: $margin;
+        }
       }
     }
 

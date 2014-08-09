@@ -91,10 +91,10 @@
   width: 100%;
   background: black;
   zoom: 1;
-  filter: alpha(opacity=35);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
-  -moz-opacity: 0.35;
-  -khtml-opacity: 0.35;
-  opacity: 0.35;
+  filter: alpha(opacity=40);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  -moz-opacity: 0.4;
+  -khtml-opacity: 0.4;
+  opacity: 0.4;
   z-index: 9998;
 }

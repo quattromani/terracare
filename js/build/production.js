@@ -212,6 +212,7 @@ function disablePopup() {
 	$('.modal-container').fadeOut('normal');
 	$('.modal-overlay').fadeOut('normal');
 }
+
 // Our single global object
 var alxPrc = {};
 
