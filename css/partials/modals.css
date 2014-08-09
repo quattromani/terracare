@@ -1,22 +1,6 @@
 /* ==========================================================================
     Modals -- Version: 0.4.0.1 - Updated: 4/28/2014
-   ========================================================================== */
-.modal .modal-overlay {
-  position: fixed;
-  display: none;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: black;
-  zoom: 1;
-  filter: alpha(opacity=35);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
-  -moz-opacity: 0.35;
-  -khtml-opacity: 0.35;
-  opacity: 0.35;
-  z-index: 9998;
-}
+    ========================================================================== */
 .modal .modal-container {
   display: none;
   position: fixed;
@@ -96,4 +80,21 @@
   -moz-background-clip: padding-box;
   background-clip: padding-box;
   background: #f0f2f5;
+}
+
+.modal-overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  zoom: 1;
+  filter: alpha(opacity=35);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+  -moz-opacity: 0.35;
+  -khtml-opacity: 0.35;
+  opacity: 0.35;
+  z-index: 9998;
 }

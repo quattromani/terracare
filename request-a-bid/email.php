@@ -4,8 +4,12 @@ if(isset($_POST['submit'])){
   $from = $_POST['email'];
   $first_name = $_POST['first-name'];
   $last_name = $_POST['last-name'];
-  $phone = $_POST['phone-number'];
-  $subject = "Terracare Bid request Form";
+  $phone = $_POST['phone'];
+  $field = $_POST['field'];
+  $skills = $_POST['skills'];
+  $location = $_POST['location'];
+  $referral = $_POST['referral-name'];
+  $subject = "Terracare Bid Request Form";
   $message1 = "Dear " . $first-name . ",
   <br/><br/>
   Thank you.

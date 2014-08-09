@@ -4,7 +4,7 @@ if(isset($_POST['submit'])){
   $from = $_POST['email'];
   $first_name = $_POST['first-name'];
   $last_name = $_POST['last-name'];
-  $phone = $_POST['phone-number'];
+  $phone = $_POST['phone'];
   $subject = "Terracare Contact Form";
   $message1 = "Dear " . $first-name . ",
   <br/><br/>
