@@ -87,8 +87,13 @@
       }
 
       .bio {
+        position: relative;
+        padding: 0 0 0 5.5em;
 
         img {
+          position: absolute;
+          left: 0;
+          top: 0;
           margin-bottom: 1em;
         }
 

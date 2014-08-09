@@ -116,10 +116,16 @@ body {
 
 .teams .job-title {
   font-weight: bold; }
-.teams .bio img {
-  margin-bottom: 1em; }
-.teams .bio .education {
-  font-style: italic; }
+.teams .bio {
+  position: relative;
+  padding: 0 0 0 5.5em; }
+  .teams .bio img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-bottom: 1em; }
+  .teams .bio .education {
+    font-style: italic; }
 
 a.modal-button {
   text-align: center; }
