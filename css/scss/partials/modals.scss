@@ -27,7 +27,7 @@
     left: 0;
     right: 0;
     height: auto;
-    width: 45em;
+    width: 65em;
     max-width: 90%;
     margin: auto;
     margin-top: -16em;
@@ -64,7 +64,7 @@
 
   .modal-body {
     overflow: auto;
-    max-height: 25em;
+    max-height: 30em;
     @include padding(1em);
 
     @include bp(bp-small) {
