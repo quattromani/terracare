@@ -50,6 +50,7 @@
       }
 
       .modal-body {
+        position: relative;
         overflow: auto;
         max-height: 30em;
         @include padding(1em);
@@ -76,6 +77,6 @@
       width: 100%;
       background: $color-black;
       zoom: 1;
-      @include opacity(.4);
+      @include opacity(.6);
       z-index: 9998;
     }

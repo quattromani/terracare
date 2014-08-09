@@ -55,6 +55,7 @@
   margin-bottom: 0;
 }
 .modal .modal-body {
+  position: relative;
   overflow: auto;
   max-height: 30em;
   padding-top: 1em;
@@ -91,10 +92,10 @@
   width: 100%;
   background: black;
   zoom: 1;
-  filter: alpha(opacity=40);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-  -moz-opacity: 0.4;
-  -khtml-opacity: 0.4;
-  opacity: 0.4;
+  filter: alpha(opacity=60);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
   z-index: 9998;
 }

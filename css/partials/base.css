@@ -140,20 +140,22 @@ body.sticky-footer {
   }
 }
 
-.teams .bio li {
-  position: relative;
-  padding-left: 5.5em;
-}
-.teams .bio li img {
-  position: absolute;
-  left: 0;
-  top: 1em;
-}
-.teams .bio li .job-title {
+.teams .job-title {
   font-weight: bold;
 }
-.teams .bio li .education {
+.teams .bio img {
+  margin-bottom: 1em;
+}
+.teams .bio .education {
   font-style: italic;
+}
+
+a.modal-button {
+  text-align: center;
+}
+a.modal-button img {
+  display: block;
+  margin: 0 auto;
 }
 
 .fixed-footer {

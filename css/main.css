@@ -114,17 +114,18 @@ body {
         .banner-ctas .text-right {
           text-align: center; } }
 
-.teams .bio li {
-  position: relative;
-  padding-left: 5.5em; }
-  .teams .bio li img {
-    position: absolute;
-    left: 0;
-    top: 1em; }
-  .teams .bio li .job-title {
-    font-weight: bold; }
-  .teams .bio li .education {
-    font-style: italic; }
+.teams .job-title {
+  font-weight: bold; }
+.teams .bio img {
+  margin-bottom: 1em; }
+.teams .bio .education {
+  font-style: italic; }
+
+a.modal-button {
+  text-align: center; }
+  a.modal-button img {
+    display: block;
+    margin: 0 auto; }
 
 .fixed-footer {
   position: absolute;
@@ -2764,6 +2765,7 @@ label + .pill,
   .modal .modal-header h1, .modal .modal-header h2, .modal .modal-header h3, .modal .modal-header h4, .modal .modal-header h5, .modal .modal-header h6 {
     margin-bottom: 0; }
 .modal .modal-body {
+  position: relative;
   overflow: auto;
   max-height: 30em;
   padding-top: 1em;
@@ -2793,11 +2795,11 @@ label + .pill,
   width: 100%;
   background: black;
   zoom: 1;
-  filter: alpha(opacity=40);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-  -moz-opacity: 0.4;
-  -khtml-opacity: 0.4;
-  opacity: 0.4;
+  filter: alpha(opacity=60);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
   z-index: 9998; }
 
 /* ==========================================================================

@@ -81,22 +81,29 @@
       }
     }
 
-    .teams .bio li {
-      position: relative;
-      padding-left: 5.5em;
-
-      img {
-        position: absolute;
-        left: 0;
-        top: 1em;
-      }
-
+    .teams {
       .job-title {
         font-weight: bold;
       }
 
-      .education {
-        font-style: italic;
+      .bio {
+
+        img {
+          margin-bottom: 1em;
+        }
+
+        .education {
+          font-style: italic;
+        }
+      }
+    }
+
+    a.modal-button {
+      text-align: center;
+
+      img {
+        display: block;
+        margin: 0 auto;
       }
     }
 
@@ -192,25 +199,25 @@
       @include rotate(45);
     }
 
-.excitement {
-  position: relative;
-}
+    .excitement {
+      position: relative;
+    }
 
-.project-gallery {
-  img {
-    width: 100%;
-    height: 175px;
-    @include margin;
-    background-size: 100% auto;
-  }
+    .project-gallery {
+      img {
+        width: 100%;
+        height: 175px;
+        @include margin;
+        background-size: 100% auto;
+      }
 
-  figcaption {
-    position: absolute;
-    bottom: .5em;
-    width: 100%;
-    @include padding(.5em);
-    background-color: rgba(255,255,255,.65);
-    color: $text;
-    text-align: right;
-  }
-}
+      figcaption {
+        position: absolute;
+        bottom: .5em;
+        width: 100%;
+        @include padding(.5em);
+        background-color: rgba(255,255,255,.65);
+        color: $text;
+        text-align: right;
+      }
+    }
