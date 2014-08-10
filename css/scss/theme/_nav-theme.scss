@@ -57,8 +57,20 @@
                   background: rgba($color-primary-brown, .65);
                   color: $color-white;
 
+                  @if $support-legacy {
+                    .ie8 & {
+                      background-color: $color-primary-brown;
+                    }
+                  }
+
                   &:hover {
                     background: rgba($color-primary-green, .75);
+
+                    @if $support-legacy {
+                      .ie8 & {
+                        background-color: $color-primary-green;
+                      }
+                    }
                   }
                 }
               }
@@ -164,6 +176,12 @@
       .home & {
         @include bp(bp-small) {
           margin-bottom: -47px;
+        }
+      }
+
+      @if $support-legacy {
+        .ie8 & {
+          background-color: $color-grey;
         }
       }
     }

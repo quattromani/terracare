@@ -229,6 +229,9 @@ footer .fa-envelope-square:hover {
     text-align: center;
   }
 }
+.ie footer {
+  background-color: #ddd;
+}
 
 .breadcrumbs {
   padding-top: 0.5em;

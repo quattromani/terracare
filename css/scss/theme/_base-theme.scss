@@ -169,6 +169,12 @@
       @include bp(bp-medium) {
         text-align: center;
       }
+
+      @if $support-legacy {
+        .ie & {
+          background-color: #ddd;
+        }
+      }
     }
 
     .breadcrumbs {

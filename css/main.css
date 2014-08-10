@@ -179,6 +179,8 @@ footer {
   @media (max-width: 62em) {
     footer {
       text-align: center; } }
+  .ie footer {
+    background-color: #ddd; }
 
 .breadcrumbs {
   padding-top: 0.5em;
@@ -776,8 +778,12 @@ nav {
               padding-left: 0.75em;
               background: rgba(121, 60, 18, 0.65);
               color: white; }
+              .ie8 nav ul li:hover ul li a {
+                background-color: #793c12; }
               nav ul li:hover ul li a:hover {
-                background: rgba(33, 102, 15, 0.75); } }
+                background: rgba(33, 102, 15, 0.75); }
+                .ie8 nav ul li:hover ul li a:hover {
+                  background-color: #21660f; } }
       nav ul li a {
         display: block;
         padding-top: 0.25em;
@@ -849,6 +855,8 @@ nav {
   @media (max-width: 40em) {
     .home nav {
       margin-bottom: -47px; } }
+  .ie8 nav {
+    background-color: #454545; }
 
 /* ==========================================================================
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()

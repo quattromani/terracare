@@ -64,8 +64,14 @@ nav ul li:hover {
     background: rgba(121, 60, 18, 0.65);
     color: white;
   }
+  .ie8 nav ul li:hover ul li a {
+    background-color: #793c12;
+  }
   nav ul li:hover ul li a:hover {
     background: rgba(33, 102, 15, 0.75);
+  }
+  .ie8 nav ul li:hover ul li a:hover {
+    background-color: #21660f;
   }
 }
 nav ul li a {
@@ -163,4 +169,7 @@ nav input[type=checkbox]:checked ~ .navigation > li.js-last {
   .home nav {
     margin-bottom: -47px;
   }
+}
+.ie8 nav {
+  background-color: #454545;
 }
