@@ -60,7 +60,7 @@ textarea {
     Base Theme -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
 body {
-  background: url(images/bg.png) center top repeat;
+  background: url(/images/bg.png) center top repeat;
   background-attachment: fixed;
 }
 body.sticky-footer {

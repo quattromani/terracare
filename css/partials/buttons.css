@@ -207,33 +207,33 @@ button.btn-sm,
     display: block;
     text-align: center;
   }
-  .btn + .btn,
-  .button + .btn,
-  button + .btn,
-  .cta + .btn, .btn +
-  .button,
-  .button +
-  .button,
-  button +
-  .button,
-  .cta +
-  .button, .btn +
-  button,
-  .button +
-  button,
-  button +
-  button,
-  .cta +
-  button, .btn +
-  .cta,
-  .button +
-  .cta,
-  button +
-  .cta,
-  .cta +
-  .cta {
-    margin-top: 1em;
-  }
+}
+.btn + .btn,
+.button + .btn,
+button + .btn,
+.cta + .btn, .btn +
+.button,
+.button +
+.button,
+button +
+.button,
+.cta +
+.button, .btn +
+button,
+.button +
+button,
+button +
+button,
+.cta +
+button, .btn +
+.cta,
+.button +
+.cta,
+button +
+.cta,
+.cta +
+.cta {
+  margin-top: 1em;
 }
 
 .cta {

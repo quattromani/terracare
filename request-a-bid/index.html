@@ -52,59 +52,11 @@ banner-cta: "Request a Bid"
         </div>
         <!-- .Email Address -->
 
-        <!-- Desired Field -->
-        <div class="row">
-          <div class="formitem">
-            <label for="field" class="required">Desired Field:</label>
-            <select name="field" id="field" tabindex="5" required>
-              <option value="---" selected="selected">---</option>
-              <option value="Account Manager">Account Manager</option>
-              <option value="Assistant Project Manager">Assistant Project Manager</option>
-              <option value="Aquatics">Aquatics</option>
-              <option value="Branch Manager">Branch Manager</option>
-              <option value="Business Development">Business Development</option>
-              <option value="CDL Driver">CDL Driver</option>
-              <option value="Concrete Foreman">Concrete Foreman</option>
-              <option value="Concrete Worker">Concrete Worker</option>
-              <option value="Diesel Mechanic">Diesel Mechanic</option>
-              <option value="Enhancement Manager">Enhancement Manager</option>
-              <option value="Enhancement Crew">Enhancement Crew</option>
-              <option value="Estimator">Estimator</option>
-              <option value="Flower Crew">Flower Crew</option>
-              <option value="Irrigation Manager">Irrigation Manager</option>
-              <option value="Irrigation Technician">Irrigation Technician</option>
-              <option value="Landscape Construction">Landscape Construction</option>
-              <option value="Landscape Foreman">Landscape Foreman</option>
-              <option value="Landscape Laborer">Landscape Laborer</option>
-              <option value="Mechanic">Mechanic</option>
-              <option value="On-call CDL Snow Driver">On-call CDL Snow Driver</option>
-              <option value="Operations Manager">Operations Manager</option>
-              <option value="Plant Healthcare Tech.">Plant Healthcare Tech.</option>
-              <option value="Project Manager">Project Manager</option>
-              <option value="Road Maintenance Crew">Road Maintenance Crew</option>
-              <option value="Snow Driver">Snow Driver</option>
-              <option value="Snow Crew">Snow Crew</option>
-              <option value="Small Equipment Mechanic">Small Equipment Mechanic</option>
-              <option value="Traffic Control Technician">Traffic Control Technician</option>
-            </select>
-          </div>
-        </div>
-        <!-- .Desired Area -->
-
-        <!-- About -->
-        <div class="row">
-          <div class="formitem textarea">
-            <label for="textarea">Tell us about your skills:</label>
-            <textarea id="skills" placeholder="Tell us about your skills or cut and paste a resume." tabindex="6"></textarea>
-          </div>
-        </div>
-        <!-- .About -->
-
         <!-- Desired Area -->
         <div class="row">
           <div class="formitem state">
-            <label for="state" class="required">Where are you seeking employment?</label>
-            <select name="state" id="state" tabindex="7" required>
+            <label for="state" class="required">Where are you seeking services</label>
+            <select name="state" id="state" tabindex="5" required>
               <option value="" selected="selected">Please select a location</option>
               <option value="CA - Bay Area">CA - Bay Area</option>
               <option value="CA - Sacramento Area">CA - Sacramento Area</option>
@@ -116,25 +68,36 @@ banner-cta: "Request a Bid"
         </div>
         <!-- .Desired Field -->
 
-        <!-- Referral -->
+        <!-- Services -->
         <div class="row">
-          <label class="required">Were you referred by a Terracare employee?</label>
+          <label class="required">Type of services requested</label>
           <div class="formitem">
-            <input type="radio" class="radio" id="radio-this" name="referred" value="yes" tabindex="8">
-            <label for="radio-this">Yes</label>
+            <input type="checkbox" class="checkbox" id="radio-this" name="referred" value="landscape" tabindex="6">
+            <label for="radio-this">Landscape Maintenance</label>
           </div>
           <div class="formitem">
-            <input type="radio" class="radio" id="radio-that" name="referred" value="no" tabindex="9">
-            <label for="radio-that">No</label>
+            <input type="checkbox" class="checkbox" id="radio-this" name="referred" value="infrastructure" tabindex="7">
+            <label for="radio-this">Public Infrastructure</label>
+          </div>
+          <div class="formitem">
+            <input type="checkbox" class="checkbox" id="radio-this" name="referred" value="water" tabindex="8">
+            <label for="radio-this">Water Management</label>
+          </div>
+          <div class="formitem">
+            <input type="checkbox" class="checkbox" id="radio-this" name="referred" value="snow" tabindex="9">
+            <label for="radio-this">Snow Removal</label>
           </div>
         </div>
+        <!-- .Services -->
+
+        <!-- About -->
         <div class="row">
-          <div class="formitem email">
-            <label for="referral-name" class="required">If so, by whom?</label>
-            <input id="referral-name" type="text" name="referral-name" pattern="[a-zA-Z]+" tabindex="10" required>
+          <div class="formitem textarea">
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="" tabindex="10"></textarea>
           </div>
         </div>
-        <!-- .Referral -->
+        <!-- .About -->
 
         <div id="fillit">
           If you see this, leave this form field blank.

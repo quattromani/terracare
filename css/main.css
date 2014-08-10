@@ -57,7 +57,7 @@ textarea {
     Base Theme -- Version: 0.4.0 - Compiled: timestamp()
     ========================================================================== */
 body {
-  background: url(images/bg.png) center top repeat;
+  background: url(/images/bg.png) center top repeat;
   background-attachment: fixed; }
   body.sticky-footer {
     margin-bottom: 80px; }
@@ -2474,33 +2474,33 @@ button,
       button.mobile-full a,
       .cta.mobile-full a {
         display: block;
-        text-align: center; }
-    .btn + .btn,
-    .button + .btn,
-    button + .btn,
-    .cta + .btn, .btn +
-    .button,
-    .button +
-    .button,
-    button +
-    .button,
-    .cta +
-    .button, .btn +
-    button,
-    .button +
-    button,
-    button +
-    button,
-    .cta +
-    button, .btn +
-    .cta,
-    .button +
-    .cta,
-    button +
-    .cta,
-    .cta +
-    .cta {
-      margin-top: 1em; } }
+        text-align: center; } }
+  .btn + .btn,
+  .button + .btn,
+  button + .btn,
+  .cta + .btn, .btn +
+  .button,
+  .button +
+  .button,
+  button +
+  .button,
+  .cta +
+  .button, .btn +
+  button,
+  .button +
+  button,
+  button +
+  button,
+  .cta +
+  button, .btn +
+  .cta,
+  .button +
+  .cta,
+  button +
+  .cta,
+  .cta +
+  .cta {
+    margin-top: 1em; }
 
 .cta {
   -webkit-box-shadow: inset 0 0 0 2px #0b4d42;

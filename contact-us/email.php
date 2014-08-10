@@ -10,9 +10,9 @@ if(isset($_POST['submit'])){
   <br/><br/>
   Thank you.
   <br/><br/>
-  We'll be in touch.
+  We\'ll be in touch.
   <br/><br/>
-  If you have any questions, please contact Cristin Tarr.
+  If you have any questions, please contact Cristin Tarr.";
 
   $headers = "From: " . strip_tags($send_from) . "\r\n";
   $headers .= "Reply-To: ". "ctarr@myterracare.net" . "\r\n";

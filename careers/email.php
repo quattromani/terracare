@@ -1,11 +1,11 @@
 <?php
 if(isset($_POST['submit'])){
-  $send_from = "request-bid@terracareassociates.com";
+  $send_from = "careers@terracareassociates.com";
   $from = $_POST['email'];
   $first_name = $_POST['first-name'];
   $last_name = $_POST['last-name'];
   $phone = $_POST['phone'];
-  $subject = "Terracare Bid Request Form";
+  $subject = "Terracare Career Form";
   $message1 = "Dear " . $first-name . ",
   <br/><br/>
   Thank you.
