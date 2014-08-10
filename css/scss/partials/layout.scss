@@ -48,7 +48,7 @@
 .row {
   @include row;
 
-  &:last-child,
+  &:first-child,
   &:only-child {
     margin-bottom: 0;
   }
@@ -65,8 +65,8 @@
     @include marginless-col($site-column-count / 2);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-small) {
@@ -81,15 +81,15 @@
     @include marginless-col($site-column-count / 3);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
 
     &:nth-child(even) {
-      @include last;
+      @include first;
     }
   }
 
@@ -105,21 +105,21 @@
     @include marginless-col($site-column-count / 4);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
 
     &:nth-child(even) {
-      @include last;
+      @include first;
     }
   }
 
   @include bp(bp-small) {
     @include col($site-column-count);
-    @include last;
+    @include first;
   }
 }
 
@@ -130,21 +130,21 @@
     @include marginless-col($site-column-count / 5);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 2);
 
     &:nth-child(even) {
-      @include last;
+      @include first;
     }
   }
 
   @include bp(bp-small) {
     @include col($site-column-count);
-    @include last;
+    @include first;
   }
 }
 
@@ -155,15 +155,15 @@
     @include marginless-col($site-column-count / 6);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
 
     &:nth-child(3n) {
-      @include last;
+      @include first;
     }
   }
 }
@@ -175,15 +175,15 @@
     @include marginless-col($site-column-count / 7);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
 
     &:nth-child(3n) {
-      @include last;
+      @include first;
     }
   }
 }
@@ -195,15 +195,15 @@
     @include marginless-col($site-column-count / 8);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 4);
 
     &:nth-child(4n) {
-      @include last;
+      @include first;
     }
   }
 
@@ -211,7 +211,7 @@
     @include col($site-column-count / 2);
 
     &:nth-child(2n) {
-      @include last;
+      @include first;
     }
   }
 }
@@ -223,15 +223,15 @@
     @include marginless-col($site-column-count / 9);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 3);
 
     &:nth-child(3n) {
-      @include last;
+      @include first;
     }
   }
 }
@@ -243,15 +243,15 @@
     @include marginless-col($site-column-count / 10);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 4);
 
     &:nth-child(4n) {
-      @include last;
+      @include first;
     }
   }
 
@@ -259,7 +259,7 @@
     @include col($site-column-count / 2);
 
     &:nth-child(2n) {
-      @include last;
+      @include first;
     }
   }
 }
@@ -271,15 +271,15 @@
     @include marginless-col($site-column-count / 11);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 4);
 
     &:nth-child(4n) {
-      @include last;
+      @include first;
     }
   }
 
@@ -287,7 +287,7 @@
     @include col($site-column-count / 2);
 
     &:nth-child(2n) {
-      @include last;
+      @include first;
     }
   }
 }
@@ -299,15 +299,15 @@
     @include marginless-col($site-column-count / 12);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
     @include col($site-column-count / 6);
 
     &:nth-child(6n) {
-      @include last;
+      @include first;
     }
   }
 
@@ -315,7 +315,7 @@
     @include col($site-column-count / 3);
 
     &:nth-child(3n) {
-      @include last;
+      @include first;
     }
   }
 }
@@ -328,8 +328,8 @@
     @include marginless-col($site-column-count * (1 / 1.618));
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 }
 
@@ -340,8 +340,8 @@
     @include marginless-col($site-column-count * (1 - (1 / 1.618)));
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 }
 
@@ -352,8 +352,8 @@
     @include marginless-col(($site-column-count / 5) * 2);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
@@ -368,8 +368,8 @@
     @include marginless-col(($site-column-count / 5) * 3);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
@@ -384,8 +384,8 @@
     @include marginless-col(($site-column-count / 5) * 4);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
@@ -400,8 +400,8 @@
     @include marginless-col(($site-column-count / 3) * 2);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
@@ -416,8 +416,8 @@
     @include marginless-col(($site-column-count / 4) * 3);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
@@ -432,8 +432,8 @@
     @include marginless-col(($site-column-count / 8) * 3);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {
@@ -448,8 +448,8 @@
     @include marginless-col(($site-column-count / 8) * 5);
   }
 
-  &:last-child {
-    @include last;
+  &:first-child {
+    @include first;
   }
 
   @include bp(bp-medium) {

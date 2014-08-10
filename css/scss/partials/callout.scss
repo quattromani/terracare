@@ -8,6 +8,7 @@
     .callouts {
       position: relative;
       margin-top: -3.5em;
+      z-index: 999;
 
       @include bp(bp-small) {
         @include margin;

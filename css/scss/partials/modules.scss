@@ -11,6 +11,16 @@
       @include border-radius;
       @include box-shadow;
       overflow: auto;
+
+      @if $support-legacy {
+        .ie & {
+          background-color: #f9f9f9;
+        }
+
+        .ie8 & {
+          border: 1px solid #e1e1e1;
+        }
+      }
     }
 
     hr {
@@ -45,7 +55,7 @@
           @include font-family($fontawesome);
           @include font-size(40);
           color: $color-light-grey;
-       }
+        }
       }
     }
 

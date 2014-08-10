@@ -17,6 +17,12 @@
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
   overflow: auto;
 }
+.ie .box-column {
+  background-color: #f9f9f9;
+}
+.ie8 .box-column {
+  border: 1px solid #e1e1e1;
+}
 
 hr {
   margin-top: 1em;
