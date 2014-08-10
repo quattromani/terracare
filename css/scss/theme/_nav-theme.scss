@@ -7,7 +7,7 @@
 
     nav {
       position: relative;
-      margin-bottom: -31px;
+      margin-bottom: -33px; // magic number to pull image-content-panel up behind
       @include rgba($color-black, .5);
       z-index: 9;
 
@@ -20,10 +20,15 @@
         display: table-row;
         width: 100%;
 
+        &.navigation > li {
+          @include font-size(18);
+        }
+
         li {
           position: relative;
           display: table-cell;
           @include padding;
+          @include font-size(16);
 
           &:hover {
             background: $color-primary-green;

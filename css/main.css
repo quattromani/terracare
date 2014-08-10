@@ -728,7 +728,7 @@ footer {
     ========================================================================== */
 nav {
   position: relative;
-  margin-bottom: -31px;
+  margin-bottom: -33px;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9; }
@@ -738,13 +738,18 @@ nav {
   nav ul {
     display: table-row;
     width: 100%; }
+    nav ul.navigation > li {
+      font-size: 18px;
+      font-size: 1.8rem; }
     nav ul li {
       position: relative;
       display: table-cell;
       padding-top: 0;
       padding-right: 0;
       padding-bottom: 0;
-      padding-left: 0; }
+      padding-left: 0;
+      font-size: 16px;
+      font-size: 1.6rem; }
       nav ul li:hover {
         background: #21660f; }
       @media (min-width: 62em) {
