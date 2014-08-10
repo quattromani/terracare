@@ -290,7 +290,7 @@ footer .fa-envelope-square:hover {
   z-index: 0;
 }
 
-.project-gallery img {
+.project-gallery {
   width: 100%;
   height: 175px;
   margin-top: 0;
@@ -298,10 +298,14 @@ footer .fa-envelope-square:hover {
   margin-bottom: 0;
   margin-left: 0;
   background-size: 100% auto;
+  overflow: hidden;
+}
+.project-gallery img {
+  width: 100%;
 }
 .project-gallery figcaption {
   position: absolute;
-  bottom: .5em;
+  top: 9em;
   width: 100%;
   padding-top: 0.5em;
   padding-right: 0.5em;

@@ -9,6 +9,7 @@
       position: relative;
       height: 550px;
       @include margin;
+      background-color: $color-secondary-green;
       color: $text-white;
 
       &:after {

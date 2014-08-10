@@ -216,16 +216,19 @@
     }
 
     .project-gallery {
+      width: 100%;
+      height: 175px;
+      @include margin;
+      background-size: 100% auto;
+      overflow: hidden;
+
       img {
         width: 100%;
-        height: 175px;
-        @include margin;
-        background-size: 100% auto;
       }
 
       figcaption {
         position: absolute;
-        bottom: .5em;
+        top: 9em;
         width: 100%;
         @include padding(.5em);
         background-color: rgba(255,255,255,.65);
