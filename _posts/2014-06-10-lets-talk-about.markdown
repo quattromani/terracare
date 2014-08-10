@@ -6,7 +6,7 @@ categories:
     - employees
 author: paul_gebinine
 ---
-<img src="{{ site.baseurl }}/images/blog/Greg_with_truck.jpg" alt="Ty Wilson Photo" width="320px" height="212px" style="float:left; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/Greg_with_truck.jpg" alt="Ty Wilson Photo" width="320px" height="212px" style="float:left; border: 5px solid white; margin-right: 10px;">
 
 What do race cars, a deputy, and mentor have in common? **Greg Hayes** - Colorado Operations Manager for the public infrastructure division at Terracare Associates. I had the pleasure to sit down with Greg Hayes to talk about his 30-year career with Colorado Department of Transportation (CDOT) and his current position with us at Terracare.
 
@@ -16,7 +16,7 @@ As past Deputy Maintenance Superintendent of the front-range region, Greg was re
 
 <br>
 
-<img src="{{ site.baseurl }}/images/blog/wheel.JPG" alt="Mentorship cogs and wheels" width="320px" height="219px" style="float:right; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/wheel.JPG" alt="Mentorship cogs and wheels" width="320px" height="219px" style="float:right; border: 5px solid white; margin-right: 10px;">
 
 Fortunately for Terracare Associates, after Mr. Hayes’s retirement from CDOT he joined Terracare’s public infrastructure division team in October, 2013.  “We have known Greg for some time. We knew about Greg’s reputation as an exceptional leader, commitment to quality service, work ethic and breadth of experience in public works. We are privileged to work with such an exceptional person on our team,” said Dean Murphy, President, Terracare Associates. 
 

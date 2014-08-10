@@ -8,7 +8,7 @@ categories:
 author: jacque_wedding_scott
 ---
 
-<img src="{{ site.baseurl }}/images/blog/PI_clipped.JPG" alt="Terracare staff and equipment" width="400px" height="119px" style="float:none; border: 5px solid white; margin: 0 auto">
+<img src="/images/blog/PI_clipped.JPG" alt="Terracare staff and equipment" width="400px" height="119px" style="float:none; border: 5px solid white; margin: 0 auto">
 
 Experience matters!  Especially in the world of public private partnerships (P3’s). Public Private Partnerships are a way for governments to collaborate with the private sector to share the risks and rewards involved in the construction and maintenance of public infrastructure projects. Since 1998, Terracare Associates has been at the forefront of public-private partnerships, public works and city landscape maintenance services in the Western United States. And, the Public Infrastructure management team at Terracare, brings quite an extraordinary resume to every project with over 200 years of combined experience. The leadership is comprised of seasoned individuals with a breadth and depth of public works experience, and the knowledge and tools to help clients with a wide variety of infrastructure projects.  The combined backgrounds include decades working for the Colorado Department of Transportation, city management, and multiple industry certifications.  “We are so fortunate to have such an impressive group of people working together, sharing knowledge and resources to best serve our customers,” says Justin Stewart, Vice President of the Public Infrastructure Division at Terracare.
 

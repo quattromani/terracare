@@ -10,7 +10,7 @@ author: paul_gebinine
 
 ####Emerald Ash Borer - Colorado  
 
-<img src="{{ site.baseurl }}/images/blog/ashborer.jpg" alt="Ash Borer Photo" width="332px" height="177px" style="float:right; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/ashborer.jpg" alt="Ash Borer Photo" width="332px" height="177px" style="float:right; border: 5px solid white; margin-right: 10px;">
 
 On September 23, 2013 the Emerald Ash Borer (EAB) was detected in Boulder County, confirming the state of Colorado is infected.   Based on the proven destruction in the Midwest, scientists expect emerald ash borer will ultimately kill almost every unprotected ash tree presently growing in North America.  The emerald ash borer destruction will have a similar (or greater) impact and look on our urban forests as the Mountain Pine Beetle kill in Colorado high country without prevention, as experts in Colorado estimate 15-20% of all trees in the Front Range are ash trees.
 
@@ -27,7 +27,7 @@ We have a Certified Arborist on staff to assist each customer with building a cu
 
 <br>
 
-<img src="{{ site.baseurl }}/images/blog/EAB3steps.jpg" alt="EAB 3 Steps Photo" width="400px" height="178px" style="float:none; border: 5px solid white; margin: 0 auto;">
+<img src="/images/blog/EAB3steps.jpg" alt="EAB 3 Steps Photo" width="400px" height="178px" style="float:none; border: 5px solid white; margin: 0 auto;">
 
 [Contact us](http://terracareassociates/contact-us "Contact Us")
 

@@ -2,12 +2,12 @@ name: TERRACARE ASSOCIATES
 url: http://terracareassociates.com
 markdown: redcarpet
 highlighter: true
-baseurl: /terracare
+baseurl:
 
 paginate: 10
 paginate_path: "blog/page:num"
 
-exclude: ['node_modules', 'scss']
+exclude: ['node_modules', 'brand', 'css/scss', 'css/partials', 'css/syntax.css', 'sandbox', '*.json', 'npm-debug.log', 'Gruntfile.js', 'README.md', 'LICENSE']
 
 sitemap:
   file: "/sitemap.xml"

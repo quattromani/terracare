@@ -7,7 +7,7 @@ categories:
     - community
 author: cristin_tarr
 ---
-<img src="{{ site.baseurl }}/images/blog/community_definition.JPG" alt="Community Definition Photo" width="332px" height="80px" style="float:right; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/community_definition.JPG" alt="Community Definition Photo" width="332px" height="80px" style="float:right; border: 5px solid white; margin-right: 10px;">
 
 ####It’s Your Community!
 
@@ -20,7 +20,7 @@ Now let's take it another step and think of a business community. Do you get the
 
 <br>
 
-<img src="{{ site.baseurl }}/images/blog/hands_planting.jpg" alt="Community Definition Photo" width="200px" height="132px" style="float:left; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/hands_planting.jpg" alt="Community Definition Photo" width="200px" height="132px" style="float:left; border: 5px solid white; margin-right: 10px;">
 
 A true community celebration, caring for our earth, is April's Earth Day, coincidentally bearing a resemblance to our company's name Terracare. We at Terracare Associates believe it is a responsibility to give back to the communities where we live and work. There is no better way for a business to be part of the community than giving time, talent and/or treasure. Even more impactful is sharing expertise to help a local nonprofit, creating a win-win philanthropic effort.
 
@@ -37,26 +37,26 @@ So how do we do this? I am glad you asked.
 <br>
 **Columbine Memorial, Littleton Colorado**
 
-<img src="{{ site.baseurl }}/images/blog/Columbine_Memorial-2.JPG" alt="Community Definition Photo" width="200px" height="150px" style="float:right; border: 5px solid white; margin-left: 10px;">
+<img src="/images/blog/Columbine_Memorial-2.JPG" alt="Community Definition Photo" width="200px" height="150px" style="float:right; border: 5px solid white; margin-left: 10px;">
 
 Several years ago, Dean Murphy’s daughter was playing softball at Clement Park and came up with the idea that her dad’s company should get involved with the Columbine Memorial, the company has been helping ever since. This outdoor memorial was beautifully built in 2007 to commemorate the tragic shooting at Columbine High school. The foundation did not have continuous funding to maintain the perennials, trees, pavers, mulch and mowing. Now with a year round upkeep, both our employees at Terracare Associates, and the community as a whole, benefits from the landscape maintenance. Each year in April, just before the anniversary, our company’s field staff ensures the memorial is a beautiful peaceful place for remembrance.
 <hr>
 **Elk Grove Community Garden, Elk Grove California**
 
-<img src="{{ site.baseurl }}/images/blog/Elk_Grove-2_workers.jpeg" alt="Community Definition Photo" width="150px" height="200px" style="float:left; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/Elk_Grove-2_workers.jpeg" alt="Community Definition Photo" width="150px" height="200px" style="float:left; border: 5px solid white; margin-right: 10px;">
 
 The Elk Grove Community Garden and Learning Center provides a place where individuals and families can successfully grow fresh, healthy produce along with a perfect place to meet and learn about gardening. In April , Terracare Associates, assisted with a renovation of the Community Garden, including irrigation upgrades, and retrofitting and plant installation along the perimeter of the garden.
 
 <hr>
 **Hagemann Farm – Livermore, California**
 
-<img src="{{ site.baseurl }}/images/blog/Farm.jpg" alt="Community Definition Photo" width="200px" height="150px" style="float:right; border: 5px solid white; margin-left: 10px;">
+<img src="/images/blog/Farm.jpg" alt="Community Definition Photo" width="200px" height="150px" style="float:right; border: 5px solid white; margin-left: 10px;">
 
 Hagemann Farm is the oldest working farm in Northern California. Home to a program for children with walking and other disabilities who work with horses to improve life skills. The City of Livermore (including the Mayor) is heading up this volunteer project. About 100 or so volunteers, and Terracare helped to organize the volunteers into productive groups to accomplish a “clean up” of the farm as well as a landscape enhancement for the entryway.
 <hr>
 **Riverside Cemetery – Brighton, Colorado**
 
-<img src="{{ site.baseurl }}/images/blog/Riverside_Truck.JPG" alt="Community Definition Photo" width="200px" height="150px" style="float:left; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/Riverside_Truck.JPG" alt="Community Definition Photo" width="200px" height="150px" style="float:left; border: 5px solid white; margin-right: 10px;">
 
 Riverside Cemetery, founded in 1876, is Denver’s oldest operating cemetery and is designated as a national historic district. The cemetery currently faces challenges due to the loss in 2001 of its “handshake agreement” to water rights from the South Platte River. Terracare Associates teamed up with Colorado Association of Lawn Care Professionals (CALCP), to remove dead trees, and aerate, amend, and seed, native grass seeds and plantings over several acres to return the land to its native use while offering a beautiful landscape.
 

@@ -1,6 +1,6 @@
 <div class="cta-container">
-  <a class="btn btn-primary full" href="{{ site.baseurl }}/projects/{{ page.project }}">View Clients <i class="fa fa-chevron-right"></i></a>
-  <a class="btn btn-primary full" href="{{ site.baseurl }}/contact-us">More Information <i class="fa fa-chevron-right"></i></a>
+  <a class="btn btn-primary full" href="/projects/{{ page.project }}">View Clients <i class="fa fa-chevron-right"></i></a>
+  <a class="btn btn-primary full" href="/contact-us">More Information <i class="fa fa-chevron-right"></i></a>
 </div>
 
 <h2>{% if page.sidebar != null %}{{ page.sidebar }}{% else %}{{ page.parent }}{% endif %}</h2>
@@ -11,7 +11,7 @@
   {% for child_link in nav.child_links %}
 
   <li>
-    <a href="{{ site.baseurl }}{{ nav.url }}{{ child_link.url }}">{{ child_link.name }}</a>
+    <a href="{{ nav.url }}{{ child_link.url }}">{{ child_link.name }}</a>
   </li>
 
   {% endfor %}

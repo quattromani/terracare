@@ -7,7 +7,7 @@ categories:
     - certification
 author: cristin_tarr
 ---
-<img src="{{ site.baseurl }}/images/blog/Ty-Wilson.jpg" alt="Ty Wilson Photo" width="250px" height="250px" style="float:left; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/Ty-Wilson.jpg" alt="Ty Wilson Photo" width="250px" height="250px" style="float:left; border: 5px solid white; margin-right: 10px;">
 
 April 2014 — PLANET, the national landscape industry trade association, announces that Ty Wilson, Branch Manager at [Terracare Associates](http://terracareassociates.com/ "Terracare Associates") in Elk Grove, CA has earned the Landscape Industry Certified Technician designation and is now nationally certified.  
 The achievement of the Landscape Industry Certified designation demonstrates a distinguished level of professionalism. Certification is voluntary and it represents a professional’s dedication to exhibiting superior knowledge in his or her field.  Only a select few, approximately 1% of landscape professionals working in the United States today, are certified.  

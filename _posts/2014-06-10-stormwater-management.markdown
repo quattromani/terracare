@@ -7,7 +7,7 @@ categories:
 author: cristin_tarr
 ---
 
-<img src="{{ site.baseurl }}/images/blog/Water_to_drain.jpg" alt="Water to Drain Photo" width="412px" height="272px" style="float:left; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/Water_to_drain.jpg" alt="Water to Drain Photo" width="412px" height="272px" style="float:left; border: 5px solid white; margin-right: 10px;">
 
 #####Why should we care about stormwater management?  
 Originally, stormwater management involved primarily_quantity_ of flow and now equally important is _quality_ of water runoff.  Since 1970’s, the EPA (Environmental Protection Agency) is responsible for managing runoffs in the United States. The EPA utilize computerized mapping and models to best manage water runoff, erosion and pollution problems resulting from weather or other fresh water flow. Because of these regulations, municipalities, counties and the private sector strive to achieve compliance and more.  Many local districts and even the Department of Health are involved in monitoring stormwater runoff. Nick Madrid, Field Manager of public infrastructure division at Terracare Associates, a leading outdoor maintenance company says “Everything we do each day we consider stormwater management.  From our maintenance bays to washing equipment, to road repairs, we evaluate the effects on the environment.”  As a property manager or city public works department it’s important to understand how to integrate stormwater management into your ongoing maintenance strategy to achieve the highest level of public safety.
@@ -15,7 +15,7 @@ Originally, stormwater management involved primarily_quantity_ of flow and now e
 <br>
 
 #####What is storm water management?
-<img src="{{ site.baseurl }}/images/blog/Water_droplets_on_truck.jpg" alt="Water droplets on truck Photo" width="320px" height="180px" style="float:right; border: 5px solid white; margin-right: 10px;">
+<img src="/images/blog/Water_droplets_on_truck.jpg" alt="Water droplets on truck Photo" width="320px" height="180px" style="float:right; border: 5px solid white; margin-right: 10px;">
 Traditionally, storm management is focused on collection of storm water through pipes and drainage transporting water runoff as quickly as possible to stream, creeks, rivers and sometimes sewer system.  However, storm water management includes anytime water flows at facilities, on roads, off of properties into water systems.  Erosion, debris, chemicals, sediment, salt and sand run off are all part of managing water flows that must be filtered before entering sewers or other fresh water sources.  
 
 <br>
@@ -31,7 +31,7 @@ To be EPA compliant it is recommended to follow stormwater Best Management Pract
 
 **To best maintain water runoff, there are several factors to consider:**
 
-<img src="{{ site.baseurl }}/images/blog/stormwater_managment.jpg" alt="Water to Drain Photo" style="float:right; border: 5px solid white; margin-left: 10px;">
+<img src="/images/blog/stormwater_managment.jpg" alt="Water to Drain Photo" style="float:right; border: 5px solid white; margin-left: 10px;">
 
 1. **Water flow Rate:** Anytime water is disrupted from natural flow BMP’s are considered. Higher peak flow rates can result in erosion and more contaminates enter the water stream.   A higher peak flow rate requires more significant storm pipes and drains and continued maintenance.
 2. **Water Quality:** “What goes in must come out”, this cliché is very appropriate for proper stormwater management.   Poor management of runoff with sediments, chemicals and silt could result in increased contamination and pollution in our waters, impacting fish and wildlife. 
