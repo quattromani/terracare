@@ -1,0 +1,5 @@
+# robots.txt for http://www.terracareassociates.com/
+
+User-agent: *
+Disallow: /Gruntfile.js
+Disallow: /terracare.sublime-project
