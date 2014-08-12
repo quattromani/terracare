@@ -110,46 +110,46 @@ a[href$='.pdf']:after {
 h1,
 .h1 {
   font-family: "Gotham Bold", Arial, sans-serif;
-  font-size: 42px;
-  font-size: 4.2rem;
+  font-size: 34px;
+  font-size: 3.4rem;
   font-weight: 200;
   color: #454545;
 }
 @media (max-width: 62em) {
   h1,
   .h1 {
-    font-size: 36.75px;
-    font-size: 3.675rem;
+    font-size: 29.75px;
+    font-size: 2.975rem;
   }
 }
 @media (max-width: 40em) {
   h1,
   .h1 {
-    font-size: 31.5px;
-    font-size: 3.15rem;
+    font-size: 25.5px;
+    font-size: 2.55rem;
   }
 }
 
 h2,
 .h2 {
   font-family: "Gotham Bold", Arial, sans-serif;
-  font-size: 36px;
-  font-size: 3.6rem;
+  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 200;
   color: #454545;
 }
 @media (max-width: 62em) {
   h2,
   .h2 {
-    font-size: 31.5px;
-    font-size: 3.15rem;
+    font-size: 28px;
+    font-size: 2.8rem;
   }
 }
 @media (max-width: 40em) {
   h2,
   .h2 {
-    font-size: 27px;
-    font-size: 2.7rem;
+    font-size: 24px;
+    font-size: 2.4rem;
   }
 }
 
@@ -318,12 +318,12 @@ pre {
 kbd,
 samp {
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
-  color: #21660f;
+  color: #325008;
 }
 
 .valid,
 .is-valid {
-  color: #21660f;
+  color: #325008;
 }
 
 .code-comment {

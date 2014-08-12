@@ -103,7 +103,7 @@ body {
     .banner a.light:hover {
       color: #5b3821; }
   .banner-ctas {
-    margin-top: 3em; }
+    margin-top: 2em; }
     @media (max-width: 40em) {
       .banner-ctas {
         margin-top: 0;
@@ -757,7 +757,7 @@ nav {
       font-size: 16px;
       font-size: 1.6rem; }
       nav ul li:hover {
-        background: #21660f; }
+        background: #325008; }
       @media (min-width: 62em) {
         nav ul li:hover ul {
           position: absolute;
@@ -785,9 +785,9 @@ nav {
               .ie8 nav ul li:hover ul li a {
                 background-color: #793c12; }
               nav ul li:hover ul li a:hover {
-                background: rgba(33, 102, 15, 0.75); }
+                background: rgba(50, 80, 8, 0.75); }
                 .ie8 nav ul li:hover ul li a:hover {
-                  background-color: #21660f; } }
+                  background-color: #325008; } }
       nav ul li a {
         display: block;
         padding-top: 0.25em;
@@ -800,7 +800,7 @@ nav {
         nav ul li a:hover {
           color: white; }
       nav ul li.active {
-        background: #21660f; }
+        background: #325008; }
         @media (min-width: 62em) {
           nav ul li.active:before {
             content: '';
@@ -811,7 +811,7 @@ nav {
             width: 0;
             height: 0;
             margin-left: -.75em;
-            border-color: #21660f transparent transparent transparent;
+            border-color: #325008 transparent transparent transparent;
             border-style: solid;
             border-width: .75em;
             z-index: 99; } }
@@ -846,7 +846,7 @@ nav {
     background: #0b4d42; }
     nav input[type=checkbox]:checked ~ .navigation li {
       border-top: 1px solid #65bf4d;
-      background: #1a500c; }
+      background: #243906; }
       nav input[type=checkbox]:checked ~ .navigation li:first-child {
         border: none; }
     nav input[type=checkbox]:checked ~ .navigation li li {
@@ -881,7 +881,7 @@ nav {
   background: #74111d; }
 
 .bg-primary-green {
-  background: #21660f; }
+  background: #325008; }
 
 .bg-primary-blue {
   background: #0b4d42; }
@@ -918,7 +918,7 @@ nav {
   color: #4c060e; }
 
 .color-primary-green {
-  color: #21660f; }
+  color: #325008; }
 
 .color-secondary-green {
   color: #58b340; }
@@ -1072,38 +1072,38 @@ a {
 h1,
 .h1 {
   font-family: "Gotham Bold", Arial, sans-serif;
-  font-size: 42px;
-  font-size: 4.2rem;
+  font-size: 34px;
+  font-size: 3.4rem;
   font-weight: 200;
   color: #454545; }
   @media (max-width: 62em) {
     h1,
     .h1 {
-      font-size: 36.75px;
-      font-size: 3.675rem; } }
+      font-size: 29.75px;
+      font-size: 2.975rem; } }
   @media (max-width: 40em) {
     h1,
     .h1 {
-      font-size: 31.5px;
-      font-size: 3.15rem; } }
+      font-size: 25.5px;
+      font-size: 2.55rem; } }
 
 h2,
 .h2 {
   font-family: "Gotham Bold", Arial, sans-serif;
-  font-size: 36px;
-  font-size: 3.6rem;
+  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 200;
   color: #454545; }
   @media (max-width: 62em) {
     h2,
     .h2 {
-      font-size: 31.5px;
-      font-size: 3.15rem; } }
+      font-size: 28px;
+      font-size: 2.8rem; } }
   @media (max-width: 40em) {
     h2,
     .h2 {
-      font-size: 27px;
-      font-size: 2.7rem; } }
+      font-size: 24px;
+      font-size: 2.4rem; } }
 
 h3,
 .h3 {
@@ -1245,11 +1245,11 @@ pre {
 kbd,
 samp {
   font-family: Inconsolata, Monaco, Consolas, "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
-  color: #21660f; }
+  color: #325008; }
 
 .valid,
 .is-valid {
-  color: #21660f; }
+  color: #325008; }
 
 .code-comment {
   filter: alpha(opacity=50);
@@ -2362,8 +2362,8 @@ button,
     button.button-primary:hover,
     .cta.btn-primary:hover,
     .cta.button-primary:hover {
-      border-bottom: 3px solid #21660f;
-      background-color: #21660f; }
+      border-bottom: 3px solid #325008;
+      background-color: #325008; }
   .btn.btn-error,
   .button.btn-error,
   button.btn-error,
@@ -2385,7 +2385,7 @@ button,
     .button.btn-success:hover,
     button.btn-success:hover,
     .cta.btn-success:hover {
-      background-color: #21660f; }
+      background-color: #325008; }
   .btn.btn-info,
   .button.btn-info,
   button.btn-info,
@@ -2486,33 +2486,33 @@ button,
       button.mobile-full a,
       .cta.mobile-full a {
         display: block;
-        text-align: center; } }
-  .btn + .btn,
-  .button + .btn,
-  button + .btn,
-  .cta + .btn, .btn +
-  .button,
-  .button +
-  .button,
-  button +
-  .button,
-  .cta +
-  .button, .btn +
-  button,
-  .button +
-  button,
-  button +
-  button,
-  .cta +
-  button, .btn +
-  .cta,
-  .button +
-  .cta,
-  button +
-  .cta,
-  .cta +
-  .cta {
-    margin-top: 1em; }
+        text-align: center; }
+    .btn + .btn,
+    .button + .btn,
+    button + .btn,
+    .cta + .btn, .btn +
+    .button,
+    .button +
+    .button,
+    button +
+    .button,
+    .cta +
+    .button, .btn +
+    button,
+    .button +
+    button,
+    button +
+    button,
+    .cta +
+    button, .btn +
+    .cta,
+    .button +
+    .cta,
+    button +
+    .cta,
+    .cta +
+    .cta {
+      margin-top: 1em; } }
 
 .cta {
   -webkit-box-shadow: inset 0 0 0 2px #0b4d42;
@@ -2682,7 +2682,7 @@ label + .pill,
 
 .valid-box {
   border-left: 0.3em solid #58b340;
-  background: #3ebf1c;
+  background: #6cad11;
   color: #58b340; }
 
 [class*='message-'] {
@@ -2740,7 +2740,7 @@ label + .pill,
 .message-valid {
   color: #58b340; }
   .message-valid:before {
-    background: #21660f;
+    background: #325008;
     content: '\f00c'; }
 
 /* ==========================================================================

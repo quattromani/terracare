@@ -34,7 +34,7 @@ nav ul li {
   font-size: 1.6rem;
 }
 nav ul li:hover {
-  background: #21660f;
+  background: #325008;
 }
 @media (min-width: 62em) {
   nav ul li:hover ul {
@@ -68,10 +68,10 @@ nav ul li:hover {
     background-color: #793c12;
   }
   nav ul li:hover ul li a:hover {
-    background: rgba(33, 102, 15, 0.75);
+    background: rgba(50, 80, 8, 0.75);
   }
   .ie8 nav ul li:hover ul li a:hover {
-    background-color: #21660f;
+    background-color: #325008;
   }
 }
 nav ul li a {
@@ -88,7 +88,7 @@ nav ul li a:hover {
   color: white;
 }
 nav ul li.active {
-  background: #21660f;
+  background: #325008;
 }
 @media (min-width: 62em) {
   nav ul li.active:before {
@@ -100,7 +100,7 @@ nav ul li.active {
     width: 0;
     height: 0;
     margin-left: -.75em;
-    border-color: #21660f transparent transparent transparent;
+    border-color: #325008 transparent transparent transparent;
     border-style: solid;
     border-width: .75em;
     z-index: 99;
@@ -149,7 +149,7 @@ nav input[type=checkbox]:checked ~ .navigation {
 }
 nav input[type=checkbox]:checked ~ .navigation li {
   border-top: 1px solid #65bf4d;
-  background: #1a500c;
+  background: #243906;
 }
 nav input[type=checkbox]:checked ~ .navigation li:first-child {
   border: none;

@@ -10,18 +10,18 @@
       $(document).ready(function() {
         $('.main-carousel').slick({
           autoplay: true,
+          autoplaySpeed: 8000,
           dots: true,
           arrows: false,
           infinite: true,
-          speed: 500,
+          speed: 800,
           fade: true
         });
 
         $('.project-carousel').slick({
-          autoplay: true,
-          arrows: false,
+          autoplay: false,
+          arrows: true,
           infinite: true,
-          autoplaySpeed: 5000,
           speed: 1000
         });
       });

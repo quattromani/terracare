@@ -15,7 +15,7 @@
 
 .valid-box {
   border-left: 0.3em solid #58b340;
-  background: #3ebf1c;
+  background: #6cad11;
   color: #58b340;
 }
 
@@ -70,6 +70,6 @@
   color: #58b340;
 }
 .message-valid:before {
-  background: #21660f;
+  background: #325008;
   content: '\f00c';
 }

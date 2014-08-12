@@ -65,8 +65,8 @@ button.btn-primary:hover,
 button.button-primary:hover,
 .cta.btn-primary:hover,
 .cta.button-primary:hover {
-  border-bottom: 3px solid #21660f;
-  background-color: #21660f;
+  border-bottom: 3px solid #325008;
+  background-color: #325008;
 }
 .btn.btn-error,
 .button.btn-error,
@@ -92,7 +92,7 @@ button.btn-success,
 .button.btn-success:hover,
 button.btn-success:hover,
 .cta.btn-success:hover {
-  background-color: #21660f;
+  background-color: #325008;
 }
 .btn.btn-info,
 .button.btn-info,
@@ -207,33 +207,33 @@ button.btn-sm,
     display: block;
     text-align: center;
   }
-}
-.btn + .btn,
-.button + .btn,
-button + .btn,
-.cta + .btn, .btn +
-.button,
-.button +
-.button,
-button +
-.button,
-.cta +
-.button, .btn +
-button,
-.button +
-button,
-button +
-button,
-.cta +
-button, .btn +
-.cta,
-.button +
-.cta,
-button +
-.cta,
-.cta +
-.cta {
-  margin-top: 1em;
+  .btn + .btn,
+  .button + .btn,
+  button + .btn,
+  .cta + .btn, .btn +
+  .button,
+  .button +
+  .button,
+  button +
+  .button,
+  .cta +
+  .button, .btn +
+  button,
+  .button +
+  button,
+  button +
+  button,
+  .cta +
+  button, .btn +
+  .cta,
+  .button +
+  .cta,
+  button +
+  .cta,
+  .cta +
+  .cta {
+    margin-top: 1em;
+  }
 }
 
 .cta {
