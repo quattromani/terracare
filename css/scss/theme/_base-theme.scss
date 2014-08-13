@@ -241,7 +241,7 @@
       height: 213px;
       overflow: hidden;
 
-      .timeline-header {
-        display: none;
+      @include bp(bp-small) {
+
       }
     }
