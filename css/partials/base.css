@@ -315,3 +315,11 @@ footer .fa-envelope-square:hover {
   color: #454545;
   text-align: right;
 }
+
+.social-feed {
+  height: 213px;
+  overflow: hidden;
+}
+.social-feed .timeline-header {
+  display: none;
+}

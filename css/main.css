@@ -254,6 +254,12 @@ footer {
     color: #454545;
     text-align: right; }
 
+.social-feed {
+  height: 213px;
+  overflow: hidden; }
+  .social-feed .timeline-header {
+    display: none; }
+
 /* Layout */
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Compiled: timestamp()

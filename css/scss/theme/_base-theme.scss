@@ -236,3 +236,12 @@
         text-align: right;
       }
     }
+
+    .social-feed {
+      height: 213px;
+      overflow: hidden;
+
+      .timeline-header {
+        display: none;
+      }
+    }
