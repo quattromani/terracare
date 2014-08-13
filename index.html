@@ -19,54 +19,56 @@ banner-cta-url: ""
 <div class="row">
   <div class="third">
     <h4>Videos</h4>
-    <video controls poster="/videos/poster.jpg" width="100%" height="auto">
-      <source src="/videos/Communication_In_The_Field-HD.mp4" type="video/mp4">
-        I'm sorry; your browser doesn't support HTML5 video in WebM with VP8 or MP4 with H.264.
-        <!-- You can embed a Flash player here, to play your mp4 video in older browsers -->
-      </video>
+    <video controls="controls" poster="/videos/poster.jpg" width="100%" height="auto">
+      <source src="/videos/Communication_In_The_Field-HD.mp4" type="video/mp4" />
+      <source src="/videos/Communication_In_The_Field-HD.webmhd.webm" type="video/webm" />
+      <source src="/videos/Communication_In_The_Field-HD.oggtheora.ogv" type="video/ogg" />
+      We're sorry; your browser doesn't support HTML5 video in WebM with VP8 or MP4 with H.264.
+    </video>
+  </div>
 
-    </div>
-    <div class="third">
-      <div class="callout-box">
-        <h4>Project Gallery</h4>
-        <div class="slider project-carousel">
-          <div>
-            <div class="project-gallery">
-              <a href="/projects">
-                <figure>
-                  <img src="/images/projects/Centennial_Sign.png" alt="City of Centennial, CO">
-                  <figcaption>City of Centennial</figcaption>
-                </figure>
-              </a>
-            </div>
+  <div class="third">
+    <div class="callout-box">
+      <h4>Project Gallery</h4>
+      <div class="slider project-carousel">
+        <div>
+          <div class="project-gallery">
+            <a href="/projects">
+              <figure>
+                <img src="/images/projects/Centennial_Sign.png" alt="City of Centennial, CO">
+                <figcaption>City of Centennial</figcaption>
+              </figure>
+            </a>
           </div>
-          <div>
-            <div class="project-gallery">
-              <a href="/projects">
-                <figure>
-                  <img src="/images/projects/Lone_Tree.jpg" alt="City of Lone Tree, CO">
-                  <figcaption>City of Lone Tree</figcaption>
-                </figure>
-              </a>
-            </div>
+        </div>
+        <div>
+          <div class="project-gallery">
+            <a href="/projects">
+              <figure>
+                <img src="/images/projects/Lone_Tree.jpg" alt="City of Lone Tree, CO">
+                <figcaption>City of Lone Tree</figcaption>
+              </figure>
+            </a>
           </div>
-          <div>
-            <div class="project-gallery">
-              <a href="/projects">
-                <figure>
-                  <img src="/images/projects/Northwest_Parkway.jpg" alt="Northwest Parkway">
-                  <figcaption>Northwest Parkway</figcaption>
-                </figure>
-              </a>
-            </div>
+        </div>
+        <div>
+          <div class="project-gallery">
+            <a href="/projects">
+              <figure>
+                <img src="/images/projects/Northwest_Parkway.jpg" alt="Northwest Parkway">
+                <figcaption>Northwest Parkway</figcaption>
+              </figure>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <div class="third social-feed">
-      <h4>
-        Social
-      </h4>
-      {% include twitter.html %}
-    </div>
   </div>
+
+  <div class="third social-feed">
+    <h4>
+      Social
+    </h4>
+    {% include twitter.html %}
+  </div>
+</div>
