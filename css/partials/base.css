@@ -109,6 +109,7 @@ body.sticky-footer {
 }
 .banner a.logo img {
   float: left;
+  height: 77px;
 }
 @media (max-width: 40em) {
   .banner a.logo img {
