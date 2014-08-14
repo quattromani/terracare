@@ -68,8 +68,6 @@
       }
 
       &-ctas {
-        margin-top: 2em;
-
         @include bp(bp-small) {
           @include margin;
           text-align: center;
@@ -77,6 +75,15 @@
           .text-right {
             text-align: center;
           }
+        }
+      }
+
+      .form-ctas {
+        margin-top: 2em;
+
+        @include bp(bp-small) {
+          float: none;
+          @include margin(0, 0, 1em);
         }
       }
     }

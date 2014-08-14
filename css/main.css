@@ -102,17 +102,24 @@ body {
     color: #454545; }
     .banner a.light:hover {
       color: #5b3821; }
-  .banner-ctas {
+  @media (max-width: 40em) {
+    .banner-ctas {
+      margin-top: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+      margin-left: 0;
+      text-align: center; }
+      .banner-ctas .text-right {
+        text-align: center; } }
+  .banner .form-ctas {
     margin-top: 2em; }
     @media (max-width: 40em) {
-      .banner-ctas {
+      .banner .form-ctas {
+        float: none;
         margin-top: 0;
         margin-right: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        text-align: center; }
-        .banner-ctas .text-right {
-          text-align: center; } }
+        margin-bottom: 1em;
+        margin-left: 0; } }
 
 .teams .job-title {
   font-weight: bold; }

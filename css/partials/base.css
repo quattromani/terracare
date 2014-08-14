@@ -124,9 +124,6 @@ body.sticky-footer {
 .banner a.light:hover {
   color: #5b3821;
 }
-.banner-ctas {
-  margin-top: 2em;
-}
 @media (max-width: 40em) {
   .banner-ctas {
     margin-top: 0;
@@ -137,6 +134,18 @@ body.sticky-footer {
   }
   .banner-ctas .text-right {
     text-align: center;
+  }
+}
+.banner .form-ctas {
+  margin-top: 2em;
+}
+@media (max-width: 40em) {
+  .banner .form-ctas {
+    float: none;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left: 0;
   }
 }
 
