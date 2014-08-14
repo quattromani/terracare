@@ -3148,10 +3148,13 @@ img {
   border: 0.5em solid #cccccc; }
 
 [class*='image-focus-'] {
-  min-height: 250px;
+  min-height: 550px;
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat; }
+  @media (max-width: 40em) {
+    [class*='image-focus-'] {
+      min-height: 295px; } }
 
 .image-focus-1 {
   background-position: left center; }

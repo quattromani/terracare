@@ -47,9 +47,14 @@ img {
 }
 
 [class*='image-focus-'] {
-  min-height: 250px;
+  min-height: 550px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (max-width: 40em) {
+  [class*='image-focus-'] {
+    min-height: 295px;
+  }
 }
 
 .image-focus-1 {
