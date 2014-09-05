@@ -13,7 +13,7 @@
   background: rgba(11, 77, 66, 0.9);
 }
 .sticky span {
-  color: #cccccc;
+  color: #ccc;
 }
 @media (max-width: 40em) {
   .sticky span {
@@ -21,8 +21,8 @@
   }
 }
 .sticky .cta {
-  color: white;
-  border: 2px solid white;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 .js-fixed {
@@ -35,3 +35,5 @@
 .spacer {
   background: #454545;
 }
+
+/*# sourceMappingURL=sticky.css.map */

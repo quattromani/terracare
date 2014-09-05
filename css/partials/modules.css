@@ -30,8 +30,8 @@ hr {
   margin-bottom: 1em;
   margin-left: 0;
   border: 0;
-  border-top: 1px solid #cccccc;
-  border-bottom: 1px solid white;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
 }
 hr.below-desktop {
   display: none;
@@ -45,8 +45,8 @@ hr.below-desktop {
 @media (max-width: 40em) {
   hr.below-desktop {
     display: block;
-    border-top: 1px solid #cccccc;
-    border-bottom: 1px solid white;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
   }
 }
 hr.blog {
@@ -65,5 +65,7 @@ hr.blog:after {
   font-weight: normal;
   font-size: 40px;
   font-size: 4rem;
-  color: #cccccc;
+  color: #ccc;
 }
+
+/*# sourceMappingURL=modules.css.map */

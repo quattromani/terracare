@@ -23,7 +23,7 @@ select {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   outline: none;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -101,22 +101,22 @@ textarea {
 }
 
 ::-webkit-input-placeholder {
-  color: #cccccc;
+  color: #ccc;
   font-weight: 100;
 }
 
 :-moz-placeholder {
-  color: #cccccc;
+  color: #ccc;
   font-weight: 100;
 }
 
 ::-moz-placeholder {
-  color: #cccccc;
+  color: #ccc;
   font-weight: 100;
 }
 
 :-ms-input-placeholder {
-  color: #cccccc;
+  color: #ccc;
   font-weight: 100;
 }
 
@@ -184,7 +184,7 @@ input.radio:empty ~ label:before,
 input.radio:empty ~ label:after {
   width: 1.5em;
   height: 1.5em;
-  background: #cccccc;
+  background: #ccc;
 }
 
 input.switch:empty ~ label:after,
@@ -193,7 +193,7 @@ input.radio:empty ~ label:after {
   height: .75em;
   top: .375em;
   margin-left: .375em;
-  background: white;
+  background: #fff;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
@@ -210,3 +210,5 @@ input.radio:checked ~ label:before {
 input.switch:checked ~ label:after {
   margin-left: 1.375em;
 }
+
+/*# sourceMappingURL=forms.css.map */

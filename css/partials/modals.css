@@ -19,7 +19,7 @@
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding-box;
   background-clip: padding-box;
-  background: none repeat scroll 0 0 white;
+  background: none repeat scroll 0 0 #fff;
   color: #454545;
   z-index: 9999;
 }
@@ -90,7 +90,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: black;
+  background: #000;
   zoom: 1;
   filter: alpha(opacity=60);
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
@@ -99,3 +99,5 @@
   opacity: 0.6;
   z-index: 9998;
 }
+
+/*# sourceMappingURL=modals.css.map */

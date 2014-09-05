@@ -78,7 +78,7 @@ body.sticky-footer {
 }
 
 .banner {
-  background: white;
+  background: #fff;
 }
 @media (min-width: 62em) {
   .banner {
@@ -185,7 +185,7 @@ a.modal-button img {
   padding-bottom: 1em;
   padding-left: 0;
   background: #0b4d42;
-  color: white;
+  color: #fff;
 }
 
 footer {
@@ -193,7 +193,7 @@ footer {
   padding-right: 0;
   padding-bottom: 1em;
   padding-left: 0;
-  background-color: black;
+  background-color: #000;
   background-color: rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: inset 0 2em 2em -2em rgba(0, 0, 0, 0.15);
   -moz-box-shadow: inset 0 2em 2em -2em rgba(0, 0, 0, 0.15);
@@ -212,7 +212,7 @@ footer a {
   }
 }
 footer .fa {
-  color: #cccccc;
+  color: #ccc;
   -webkit-transition: color 0.2s ease;
   -moz-transition: color 0.2s ease;
   -ms-transition: color 0.2s ease;
@@ -249,7 +249,7 @@ footer .fa-envelope-square:hover {
   padding-bottom: 0.5em;
   padding-left: 0;
   background: #313131;
-  color: #cccccc;
+  color: #ccc;
 }
 
 .anchor {
@@ -261,24 +261,24 @@ footer .fa-envelope-square:hover {
   padding-right: 0;
   padding-bottom: 0.75em;
   padding-left: 0;
-  background-color: #333333;
+  background-color: #333;
   background-color: rgba(51, 51, 51, 0.9);
-  color: white;
+  color: #fff;
 }
 .anchor .third {
   text-align: center;
 }
 .anchor a.cta {
-  -webkit-box-shadow: inset 0 0 0 2px #cccccc;
-  -moz-box-shadow: inset 0 0 0 2px #cccccc;
-  box-shadow: inset 0 0 0 2px #cccccc;
-  color: #cccccc;
+  -webkit-box-shadow: inset 0 0 0 2px #ccc;
+  -moz-box-shadow: inset 0 0 0 2px #ccc;
+  box-shadow: inset 0 0 0 2px #ccc;
+  color: #ccc;
 }
 .anchor a.cta:hover {
-  -webkit-box-shadow: inset 0 0 0 2px white;
-  -moz-box-shadow: inset 0 0 0 2px white;
-  box-shadow: inset 0 0 0 2px white;
-  color: white;
+  -webkit-box-shadow: inset 0 0 0 2px #fff;
+  -moz-box-shadow: inset 0 0 0 2px #fff;
+  box-shadow: inset 0 0 0 2px #fff;
+  color: #fff;
 }
 
 .leaf-icon {
@@ -330,3 +330,5 @@ footer .fa-envelope-square:hover {
   height: 213px;
   overflow: hidden;
 }
+
+/*# sourceMappingURL=base.css.map */

@@ -43,7 +43,7 @@ img {
 }
 
 .image-bordered {
-  border: 0.5em solid #cccccc;
+  border: 0.5em solid #ccc;
 }
 
 [class*='image-focus-'] {
@@ -80,3 +80,5 @@ img {
 .ie9 svg:not(:root) {
   overflow: hidden;
 }
+
+/*# sourceMappingURL=images.css.map */

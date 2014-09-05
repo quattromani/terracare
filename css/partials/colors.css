@@ -2,11 +2,11 @@
     Colors & Gradients -- Version: 0.4.3 - Compiled: timestamp()
    ========================================================================== */
 .bg-white {
-  background: white;
+  background: #fff;
 }
 
 .bg-black {
-  background: black;
+  background: #000;
 }
 
 .bg-grey {
@@ -14,7 +14,7 @@
 }
 
 .bg-light-grey {
-  background: #cccccc;
+  background: #ccc;
 }
 
 .bg-primary-red {
@@ -92,7 +92,7 @@
 }
 
 .color-error {
-  color: red;
+  color: #f00;
 }
 
 .color-info {
@@ -108,11 +108,11 @@
 }
 
 .color-light-grey {
-  color: #cccccc;
+  color: #ccc;
 }
 
 .color-white {
-  color: white;
+  color: #fff;
 }
 
 .text-muted,
@@ -122,13 +122,13 @@
 
 .text-warning,
 .text-error {
-  color: red;
+  color: #f00;
 }
 
 .error,
 .is-error {
   background: #ff8080;
-  color: red;
+  color: #f00;
 }
 
 .text-success {
@@ -142,3 +142,5 @@
 .ie9 [class*="gradient"] {
   filter: none;
 }
+
+/*# sourceMappingURL=colors.css.map */

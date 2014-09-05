@@ -10,7 +10,7 @@
   -webkit-box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
   -moz-box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
   box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
-  background-color: white;
+  background-color: #fff;
 }
 .blog .blog-cap:before {
   content: '';
@@ -21,7 +21,7 @@
   width: 0;
   height: 0;
   margin-left: -.75em;
-  border-color: white transparent transparent transparent;
+  border-color: #fff transparent transparent transparent;
   border-style: solid;
   border-width: .75em;
   z-index: 99999;
@@ -33,3 +33,5 @@
   padding-left: 1em;
   background-color: #f9f9f9;
 }
+
+/*# sourceMappingURL=blog.css.map */

@@ -7,7 +7,7 @@
 nav {
   position: relative;
   margin-bottom: -33px;
-  background-color: black;
+  background-color: #000;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9;
 }
@@ -62,7 +62,7 @@ nav ul li:hover {
     padding-bottom: 0.25em;
     padding-left: 0.75em;
     background: rgba(121, 60, 18, 0.65);
-    color: white;
+    color: #fff;
   }
   .ie8 nav ul li:hover ul li a {
     background-color: #793c12;
@@ -82,10 +82,10 @@ nav ul li a {
   padding-left: 0.75em;
   font-weight: 200;
   vertical-align: middle;
-  color: white;
+  color: #fff;
 }
 nav ul li a:hover {
-  color: white;
+  color: #fff;
 }
 nav ul li.active {
   background: #325008;
@@ -133,7 +133,7 @@ nav .show-menu {
   padding-right: 0;
   padding-bottom: 0.5em;
   padding-left: 0;
-  color: white;
+  color: #fff;
 }
 @media (max-width: 62em) {
   nav .show-menu {
@@ -173,3 +173,5 @@ nav input[type=checkbox]:checked ~ .navigation > li.js-last {
 .ie8 nav {
   background-color: #454545;
 }
+
+/*# sourceMappingURL=nav.css.map */

@@ -18,7 +18,7 @@
   color: #454545;
 }
 .callouts .callout {
-  background-color: white;
+  background-color: #fff;
   padding-top: 0.75em;
   padding-right: 0.75em;
   padding-bottom: 0.5em;
@@ -60,3 +60,5 @@
     display: none;
   }
 }
+
+/*# sourceMappingURL=callout.css.map */

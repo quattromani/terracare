@@ -94,7 +94,7 @@ ul ul {
 }
 .vertical.lined li {
   overflow: auto;
-  border-bottom: 1px dotted #cccccc;
+  border-bottom: 1px dotted #ccc;
 }
 .vertical.lined li.js-last {
   border-bottom: 0;
@@ -107,3 +107,5 @@ dt {
 dd {
   margin-left: 1em;
 }
+
+/*# sourceMappingURL=lists.css.map */

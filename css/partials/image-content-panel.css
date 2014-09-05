@@ -8,8 +8,8 @@
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  background-color: white;
-  color: white;
+  background-color: #fff;
+  color: #fff;
 }
 .image-content-panel:after {
   content: "";
@@ -31,7 +31,7 @@
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
 }
 .image-content-panel .disclaimer {
@@ -70,7 +70,7 @@
   padding-right: 0.5em;
   padding-bottom: 0.5em;
   padding-left: 0.5em;
-  background-color: black;
+  background-color: #000;
   background-color: rgba(0, 0, 0, 0.45);
 }
 .image-content-panel .feature h2 {
@@ -78,28 +78,28 @@
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
-  color: #cccccc;
+  color: #ccc;
 }
 .image-content-panel .feature p.lede {
   font-size: 24px;
   font-size: 2.4rem;
-  color: white;
+  color: #fff;
 }
 .image-content-panel .feature a.cta {
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 1em;
   margin-left: 0;
-  -webkit-box-shadow: inset 0 0 0 2px #cccccc;
-  -moz-box-shadow: inset 0 0 0 2px #cccccc;
-  box-shadow: inset 0 0 0 2px #cccccc;
-  color: #cccccc;
+  -webkit-box-shadow: inset 0 0 0 2px #ccc;
+  -moz-box-shadow: inset 0 0 0 2px #ccc;
+  box-shadow: inset 0 0 0 2px #ccc;
+  color: #ccc;
 }
 .image-content-panel .feature a.cta:hover {
-  -webkit-box-shadow: inset 0 0 0 2px white;
-  -moz-box-shadow: inset 0 0 0 2px white;
-  box-shadow: inset 0 0 0 2px white;
-  color: white;
+  -webkit-box-shadow: inset 0 0 0 2px #fff;
+  -moz-box-shadow: inset 0 0 0 2px #fff;
+  box-shadow: inset 0 0 0 2px #fff;
+  color: #fff;
 }
 @media (max-width: 40em) {
   .image-content-panel .feature {
@@ -111,3 +111,5 @@
   position: relative;
   padding: 1em 2em;
 }
+
+/*# sourceMappingURL=image-content-panel.css.map */
