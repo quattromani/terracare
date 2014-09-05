@@ -65,7 +65,7 @@
         left: 0;
         width: 100%;
         @include padding($padding / 2);
-        @include rgba($color-black, .45);
+        @include rgba($color-black, .65);
 
         h2 {
           @include margin;
@@ -74,7 +74,7 @@
 
         p.lede {
           @include font-size(24);
-          color: $color-white;
+          color: #fc8000;
         }
 
         a.cta {
