@@ -56,8 +56,8 @@
   url: "/about-us"
   active: "about-us"
   child_links:
-    - name: "Company Profile"
-      url: "/company-profile"
+    - name: "Company Approach"
+      url: "/company-approach"
       active: "about-us"
     - name: "Our Culture"
       url: "/our-culture"
