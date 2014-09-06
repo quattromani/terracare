@@ -11,16 +11,18 @@ layout: compress
   <div class="slider main-carousel">
     {% for banner in site.data.banners.banner %}
     <div>
-      <div class="image-content-panel">
-        <div class="image-focus-3" style="background-image: url(images/banners/{{ banner.img }});" alt="{{ banner.alt }}"></div>
-        <div class="feature">
-          <div class="container">
-            <h1>{{ banner.title }}</h1>
-            <span class="left">{{ banner.text }}</span>
-            <span class="right text-right">{{ banner.location }}</span>
+    <a href="{{ banner.url }}">
+        <div class="image-content-panel">
+          <div class="image-focus-3" style="background-image: url(images/banners/{{ banner.img }});" alt="{{ banner.alt }}"></div>
+          <div class="feature">
+            <div class="container">
+              <h1>{{ banner.title }}</h1>
+              <span class="left">{{ banner.text }}</span>
+              <span class="right text-right">{{ banner.location }}</span>
+            </div>
           </div>
         </div>
-      </div>
+      </a>
     </div>
     {% endfor %}
   </div>
@@ -43,7 +45,7 @@ layout: compress
         </a>
       </div>
       <div class="third">
-        <a href="/service-highlights">
+        <a href="/company-news/">
           <div class="callout">
             <div class="callout-message">
               <figure>
