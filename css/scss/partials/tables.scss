@@ -6,19 +6,23 @@
    ========================================================================== */
 
 table {
+  table-layout: fixed;
   width: 100%;
   max-width: 100%;
 }
 
 th {
-  background: transparent;
+  @include padding(1em);
+  background: $color-primary-green;
+  color: $color-white;
+  vertical-align: middle;
 }
 
 tr:nth-of-type(even) {
   background: $color-off-white;
 }
 
-th,
 td {
   @include padding(1em);
+  vertical-align: top;
 }

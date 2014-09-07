@@ -75,9 +75,13 @@
       url: "/locations"
       active: "about-us"
 
-- name: "Blog"
+- name: "Blog / News"
   url: "/blog"
   active: "blog"
+  child_links:
+    - name: "Company News"
+      url: "/company-news"
+      active: "blog"
 
 - name: "Careers"
   url: "/careers"

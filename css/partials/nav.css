@@ -11,6 +11,12 @@ nav {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9;
 }
+@media (max-width: 62em) {
+  nav {
+    position: absolute;
+    width: 100%;
+  }
+}
 nav .container {
   display: table;
   width: 100%;
@@ -145,17 +151,16 @@ nav input[type=checkbox] {
 }
 nav input[type=checkbox]:checked ~ .navigation {
   display: block;
-  background: #0b4d42;
 }
 nav input[type=checkbox]:checked ~ .navigation li {
   border-top: 1px solid #65bf4d;
-  background: #243906;
+  background: rgba(50, 80, 8, 0.75);
 }
 nav input[type=checkbox]:checked ~ .navigation li:first-child {
   border: none;
 }
 nav input[type=checkbox]:checked ~ .navigation li li {
-  background: #58b340;
+  background: rgba(121, 60, 18, 0.65);
 }
 nav input[type=checkbox]:checked ~ .navigation > li.js-last {
   margin-bottom: .5em;

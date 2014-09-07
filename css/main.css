@@ -238,30 +238,6 @@ footer {
   position: relative;
   z-index: 0; }
 
-.project-gallery {
-  width: 100%;
-  height: 175px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
-  overflow: hidden; }
-  .project-gallery img {
-    width: 100%; }
-  .project-gallery figcaption {
-    position: absolute;
-    top: 9em;
-    width: 100%;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.5em;
-    background-color: rgba(255, 255, 255, 0.65);
-    color: #454545;
-    text-align: right; }
-
 .social-feed {
   height: 213px;
   overflow: hidden; }
@@ -750,6 +726,10 @@ nav {
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9; }
+  @media (max-width: 62em) {
+    nav {
+      position: absolute;
+      width: 100%; } }
   nav .container {
     display: table;
     width: 100%; }
@@ -854,15 +834,14 @@ nav {
   nav input[type=checkbox] {
     display: none; }
   nav input[type=checkbox]:checked ~ .navigation {
-    display: block;
-    background: #0b4d42; }
+    display: block; }
     nav input[type=checkbox]:checked ~ .navigation li {
       border-top: 1px solid #65bf4d;
-      background: #243906; }
+      background: rgba(50, 80, 8, 0.75); }
       nav input[type=checkbox]:checked ~ .navigation li:first-child {
         border: none; }
     nav input[type=checkbox]:checked ~ .navigation li li {
-      background: #58b340; }
+      background: rgba(121, 60, 18, 0.65); }
     nav input[type=checkbox]:checked ~ .navigation > li.js-last {
       margin-bottom: .5em; }
   @media (max-width: 62em) {
@@ -2302,10 +2281,10 @@ ul {
   padding-right: 0;
   padding-bottom: 0.5em;
   padding-left: 0; }
-.vertical.lined li {
+.vertical.lined > li {
   overflow: auto;
   border-bottom: 1px dotted #ccc; }
-  .vertical.lined li.js-last {
+  .vertical.lined > li.js-last {
     border-bottom: 0; }
 
 dt {
@@ -2881,6 +2860,41 @@ label + .pill,
       display: none; } }
 
 /* ==========================================================================
+    Project Gallery -- Version: 1.9.0.0 - Compiled: timestamp()
+    ========================================================================== */
+.project-gallery {
+  width: 100%;
+  height: 175px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  overflow: hidden; }
+  .project-gallery.card {
+    height: auto;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    background: rgba(121, 60, 18, 0.65);
+    color: #fff; }
+  .project-gallery img {
+    width: 100%; }
+  .project-gallery figcaption {
+    position: absolute;
+    top: 9em;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    background-color: rgba(255, 255, 255, 0.65);
+    color: #454545;
+    text-align: right; }
+
+/* ==========================================================================
     Sticky -- Version: 0.2.1
     ========================================================================== */
 .sticky {
@@ -3299,21 +3313,28 @@ audio {
     Tables -- Version: 0.4.1- Compiled: timestamp()
    ========================================================================== */
 table {
+  table-layout: fixed;
   width: 100%;
   max-width: 100%; }
 
 th {
-  background: transparent; }
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  background: #325008;
+  color: #fff;
+  vertical-align: middle; }
 
 tr:nth-of-type(even) {
   background: #f2f2f2; }
 
-th,
 td {
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
-  padding-left: 1em; }
+  padding-left: 1em;
+  vertical-align: top; }
 
 /* ==========================================================================
     Modules -- Version: 0.4.0 - Compiled: timestamp()

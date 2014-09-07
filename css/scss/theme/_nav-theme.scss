@@ -11,6 +11,11 @@
       @include rgba($color-black, .5);
       z-index: 9;
 
+      @include bp(bp-medium) {
+        position: absolute;
+        width: 100%;
+      }
+
       .container {
         display: table;
         width: 100%;
@@ -149,11 +154,10 @@
 
       input[type=checkbox]:checked ~ .navigation {
         display: block;
-        background: $color-primary-blue;
 
         & li {
           border-top: 1px solid lighten($color-secondary-green, 5%);
-          background: darken($color-primary-green, 5%);
+          background: rgba($color-primary-green, .75);
 
           &:first-child {
             border: none;
@@ -161,7 +165,7 @@
         }
 
         & li li {
-          background: $color-secondary-green;
+          background: rgba($color-primary-brown, .65);
         }
 
         & > li.js-last {

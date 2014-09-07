@@ -29,17 +29,30 @@ sticky-footer-cta-url: "attend-a-seminar"
 
     <p><strong>Water Management Planning</strong> - We can help you create a water management plan to provide a strategy for conserving precious water and reducing costs. Effective ways to increase water savings includes the installation of smart controllers, nozzles conversions, soil amendments and xero-scaping to name a few. TCA’s customers have saved thousands of dollars by simply working together with our company to manage their water usage through innovative technology and best practices.</p>
 
+    <hr>
+
+    <h5>See Terracare Associates Water Management Case Studies:</h5>
+
     <ul class="vertical lined">
       {% for project in site.data.projects.irrigation %}
       <li>
-        <a href="{{ project.url }}">
-          <div class="project-gallery">
-            <figure>
-              <img src="/images/projects/{{ project.img }}" alt="{{ project.alt }}">
-            </figure>
-          </div>
-          {{ project.title }}
-        </a>
+        <div class="project-gallery card">
+          <h5>{{ project.title }}</h5>
+          <ul>
+            <li>
+              <strong>Specifications:</strong>{{ project.specs }}
+            </li>
+            <li>
+              <strong>Date:</strong>{{ project.date }}
+            </li>
+            <li>
+              <strong>Project:</strong>{{ project.scope }}
+            </li>
+            <li>
+              <strong>Result:</strong>{{ project.result }}
+            </li>
+          </ul>
+        </div>
       </li>
       {% endfor %}
     </ul>
@@ -47,8 +60,6 @@ sticky-footer-cta-url: "attend-a-seminar"
     <hr>
 
     <p><strong>Irrigation Certified Technicians Industry certifications:</strong> – It’s about experience. At TCA we believe training and experience is a benefit to our clients, especially in water management. We require all of our irrigation specialist to be trained and become industry Certified. When you hire TCA you can be assured that you are hiring highly trained, certified water management professionals.</p>
-
-    <hr>
 
     <h5>Industry certifications:</h5>
 

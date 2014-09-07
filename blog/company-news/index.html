@@ -1,75 +1,16 @@
 ---
 layout: default
-title: Terracare Talks
+title: Company News
 description: ""
 parent: Blog
 class: blog
 banner: Who_We_Work_For.jpg
-banner-heading: "Blog"
+banner-heading: "All the News that's Fit to Print"
 banner-cta: ""
 ---
 
 <div class="row">
   <div class="two-thirds">
-
-    {% for post in paginator.posts %}
-    <div class="box-column">
-      <div class="blog-cap">
-        <h4>
-          <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}<br>{{ post.sub-title }}</a>
-        </h4>
-        {% assign author = site.data.authors[post.author] %}
-        {% if author %}
-        <span>
-          Written by <a href="mailto:{{ author.email }}">{{ author.name }}{% if author.title %} - {{ author.title }}{% endif %}</a>
-        </span>
-        {% endif %}
-        <br>
-
-        <strong>
-          {{ post.date | date_to_string }}
-        </strong>
-      </div>
-
-      <div class="blog-content">
-        {{ post.content | truncatewords: 50 }}
-      </div>
-    </div>
-    {% endfor %}
-
-    <!-- Pagination links -->
-<!--     <div class="pagination">
-      {% if paginator.previous_page %}
-      <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a>
-      {% else %}
-      <span class="previous">Previous</span>
-      {% endif %}
-      <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
-      <a href="/blog/page{{ paginator.next_page }}" class="next">Next</a>
-      {% else %}
-      <span class="next ">Next</span>
-      {% endif %}
-    </div> -->
-  </div>
-
-  <div class="third">
-    <h3>Categories</h3>
-    <ul class="tag-box inline">
-      {% assign tags_list = site.categories %}
-      {% if tags_list.first[0] == null %}
-      {% for tag in tags_list %}
-      <li><a href="categories/{{ tag }}">{{ tag | capitalize_all }} <span class="pill">{{ site.tags[tag].size }}</span></a></li>
-      {% endfor %}
-      {% else %}
-      {% for tag in tags_list %}
-      <li><a href="/categories/{{ tag[0] }}">{{ tag[0] | capitalize_all }} <span class="pill">{{ tag[1].size }}</span></a></li>
-      {% endfor %}
-      {% endif %}
-      {% assign tags_list = nil %}
-    </ul>
-
-    <hr>
 
     <h3>In the News</h3>
     <ul class="vertical">
@@ -152,6 +93,29 @@ banner-cta: ""
       <li><a title="Quinton Guenther String Trimmer Test" href="http://www.thisoldhouse.com/toh/photos/0,,20369576,00.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.thisoldhouse.com']);" target="_blank"><span style="text-decoration: underline;">Tool Test: Multihead String Trimmers</span></a> &#8211; This Old House Magazine (Summer 2011) &#8211; Quinton Guenther &#8211; Enhancement Manager for Terracare Associates tests five string trimmers.</li>
     </ul>
 
+
+  </div>
+
+  <div class="third">
+    <h3>Signup for Our Newsletter</h3>
+
+    <div class="cta-container">
+      <form action="">
+        <!-- Email Address -->
+        <div class="row">
+          <div class="formitem email">
+            <label for="email" class="required">Email Address:</label>
+            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" required>
+          </div>
+        </div>
+        <!-- .Email Address -->
+        <div class="formitem">
+          <button class="btn btn-primary" type="submit" name="submit" value="submit">
+            <span>Subscribe</span>
+          </button>
+        </div>
+      </form>
+    </div>
 
   </div>
 </div>
