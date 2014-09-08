@@ -343,7 +343,6 @@ $('.getYear').getYear();
           loadSignUp();
         },10000);
         $.cookie('visited', 'yes');
-        alert($.cookie("visited"));
       }
       // set cookie, expire after 7 days
       $.cookie('visited', 'yes', { expires: 7 });
