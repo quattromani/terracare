@@ -8,22 +8,33 @@
 
     <script>
       $(document).ready(function() {
-        $('.main-carousel').slick({
-          autoplay: true,
-          autoplaySpeed: 8000,
-          dots: true,
-          arrows: false,
-          infinite: true,
-          speed: 800,
-          fade: true
-        });
+        if($(window).width() > mediumBreakPoint){
+          $('.main-carousel').slick({
+            autoplay: true,
+            autoplaySpeed: 8000,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 800,
+            fade: true
+          });
 
-        $('.project-carousel').slick({
-          autoplay: false,
-          arrows: true,
-          infinite: true,
-          speed: 1000
-        });
+          $('.project-carousel').slick({
+            autoplay: false,
+            arrows: true,
+            infinite: true,
+            speed: 1000
+          });
+        }
+
+        if($(window).width() < mediumBreakPoint){
+          $('.main-carousel').slick({
+            autoplay: false,
+            dots: false,
+            arrows: false,
+            infinite: true,
+          });
+        }
       });
     </script>
 
