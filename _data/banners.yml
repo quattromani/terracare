@@ -3,12 +3,12 @@
 #   -title: Job title
 
 banner:
-  - img: 'at&t.jpg'
+  - img: 'windcrest_windmill.jpg'
     url: '/commercial-services/'
-    alt: 'AT&amp;T Corporate Complex - Commercial Landscape'
+    alt: 'Windcrest - Commercial Landscape'
     title: LEADERS IN OUTDOOR MAINTENANCE
     text: Timely performance with technical competence
-    location: 'AT&amp;T Corporate Complex, California'
+    location: 'Windcrest, Littleton Colorado'
 
   - img: 'Flowers.JPG'
     url: '/commercial-services/landscape-maintenance/'
