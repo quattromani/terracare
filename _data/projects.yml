@@ -29,3 +29,122 @@ irrigation:
   date: 'October 2013'
   scope: 'Remove approx 20,000 sf of turf, install drought tolerant plants, convert irrigation to drip, install bark'
   result: 'Saved approx. 256,000 gallons of water YTD'
+
+
+# # Projects Galleryprojects:
+# category:
+#   Public Works:
+#   - name: TMA
+#     title: tma
+#     alt: get fucked
+
+#     gallery:
+#     - img: cent
+#       alt: alt
+
+#     - img: cent
+#       alt: alt
+
+
+
+
+
+
+
+
+# projects:
+#   - section: Public Works
+#     - project:
+#     - centennial:
+#       - img: 'centennial-1.jpg'
+#         alt: 'centennial'
+#         title: City of Centennial
+#         slide: 1
+#       - img: 'centennial-2.jpg'
+#         alt: 'centennial'
+#         title: City of Centennial
+#         slide: 2
+#       - img: 'centennial-3.jpg'
+#         alt: 'centennial'
+#         title: City of Centennial
+#         slide: 3
+#       - img: 'centennial-4.jpg'
+#         alt: 'centennial'
+#         title: City of Centennial
+#         slide: 4
+
+#     - lone_tree:
+#       - img: 'lone_tree-1.jpg'
+#         alt: 'lone_tree'
+#         title: City of lone_tree
+#         slide: 1
+#       - img: 'lone_tree-2.jpg'
+#         alt: 'lone_tree'
+#         title: City of lone_tree
+#         slide: 2
+#       - img: 'lone_tree-3.jpg'
+#         alt: 'lone_tree'
+#         title: City of lone_tree
+#         slide: 3
+#       - img: 'lone_tree-4.jpg'
+#         alt: 'lone_tree'
+#         title: City of lone_tree
+#         slide: 4
+
+#     - nw_parkway:
+#       - img: 'nw_parkway-1.jpg'
+#         alt: 'nw_parkway'
+#         title: City of nw_parkway
+#         slide: 1
+#       - img: 'nw_parkway-2.jpg'
+#         alt: 'nw_parkway'
+#         title: City of nw_parkway
+#         slide: 2
+#       - img: 'nw_parkway-3.jpg'
+#         alt: 'nw_parkway'
+#         title: City of nw_parkway
+#         slide: 3
+#       - img: 'nw_parkway-4.jpg'
+#         alt: 'nw_parkway'
+#         title: City of nw_parkway
+#         slide: 4
+
+#   - section: Commercial Landscape
+#     project:
+#       - gallery:
+#         tma:
+#         - img: 'tma-1.jpg'
+#           alt: 'tma'
+#           title: TWC
+#           slide: 1
+#         - img: 'tma-2.jpg'
+#           alt: 'tma'
+#           title: TWC
+#           slide: 2
+#         - img: 'tma-3.jpg'
+#           alt: 'tma'
+#           title: TWC
+#           slide: 3
+#         - img: 'tma-4.jpg'
+#           alt: 'tma'
+#           title: TWC
+#           slide: 4
+
+#   - section: Public Landscape
+#     examples:
+#     - img: 'buyersGuide.jpg'
+#       alt: 'Buyers Guide'
+#       title: Buyers Guide
+#       slide: 9
+#     - img: 'youCool.jpg'
+#       alt: 'You Cool? - Magazine Cover'
+#       title: You Cool?
+#       slide: 10
+#     - img: 'buyersGuide.jpg'
+#       alt: 'Buyers Guide'
+#       title: Buyers Guide
+#       slide: 9
+#     - img: 'youCool.jpg'
+#       alt: 'You Cool? - Magazine Cover'
+#       title: You Cool?
+#       slide: 10
