@@ -149,6 +149,13 @@ body.sticky-footer {
     margin-left: 0;
   }
 }
+@media (max-width: 62em) {
+  .banner .tca-icon {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+}
 
 .teams .job-title {
   font-weight: bold;

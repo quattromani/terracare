@@ -16,24 +16,23 @@ banner-cta: ""
     {% for post in paginator.posts %}
     <div class="box-column">
       <div class="blog-cap">
-        <h4>
+        <strong class="right">
+          {{ post.date | date_to_string }}
+        </strong>
+        <h3>
           <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}<br>{{ post.sub-title }}</a>
-        </h4>
+        </h3>
         {% assign author = site.data.authors[post.author] %}
         {% if author %}
         <span>
           Written by <a href="mailto:{{ author.email }}">{{ author.name }}{% if author.title %} - {{ author.title }}{% endif %}</a>
         </span>
         {% endif %}
-        <br>
-
-        <strong>
-          {{ post.date | date_to_string }}
-        </strong>
       </div>
 
       <div class="blog-content">
-        {{ post.content | truncatewords: 50 }}
+        {{ post.content |  strip_html | truncatewords: 50 }}
+        <a href="{{ site.prefix }}{{ post.url }}">Read More <i class="fa fa-angle-right"></i></a>
       </div>
     </div>
     {% endfor %}
@@ -41,6 +40,33 @@ banner-cta: ""
   </div>
 
   <div class="third">
+    <h3>Signup for Our Newsletter</h3>
+    <div class="cta-container">
+      <form action="//forms.brace.io/web@myterracare.com" method="POST">
+        <input type="hidden" name="form" value="Newsletter Signup">
+        <!-- Email Address -->
+        <div class="row">
+          <div class="formitem email">
+            <label for="email" class="required">Email Address:</label>
+            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" required>
+          </div>
+        </div>
+        <!-- .Email Address -->
+
+        <!-- Gotcha -->
+        <input type="text" name="_gotcha" style="display:none">
+        <!-- .Gotcha -->
+
+        <div class="formitem">
+          <button class="btn btn-primary" type="submit" name="submit" value="submit">
+            <span>Subscribe</span>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <hr>
+
     <h3>Categories</h3>
     <ul class="tag-box inline">
       {% assign tags_list = site.categories %}
@@ -55,6 +81,7 @@ banner-cta: ""
       {% endif %}
       {% assign tags_list = nil %}
     </ul>
+
   </div>
 </div>
 

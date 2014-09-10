@@ -19,39 +19,69 @@ banner-cta: ""
     <ul class="vertical lined">
       <li>
         <address>
-          <h4>Colorado</h4>
+          <strong>Headquarters</strong>
+          <br>
+          Corporate Office<br>
           <a class="tel" href="tel:+18558638503">1-855-863-8503</a>
         </address>
       </li>
       <li>
         <address>
-          <h4>California</h4>
-          Sacramento Central Valley<br>
-          <a class="tel" href="tel:+18773731955">1-877-373-1955</a>
-        </address>
-      </li>
-      <li>
-        <address>
-          <h4>California</h4>
-          San Franciscio Bay Area<br>
+          Bay Area California<br>
+          Landscape Maintenance – Division Office<br>
           <a class="tel" href="tel:+18558638504">1-855-863-8504</a>
         </address>
       </li>
       <li>
         <address>
-          <h4>Utah</h4>
-          2355 S. Decker Lake Blvd<br>
-          West Valley, UT 84119
+          Greater Denver Colorado<br>
+          Landscape Maintenance – Division Office<br>
+          <a class="tel" href="tel:+18558638504">1-855-863-8504</a>
         </address>
       </li>
+      <li>
+        <address>
+          Greater Sacramento<br>
+          Landscape Maintenance – Division office<br>
+          <a class="tel" href="tel:+18773731955">1-877-373-1955</a>
+        </address>
+      </li>
+      <li>
+        <address>
+          Public Infrastructure Maintenance - Division Office<br>
+          <a class="tel" href="tel:+18558638503">1-855-863-8503</a>
+        </address>
+      </li>
+      <li>
+        <address>
+          Greater Salt Lake, Utah - Maintenance Operations
+        </address>
+      </li>
+      <li>
+      <strong>Other TCA Locations</strong>
+        <ul class="vertical lined bulleted">
+          <li>
+            Milpitas – South Bay office 1194 Ames Avenue, CA 95035
+          </li>
+          <li>
+            Livermore – 2617 South Vasco Road, CA 94550
+          </li>
+          <li>
+            Oakley – 5120 Neroly Road, CA
+          </li>
+          <li>
+            Sacremento - 4730 Myrtle Ave, CA
+          </li>
+        </ul>
+      </li>
     </ul>
-
     <hr class="below-desktop">
   </div>
 
   <div class="half">
 
-    <form action="email.php" method="post" autocomplete="on">
+    <form action="//forms.brace.io/web@myterracare.com" method="POST">
+      <input type="hidden" name="form" value="Contact Us">
       <fieldset>
         <h3>Contact Us</h3>
         <p>* Indicates a required field</p>
@@ -60,13 +90,11 @@ banner-cta: ""
         <div class="row">
           <div class="formitem state">
             <label for="state" class="required">Which area is closest to you?</label>
-            <select name="state" id="state" tabindex="1" required>
-              <option value="" selected="selected">Please select a location</option>
-              <option value="CA - Bay Area">CA - Bay Area</option>
-              <option value="CA - Sacramento Area">CA - Sacramento Area</option>
-              <option value="CO - Denver North">CO - Denver North</option>
-              <option value="CO - Denver South">CO - Denver South</option>
-              <option value="UT - Cottonwood Heights">UT - Cottonwood Heights</option>
+            <select id="location_of_service" name="location_of_service" tabindex="1">
+              <option value="CO" selected>Colorado</option>
+              <option value="CA">California</option>
+              <option value="UT">Utah</option>
+              <option value="TX">Texas</option>
             </select>
             <small>This helps us route you best.</small>
           </div>
@@ -76,16 +104,16 @@ banner-cta: ""
         <!-- First Name / Last Name -->
         <div class="row">
           <div class="half">
-            <div class="formitem first-name">
+            <div class="formitem first-_name">
               <label class="required" for="first-name">First Name:</label>
-              <input type="text" id="first-name" name="fname" pattern="[a-zA-Z]+" autocomplete="name" tabindex="1" required>
+              <input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]+" autocomplete="name" tabindex="3">
             </div>
           </div>
 
           <div class="half">
-            <div class="formitem last-name">
+            <div class="formitem last_name">
               <label class="required" for="last-name">Last Name:</label>
-              <input type="text" id="last-name" name="lname" autocomplete="name" tabindex="2" required>
+              <input type="text" id="last_name" name="last_name" autocomplete="name" tabindex="4">
             </div>
           </div>
         </div>
@@ -94,8 +122,8 @@ banner-cta: ""
         <!-- Phone -->
         <div class="row clearfix">
           <div class="formitem phone">
-            <label for="phone" class="required">Phone Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="3" required>
+            <label for="phone_work">Phone Number</label>
+            <input type="tel" id="phone_work" name="phone_work" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="5">
           </div>
         </div>
         <!-- .Phone -->
@@ -103,8 +131,8 @@ banner-cta: ""
         <!-- Email Address -->
         <div class="row">
           <div class="formitem email">
-            <label for="email" class="required">Email Address:</label>
-            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="4" required>
+            <label for="email1" class="required">Email Address:</label>
+            <input id="email1" type="email" name="email1" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="7">
           </div>
         </div>
         <!-- .Email Address -->
@@ -112,21 +140,18 @@ banner-cta: ""
         <!-- About -->
         <div class="row">
           <div class="formitem textarea">
-            <label for="message">Message:</label>
-            <textarea id="message" tabindex="5"></textarea>
+            <label for="description">Message:</label>
+            <textarea id="description" name="description" tabindex="8"></textarea>
           </div>
         </div>
         <!-- .About -->
 
-        <div id="fillit">
-          If you see this, leave this form field blank.
-          <input id="improve" type="text" name="confirm" value="">
-        </div>
+        <!-- Gotcha -->
+        <input type="text" name="_gotcha" style="display:none">
+        <!-- .Gotcha -->
 
         <div class="formitem">
-          <button class="btn btn-primary" type="submit" name="submit" value="submit">
-            <span>Submit</span>
-          </button>
+          <input class="btn btn-primary width-30" type="submit" name="Submit" value="Submit">
 
           <button type="reset" name="reset" value="reset">
             <span>Clear</span>
@@ -134,5 +159,6 @@ banner-cta: ""
         </div>
       </fieldset>
     </form>
+
   </div>
 </div>

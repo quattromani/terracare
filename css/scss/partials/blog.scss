@@ -10,7 +10,12 @@
         position: relative;
         @include padding(1em);
         @include box-shadow(0 0 40px rgba($color-light-grey,.6));
-        background-color: $color-white;
+        background-color: $color-primary-green;
+        color: $color-white;
+
+        a {
+          color: $color-white;
+        }
 
         &:before {
           content: '';
@@ -21,15 +26,23 @@
           width: 0;
           height: 0;
           margin-left: -.75em;
-          border-color: $color-white transparent transparent transparent;
+          border-color: $color-primary-green transparent transparent transparent;
           border-style: solid;
           border-width: .75em;
           z-index: 99999;
         }
       }
 
+      .box-column {
+        @include rgba($color-white, 1);
+      }
+
       .blog-content {
         @include padding(1em);
-        background-color: #f9f9f9;
+        background-color: lighten($color-primary-green, 75%);
+
+        a {
+          color: $color-primary-green;
+        }
       }
     }

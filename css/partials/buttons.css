@@ -54,8 +54,8 @@ button.btn-primary,
 button.button-primary,
 .cta.btn-primary,
 .cta.button-primary {
-  border-bottom: 3px solid #4a9736;
-  background-color: #58b340;
+  border-bottom: 3px solid #1c2d05;
+  background-color: #325008;
   color: #fff;
 }
 .btn.btn-primary:hover, .btn.button-primary:hover,
@@ -65,8 +65,8 @@ button.btn-primary:hover,
 button.button-primary:hover,
 .cta.btn-primary:hover,
 .cta.button-primary:hover {
-  border-bottom: 3px solid #325008;
-  background-color: #325008;
+  border-bottom: 3px solid #152203;
+  background-color: #152203;
 }
 .btn.btn-error,
 .button.btn-error,

@@ -4,7 +4,7 @@ title: Careers
 description: "Terracare Associates is always interested in talented, enthusiastic, and experienced individuals to join our team. We look for high-caliber, high-potential employees who are looking for the chance to grow and make a difference. We offer variety, flexibility, competitive pay, opportunities to grow, and overall job satisfaction."
 parent: Careers
 class: careers
-banner: justin_training.jpg
+banner: now_hiring.jpg
 banner-heading: "We're looking for you"
 banner-cta: ""
 ---
@@ -52,7 +52,8 @@ banner-cta: ""
 
   <div class="half">
 
-    <form action="/" method="post">
+    <form action="//forms.brace.io/web@myterracare.com" method="POST">
+      <input type="hidden" name="form" value="Careers">
       <fieldset>
         <h3>Apply Today!</h3>
         <p>* Indicates a required field</p>
@@ -60,16 +61,16 @@ banner-cta: ""
         <!-- First Name / Last Name -->
         <div class="row">
           <div class="half">
-            <div class="formitem first-name">
+            <div class="formitem first_name">
               <label class="required" for="first-name">First Name:</label>
-              <input type="text" id="first-name" name="fname" pattern="[a-zA-Z]+" autocomplete="name" tabindex="1" required>
+              <input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]+" autocomplete="name" tabindex="1" required>
             </div>
           </div>
 
           <div class="half">
-            <div class="formitem last-name">
-              <label class="required" for="last-name">Last Name:</label>
-              <input type="text" id="last-name" name="lname" autocomplete="name" tabindex="3" required>
+            <div class="formitem last_name">
+              <label class="required" for="last_name">Last Name:</label>
+              <input type="text" id="last_name" name="last_name" autocomplete="name" tabindex="2" required>
             </div>
           </div>
         </div>
@@ -77,9 +78,9 @@ banner-cta: ""
 
         <!-- Phone -->
         <div class="row clearfix">
-          <div class="formitem phone-number">
+          <div class="formitem phone_number">
             <label for="phone-number" class="required">Phone Number</label>
-            <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="9" required>
+            <input type="tel" id="phone_number" name="phone_number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="3" required>
           </div>
         </div>
         <!-- .Phone -->
@@ -88,7 +89,7 @@ banner-cta: ""
         <div class="row">
           <div class="formitem email">
             <label for="email" class="required">Email Address:</label>
-            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="11" required>
+            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="4" required>
           </div>
         </div>
         <!-- .Email Address -->
@@ -97,7 +98,7 @@ banner-cta: ""
         <div class="row">
           <div class="formitem">
             <label for="field" class="required">Desired Field:</label>
-            <select name="field" id="field" tabindex="7" required>
+            <select name="field" id="field" tabindex="5" required>
               <option value="---" selected="selected">---</option>
               <option value="Account Manager">Account Manager</option>
               <option value="Assistant Project Manager">Assistant Project Manager</option>
@@ -136,7 +137,7 @@ banner-cta: ""
         <div class="row">
           <div class="formitem textarea">
             <label for="textarea">Tell us about your skills:</label>
-            <textarea id="textarea" placeholder="Tell us about your skills or cut and paste a resume." tabindex="13"></textarea>
+            <textarea id="textarea" placeholder="Tell us about your skills or cut and paste a resume." tabindex="6"></textarea>
           </div>
         </div>
         <!-- .About -->
@@ -161,26 +162,25 @@ banner-cta: ""
         <div class="row">
           <label class="required">Were you referred by a Terracare employee?</label>
           <div class="formitem">
-            <input type="radio" class="radio" id="radio-this" name="referred" value="yes">
+            <input type="radio" class="radio" id="radio-this" name="referred" value="yes" tabindex="8">
             <label for="radio-this">Yes</label>
           </div>
           <div class="formitem">
-            <input type="radio" class="radio" id="radio-that" name="referred" value="no">
+            <input type="radio" class="radio" id="radio-that" name="referred" value="no" tabindex="8">
             <label for="radio-that">No</label>
           </div>
         </div>
         <div class="row">
           <div class="formitem email">
             <label for="referral-name">If so, by whom?</label>
-            <input id="referral-name" type="text" name="referral-name" pattern="[a-zA-Z]+" tabindex="11">
+            <input id="referral-name" type="text" name="referral-name" pattern="[a-zA-Z]+" tabindex="10">
           </div>
         </div>
         <!-- .Referral -->
 
-        <div id="fillit">
-          If you see this, leave this form field blank.
-          <input id="improve" type="text" name="confirm" value="">
-        </div>
+        <!-- Gotcha -->
+        <input type="text" name="_gotcha" style="display:none">
+        <!-- .Gotcha -->
 
         <div class="formitem">
           <button class="btn btn-primary" type="submit" name="submit" value="submit">

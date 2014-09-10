@@ -64,8 +64,8 @@ $text-info: $color-secondary-blue;
 $site-background: $color-white;
 
 // Buttons
-$color-button-primary: $color-secondary-green;
-$color-button-primary-hover: $color-primary-green;
+$color-button-primary: $color-primary-green;
+$color-button-primary-hover: darken($color-primary-green, 10%);
 
 
 // Forms

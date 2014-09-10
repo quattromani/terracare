@@ -10,19 +10,19 @@ banner:
     text: Timely performance with technical competence
     location: 'Windcrest, Littleton Colorado'
 
-  - img: 'Flowers.JPG'
-    url: '/commercial-services/landscape-maintenance/'
+  - img: 'travis_cu-2.jpg'
+    url: '/commercial-services/'
     alt: 'Flower Garden'
     title: COMMERCIAL LANDSCAPE MANAGEMENT
     text: Absolute customer confidence
-    location: 'American National Bank, Parker CO'
+    location: 'Travis Credit Union - Vacaville, California'
 
   - img: 'PI_bobcat_home_banner.jpg'
     url: '/public-services/'
     alt: 'Public Infrastructure'
     title: PUBLIC INFRASTRUCTURE MAINTENANCE
     text: A culture of safety
-    location: 'Centennial, Colorado'
+    location: 'City of Centennial, Colorado'
 
   - img: 'Victoria_by_the_Bay.jpg'
     url: '/public-services/public-landscape/'
@@ -36,7 +36,7 @@ banner:
     alt: 'Transportation Management Association - Responsibility'
     title: RESPONSIBILITY
     text:  'Investing in safety, environment &  our community'
-    location: Transportation Management Association<br>I25 Urban Corridor, Colorado
+    location: 'TMA - I-25 Urban Corridor, Colorado'
 
   - img: 'snow_removal.JPG'
     url: '/commercial-services/snow-removal/'

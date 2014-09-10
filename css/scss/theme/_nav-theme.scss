@@ -139,6 +139,10 @@
         }
       }
 
+      .basic & {
+        margin: 0;
+      }
+
       .show-menu {
         display: none;
         @include padding($padding / 2, 0);

@@ -133,6 +133,9 @@ nav ul li.active {
     display: none;
   }
 }
+.basic nav {
+  margin: 0;
+}
 nav .show-menu {
   display: none;
   padding-top: 0.5em;

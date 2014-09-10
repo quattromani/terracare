@@ -87,6 +87,14 @@
           @include margin(0, 0, 1em);
         }
       }
+
+      @include bp(bp-medium) {
+        .tca-icon {
+          position: absolute;
+          top: 1em;
+          right: 1em;
+        }
+      }
     }
 
     .teams {
