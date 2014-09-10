@@ -16,11 +16,13 @@ location: "Business Park, Hercules California"
   {% for n in p.project %}
   <div class="fourth">
     <h5>{{ n.name }}</h5>
-    {% for s in n.slide %}
+    {% for s in n.slide limit:1 %}
     <span class="modal-button" id="{{ s.slide }}">
       <div class="portfolio-gallery">
         {% if s.img != null %}
-        <img src="/images/projects/{{ p.sub }}/{{ s.img }}" alt="{{ s.alt }}">
+        <figure>
+          <img src="/images/projects/{{ p.sub }}/{{ s.img }}" alt="{{ s.alt }}">
+        </figure>
         {% endif %}
         {% if s.text != null %}
         <p>{{ s.text }}</p>

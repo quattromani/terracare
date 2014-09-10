@@ -1,24 +1,97 @@
 ---
 layout: default
-title: Commercial Irrigation Services
-description: ""
+title: WAter Management
+description: "Landscape irrigation accounts for more than 7 billion gallons of potable water daily nationwide. Contrasted against today’s growing population, our sources of water remain the same as they did hundreds of years ago."
 parent: Responsibility
 sidebar: Landscape Water Conservation Experts
-class: responsibility
-banner: Water-Management.jpg
+class: sticky-footer
+banner: shawn_irrigation-2.jpg
 banner-heading: ""
 banner-cta: ""
 ---
 
 <div class="row">
   <div class="two-thirds">
-    <video controls poster="http://i.vimeocdn.com/video/478404290_1280.jpg" width="100%" height="auto">
-      <source src="http://pdl.vimeocdn.com/92799/278/261426462.mp4?token2=1406695769_baa28a6c017b23cb6a975cc7c5854f31&amp;aksessionid=9147de01fd6035f4" type="video/mp4">
-        I'm sorry; your browser doesn't support HTML5 video in WebM with VP8 or MP4 with H.264.
-        <!-- You can embed a Flash player here, to play your mp4 video in older browsers -->
-    </video>
+    <h3 class="lede">Terracare Associates is a commercial irrigation contractor offering complete water management solutions to maximize your landscape irrigation needs.</h3>
+
+    <p>We will beautify your property while reducing water usage, waste and ultimately costs. Landscape irrigation accounts for use of more than 7 billion gallons of potable water daily nationwide. Due to severe droughts in many regions across the United States water restrictions have already been imposed or will be in the future. Saving water on your outdoor landscape is good for your budget and good for the environment. Start your landscape water efficiency plan today.</p>
+
+    <hr>
+
+    <a href="">Commercial Landscape: Five Steps to Maximize Water Efficiency</a>
+    <br>
+    <a href="">Design your Water Management Plan:  It’s Time!</a>
+
+    <hr>
+
+    <p><strong>Water Management Planning</strong> - We can help you create a water management plan to provide a strategy for conserving precious water and reducing costs. Effective ways to increase water savings includes the installation of smart controllers, nozzles conversions, soil amendments and xero-scaping to name a few. TCA’s customers have saved thousands of dollars by simply working together with our company to manage their water usage through innovative technology and best practices.</p>
+
+    <hr>
+
+    <h5>See Terracare Associates Water Management Case Studies:</h5>
+
+    <ul class="vertical lined">
+      {% for project in site.data.projects.irrigation %}
+      <li>
+        <div class="project-gallery card">
+          <h5>{{ project.title }}</h5>
+          <ul>
+            <li>
+              <strong>Specifications:</strong>{{ project.specs }}
+            </li>
+            <li>
+              <strong>Date:</strong>{{ project.date }}
+            </li>
+            <li>
+              <strong>Project:</strong>{{ project.scope }}
+            </li>
+            <li>
+              <strong>Result:</strong>{{ project.result }}
+            </li>
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <hr>
+
+    <p><strong>Irrigation Certified Technicians Industry certifications:</strong> – It’s about experience. At TCA we believe training and experience is a benefit to our clients, especially in water management. We require all of our irrigation specialist to be trained and become industry Certified. When you hire TCA you can be assured that you are hiring highly trained, certified water management professionals.</p>
+
+    <h5>Industry certifications:</h5>
+
+    <ul class="vertical">
+      <li><a href="http://clca.us/water/">Water Management Technician – California Landscape Contractors Association</a></li>
+      <li><a href="http://www.landcarenetwork.org/certification/index.cfm">Certified Landscape Technician – Professional Landcare Network</a></li>
+      <li><a href="http://www.irrigation.org/certification/CLIA/CLIA.aspx">Certified Landscape Irrigation Auditor – Irrigation Association</a></li>
+      <li><a href="http://www.irrigation.org/certification/CIC/CIC.aspx">Certified Irrigation Contractor – Irrigation Association</a></li>
+    </ul>
+
+    <hr>
+
+    <ul class="vertical">
+      <li>
+        <strong>Irrigation System Evaluation</strong> - Our trained irrigation technicians will evaluate your irrigation system, recommend and install changes to maximize system efficiency and reduce landscape water use. Changes can range from installing a “smart controller”, converting overhead spray heads to drip and changing out other sprinkler equipment can save 30% or more of your water use in an average year.
+      </li>
+      <li>
+        <strong>Irrigation System Water Audit</strong> - Our team can perform irrigation system water auditsbased on establish industry guidelines to identify and inefficiency and reduce water use. This is extremely helpful to quantify water use and cost savings after irrigation modifications are made.
+      </li>
+      <li>
+        <strong>Native Plant Renovation</strong> – We assist many of our clients in renovating their sites by designing and installing a more sustainable landscape with water conscious, yet aesthetically beautiful plant materials.
+      </li>
+      <li>
+        <strong>Turfgrass Removal and Renovation</strong> - A great water saving solution is to remove sections of turf not being regularly utilized and replant drought resistant plants.</li>
+        <li>
+          <strong>Educate and Rebates</strong> – Many  public and commercial properties can benefit from a variety of water reduction modifications.  Understanding what is optimal for your property takes some commitment to learn about best practices, innovative irrigation tools and accessibility to resources for better water conservation.
+        </li>
+      </ul>
+
+      <p>Local water authorities throughout the country offer lucrative rebate programs.  TCA assists with identifying best cost savings using rebate and municipal incentive programs to lower your overall costs for renovations.</p>
+
+      <p>POP UP SCREEN:  Terracare Associates offers free educational seminars on water management and best practices in irrigation systems.  Interested?  Find out more>>>>  Goes to contact information – with Water Management Seminar in subject line</p>
+
+    </div>
+    <div class="third">
+      {% include sidebar.html %}
+    </div>
   </div>
-  <div class="third">
-    {% include sidebar.html %}
-  </div>
-</div>

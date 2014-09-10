@@ -97,6 +97,18 @@
       }
     }
 
+    .landscape .content  {
+      a {
+        color: $color-primary-green;
+      }
+    }
+
+    .infrastructure .content  {
+      a {
+        color: #fc8000;
+      }
+    }
+
     .teams {
       .job-title {
         font-weight: bold;

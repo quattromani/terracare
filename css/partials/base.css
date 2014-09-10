@@ -157,6 +157,14 @@ body.sticky-footer {
   }
 }
 
+.landscape .content a {
+  color: #325008;
+}
+
+.infrastructure .content a {
+  color: #fc8000;
+}
+
 .teams .job-title {
   font-weight: bold;
 }
