@@ -12,7 +12,9 @@ banner-cta: ""
 
   <div class="half">
 
-    <form action="/" method="post">
+    <form action="//forms.brace.io/web@myterracare.com" method="POST">
+      <input type="hidden" name="form" value="Careers">
+      <input type="hidden" name="_subject" value="Water Management Seminar" />
       <fieldset>
         <h3>Sign-Up Now</h3>
         <p>* Indicates a required field</p>
@@ -137,10 +139,10 @@ banner-cta: ""
         </div>
         <!-- .Referral -->
 
-        <div id="fillit">
-          If you see this, leave this form field blank.
-          <input id="improve" type="text" name="confirm" value="">
-        </div>
+        <!-- Form Housekeeping -->
+        <input type="hidden" name="_next" value="http://myterracare.net/thank-you/" />
+        <input type="text" name="_gotcha" style="display:none">
+        <!-- .Form Housekeeping -->
 
         <div class="formitem">
           <button class="btn btn-primary" type="submit" name="submit" value="submit">
