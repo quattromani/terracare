@@ -2360,8 +2360,8 @@ button,
     button.button-primary:hover,
     .cta.btn-primary:hover,
     .cta.button-primary:hover {
-      border-bottom: 3px solid #152203;
-      background-color: #152203; }
+      border-bottom: 3px solid #fda300;
+      background-color: #fda300; }
   .btn.btn-error,
   .button.btn-error,
   button.btn-error,
