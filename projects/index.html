@@ -18,11 +18,11 @@ location: "Business Park, Hercules California"
   <div class="fourth">
     <h5>{{ n.name }}</h5>
     {% for s in n.slide limit:1 %}
-    <span class="modal-button" id="{{ s.slide }}">
+    <span class="modal-button" id="{{ p.slug }}{{ n.slug }}{{ s.slide }}">
       <div class="portfolio-gallery">
         {% if s.img != null %}
         <figure>
-          <img src="/images/projects/{{ p.sub }}/{{ s.img }}" alt="{{ s.alt }}">
+          <img src="/images/projects/{{ p.slug }}/{{ s.img }}" alt="{{ s.alt }}">
         </figure>
         {% endif %}
         {% if s.text != null %}
@@ -34,25 +34,39 @@ location: "Business Park, Hercules California"
   </div>
   {% endfor %}
 </div>
+{% endfor %}
 
-{% for example in item.examples %}
+{% include end_content.html %}
+
+</section>
+<!-- /.portfolio -->
+
+<!-- Artificially end content and container -->
+</div>
+</div>
+
+{% for p in site.data.projects.projects %}
+{% for n in p.project %}
+{% for s in n.slide %}
 <div class="modal">
 
-  <div id="modal{{ example.slide }}" class="modal-container">
+  <div id="modal{{ p.slug }}{{ n.slug }}{{ s.slide }}" class="modal-container">
     <div class="modal-close"></div>
     <div id="modal-content">
 
       <div class="modal-header">
-        <h4>{{ example.alt }}</h4>
+      <h4>{{ s.title }}</h4>
       </div>
 
       <div class="modal-body">
+        {% if s.img != null %}
         <figure>
-          <img src="../images/{{ example.img }}" alt="{{ example.alt }}">
-          {% if example.url == true %}
-          <figcaption><a href="http://{{ example.url }}">{{ example.alt }}</a></figcaption>
-          {% endif %}
+          <img src="/images/projects/{{ p.slug }}/{{ s.img }}" alt="{{ s.alt }}">
         </figure>
+        {% endif %}
+        {% if s.text != null %}
+        <p>{{ s.text }}</p>
+        {% endif %}
       </div>
       <div class="modal-footer">
       </div>
@@ -62,8 +76,4 @@ location: "Business Park, Hercules California"
 </div>
 {% endfor %}
 {% endfor %}
-
-{% include end_content.html %}
-
-</section>
-<!-- /.portfolio -->
+{% endfor %}

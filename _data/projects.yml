@@ -33,10 +33,10 @@ irrigation:
 
 projects:
 - category: Public Works
-  sub: public_works
+  slug: public_works
   project:
   - name: Centennial
-
+    slug: centennial
     slide:
     - img: 'centennial-1.jpg'
       alt: 'centennial'
@@ -63,7 +63,7 @@ projects:
       slide: 5
 
   - name: Lone Tree
-
+    slug: lone_tree
     slide:
     - img: 'lone_tree-1.jpg'
       alt: 'Lone Tree'
@@ -90,6 +90,7 @@ projects:
       slide: 5
 
   - name: Northwest Parkway
+    slug: nw_parkway
 
     slide:
     - img: 'nw_parkway-1.jpg'
@@ -117,10 +118,10 @@ projects:
       slide: 5
 
 - category: Commercial Landscape
-  sub: commercial_landscape
+  slug: commercial_landscape
   project:
-    - name: 'Wind Crest - Littleton, Colorado'
-
+    - name: 'Wind Crest - Littleton, Colorado <br><br>'
+      slug: wind_crest
       slide:
       - img: 'windcrest-1.jpg'
         alt: 'windcrest'
@@ -147,53 +148,53 @@ projects:
         slide: 5
 
     - name: 'Silverado Spings HOA - Napa, California'
-
+      slug: silverado
       slide:
       - img: 'silverado-1.jpg'
         alt: 'silverado'
-        title: silverado
+        title: Silverado
         slide: 1
 
       - img: 'silverado-2.jpg'
         alt: 'silverado'
-        title: silverado
+        title: Silverado
         slide: 2
 
       - img: 'silverado-3.jpg'
         alt: 'silverado'
-        title: silverado
+        title: Silverado
         slide: 3
 
       - img: 'silverado-4.jpg'
         alt: 'silverado'
-        title: silverado
+        title: Silverado
         slide: 4
 
       - text: 'Silverado Springs neighborhood with fourteen acres, 98 homes in a prestigious upscale housing development in Napa.  The landscape management company maintains curb to doorstep as well as common areas.  The neighborhood includes greenbelts, two lakes, swimming pool, spa and two tennis courts.  TCA water management upgrades to property has saved the development more than 8 million gallons of water annually.'
-        title: Wind Crest
+        title: Silverado
         slide: 5
 
     - name: 'Parkway Corporate Plaza - Sacramento, California'
-
+      slug: parkway
       slide:
       - img: 'parkway-1.jpg'
         alt: 'parkway'
-        title: parkway
+        title: Parkway Corpoate Plaza
         slide: 1
 
       - img: 'parkway-2.jpg'
         alt: 'parkway'
-        title: parkway
+        title: Parkway Corpoate Plaza
         slide: 2
 
       - img: 'parkway-3.jpg'
         alt: 'parkway'
-        title: parkway
+        title: Parkway Corpoate Plaza
         slide: 3
 
       - img: 'parkway-4.jpg'
         alt: 'parkway'
-        title: parkway
+        title: Parkway Corpoate Plaza
         slide: 4
 
       - text: 'This corporate plaza expects top quality, A+ landscape maintenance standards.  The corporate park is located in proximity to Close Proximity to I-80 and Highway 65 in Roseville, CA. Landscape upkeep and aesthetics are of upmost importance.'
@@ -201,115 +202,115 @@ projects:
         slide: 5
 
     - name: 'Arapahoe Lakes HOA - Centennial, Colorado'
-
+      slug: arapahoe_lakes
       slide:
       - img: 'arapahoe_lakes-1.jpg'
         alt: 'arapahoe lakes'
-        title: arapahoe lakes
+        title: Arapahoe Lakes
         slide: 1
 
       - img: 'arapahoe_lakes-2.jpg'
         alt: 'arapahoe lakes'
-        title: arapahoe lakes
+        title: Arapahoe Lakes
         slide: 2
 
       - img: 'arapahoe_lakes-3.jpg'
         alt: 'arapahoe lakes'
-        title: arapahoe lakes
+        title: Arapahoe Lakes
         slide: 3
 
       - img: 'arapahoe_lakes-4.jpg'
         alt: 'arapahoe lakes'
-        title: arapahoe lakes
+        title: Arapahoe Lakes
         slide: 4
 
       - text: 'Arapahoe Lakes is a neighborhood community of 208 single family homes and 13 townhomes.  The property has a three acre lake, unusual for Colorado neighborhoods, swimming pool and four tennis courts. Major irrigation and drought resistant upgrades has reduced water consumption substantially over the past years.  Water savings in 2013 alone totaled more than 2.7 million gallons of water and $11,618.'
-        title: Arapahoe Lakes HOA
+        title: Arapahoe Lakes
         slide: 5
 
 - category: Public Landscape
-  sub: public_landscape
+  slug: public_landscape
   project:
 
     - name: 'City of Brentwood, California'
-
+      slug: brentwood
       slide:
       - img: 'brentwood-1.jpg'
         alt: 'brentwood'
-        title: brentwood
+        title: 'City of Brentwood, California'
         slide: 1
 
       - img: 'brentwood-2.jpg'
         alt: 'brentwood'
-        title: brentwood
+        title: 'City of Brentwood, California'
         slide: 2
 
       - img: 'brentwood-3.jpg'
         alt: 'brentwood'
-        title: brentwood
+        title: 'City of Brentwood, California'
         slide: 3
 
       - img: 'brentwood-4.jpg'
         alt: 'brentwood'
-        title: brentwood
+        title: 'City of Brentwood, California'
         slide: 4
 
       - text: 'Terracare Associates began a landscape management contract with the City of Brentwood in January 2009. Under this contract, we manage seven million square feet of turf and 60+ parks, as well as streetscape maintenance throughout the entire city.'
-        title: Brentwood
+        title: 'City of Brentwood, California'
         slide: 5
 
     - name: 'City of Oakley, California'
-
+      slug: oakley
       slide:
       - img: 'oakley-1.jpg'
         alt: 'oakley'
-        title: oakley
+        title: 'City of Oakley, California'
         slide: 1
 
       - img: 'oakley-2.jpg'
         alt: 'oakley'
-        title: oakley
+        title: 'City of Oakley, California'
         slide: 2
 
       - img: 'oakley-3.jpg'
         alt: 'oakley'
-        title: oakley
+        title: 'City of Oakley, California'
         slide: 3
 
       - img: 'oakley-4.jpg'
         alt: 'oakley'
-        title: oakley
+        title: 'City of Oakley, California'
         slide: 4
 
       - text: 'Terracare Associates’ contract with the City of Oakley began in August 2009 and encompasses 1,250,000 square feet of turf and parks, as well as streetscape maintenance.'
         title: 'City of Oakley, California'
         slide: 5
 
-    - name: 'South I25 Corridor – Transportation Management Association, Colorado'
-
+    - name: 'TMA, I 25 Corridor, Colorado'
+      slug: tma
       slide:
       - img: 'tma-1.jpg'
         alt: 'tma'
-        title: tma
+        title: 'TMA, I 25 Corridor, Colorado'
         slide: 1
 
       - img: 'tma-2.jpg'
         alt: 'tma'
-        title: tma
+        title: 'TMA, I 25 Corridor, Colorado'
         slide: 2
 
       - img: 'tma-3.jpg'
         alt: 'tma'
-        title: tma
+        title: 'TMA, I 25 Corridor, Colorado'
         slide: 3
 
       - img: 'tma-4.jpg'
         alt: 'tma'
-        title: tma
+        title: 'TMA, I 25 Corridor, Colorado'
         slide: 4
 
       - text: 'The South I-25 corridor is a heavily traveled urban roadway with over 280,000 cars daily.  The interchanges predominately surrounded by asphalt and concrete is inundated with traffic pollution, trash, winter road run off, excessive heat, and storm water waste which makes it difficult to create a healthy plant and landscape environment.  Managing all twenty four areas simultaneously helps to create a healthy, save and beautiful outdoor environment'
-        title: 'South I25 Corridor – Transportation Management Association, Colorado'
+        title: 'TMA, I 25 Corridor, Colorado'
         slide: 5
 
     # - name: Centennial
