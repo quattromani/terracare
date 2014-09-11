@@ -18,7 +18,7 @@ location: "Business Park, Hercules California"
   <div class="fourth">
     <h5>{{ n.name }}</h5>
     {% for s in n.slide limit:1 %}
-    <span class="modal-button" id="{{ p.slug }}{{ n.slug }}{{ s.slide }}">
+    <span class="modal-button" id="{{ s.slide }}">
       <div class="portfolio-gallery">
         {% if s.img != null %}
         <figure>
@@ -50,7 +50,7 @@ location: "Business Park, Hercules California"
 {% for s in n.slide %}
 <div class="modal">
 
-  <div id="modal{{ p.slug }}{{ n.slug }}{{ s.slide }}" class="modal-container">
+  <div id="modal{{ s.slide }}" class="modal-container">
     <div class="modal-close"></div>
     <div id="modal-content">
 
