@@ -197,6 +197,16 @@
   }
 }
 
+.learn-more {
+  float: right;
+  background: $color-primary-yellow;
+  color: $text;
+
+  &:hover {
+    background-color: darken($color-primary-yellow, 7.5%);
+  }
+}
+
 // ie (.ie)
 // make buttons play nice in IE
 .ie button {

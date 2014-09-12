@@ -1,3 +1,11 @@
+# - name: "This appears on the nav bar"
+#   url: "/this-is-the-url-link"
+#   active: "this is the category, keeps the nav bar section highlighted"
+#   child_links:
+#     - name: "This appears on the drop down below the nav bar"
+#       url: "/this-is-the-url-link-for this child-page"
+#       active: "this is the category, keeps the nav bar section highlighted"
+
 - name: <i class="fa fa-home"></i>
   url: "/"
 
@@ -11,8 +19,8 @@
     - name: "Public Works"
       url: "/public-works"
       active: "public-services"
-    - name: "Roadway Maintenance"
-      url: "/roadway-maintenance"
+    - name: "Highway Maintenance"
+      url: "/highway-maintenance"
       active: "public-services"
     - name: "Snow Removal"
       url: "/snow-removal"
@@ -92,3 +100,7 @@
 - name: "Careers"
   url: "/careers"
   active: "careers"
+  child_links:
+    - name: "Carreras"
+      url: "/espanol"
+      active: "careers"

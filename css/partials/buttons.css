@@ -303,6 +303,15 @@ button.btn-sm,
     border: 0 none;
   }
 }
+.learn-more {
+  float: right;
+  background: #fda300;
+  color: #454545;
+}
+.learn-more:hover {
+  background-color: #d78a00;
+}
+
 .ie button {
   overflow: visible;
   width: auto;

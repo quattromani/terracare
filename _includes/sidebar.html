@@ -19,3 +19,21 @@
   {% endif %}
   {% endfor %}
 </ul>
+
+<!-- Suggested Reading sidebar addition -->
+{% if page.relevant_link != null %}
+<hr>
+
+<h4>More on this Topic</h4>
+
+<ul class="vertical lined">
+  <li>
+    <a href="{{ page.relevant_link }}">{{ page.relevant_link_title }}</a>
+  </li>
+  {% if page.relevant_link-2 != null %}
+  <li>
+    <a href="{{ page.relevant_link-2 }}">{{ page.relevant_link_title-2 }}</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}

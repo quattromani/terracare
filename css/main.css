@@ -127,12 +127,6 @@ body {
       top: 1em;
       right: 1em; } }
 
-.landscape .content a {
-  color: #325008; }
-
-.infrastructure .content a {
-  color: #fc8000; }
-
 .teams .job-title {
   font-weight: bold; }
 .teams .bio {
@@ -2572,6 +2566,13 @@ button,
     padding-bottom: 0;
     padding-left: 0;
     border: 0 none; } }
+.learn-more {
+  float: right;
+  background: #fda300;
+  color: #454545; }
+  .learn-more:hover {
+    background-color: #d78a00; }
+
 .ie button {
   overflow: visible;
   width: auto; }
@@ -3178,7 +3179,7 @@ img {
   background-clip: padding-box; }
 
 .image-bordered {
-  border: 0.5em solid #ccc; }
+  border: 0.5em solid #ebebeb; }
 
 [class*='image-focus-'] {
   min-height: 550px;

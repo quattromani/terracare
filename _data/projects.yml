@@ -30,12 +30,16 @@ irrigation:
   scope: 'Remove approx 20,000 sf of turf, install drought tolerant plants, convert irrigation to drip, install bark'
   result: 'Saved approx. 256,000 gallons of water YTD'
 
+# the project gallery slides (below) are numbered to allow
+# continuous scrolling throug them across categories and
+# project if you add any images to the gallery out of order,
+# it will break - be sure to check the order after adding
 
 projects:
 - category: Public Works
   slug: public_works
   project:
-  - name: Centennial
+  - name: City of Centennial
     slug: centennial
     slide:
     - img: 'centennial-1.jpg'
@@ -62,7 +66,7 @@ projects:
       title: City of Centennial
       slide: 5
 
-  - name: Lone Tree
+  - name: City of Lone Tree
     slug: lone_tree
     slide:
     - img: 'lone_tree-1.jpg'
@@ -80,14 +84,9 @@ projects:
       title: City of Lone Tree
       slide: 8
 
-    - img: 'lone_tree-4.jpg'
-      alt: 'Lone Tree'
-      title: City of Lone Tree
-      slide: 9
-
     - text: 'Faced with the challenge of keeping the City budget in check, the city supervisors chose to outsource their public works services in order to save tax payer money and keep a high level of service. Terracare Associates’ partnership with the City began in 2002, with Terracare Associates providing city wide snow removal services for the 90 miles of city streets and roadways. Within five years, Terracare Associates’ role gradually expanded to full-service operations as the City’s public works department.'
       title: City of Lone Tree
-      slide: 10
+      slide: 9
 
   - name: Northwest Parkway
     slug: nw_parkway
@@ -96,137 +95,132 @@ projects:
     - img: 'nw_parkway-1.jpg'
       alt: 'Northwest Parkway'
       title: Northwest Parkway
-      slide: 11
+      slide: 10
 
     - img: 'nw_parkway-2.jpg'
       alt: 'Northwest Parkway'
       title: Northwest Parkway
-      slide: 12
+      slide: 11
 
     - img: 'nw_parkway-3.jpg'
       alt: 'Northwest Parkway'
       title: Northwest Parkway
-      slide: 13
-
-    - img: 'nw_parkway-4.jpg'
-      alt: 'Northwest Parkway'
-      title: Northwest Parkway
-      slide: 14
+      slide: 12
 
     - text: 'The Northwest Parkway is an 8-mile (13 km) toll road that along with C-470 and E-470 forms a partial beltway of approximately 85 miles (137 km) around the Denver-Aurora Metropolitan Area. Since 2003, Terracare Associates has partnered with the Northwest Parkway and Brisa Auto-estradas de Portugal to provide comprehensive roadway maintenance and snow removal along the Parkway. Courtesy Patrol services are provided to assist in the event of vehicle mechanical difficulties, flat tires, accident assistance and traffic control.'
       title: Northwest Parkway
-      slide: 15
+      slide: 13
 
 - category: Commercial Landscape
   slug: commercial_landscape
   project:
-    - name: 'Wind Crest - Littleton, Colorado <br><br>'
+    - name: 'Wind Crest Retirement Community - Littleton, Colorado'
       slug: wind_crest
       slide:
       - img: 'windcrest-1.jpg'
         alt: 'windcrest'
-        title: Windcrest
-        slide: 16
+        title: Wind Crest Retirement Community
+        slide: 14
 
       - img: 'windcrest-2.jpg'
         alt: 'Windcrest'
-        title: Windcrest
-        slide: 17
+        title: Wind Crest Retirement Community
+        slide: 15
 
       - img: 'windcrest-3.jpg'
         alt: 'Windcrest'
-        title: Windcrest
-        slide: 18
+        title: Wind Crest Retirement Community
+        slide: 16
 
       - img: 'windcrest-4.jpg'
         alt: 'Windcrest'
-        title: Windcrest
-        slide: 19
+        title: Wind Crest Retirement Community
+        slide: 17
 
       - text: 'Wind Crest retirement center is an immense property with 84 acres, almost 900 residents and currently undertaking a major expansion adding 10 additional buildings and projected total occupancy is 1,700 residents.  The landscape of the area has varying terrain, soil and vegetation maintenance requirements.  TCA is always striving to keep a resort quality landscape for the community members'
-        title: Wind Crest
-        slide: 20
+        title: Wind Crest Retirement Community
+        slide: 18
 
-    - name: 'Silverado Spings HOA - Napa, California'
+    - name: 'Silverado Spings HOA - Napa, California<br><br>'
       slug: silverado
       slide:
       - img: 'silverado-1.jpg'
         alt: 'silverado'
         title: Silverado
-        slide: 21
+        slide: 19
 
       - img: 'silverado-2.jpg'
         alt: 'silverado'
         title: Silverado
-        slide: 22
+        slide: 20
 
       - img: 'silverado-3.jpg'
         alt: 'silverado'
         title: Silverado
-        slide: 23
+        slide: 21
 
       - img: 'silverado-4.jpg'
         alt: 'silverado'
         title: Silverado
-        slide: 24
+        slide: 22
 
       - text: 'Silverado Springs neighborhood with fourteen acres, 98 homes in a prestigious upscale housing development in Napa.  The landscape management company maintains curb to doorstep as well as common areas.  The neighborhood includes greenbelts, two lakes, swimming pool, spa and two tennis courts.  TCA water management upgrades to property has saved the development more than 8 million gallons of water annually.'
         title: Silverado
-        slide: 25
+        slide: 23
 
     - name: 'Parkway Corporate Plaza - Sacramento, California'
       slug: parkway
       slide:
       - img: 'parkway-1.jpg'
         alt: 'parkway'
-        title: Parkway Corpoate Plaza
-        slide: 26
+        title: Parkway Corporate Plaza
+        slide: 24
 
       - img: 'parkway-2.jpg'
         alt: 'parkway'
-        title: Parkway Corpoate Plaza
-        slide: 27
+        title: Parkway Corporate Plaza
+        slide: 25
 
       - img: 'parkway-3.jpg'
         alt: 'parkway'
-        title: Parkway Corpoate Plaza
-        slide: 28
+        title: Parkway Corporate Plaza
+        slide: 26
 
       - img: 'parkway-4.jpg'
         alt: 'parkway'
-        title: Parkway Corpoate Plaza
-        slide: 29
+        title: Parkway Corporate Plaza
+        slide: 27
 
       - text: 'This corporate plaza expects top quality, A+ landscape maintenance standards.  The corporate park is located in proximity to Close Proximity to I-80 and Highway 65 in Roseville, CA. Landscape upkeep and aesthetics are of upmost importance.'
         title: Parkway Corporate Plaza
-        slide: 30
+        slide: 28
 
-    - name: 'Arapahoe Lakes HOA - Centennial, Colorado'
+    - name: 'Arapahoe Lakes HOA - Centennial, Colorado<br><br>'
       slug: arapahoe_lakes
       slide:
       - img: 'arapahoe_lakes-1.jpg'
         alt: 'arapahoe lakes'
         title: Arapahoe Lakes
-        slide: 31
+        slide: 29
 
       - img: 'arapahoe_lakes-2.jpg'
         alt: 'arapahoe lakes'
         title: Arapahoe Lakes
-        slide: 32
+        slide: 30
 
       - img: 'arapahoe_lakes-3.jpg'
         alt: 'arapahoe lakes'
         title: Arapahoe Lakes
-        slide: 33
+        slide: 31
 
       - img: 'arapahoe_lakes-4.jpg'
         alt: 'arapahoe lakes'
         title: Arapahoe Lakes
-        slide: 34
+        slide: 32
 
       - text: 'Arapahoe Lakes is a neighborhood community of 208 single family homes and 13 townhomes.  The property has a three acre lake, unusual for Colorado neighborhoods, swimming pool and four tennis courts. Major irrigation and drought resistant upgrades has reduced water consumption substantially over the past years.  Water savings in 2013 alone totaled more than 2.7 million gallons of water and $11,618.'
         title: Arapahoe Lakes
-        slide: 35
+        slide: 33
 
 - category: Public Landscape
   slug: public_landscape
@@ -238,26 +232,26 @@ projects:
       - img: 'brentwood-1.jpg'
         alt: 'brentwood'
         title: 'City of Brentwood, California'
-        slide: 36
+        slide: 34
 
       - img: 'brentwood-2.jpg'
         alt: 'brentwood'
         title: 'City of Brentwood, California'
-        slide: 37
+        slide: 35
 
       - img: 'brentwood-3.jpg'
         alt: 'brentwood'
         title: 'City of Brentwood, California'
-        slide: 38
+        slide: 36
 
       - img: 'brentwood-4.jpg'
         alt: 'brentwood'
         title: 'City of Brentwood, California'
-        slide: 39
+        slide: 37
 
       - text: 'Terracare Associates began a landscape management contract with the City of Brentwood in January 2009. Under this contract, we manage seven million square feet of turf and 60+ parks, as well as streetscape maintenance throughout the entire city.'
         title: 'City of Brentwood, California'
-        slide: 40
+        slide: 38
 
     - name: 'City of Oakley, California'
       slug: oakley
@@ -265,26 +259,26 @@ projects:
       - img: 'oakley-1.jpg'
         alt: 'oakley'
         title: 'City of Oakley, California'
-        slide: 41
+        slide: 39
 
       - img: 'oakley-2.jpg'
         alt: 'oakley'
         title: 'City of Oakley, California'
-        slide: 42
+        slide: 40
 
       - img: 'oakley-3.jpg'
         alt: 'oakley'
         title: 'City of Oakley, California'
-        slide: 43
+        slide: 41
 
       - img: 'oakley-4.jpg'
         alt: 'oakley'
         title: 'City of Oakley, California'
-        slide: 44
+        slide: 42
 
       - text: 'Terracare Associates’ contract with the City of Oakley began in August 2009 and encompasses 1,250,000 square feet of turf and parks, as well as streetscape maintenance.'
         title: 'City of Oakley, California'
-        slide: 45
+        slide: 43
 
     - name: 'TMA, I 25 Corridor, Colorado'
       slug: tma
@@ -292,26 +286,26 @@ projects:
       - img: 'tma-1.jpg'
         alt: 'tma'
         title: 'TMA, I 25 Corridor, Colorado'
-        slide: 46
+        slide: 44
 
       - img: 'tma-2.jpg'
         alt: 'tma'
         title: 'TMA, I 25 Corridor, Colorado'
-        slide: 47
+        slide: 45
 
       - img: 'tma-3.jpg'
         alt: 'tma'
         title: 'TMA, I 25 Corridor, Colorado'
-        slide: 48
+        slide: 46
 
       - img: 'tma-4.jpg'
         alt: 'tma'
         title: 'TMA, I 25 Corridor, Colorado'
-        slide: 49
+        slide: 47
 
       - text: 'The South I-25 corridor is a heavily traveled urban roadway with over 280,000 cars daily.  The interchanges predominately surrounded by asphalt and concrete is inundated with traffic pollution, trash, winter road run off, excessive heat, and storm water waste which makes it difficult to create a healthy plant and landscape environment.  Managing all twenty four areas simultaneously helps to create a healthy, save and beautiful outdoor environment'
         title: 'TMA, I 25 Corridor, Colorado'
-        slide: 50
+        slide: 48
 
     # - name: Centennial
 

@@ -1,0 +1,24 @@
+# Be sure to follow this structure:
+
+# state:
+#   -title: Job title
+
+california:
+  - title: Paisaje Mejora Manager (Sacramento)
+  - title: Representante de ventas comerciales (Sacramento)
+
+colorado:
+  - title: Capataz de hormigón
+  - title: Estimador
+  - title: Los técnicos de riego
+  - title: Landscape Maintenance Tripulantes
+  - title: Mejora y Flor Tripulantes
+  - title: Derecho de paso y mantenimiento vial Tripulantes
+  - title: Diesel Mecánico
+  - title: CDL Conductor
+
+utah:
+  - title: Certificado Técnico de Control de Tráfico
+  - title: Derecho de paso y mantenimiento vial Tripulantes
+  - title: Trabajador de hormigón
+  - title: CDL Conductor

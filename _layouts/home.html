@@ -16,7 +16,9 @@ layout: compress
           <div class="image-focus-3" style="background-image: url({{ banner.img }});" alt="{{ banner.alt }}"></div>
           <div class="feature">
             <div class="container">
-              <h1>{{ banner.title }}</h1>
+              <h1 class="left">{{ banner.title }}</h1>
+              <a href="{{ banner.url }}" class="btn mobile-full learn-more right">Learn More <i class="fa fa-angle-right"></i></a>
+              <div class="clear"></div>
               <p class="left">{{ banner.text }}</p>
               <p class="right text-right">{{ banner.location }}</p>
             </div>

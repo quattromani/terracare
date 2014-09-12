@@ -1,0 +1,198 @@
+---
+layout: default
+title: Carreras
+description: "Terracare Associates siempre está interesado en los individuos con talento, entusiastas y con experiencia para unirse a nuestro equipo. Buscamos alto calibre, empleados de alto potencial que están buscando la oportunidad de crecer y hacer una diferencia. Ofrecemos variedad, flexibilidad, salarios competitivos, oportunidades para crecer, y la satisfacción general en el trabajo."
+parent: Careers
+class: careers
+banner: now_hiring.jpg
+banner-heading: "Estamos buscando para usted"
+banner-cta: ""
+---
+
+<div class="row">
+  <h3 class="lede">Terracare Associates siempre está interesado en los individuos con talento, entusiastas y con experiencia para unirse a nuestro equipo. Buscamos alto calibre, empleados de alto potencial que están buscando la oportunidad de crecer y hacer una diferencia. Ofrecemos variedad, flexibilidad, salarios competitivos, oportunidades para crecer, y la satisfacción general en el trabajo.</h3>
+</div>
+
+<hr>
+
+<div class="row">
+  <div class="half">
+    <h3>Oportunidades Actuales</h3>
+    <h4>California</h4>
+    <ul class="bulleted">
+      {% for item in site.data.carreras.california %}
+      <li>
+        {{ item.title }}
+      </li>
+      {% endfor %}
+    </ul>
+
+    <hr>
+
+    <h4>Colorado</h4>
+    <ul class="bulleted">
+      {% for item in site.data.carreras.colorado %}
+      <li>
+        {{ item.title }}
+      </li>
+      {% endfor %}
+    </ul>
+
+    <hr>
+
+    <h4>Utah</h4>
+    <ul class="bulleted">
+      {% for item in site.data.carreras.utah %}
+      <li>
+        {{ item.title }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="half">
+
+    <form action="//forms.brace.io/web@myterracare.com" method="POST">
+      <input type="hidden" name="form" value="Careers">
+      <fieldset>
+        <h3>Aplique hoy!</h3>
+        <p>* Indica un campo obligatorio</p>
+
+        <!-- First Name / Last Name -->
+        <div class="row">
+          <div class="half">
+            <div class="formitem first_name">
+              <label class="required" for="first-name">Nombre de pila:</label>
+              <input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]+" autocomplete="name" tabindex="1" required>
+            </div>
+          </div>
+
+          <div class="half">
+            <div class="formitem last_name">
+              <label class="required" for="last_name">Apellido:</label>
+              <input type="text" id="last_name" name="last_name" autocomplete="name" tabindex="2" required>
+            </div>
+          </div>
+        </div>
+        <!-- .First Name / Last Name -->
+
+        <!-- Phone -->
+        <div class="row clearfix">
+          <div class="formitem phone_number">
+            <label for="phone-number" class="required">Número de teléfono:</label>
+            <input type="tel" id="phone_number" name="phone_number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="3" required>
+          </div>
+        </div>
+        <!-- .Phone -->
+
+        <!-- Email Address -->
+        <div class="row">
+          <div class="formitem email">
+            <label for="email" class="required">Dirección de correo electrónico:</label>
+            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="4" required>
+          </div>
+        </div>
+        <!-- .Email Address -->
+
+        <!-- Desired Field -->
+        <div class="row">
+          <div class="formitem">
+            <label for="field" class="required">Campo deseado:</label>
+            <select name="field" id="field" tabindex="5" required>
+              <option value="---" selected="selected">---</option>
+              <option value="Account Manager">Gerente de cuentas</option>
+              <option value="Assistant Project Manager">Gerente de Proyecto</option>
+              <option value="Aquatics">Acuático</option>
+              <option value="Branch Manager">Gerente de Sucursal</option>
+              <option value="Business Development">Desarrollo de Negocio</option>
+              <option value="CDL Driver">CDL conductor</option>
+              <option value="Concrete Foreman">Capataz de hormigón</option>
+              <option value="Concrete Worker">Trabajador de hormigón</option>
+              <option value="Diesel Mechanic">Diesel Mecánico</option>
+              <option value="Enhancement Manager">Mejora el Administrador</option>
+              <option value="Enhancement Crew">Mejora Crew</option>
+              <option value="Estimator">Estimador</option>
+              <option value="Flower Crew">Crew Flor</option>
+              <option value="Irrigation Manager">Riego Gerente</option>
+              <option value="Irrigation Technician">Riego Técnico</option>
+              <option value="Landscape Construction">Paisaje Construcción</option>
+              <option value="Landscape Foreman">Paisaje Capataz</option>
+              <option value="Landscape Laborer">Paisaje Obrero</option>
+              <option value="Mechanic">Mecánico</option>
+              <option value="On-call CDL Snow Driver">On-llamar CDL Nieve Conductor</option>
+              <option value="Operations Manager">Gerente de Operaciones</option>
+              <option value="Plant Healthcare Tech.">Planta de Tecnología Sanitaria</option>
+              <option value="Project Manager">Gerente de proyecto</option>
+              <option value="Road Maintenance Crew">Mantenimiento de Carreteras Crew</option>
+              <option value="Snow Driver">Conductor de nieve</option>
+              <option value="Snow Crew">Crew Nieve</option>
+              <option value="Small Equipment Mechanic">Pequeño Equipo Mecánico</option>
+              <option value="Traffic Control Technician">Técnico de Control de Tráfico</option>
+            </select>
+          </div>
+        </div>
+        <!-- .Desired Area -->
+
+        <!-- About -->
+        <div class="row">
+          <div class="formitem textarea">
+            <label for="textarea">Háblenos de sus habilidades:</label>
+            <textarea id="textarea" placeholder="Cuéntanos acerca de tus habilidades o cortar y pegar una hoja de vida." tabindex="6"></textarea>
+          </div>
+        </div>
+        <!-- .About -->
+
+        <!-- Desired Area -->
+        <div class="row">
+          <div class="formitem state">
+            <label for="state" class="required">¿Dónde estás buscando empleo?</label>
+            <select name="state" id="state" tabindex="7" required>
+              <option value="" selected="selected">Seleccione una ubicación</option>
+              <option value="CA - Bay Area">CA - Área de la Bahía</option>
+              <option value="CA - Sacramento Area">CA - Sacramento Area</option>
+              <option value="CO - Denver North">CO - Denver Norte</option>
+              <option value="CO - Denver South">CO - Denver Sur</option>
+              <option value="UT - Cottonwood Heights">UT - Cottonwood Heights</option>
+            </select>
+          </div>
+        </div>
+        <!-- .Desired Field -->
+
+        <!-- Referral -->
+        <div class="row">
+          <label class="required">¿Le envió a un empleado Terracare?</label>
+          <div class="formitem">
+            <input type="radio" class="radio" id="radio-this" name="referred" value="yes" tabindex="8">
+            <label for="radio-this">Sí</label>
+          </div>
+          <div class="formitem">
+            <input type="radio" class="radio" id="radio-that" name="referred" value="no" tabindex="8">
+            <label for="radio-that">No</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="formitem email">
+            <label for="referral-name">Si es así, ¿por quién? </label>
+            <input id="referral-name" type="text" name="referral-name" pattern="[a-zA-Z]+" tabindex="10">
+          </div>
+        </div>
+        <!-- .Referral -->
+
+        <!-- Form Housekeeping -->
+        <input type="hidden" name="_next" value="http://myterracare.net/thank-you/" />
+        <input type="text" name="_gotcha" style="display:none">
+        <!-- .Form Housekeeping -->
+
+        <div class="formitem">
+          <button class="btn btn-primary" type="submit" name="submit" value="submit">
+            <span>Enviar</span>
+          </button>
+
+          <button type="reset" name="reset" value="reset">
+            <span>Borrar</span>
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

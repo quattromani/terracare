@@ -1,4 +1,12 @@
 # Author details.
+
+# if author is added in the future
+# be sure to use this format, or it will break
+
+# author_name:
+#   name: author name
+#   email: aname@email.com
+
 cristin_tarr:
   name: Cristin Tarr
   email: ctarr@myterracare.com

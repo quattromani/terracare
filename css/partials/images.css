@@ -43,7 +43,7 @@ img {
 }
 
 .image-bordered {
-  border: 0.5em solid #ccc;
+  border: 0.5em solid #ebebeb;
 }
 
 [class*='image-focus-'] {

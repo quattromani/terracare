@@ -1,6 +1,12 @@
 # Be sure to follow this structure:
-# state:
-#   -title: Job title
+
+# banner:
+#   - img: 'images/banners/image.jpg'
+#     url: '/page_url/'
+#     alt: 'alt text for the image'
+#     title: THIS IS THE BIG H1 TITLE ON THE IMAGE
+#     text: This is the orange text just below it
+#     location: 'Optional, sits on the right'
 
 banner:
   - img: 'images/banners/windcrest_windmill.jpg'
@@ -13,7 +19,7 @@ banner:
   - img: 'images/banners/travis_cu-2.jpg'
     url: '/commercial-services/'
     alt: 'Flower Garden'
-    title: COMMERCIAL LANDSCAPE MANAGEMENT
+    title: COMMERCIAL LANDSCAPE MAINTENANCE
     text: Absolute customer confidence
     location: 'Travis Credit Union - Vacaville, California'
 
@@ -27,7 +33,7 @@ banner:
   - img: 'images/banners/Victoria_by_the_Bay.jpg'
     url: '/public-services/public-landscape/'
     alt: 'Victoria by the Bay, California - Public Landscape'
-    title: PUBLIC LANDSCAPE
+    title: PUBLIC LANDSCAPE MAINTENANCE
     text: Public-private partnerships
     location: 'City of Oakley, California'
 
