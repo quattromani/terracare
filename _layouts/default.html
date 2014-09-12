@@ -20,6 +20,13 @@ layout: compress
 
 {% include content.html %}
 
+<!-- Add Spanish Page button -->
+{% if page.espanol != null %}
+<a href="{{ page.espanol_url }}" class="btn btn-primary mobile-full">{{ page.espanol_redirect }} <i class="fa fa-angle-right"></i></a>
+<hr>
+{% endif %}
+<!-- .Spanish -->
+
 {{ content }}
 
 {% include end_content.html %}
