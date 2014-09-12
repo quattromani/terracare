@@ -2616,6 +2616,8 @@ button,
   padding-left: 1em;
   -webkit-box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
   box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
+  -webkit-box-shadow: inset 0.3em 0 0 0 #325008;
+  box-shadow: inset 0.3em 0 0 0 #325008;
   background-color: #fff; }
   .blog .blog-cap:before {
     content: '';
@@ -2630,12 +2632,16 @@ button,
     border-style: solid;
     border-width: .75em;
     z-index: 99999; }
+  .blog .blog-cap a {
+    color: #454545; }
 .blog .blog-content {
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
   background-color: #f9f9f9; }
+  .blog .blog-content > a {
+    color: #454545; }
 
 /* ==========================================================================
     Pills -- Version: 1.9.0.0 - Compiled: timestamp()

@@ -12,6 +12,9 @@ banner-cta: ""
 
 <div class="row">
   <div class="two-thirds">
+    <h3>Blog</h3>
+
+    <hr>
 
     {% for post in paginator.posts %}
     <div class="box-column">
@@ -19,9 +22,9 @@ banner-cta: ""
         <strong class="right">
           {{ post.date | date_to_string }}
         </strong>
-        <h3>
+        <h5>
           <a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}<br>{{ post.sub-title }}</a>
-        </h3>
+        </h5>
         {% assign author = site.data.authors[post.author] %}
         {% if author %}
         <span>
@@ -31,8 +34,22 @@ banner-cta: ""
       </div>
 
       <div class="blog-content">
-        {{ post.content |  strip_html | truncatewords: 50 }}
-        <a href="{{ site.prefix }}{{ post.url }}">Read More <i class="fa fa-angle-right"></i></a>
+        <a href="{{ site.prefix }}{{ post.url }}">
+          {{ post.content |  strip_html | truncatewords: 50 }}
+        </a>
+
+        <hr>
+
+        <ul class="horizontal">
+          {% assign tags_list = post.categories %}
+          {% if tags_list.first[0] == null %}
+          {% for tag in tags_list %}
+          <li><a href="categories/{{ tag }}">{{ tag | capitalize }}&nbsp;&nbsp;&nbsp;</a></li>
+          {% if size > 1 %},{% endif %}
+          {% endfor %}
+          {% endif %}
+          {% assign tags_list = nil %}
+        </ul>
       </div>
     </div>
     {% endfor %}
@@ -67,7 +84,7 @@ banner-cta: ""
 
     <hr>
 
-    <h3>Categories</h3>
+    <h4>Categories</h4>
     <ul class="tag-box inline">
       {% assign tags_list = site.categories %}
       {% if tags_list.first[0] == null %}
@@ -105,7 +122,8 @@ banner-cta: ""
         <h5>
           SignUp for Our Newsletter
         </h5>
-        <form action="">
+        <form action="//forms.brace.io/web@myterracare.com" method="POST">
+          <input type="hidden" name="form" value="Newsletter Signup">
           <!-- Email Address -->
           <div class="row">
             <div class="formitem email">
@@ -115,10 +133,9 @@ banner-cta: ""
           </div>
           <!-- .Email Address -->
 
-          <!-- Form Housekeeping -->
-          <input type="hidden" name="_next" value="http://myterracare.net/thank-you/" />
+          <!-- Gotcha -->
           <input type="text" name="_gotcha" style="display:none">
-          <!-- .Form Housekeeping -->
+          <!-- .Gotcha -->
 
           <div class="formitem">
             <button class="btn btn-primary" type="submit" name="submit" value="submit">

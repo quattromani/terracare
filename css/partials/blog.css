@@ -10,6 +10,7 @@
   -webkit-box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
   -moz-box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
   box-shadow: 0 0 40px rgba(204, 204, 204, 0.6);
+  box-shadow: inset 0.3em 0 0 0 #325008;
   background-color: #fff;
 }
 .blog .blog-cap:before {
@@ -26,12 +27,18 @@
   border-width: .75em;
   z-index: 99999;
 }
+.blog .blog-cap a {
+  color: #454545;
+}
 .blog .blog-content {
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
   background-color: #f9f9f9;
+}
+.blog .blog-content > a {
+  color: #454545;
 }
 
 /*# sourceMappingURL=blog.css.map */
