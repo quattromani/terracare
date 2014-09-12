@@ -252,6 +252,10 @@
       }
     }
 
+    .home .content {
+      padding-top: 1em;
+    }
+
     .homepage-pseudo-footer {
       @include padding($padding * 2, 0, 0);
       @include rgba($color-primary-green, .25%);

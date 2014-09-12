@@ -312,6 +312,10 @@ footer .fa-envelope-square:hover {
   overflow: hidden;
 }
 
+.home .content {
+  padding-top: 1em;
+}
+
 .homepage-pseudo-footer {
   padding-top: 2em;
   padding-right: 0;
