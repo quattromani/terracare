@@ -244,10 +244,26 @@
     }
 
     .social-feed {
-      height: 213px;
+      height: 218px;
       overflow: hidden;
 
       @include bp(bp-small) {
 
+      }
+    }
+
+    .homepage-pseudo-footer {
+      @include padding($padding * 2, 0, 0);
+      @include rgba($color-primary-green, .25%);
+
+      h5 {
+        margin-bottom: 0;
+        @include padding($padding / 2);
+        background-color: $color-white;
+      }
+
+      .social-feed {
+        @include padding(0, $padding);
+        background-color: $color-white;
       }
     }

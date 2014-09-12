@@ -244,8 +244,29 @@ footer {
   z-index: 0; }
 
 .social-feed {
-  height: 213px;
+  height: 218px;
   overflow: hidden; }
+
+.homepage-pseudo-footer {
+  padding-top: 2em;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  background-color: #325008;
+  background-color: rgba(50, 80, 8, 0.25); }
+  .homepage-pseudo-footer h5 {
+    margin-bottom: 0;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    background-color: #fff; }
+  .homepage-pseudo-footer .social-feed {
+    padding-top: 0;
+    padding-right: 1em;
+    padding-bottom: 0;
+    padding-left: 1em;
+    background-color: #fff; }
 
 /* Layout */
 /* ==========================================================================
