@@ -2846,6 +2846,7 @@ label + .pill,
   position: relative;
   overflow: auto;
   min-height: 28em;
+  max-height: 28em;
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;

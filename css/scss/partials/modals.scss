@@ -53,6 +53,7 @@
         position: relative;
         overflow: auto;
         min-height: 28em;
+        max-height: 28em;
         @include padding(1em);
 
         @include bp(bp-small) {
