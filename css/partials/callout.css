@@ -60,5 +60,23 @@
     display: none;
   }
 }
+.homepage-pseudo-footer .callouts {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.homepage-pseudo-footer .callouts .callout {
+  box-shadow: none;
+}
+.homepage-pseudo-footer .callouts .callout:hover {
+  padding-top: 0.75em;
+  padding-right: 0.75em;
+  padding-bottom: 0.5em;
+  padding-left: 0.75em;
+}
+.callouts .slick-slider {
+  margin: 0;
+}
 
 /*# sourceMappingURL=callout.css.map */

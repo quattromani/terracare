@@ -249,7 +249,7 @@ footer {
   z-index: 0; }
 
 .social-feed {
-  height: 218px;
+  height: 222px;
   overflow: hidden; }
 
 .home .content {
@@ -258,16 +258,13 @@ footer {
 .homepage-pseudo-footer {
   padding-top: 2em;
   padding-right: 0;
-  padding-bottom: 0;
+  padding-bottom: 1em;
   padding-left: 0;
   background-color: #325008;
   background-color: rgba(50, 80, 8, 0.35); }
   .homepage-pseudo-footer h5 {
     margin-bottom: 0;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 0.5em;
+    padding-bottom: .5em;
     background-color: #fff; }
   .homepage-pseudo-footer .social-feed {
     padding-top: 0;
@@ -2927,13 +2924,28 @@ label + .pill,
   @media (max-width: 40em) {
     .callouts .callout-message {
       display: none; } }
+  .homepage-pseudo-footer .callouts {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0; }
+    .homepage-pseudo-footer .callouts .callout {
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      .homepage-pseudo-footer .callouts .callout:hover {
+        padding-top: 0.75em;
+        padding-right: 0.75em;
+        padding-bottom: 0.5em;
+        padding-left: 0.75em; }
+  .callouts .slick-slider {
+    margin: 0; }
 
 /* ==========================================================================
     Project Gallery -- Version: 1.9.0.0 - Compiled: timestamp()
     ========================================================================== */
 .project-gallery {
   width: 100%;
-  height: 175px;
+  height: 168px;
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;

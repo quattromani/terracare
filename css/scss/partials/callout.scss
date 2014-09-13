@@ -43,4 +43,20 @@
           display: none;
         }
       }
+
+      .homepage-pseudo-footer & {
+        @include margin;
+
+        .callout {
+          box-shadow: none;
+
+          &:hover {
+            @include padding(.75em, .75em, .5em);
+          }
+        }
+      }
+
+      .slick-slider {
+        margin: 0;
+      }
     }

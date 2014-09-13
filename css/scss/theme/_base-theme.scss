@@ -253,7 +253,7 @@
     }
 
     .social-feed {
-      height: 218px;
+      height: 222px;
       overflow: hidden;
 
       @include bp(bp-small) {
@@ -266,12 +266,12 @@
     }
 
     .homepage-pseudo-footer {
-      @include padding($padding * 2, 0, 0);
+      @include padding($padding * 2, 0, 1em);
       @include rgba($color-primary-green, .35%);
 
       h5 {
         margin-bottom: 0;
-        @include padding($padding / 2);
+        padding-bottom: .5em;
         background-color: $color-white;
       }
 
