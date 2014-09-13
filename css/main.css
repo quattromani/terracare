@@ -256,7 +256,7 @@ footer {
   padding-bottom: 0;
   padding-left: 0;
   background-color: #325008;
-  background-color: rgba(50, 80, 8, 0.25); }
+  background-color: rgba(50, 80, 8, 0.35); }
   .homepage-pseudo-footer h5 {
     margin-bottom: 0;
     padding-top: 0.5em;
@@ -2376,7 +2376,7 @@ button,
   .cta.button-primary {
     border-bottom: 3px solid #1c2d05;
     background-color: #325008;
-    color: #fff; }
+    color: #fda300; }
     .btn.btn-primary:hover, .btn.button-primary:hover,
     .button.btn-primary:hover,
     .button.button-primary:hover,
@@ -2385,7 +2385,8 @@ button,
     .cta.btn-primary:hover,
     .cta.button-primary:hover {
       border-bottom: 3px solid #d78a00;
-      background-color: #fda300; }
+      background-color: #fda300;
+      color: #325008; }
   .btn.btn-error,
   .button.btn-error,
   button.btn-error,
@@ -2921,9 +2922,7 @@ label + .pill,
     padding-top: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
-    padding-left: 1em;
-    background: rgba(121, 60, 18, 0.65);
-    color: #fff; }
+    padding-left: 1em; }
   .project-gallery img {
     width: 100%; }
   .project-gallery figcaption {

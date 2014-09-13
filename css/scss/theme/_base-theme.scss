@@ -258,7 +258,7 @@
 
     .homepage-pseudo-footer {
       @include padding($padding * 2, 0, 0);
-      @include rgba($color-primary-green, .25%);
+      @include rgba($color-primary-green, .35%);
 
       h5 {
         margin-bottom: 0;

@@ -21,19 +21,16 @@
 </ul>
 
 <!-- Suggested Reading sidebar addition -->
-{% if page.relevant_link != null %}
+{% if page.relevant_links != null %}
 <hr>
 
 <h4>More on this Topic</h4>
 
 <ul class="vertical lined">
+{% for plug in page.relevant_links %}
   <li>
-    <a href="{{ page.relevant_link }}">{{ page.relevant_link_title }}</a>
+    <a href="{{ plug.link }}"><i class="fa fa-newspaper-o"></i> {{ plug.title }}</a>
   </li>
-  {% if page.relevant_link-2 != null %}
-  <li>
-    <a href="{{ page.relevant_link-2 }}">{{ page.relevant_link_title-2 }}</a>
-  </li>
-  {% endif %}
+  {% endfor %}
 </ul>
 {% endif %}

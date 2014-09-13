@@ -15,8 +15,6 @@
       &.card {
         height: auto;
         @include padding($padding);
-        background: rgba($color-primary-brown, .65);
-        color: $color-white;
       }
 
       img {

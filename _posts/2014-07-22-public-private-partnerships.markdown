@@ -116,6 +116,20 @@ Utah Operations Manager</div>
 11<o:p></o:p></div>
 </td>
  </tr>
+ <tr>
+  <td style="border-top: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; width: 119.7pt;" valign="top" width="160"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+Todd Rodriguez<o:p></o:p></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; width: 156.8pt;" valign="top" width="209"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
+Project Manager</div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; width: 73.15pt;" valign="top" width="98"><div align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;">
+22<o:p></o:p></div>
+</td>
+  <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; width: 113.35pt;" valign="top" width="151"><div align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;">
+4<o:p></o:p></div>
+</td>
+ </tr>
 <tr>
   <td style="border-top: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; width: 119.7pt;" valign="top" width="160"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
 Justin Stewart<o:p></o:p></div>
@@ -166,10 +180,10 @@ TOTALS<o:p></o:p></div>
 <br /></div>
 </td>
   <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; width: 73.15pt;" valign="top" width="98"><div align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;">
-210<o:p></o:p></div>
+232<o:p></o:p></div>
 </td>
   <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; width: 113.35pt;" valign="top" width="151"><div align="center" class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: center;">
-57<o:p></o:p></div>
+61<o:p></o:p></div>
 </td>
  </tr>
 </tbody></table>
