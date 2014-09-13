@@ -74,6 +74,14 @@
 
         p {
           color: #fc8000;
+
+          @include bp(bp-small) {
+            &.right {
+              float: none;
+              text-align: left;
+            }
+          }
+
         }
 
         a.cta {

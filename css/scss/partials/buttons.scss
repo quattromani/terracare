@@ -130,6 +130,10 @@
           margin-top: $margin;
         }
       }
+
+      &.full {
+        float: none;
+      }
     }
 
     .cta {

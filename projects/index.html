@@ -55,13 +55,14 @@ location: "Business Park, Hercules California"
     <div id="modal-content">
 
       <div class="modal-header">
-      <h4>{{ s.title }}</h4>
+      <h4>{{ p.category }}</h4>
       </div>
 
       <div class="modal-body">
         {% if s.img != null %}
         <figure>
           <img src="/images/projects/{{ p.slug }}/{{ s.img }}" alt="{{ s.alt }}">
+          <figcaption>{{ s.title }}</figcaption>
         </figure>
         {% endif %}
         {% if s.text != null %}

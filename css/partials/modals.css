@@ -57,7 +57,7 @@
 .modal .modal-body {
   position: relative;
   overflow: auto;
-  max-height: 30em;
+  min-height: 28em;
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;

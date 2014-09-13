@@ -1,10 +1,16 @@
 category:
 - name: employees
   title: Employees
+  img: TCA.jpg
 - name: responsibility
   title: Responsibility
+  img: TCA.jpg
 - name: water_management
   title: Water Management
+  img: TCA.jpg
 - name: certification
   title: Certification
-
+  img: TCA.jpg
+- name: traffic
+  title: Traffic
+  img: TCA.jpg

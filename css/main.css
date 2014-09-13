@@ -81,8 +81,8 @@ body {
     line-height: .75; }
     @media (max-width: 40em) {
       .banner a.logo {
-        width: 100%;
-        text-align: center; } }
+        display: block;
+        width: 100%; } }
     .banner a.logo:hover {
       border-bottom: none;
       color: inherit; }
@@ -105,7 +105,7 @@ body {
       color: #5b3821; }
   @media (max-width: 40em) {
     .banner-ctas {
-      margin-top: 0;
+      margin-top: 2em;
       margin-right: 0;
       margin-bottom: 0;
       margin-left: 0;
@@ -124,7 +124,12 @@ body {
   @media (max-width: 62em) {
     .banner .tca-icon {
       position: absolute;
-      top: 1em;
+      top: .5em;
+      right: 1em; } }
+  @media (max-width: 40em) {
+    .banner .tca-icon {
+      position: absolute;
+      top: .5em;
       right: 1em; } }
 
 .teams .job-title {
@@ -270,6 +275,12 @@ footer {
     padding-bottom: 0;
     padding-left: 1em;
     background-color: #fff; }
+
+.phone {
+  padding-top: 1em;
+  padding-right: 0;
+  padding-bottom: 1em;
+  padding-left: 0; }
 
 /* Layout */
 /* ==========================================================================
@@ -2536,6 +2547,11 @@ button,
     .cta +
     .cta {
       margin-top: 1em; } }
+  .btn.full,
+  .button.full,
+  button.full,
+  .cta.full {
+    float: none; }
 
 .cta {
   -webkit-box-shadow: inset 0 0 0 2px #0b4d42;
@@ -2665,8 +2681,16 @@ button,
   padding-bottom: 1em;
   padding-left: 1em;
   background-color: #f9f9f9; }
+  .blog .blog-content .blog-category-icon {
+    float: left;
+    margin-right: 1em; }
   .blog .blog-content > a {
+    display: block;
+    overflow: hidden;
     color: #454545; }
+.blog .twitter {
+  height: 500px;
+  overflow: hidden; }
 
 /* ==========================================================================
     Pills -- Version: 1.9.0.0 - Compiled: timestamp()
@@ -2824,7 +2848,7 @@ label + .pill,
 .modal .modal-body {
   position: relative;
   overflow: auto;
-  max-height: 30em;
+  min-height: 28em;
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
@@ -3304,6 +3328,10 @@ img {
       color: #ccc; }
     .image-content-panel .feature p {
       color: #fc8000; }
+      @media (max-width: 40em) {
+        .image-content-panel .feature p.right {
+          float: none;
+          text-align: left; } }
     .image-content-panel .feature a.cta {
       margin-top: 0;
       margin-right: 0;

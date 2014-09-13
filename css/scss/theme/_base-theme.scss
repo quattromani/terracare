@@ -31,9 +31,10 @@
       a.logo {
         color: #4a7817;
         line-height: .75;
+
         @include bp(bp-small) {
+          display: block;
           width: 100%;
-          text-align: center;
         }
 
         &:hover {
@@ -70,7 +71,7 @@
 
       &-ctas {
         @include bp(bp-small) {
-          @include margin;
+          @include margin(2em, 0, 0);
           text-align: center;
 
           .text-right {
@@ -91,7 +92,15 @@
       @include bp(bp-medium) {
         .tca-icon {
           position: absolute;
-          top: 1em;
+          top: .5em;
+          right: 1em;
+        }
+      }
+
+      @include bp(bp-small) {
+        .tca-icon {
+          position: absolute;
+          top: .5em;
           right: 1em;
         }
       }
@@ -270,4 +279,8 @@
         @include padding(0, $padding);
         background-color: $color-white;
       }
+    }
+
+    .phone {
+      @include padding($padding, 0);
     }

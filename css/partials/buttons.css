@@ -236,6 +236,12 @@ button.btn-sm,
     margin-top: 1em;
   }
 }
+.btn.full,
+.button.full,
+button.full,
+.cta.full {
+  float: none;
+}
 
 .cta {
   -webkit-box-shadow: inset 0 0 0 2px #0b4d42;

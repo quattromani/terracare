@@ -83,6 +83,12 @@
 .image-content-panel .feature p {
   color: #fc8000;
 }
+@media (max-width: 40em) {
+  .image-content-panel .feature p.right {
+    float: none;
+    text-align: left;
+  }
+}
 .image-content-panel .feature a.cta {
   margin-top: 0;
   margin-right: 0;

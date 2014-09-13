@@ -37,8 +37,18 @@
   padding-left: 1em;
   background-color: #f9f9f9;
 }
+.blog .blog-content .blog-category-icon {
+  float: left;
+  margin-right: 1em;
+}
 .blog .blog-content > a {
+  display: block;
+  overflow: hidden;
   color: #454545;
+}
+.blog .twitter {
+  height: 500px;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=blog.css.map */
