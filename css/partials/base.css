@@ -92,12 +92,6 @@ body.sticky-footer {
   color: #4a7817;
   line-height: .75;
 }
-@media (max-width: 40em) {
-  .banner a.logo {
-    display: block;
-    width: 100%;
-  }
-}
 .banner a.logo:hover {
   border-bottom: none;
   color: inherit;
@@ -147,20 +141,6 @@ body.sticky-footer {
     margin-right: 0;
     margin-bottom: 1em;
     margin-left: 0;
-  }
-}
-@media (max-width: 62em) {
-  .banner .tca-icon {
-    position: absolute;
-    top: .5em;
-    right: 1em;
-  }
-}
-@media (max-width: 40em) {
-  .banner .tca-icon {
-    position: absolute;
-    top: .5em;
-    right: 1em;
   }
 }
 

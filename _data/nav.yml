@@ -33,7 +33,7 @@
   url: "/commercial-services"
   active: "commercial-services"
   child_links:
-    - name: "Landscape &amp; HOA's"
+    - name: "Landscape Maintenance"
       url: "/landscape-maintenance"
       active: "commercial-services"
     - name: "Water Management"
@@ -59,7 +59,7 @@
     - name: "Water Management"
       url: "/water-management"
       active: "responsibility"
-    - name: "Sustainability Policy"
+    - name: "Sustainability & Responsibility Policy"
       url: "/sustainability-policy"
       active: "responsibility"
     - name: "Community Investment"

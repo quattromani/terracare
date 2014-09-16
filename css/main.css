@@ -79,10 +79,6 @@ body {
   .banner a.logo {
     color: #4a7817;
     line-height: .75; }
-    @media (max-width: 40em) {
-      .banner a.logo {
-        display: block;
-        width: 100%; } }
     .banner a.logo:hover {
       border-bottom: none;
       color: inherit; }
@@ -121,16 +117,6 @@ body {
         margin-right: 0;
         margin-bottom: 1em;
         margin-left: 0; } }
-  @media (max-width: 62em) {
-    .banner .tca-icon {
-      position: absolute;
-      top: .5em;
-      right: 1em; } }
-  @media (max-width: 40em) {
-    .banner .tca-icon {
-      position: absolute;
-      top: .5em;
-      right: 1em; } }
 
 .teams .job-title {
   font-weight: bold; }
@@ -2382,7 +2368,6 @@ button,
   button.button-primary,
   .cta.btn-primary,
   .cta.button-primary {
-    border-bottom: 3px solid #1c2d05;
     background-color: #325008;
     color: #fda300; }
     .btn.btn-primary:hover, .btn.button-primary:hover,
@@ -2392,7 +2377,6 @@ button,
     button.button-primary:hover,
     .cta.btn-primary:hover,
     .cta.button-primary:hover {
-      border-bottom: 3px solid #d78a00;
       background-color: #fda300;
       color: #325008; }
   .btn.btn-error,
@@ -2581,11 +2565,9 @@ button,
   overflow: auto; }
   .cta-container a.btn.btn-primary {
     border-top: 1px solid #fda300;
-    border-bottom: 3px solid #d78a00;
     background-color: #fda300;
     color: #454545; }
     .cta-container a.btn.btn-primary:hover {
-      border-bottom: 3px solid #fda300;
       border-top: 1px solid #d78a00;
       background-color: #fda300; }
 

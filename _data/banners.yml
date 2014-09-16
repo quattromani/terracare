@@ -11,10 +11,10 @@
 banner:
   - img: 'images/banners/windcrest_windmill.jpg'
     url: '/about-us/'
-    alt: 'Windcrest - Commercial Landscape'
+    alt: 'Wind Crest - Commercial Landscape'
     title: LEADERS IN OUTDOOR MAINTENANCE
     text: Timely performance with technical competence
-    location: 'Windcrest, Littleton Colorado'
+    location: 'Wind Crest, Littleton Colorado'
 
   - img: 'images/banners/travis_cu-2.jpg'
     url: '/commercial-services/'

@@ -10,6 +10,7 @@ irrigation:
   specs: 'Specifications: 408,834 sq ft open shopping mall with 3,195 parking spaces and approximately 23 stores'
   date: '2009'
   scope: 'Project: Install Smart Controller, drought resistant plant installation, replace nozzles'
+  savings: 'SAVINGS $100,000'
   result: 'Life of project saved almost 10 million gallons of water and $100k in water bill 2013:  4.7 million gallons of water, $23,000 in water bill, and received $20,500 rebate'
 
 - img: ''
@@ -19,6 +20,7 @@ irrigation:
   specs: '208 single family homes and 13 townhomes, three acre lake, swimming pool and four tennis courts'
   date: '2010'
   scope: 'Install Smart Controllers, reduced plantings & replaced with mulch, upgraded nozzles and pipes.'
+  savings: 'SAVINGS $15,000 Annually'
   result: 'Saved 2.7 million gallons of water, $15,000 in water bill and received $11,600 in rebate.'
 
 - img: ''
@@ -28,6 +30,7 @@ irrigation:
   specs: 'Fourteen acres, 98 homes in a prestigious upscale housing development in Napa.'
   date: 'October 2013'
   scope: 'Remove approx 20,000 sf of turf, install drought tolerant plants, convert irrigation to drip, install bark'
+  savings: 'SAVING 256,000 Gallons of water YTD'
   result: 'Saved approx. 256,000 gallons of water YTD'
 
 # the project gallery slides (below) are numbered to allow
@@ -118,22 +121,22 @@ projects:
       slug: wind_crest
       slide:
       - img: 'windcrest-1.jpg'
-        alt: 'windcrest'
+        alt: 'Wind Crest'
         title: Wind Crest Retirement Community
         slide: 14
 
       - img: 'windcrest-2.jpg'
-        alt: 'Windcrest'
+        alt: 'Wind Crest'
         title: Wind Crest Retirement Community
         slide: 15
 
       - img: 'windcrest-3.jpg'
-        alt: 'Windcrest'
+        alt: 'Wind Crest'
         title: Wind Crest Retirement Community
         slide: 16
 
       - img: 'windcrest-4.jpg'
-        alt: 'Windcrest'
+        alt: 'Wind Crest'
         title: Wind Crest Retirement Community
         slide: 17
 

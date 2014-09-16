@@ -35,12 +35,10 @@
 
       &.btn-primary,
       &.button-primary {
-        border-bottom: 3px solid darken($color-button-primary, 7.5%);
         background-color: $color-button-primary;
         color: $color-primary-yellow;
 
         &:hover {
-          border-bottom: 3px solid darken($color-button-primary-hover, 7.5%);
           background-color: $color-button-primary-hover;
           color: $color-primary-green;
         }
@@ -171,12 +169,10 @@
 
       a.btn.btn-primary {
         border-top: 1px solid $color-primary-yellow;
-        border-bottom: 3px solid darken($color-primary-yellow, 7.5%);
         background-color: $color-primary-yellow;
         color: $text;
 
         &:hover {
-          border-bottom: 3px solid $color-primary-yellow;
           border-top: 1px solid darken($color-primary-yellow, 7.5%);
           background-color: $color-primary-yellow;
         }

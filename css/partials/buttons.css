@@ -54,7 +54,6 @@ button.btn-primary,
 button.button-primary,
 .cta.btn-primary,
 .cta.button-primary {
-  border-bottom: 3px solid #1c2d05;
   background-color: #325008;
   color: #fda300;
 }
@@ -65,7 +64,6 @@ button.btn-primary:hover,
 button.button-primary:hover,
 .cta.btn-primary:hover,
 .cta.button-primary:hover {
-  border-bottom: 3px solid #d78a00;
   background-color: #fda300;
   color: #325008;
 }
@@ -282,12 +280,10 @@ button.full,
 }
 .cta-container a.btn.btn-primary {
   border-top: 1px solid #fda300;
-  border-bottom: 3px solid #d78a00;
   background-color: #fda300;
   color: #454545;
 }
 .cta-container a.btn.btn-primary:hover {
-  border-bottom: 3px solid #fda300;
   border-top: 1px solid #d78a00;
   background-color: #fda300;
 }
