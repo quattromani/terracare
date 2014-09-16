@@ -105,7 +105,7 @@ body.sticky-footer {
   float: left;
   height: 77px;
 }
-@media (max-width: 40em) {
+@media (max-width: 62em) {
   .banner a.logo img {
     float: none;
     padding-top: .5em;
@@ -141,6 +141,14 @@ body.sticky-footer {
     margin-right: 0;
     margin-bottom: 1em;
     margin-left: 0;
+  }
+}
+.banner .tca-icon {
+  float: right;
+}
+@media (max-width: 62em) {
+  .banner .tca-icon {
+    float: none;
   }
 }
 

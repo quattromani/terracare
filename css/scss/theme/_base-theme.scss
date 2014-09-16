@@ -47,7 +47,7 @@
           float: left;
           height: 77px;
 
-          @include bp(bp-small) {
+          @include bp(bp-medium) {
             float: none;
             padding-top: .5em;
           }
@@ -81,6 +81,14 @@
         @include bp(bp-small) {
           float: none;
           @include margin(0, 0, 1em);
+        }
+      }
+
+      .tca-icon {
+        float: right;
+
+        @include bp(bp-medium) {
+          float: none;
         }
       }
     }

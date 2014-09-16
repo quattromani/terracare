@@ -135,14 +135,6 @@
   }
 
   @include bp(bp-medium) {
-    @include col($site-column-count / 2);
-
-    &:nth-child(even) {
-      @include first;
-    }
-  }
-
-  @include bp(bp-small) {
     @include col($site-column-count);
     @include first;
   }

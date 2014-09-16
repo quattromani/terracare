@@ -89,7 +89,7 @@ body {
     .banner a.logo img {
       float: left;
       height: 77px; }
-      @media (max-width: 40em) {
+      @media (max-width: 62em) {
         .banner a.logo img {
           float: none;
           padding-top: .5em; } }
@@ -117,6 +117,11 @@ body {
         margin-right: 0;
         margin-bottom: 1em;
         margin-left: 0; } }
+  .banner .tca-icon {
+    float: right; }
+    @media (max-width: 62em) {
+      .banner .tca-icon {
+        float: none; } }
 
 .teams .job-title {
   font-weight: bold; }
@@ -402,13 +407,6 @@ footer {
   .fifth:first-child {
     margin-left: 0; }
   @media (max-width: 62em) {
-    .fifth {
-      float: left;
-      width: 48.5%;
-      margin-left: 3%; }
-      .fifth:nth-child(even) {
-        margin-left: 0; } }
-  @media (max-width: 40em) {
     .fifth {
       float: left;
       width: 100%;
