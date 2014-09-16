@@ -67,6 +67,10 @@
         @include padding($padding / 2);
         @include rgba($color-black, .65);
 
+        h1 > a {
+          color: $color-white;
+        }
+
         h2 {
           @include margin;
           color: $color-light-grey;

@@ -73,6 +73,9 @@
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.65);
 }
+.image-content-panel .feature h1 > a {
+  color: #fff;
+}
 .image-content-panel .feature h2 {
   margin-top: 0;
   margin-right: 0;

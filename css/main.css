@@ -2588,6 +2588,7 @@ button,
     border: 0 none; } }
 .learn-more {
   float: right;
+  margin-top: .5em;
   background: #fda300;
   color: #454545; }
   .learn-more:hover {
@@ -3315,6 +3316,8 @@ img {
     padding-left: 0.5em;
     background-color: #000;
     background-color: rgba(0, 0, 0, 0.65); }
+    .image-content-panel .feature h1 > a {
+      color: #fff; }
     .image-content-panel .feature h2 {
       margin-top: 0;
       margin-right: 0;

@@ -308,6 +308,7 @@ button.full,
 }
 .learn-more {
   float: right;
+  margin-top: .5em;
   background: #fda300;
   color: #454545;
 }
