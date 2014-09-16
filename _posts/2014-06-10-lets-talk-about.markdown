@@ -4,7 +4,7 @@ title:  "Let's Talk About Greg Hayes"
 date:   2014-05-02 14:07:13
 categories: 
     - employees
-author: paul_gebinine
+author: cristin_tarr
 ---
 <img src="/images/blog/Greg_with_truck.jpg" alt="Ty Wilson Photo" width="320px" height="212px" style="float:left; border: 5px solid white; margin-right: 10px;">
 

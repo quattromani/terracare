@@ -34,7 +34,7 @@ Experience matters!  Especially in the world of public private partnerships (P3â
  </tr>
 <tr>
   <td style="border-top: none; border: solid windowtext 1.0pt; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; width: 119.7pt;" valign="top" width="160"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
-Tommy DeGraffe<o:p></o:p></div>
+Thomas DeGraffe<o:p></o:p></div>
 </td>
   <td style="border-bottom: solid windowtext 1.0pt; border-left: none; border-right: solid windowtext 1.0pt; border-top: none; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt; padding: 0in 5.4pt 0in 5.4pt; width: 156.8pt;" valign="top" width="209"><div class="MsoNormal" style="margin-bottom: 0.0001pt;">
 Account Manager<o:p></o:p></div>
