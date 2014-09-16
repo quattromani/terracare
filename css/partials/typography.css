@@ -30,11 +30,11 @@
   font-style: normal;
 }
 .base-font {
-  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .base-font-alt {
-  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .arial {
@@ -50,7 +50,7 @@
    ========================== */
 .lede {
   margin-bottom: 0.5em;
-  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -239,7 +239,7 @@ p,
   margin-right: 0;
   margin-bottom: 0.5em;
   margin-left: 0;
-  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   word-wrap: break-word;
 }
 p:only-child,
@@ -355,7 +355,7 @@ samp {
 
 .logo_slash,
 .division {
-  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif, Arial, Sans-Serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif, Arial, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-weight: 200;

@@ -80,8 +80,8 @@ $base-line-height: 1.443;
   // Declare mixin need for px
   $support-legacy: true;
 
-$base-font: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $arial: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$base-font: $arial;
 $base-font-alt: $base-font;
 $arial-bold: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
 $heading-font: 'Gotham Bold', Arial, sans-serif;

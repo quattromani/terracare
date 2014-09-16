@@ -87,7 +87,7 @@ input[type="checkbox"]:focus, input[type="radio"]:focus {
 }
 
 input::-webkit-datetime-edit-fields-wrapper {
-  font-family: "Gotham Book", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 select,
