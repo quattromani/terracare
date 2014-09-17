@@ -10,9 +10,7 @@
   {% for nav in site.data.nav %}
   {% if nav.name == page.parent %}
   <li>
-  {% if %}
     <a href="{{ nav.url }}">{{ nav.name }}</a>
-  {% endif %}
   </li>
   {% for child_link in nav.child_links %}
 
