@@ -134,6 +134,10 @@ body.sticky-footer {
 .banner .form-ctas {
   margin-top: 2em;
 }
+.banner .form-ctas a {
+  color: #000;
+  font-weight: bold;
+}
 @media (max-width: 40em) {
   .banner .form-ctas {
     float: none;
@@ -243,6 +247,11 @@ footer .fa-envelope-square:hover {
 }
 .ie footer {
   background-color: #ddd;
+}
+footer .footer-ctas {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
 .breadcrumbs {

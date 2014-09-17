@@ -11,12 +11,12 @@ layout: compress
   <div class="slider main-carousel">
     {% for banner in site.data.banners.banner %}
     <div>
-    <a href="{{ banner.url }}">
+      <a href="{{ banner.url }}">
         <div class="image-content-panel">
           <div class="image-focus-3" style="background-image: url({{ banner.img }});" alt="{{ banner.alt }}"></div>
           <div class="feature">
             <div class="container">
-              <h1>{{ banner.title }} <a href="{{ banner.url }}" class="btn mobile-full learn-more right">Learn More <i class="fa fa-angle-right"></i></a></h1>
+              <h1>{{ banner.title }} <span class="btn mobile-full learn-more right">Learn More <i class="fa fa-angle-right"></i></span></h1>
               <p class="left">{{ banner.text }}</p>
               <p class="right text-right">{{ banner.location }}</p>
             </div>
@@ -31,18 +31,21 @@ layout: compress
     <div class="row callouts">
 
       <div class="third">
-        <a href="/careers">
-          <div class="callout">
+
+        <div class="callout">
+          <a href="/careers">
             <div class="callout-message">
               <figure>
-                <img src="/images/banners/careers.jpg" alt="A Terracare crew discussing a project">
+                <img src="/images/banners/careers.jpg" alt="A Terracare crew discussing a project" />
               </figure>
             </div>
+
             <div class="callout-box">
-              <h5>Careers / <a href="/careers/espanol">Carreras</a></h5>
+              <h5>Careers / Carreras</h5>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
+
       </div>
       <div class="third">
         <a href="/blog/company-news/">

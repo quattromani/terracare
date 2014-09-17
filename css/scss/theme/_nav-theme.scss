@@ -7,7 +7,7 @@
 
     nav {
       position: relative;
-      margin-bottom: -33px; // magic number to pull image-content-panel up behind
+      margin-bottom: -36px; // magic number to pull image-content-panel up behind
       @include rgba($color-black, .5);
       z-index: 9;
 
@@ -26,7 +26,7 @@
         width: 100%;
 
         &.navigation > li {
-          @include font-size(18);
+          @include font-size(18.5);
         }
 
         li {

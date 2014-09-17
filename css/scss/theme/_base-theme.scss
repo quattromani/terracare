@@ -78,6 +78,11 @@
       .form-ctas {
         margin-top: 2em;
 
+        a {
+          color: $color-black;
+          font-weight: bold;
+        }
+
         @include bp(bp-small) {
           float: none;
           @include margin(0, 0, 1em);
@@ -186,6 +191,12 @@
         .ie & {
           background-color: #ddd;
         }
+      }
+
+      .footer-ctas {
+        display: block;
+        width: 100%;
+        text-align: center;
       }
     }
 

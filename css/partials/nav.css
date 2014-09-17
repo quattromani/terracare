@@ -6,7 +6,7 @@
     ========================================================================== */
 nav {
   position: relative;
-  margin-bottom: -33px;
+  margin-bottom: -36px;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9;
@@ -26,8 +26,8 @@ nav ul {
   width: 100%;
 }
 nav ul.navigation > li {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 18.5px;
+  font-size: 1.85rem;
 }
 nav ul li {
   position: relative;

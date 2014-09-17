@@ -110,6 +110,9 @@ body {
         text-align: center; } }
   .banner .form-ctas {
     margin-top: 2em; }
+    .banner .form-ctas a {
+      color: #000;
+      font-weight: bold; }
     @media (max-width: 40em) {
       .banner .form-ctas {
         float: none;
@@ -190,6 +193,10 @@ footer {
       text-align: center; } }
   .ie footer {
     background-color: #ddd; }
+  footer .footer-ctas {
+    display: block;
+    width: 100%;
+    text-align: center; }
 
 .breadcrumbs {
   padding-top: 0.5em;
@@ -743,7 +750,7 @@ footer {
     ========================================================================== */
 nav {
   position: relative;
-  margin-bottom: -33px;
+  margin-bottom: -36px;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9; }
@@ -758,8 +765,8 @@ nav {
     display: table-row;
     width: 100%; }
     nav ul.navigation > li {
-      font-size: 18px;
-      font-size: 1.8rem; }
+      font-size: 18.5px;
+      font-size: 1.85rem; }
     nav ul li {
       position: relative;
       display: table-cell;
@@ -3252,7 +3259,6 @@ img {
     ========================================================================== */
 .image-content-panel {
   position: relative;
-  height: 550px;
   margin-top: 0;
   margin-right: 0;
   margin-bottom: 0;

@@ -1,7 +1,7 @@
 <div class="cta-container">
   <a class="btn btn-primary full" href="/projects/{{ page.project }}">Project Gallery <i class="fa fa-chevron-right"></i></a>
   <br><br>
-  <a class="btn btn-primary full" href="/contact-us">More Information <i class="fa fa-chevron-right"></i></a>
+  <a class="btn btn-primary full" href="/about-us/request-a-bid">Request for Proposal <i class="fa fa-chevron-right"></i></a>
 </div>
 
 <h2>{% if page.sidebar != null %}{{ page.sidebar }}{% else %}{{ page.parent }}{% endif %}</h2>
@@ -9,6 +9,11 @@
 <ul class="vertical lined">
   {% for nav in site.data.nav %}
   {% if nav.name == page.parent %}
+  <li>
+  {% if %}
+    <a href="{{ nav.url }}">{{ nav.name }}</a>
+  {% endif %}
+  </li>
   {% for child_link in nav.child_links %}
 
   <li>

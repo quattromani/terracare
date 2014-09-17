@@ -88,6 +88,9 @@
     - name: "Locations"
       url: "/locations"
       active: "about-us"
+    - name: "Request for Proposal"
+      url: "/request-a-bid"
+      active: "about-us"
 
 - name: "Blog / News"
   url: "/blog"
