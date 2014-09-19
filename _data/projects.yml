@@ -144,7 +144,7 @@ projects:
         title: Wind Crest Retirement Community
         slide: 18
 
-    - name: 'Silverado Spings HOA - Napa, California<br><br>'
+    - name: 'Silverado Spings HOA - Napa, California'
       slug: silverado
       slide:
       - img: 'silverado-1.jpg'
@@ -198,7 +198,7 @@ projects:
         title: Parkway Corporate Plaza
         slide: 28
 
-    - name: 'Arapahoe Lakes HOA - Centennial, Colorado<br><br>'
+    - name: 'Arapahoe Lakes HOA - Centennial, Colorado'
       slug: arapahoe_lakes
       slide:
       - img: 'arapahoe_lakes-1.jpg'

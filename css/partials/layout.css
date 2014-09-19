@@ -76,7 +76,7 @@
   width: 50%;
   margin-left: 0;
 }
-.half:first-child {
+.half:nth-of-type(odd) {
   margin-left: 0;
 }
 @media (max-width: 40em) {

@@ -10,32 +10,43 @@ banner-cta: ""
 location: "Business Park, Hercules California"
 ---
 
-{% for p in site.data.projects.projects %}
-<h3>{{ p.category }}</h3>
-<hr>
 <div class="row">
-  {% for n in p.project %}
-  <div class="fourth">
-    <h6>{{ n.name }}</h6>
-    {% for s in n.slide limit:1 %}
-    <span class="modal-button" id="{{ s.slide }}">
-      <div class="portfolio-gallery">
-        {% if s.img != null %}
-        <figure>
-          <img class="image-bordered" src="/images/projects/{{ p.slug }}/{{ s.img }}" alt="{{ s.alt }}">
-        </figure>
-        {% endif %}
-        {% if s.text != null %}
-        <p>{{ s.text }}</p>
-        {% endif %}
+  <div class="two-thirds">
+    {% for p in site.data.projects.projects %}
+    <h3>{{ p.category }}</h3>
+    <hr>
+    <div class="row">
+      {% for n in p.project %}
+      <div class="half">
+        <h6>{{ n.name }}</h6>
+        {% for s in n.slide limit:1 %}
+        <span class="modal-button" id="{{ s.slide }}">
+          <div class="portfolio-gallery">
+            {% if s.img != null %}
+            <figure>
+              <img class="image-bordered" src="/images/projects/{{ p.slug }}/{{ s.img }}" alt="{{ s.alt }}">
+            </figure>
+            {% endif %}
+            {% if s.text != null %}
+            <p>{{ s.text }}</p>
+            {% endif %}
+          </div>
+        </span>
+        {% endfor %}
       </div>
-    </span>
+      {% endfor %}
+    </div>
     {% endfor %}
   </div>
-  {% endfor %}
-</div>
-{% endfor %}
 
+  <div class="third">
+    <div class="cta-container">
+      <a class="btn btn-primary full" href="/about-us/request-a-bid">Request for Proposal <i class="fa fa-chevron-right"></i></a>
+      <br><br>
+      <a class="btn btn-primary full" href="/contact-us">Contact Us<i class="fa fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
 {% include end_content.html %}
 
 </section>
@@ -55,7 +66,7 @@ location: "Business Park, Hercules California"
     <div id="modal-content">
 
       <div class="modal-header">
-      <h4>{{ p.category }}</h4>
+        <h4>{{ p.category }}</h4>
       </div>
 
       <div class="modal-body">

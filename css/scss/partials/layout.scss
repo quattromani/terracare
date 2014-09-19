@@ -65,7 +65,7 @@
     @include marginless-col($site-column-count / 2);
   }
 
-  &:first-child {
+  &:nth-of-type(odd) {
     @include first;
   }
 
