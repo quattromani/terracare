@@ -2833,8 +2833,8 @@ label + .pill,
 .modal .modal-body {
   position: relative;
   overflow: auto;
-  min-height: 29em;
-  max-height: 29em;
+  min-height: 30em;
+  max-height: 30em;
   padding-top: 1em;
   padding-right: 1em;
   padding-bottom: 1em;
