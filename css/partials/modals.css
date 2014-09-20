@@ -101,4 +101,13 @@
   z-index: 9998;
 }
 
+.award {
+  position: absolute;
+  top: 0;
+  right: .25em;
+}
+.portfolio-gallery .award {
+  right: 0;
+}
+
 /*# sourceMappingURL=modals.css.map */

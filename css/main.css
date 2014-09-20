@@ -277,6 +277,13 @@ footer {
   padding-bottom: 1em;
   padding-left: 0; }
 
+footer .logos {
+  text-align: center;
+  vertical-align: middle;
+  width: 100%; }
+footer .logos * {
+  vertical-align: middle; }
+
 /* Layout */
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Compiled: timestamp()
@@ -2254,7 +2261,7 @@ ol {
 ul {
   margin-top: 0;
   margin-right: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
   margin-left: 0;
   padding-top: 0;
   padding-right: 0;
@@ -2868,6 +2875,13 @@ label + .pill,
   -khtml-opacity: 0.6;
   opacity: 0.6;
   z-index: 9998; }
+
+.award {
+  position: absolute;
+  top: 0;
+  right: .25em; }
+  .portfolio-gallery .award {
+    right: 0; }
 
 /* ==========================================================================
     Call-Outs -- Version: 0.2.1 - Compiled: timestamp()

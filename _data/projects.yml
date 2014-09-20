@@ -119,6 +119,7 @@ projects:
   project:
     - name: 'Wind Crest Retirement Community - Littleton, Colorado'
       slug: wind_crest
+      award: true
       slide:
       - img: 'windcrest-1.jpg'
         alt: 'Wind Crest'
@@ -144,7 +145,7 @@ projects:
         title: Wind Crest Retirement Community
         slide: 18
 
-    - name: 'Silverado Spings HOA - Napa, California'
+    - name: 'Silverado Spings HOA - Napa, California<br><br>'
       slug: silverado
       slide:
       - img: 'silverado-1.jpg'
@@ -198,8 +199,9 @@ projects:
         title: Parkway Corporate Plaza
         slide: 28
 
-    - name: 'Arapahoe Lakes HOA - Centennial, Colorado'
+    - name: 'Arapahoe Lakes HOA - Centennial, Colorado<br><br>'
       slug: arapahoe_lakes
+      award: true
       slide:
       - img: 'arapahoe_lakes-1.jpg'
         alt: 'arapahoe lakes'
@@ -285,6 +287,7 @@ projects:
 
     - name: 'TMA, I 25 Corridor, Colorado'
       slug: tma
+      award: true
       slide:
       - img: 'tma-1.jpg'
         alt: 'tma'

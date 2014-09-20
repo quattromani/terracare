@@ -29,13 +29,13 @@
 .slick-prev:focus, .slick-next:focus { outline: none; }
 .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before { opacity: 0.25; }
 
-.slick-prev:before, .slick-next:before { font-family: "slick"; font-size: 20px; line-height: 1; color: white; opacity: 0.85; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.slick-prev:before, .slick-next:before { font-family: "FontAwesome"; font-size: 32px; line-height: 1; color: #fc8000; opacity: 0.85; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 .slick-prev { left: 1em; }
-.slick-prev:before { content: "\2190"; }
+.slick-prev:before { content: "\f053"; }
 
 .slick-next { right: 1em; }
-.slick-next:before { content: "\2192"; }
+.slick-next:before { content: "\f054"; }
 
 .slick-slider button:hover {
   background-color: none;

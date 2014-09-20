@@ -81,3 +81,14 @@
       @include opacity(.6);
       z-index: 9998;
     }
+
+    // Add award banner to flagged media
+    .award {
+      position: absolute;
+      top: 0;
+      right: .25em;
+
+      .portfolio-gallery & {
+        right: 0;
+      }
+    }

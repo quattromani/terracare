@@ -348,4 +348,13 @@ footer .footer-ctas {
   padding-left: 0;
 }
 
+footer .logos {
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+footer .logos * {
+  vertical-align: middle;
+}
+
 /*# sourceMappingURL=base.css.map */
