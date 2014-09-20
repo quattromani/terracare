@@ -4,7 +4,7 @@ title:  "Service Projects"
 sub-title: "Earth Day Celebrations"
 date:   2014-05-02 15:07:13
 categories: 
-    - community
+    - Responsibility
 author: cristin_tarr
 ---
 <img src="/images/blog/community_definition.JPG" alt="Community Definition Photo" width="332px" height="80px" style="float:right; border: 5px solid white; margin-right: 10px;">

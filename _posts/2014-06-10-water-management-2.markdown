@@ -3,7 +3,9 @@ layout: post
 title:  "“Smart” Irrigation Controllers - What Property Managers need to know"
 date:   2014-06-10 14:07:13
 categories: 
-    - certification
+    - Water Management
+    - Landscape
+    - Team Members
 author: shawn_gevedon
 ---
 

@@ -4,7 +4,8 @@ title:  "Communication: Key for productive teams and quality service "
 sub-title: ""
 date:   2014-08-20 13:34:13
 categories: 
-- employees
+    - Industry Information
+    - Team Members
 author: john_meeker
 ---
 

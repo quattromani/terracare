@@ -3,8 +3,8 @@ layout: post
 title:  "Outdoor Pests 1"
 date:   2014-03-20 13:33:13
 categories: 
-    - pests 
-    - aquatics
+    - Landscape 
+    - Industry Information
 author: paul_gebinine
 ---
 

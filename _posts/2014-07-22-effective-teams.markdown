@@ -4,7 +4,8 @@ title:  "Effective Teams"
 sub-title: "3 ways to grow a team"
 date:   2014-07-22 14:08:00
 categories: 
-    - employees 
+    - Industry Information
+    - Team Members 
 author: cristin_tarr
 ---
 

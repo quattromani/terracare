@@ -1,16 +1,24 @@
 category:
-- name: employees
-  title: Employees
+- name: publicworks
+  title: 'Public Works'
   img: TCA.jpg
+
+- name: landscape
+  title: 'Landscape'
+  img: TCA.jpg
+
+- name: industry
+  title: 'Industry Information'
+  img: TCA.jpg
+
+- name: team
+  title: 'Team members'
+  img: TCA.jpg
+
+- name: watermanagement
+  title: 'Water Management'
+  img: TCA.jpg
+
 - name: responsibility
-  title: Responsibility
-  img: TCA.jpg
-- name: water_management
-  title: Water Management
-  img: TCA.jpg
-- name: certification
-  title: Certification
-  img: TCA.jpg
-- name: traffic
-  title: Traffic
+  title: 'Responsibility'
   img: TCA.jpg

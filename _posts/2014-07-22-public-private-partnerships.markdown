@@ -4,7 +4,7 @@ title:  "Public Private Partnerships"
 sub-title: "Experience is key for P3 success"
 date:   2014-07-22 15:11:00
 categories: 
-    - p3 
+    - Public Works
 author: jacque_wedding_scott
 ---
 
