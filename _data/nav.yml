@@ -36,7 +36,7 @@
     - name: "Landscape Maintenance"
       url: "/landscape-maintenance"
       active: "commercial-services"
-    - name: "Water Management"
+    - name: "Irrigation Services"
       url: "/water-management"
       active: "commercial-services"
     - name: "Lake Management"
