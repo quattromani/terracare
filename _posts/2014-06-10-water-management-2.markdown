@@ -9,11 +9,10 @@ categories:
 author: shawn_gevedon
 ---
 
-<video controls poster="http://i.vimeocdn.com/video/478404290_1280.jpg" width="100%" height="auto">
-      <source src="http://pdl.vimeocdn.com/92799/278/261426462.mp4?token2=1406695769_baa28a6c017b23cb6a975cc7c5854f31&amp;aksessionid=9147de01fd6035f4" type="video/mp4">
-        I'm sorry; your browser doesn't support HTML5 video in WebM with VP8 or MP4 with H.264.
-        <!-- You can embed a Flash player here, to play your mp4 video in older browsers -->
-      </video>
+<div class="videoWrapper">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/g2yVhPv0MZQ" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 ####Water Management part 2
 
