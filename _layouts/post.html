@@ -1,9 +1,30 @@
 ---
-layout: blog
+layout: compress
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+{% include head.html %}
 
-<div class="post">
-{{ content }}
+{% include banner.html %}
+
+{% include nav.html %}
+
+<div class="excitement">
+  <div class="image-content-panel panel image-focus-3" style="background-image: url(/images/banners/category-{{ page.category | replace: ' ', '_' }}.jpg)" alt="{{ page.alt }}">
+    <div class="feature">
+      <div class="container">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.banner-heading }}</p>
+      </div>
+    </div>
+  </div>
 </div>
+
+{% include content.html %}
+
+{{ content }}
+
+{% include end_content.html %}
+{% include footer.html %}
+
+<div class="modal-overlay"></div>
+
+{% include foot.html %}

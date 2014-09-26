@@ -5,6 +5,7 @@ sub-title: "Experience is key for P3 success"
 date:   2014-07-22 15:11:00
 categories: 
     - Public Works
+    - Industry Information
 author: jacque_wedding_scott
 ---
 

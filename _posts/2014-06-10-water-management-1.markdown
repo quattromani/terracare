@@ -4,6 +4,7 @@ title:  "Commercial Landscape: Five Steps to Maximize Water Efficiency"
 date:   2014-05-02 14:07:13
 categories: 
     - Water Management
+    - Responsibility
     - Landscape
 author: nick_vizcay
 ---

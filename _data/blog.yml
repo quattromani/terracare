@@ -2,23 +2,29 @@ category:
 - name: publicworks
   title: 'Public Works'
   img: TCA.jpg
+  banner: now_hiring.jpg
 
 - name: landscape
   title: 'Landscape'
   img: TCA.jpg
+  banner: now_hiring.jpg
 
 - name: industry
   title: 'Industry Information'
   img: TCA.jpg
+  banner: now_hiring.jpg
 
 - name: team
   title: 'Team members'
   img: TCA.jpg
+  banner: now_hiring.jpg
 
 - name: watermanagement
   title: 'Water Management'
   img: TCA.jpg
+  banner: now_hiring.jpg
 
 - name: responsibility
   title: 'Responsibility'
   img: TCA.jpg
+  banner: now_hiring.jpg

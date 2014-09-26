@@ -45,7 +45,7 @@ banner-cta: ""
           {% assign tags_list = post.categories %}
           {% if tags_list.first[0] == null %}
           {% for tag in tags_list %}
-          <li><a href="categories/{{ tag }}">{{ tag | capitalize }}&nbsp;&nbsp;&nbsp;</a></li>
+          <li><a href="/categories/{{ tag | replace: ' ', '-' }}">{{ tag | capitalize }}&nbsp;&nbsp;&nbsp;</a></li>
           {% if size > 1 %},{% endif %}
           {% endfor %}
           {% endif %}

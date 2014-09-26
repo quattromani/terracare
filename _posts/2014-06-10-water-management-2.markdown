@@ -4,6 +4,7 @@ title:  "“Smart” Irrigation Controllers - What Property Managers need to kno
 date:   2014-06-10 14:07:13
 categories: 
     - Water Management
+    - Responsibility
     - Landscape
     - Team Members
 author: shawn_gevedon
