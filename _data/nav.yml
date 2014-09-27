@@ -59,7 +59,7 @@
     - name: "Water Management"
       url: "/water-management"
       active: "responsibility"
-    - name: "Sustainability & Responsibility Policy"
+    - name: "Responsibility & Sustainability Policy"
       url: "/sustainability-policy"
       active: "responsibility"
     - name: "Community Investment"
