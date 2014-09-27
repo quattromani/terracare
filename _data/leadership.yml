@@ -1,0 +1,52 @@
+# Be sure to follow this structure:
+
+# banner:
+#   - img: 'images/banners/image.jpg'
+#     url: '/page_url/'
+#     alt: 'alt text for the image'
+#     title: THIS IS THE BIG H1 TITLE ON THE IMAGE
+#     text: This is the orange text just below it
+#     location: 'Optional, sits on the right'
+
+leaders:
+  - name: Dean Murphy
+    title: President
+    bio: ""
+    education: ""
+    education2: ""
+    img: 'employees/dean.jpg'
+
+  - name: Dean Murphy
+    title: President
+    bio: ""
+    education: ""
+    education2: ""
+    img: 'employees/dean.jpg'
+
+  - name: Dean Murphy
+    title: President
+    bio: ""
+    education: ""
+    education2: ""
+    img: 'employees/dean.jpg'
+
+  - name: Dean Murphy
+    title: President
+    bio: ""
+    education: ""
+    education2: ""
+    img: 'employees/dean.jpg'
+
+  - name: Dean Murphy
+    title: President
+    bio: ""
+    education: ""
+    education2: ""
+    img: 'employees/dean.jpg'
+
+  - name: Dean Murphy
+    title: President
+    bio: ""
+    education: ""
+    education2: ""
+    img: 'employees/dean.jpg'

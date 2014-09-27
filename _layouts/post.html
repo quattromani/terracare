@@ -8,6 +8,7 @@ layout: compress
 {% include nav.html %}
 
 <div class="excitement">
+{% if page.class == 'categories' %}
   <div class="image-content-panel panel image-focus-3" style="background-image: url(/images/banners/category-{{ page.category | replace: ' ', '_' }}.jpg)" alt="{{ page.alt }}">
     <div class="feature">
       <div class="container">
@@ -16,6 +17,7 @@ layout: compress
       </div>
     </div>
   </div>
+{% endif %}
 </div>
 
 {% include content.html %}

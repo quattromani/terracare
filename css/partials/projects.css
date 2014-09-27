@@ -34,4 +34,10 @@
   text-align: right;
 }
 
+.projects figcaption {
+  font-size: 24px;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
 /*# sourceMappingURL=projects.css.map */

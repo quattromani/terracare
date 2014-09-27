@@ -31,3 +31,10 @@
         text-align: right;
       }
     }
+
+    .projects {
+      figcaption {
+        @include font-size(24);
+        text-align: center;
+      }
+    }

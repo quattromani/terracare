@@ -1,16 +1,58 @@
 ---
 layout: post
-title:  "Communication: Key for productive teams and quality service "
-sub-title: ""
-date: 2014-08-20 13:34:13
+title:  "Traffic Control Company"
+sub-title: "Did you know?"
+date:   2014-07-23 06:10:00
 categories: 
-    - Industry Information
-    - Team Members
+    - Public Works 
 author: cristin_tarr
 ---
 
-http://youtu.be/371IDDHJxF0
+# I'm an H1
+## I'm an H2
+### I'm an H3
+#### I'm an H4
 
-<div class="videoWrapper">
-<iframe width="560" height="315" src="//www.youtube.com/embed/371IDDHJxF0" frameborder="0" allowfullscreen></iframe>
-</div>
+One or more consecutive lines of text separated by one or more blank lines.
+ 
+This is another paragraph.
+
+_I'm emphasized text_
+
+**I'm BOLD text**
+
+---
+
+An [example link](http://url.com/ "Title")
+
+---
+
+<img src="/images/blog/cone.jpg" alt="Traffic Cone" width="200px" height="200px" style="float:right; border: 5px solid white; margin-left: 10px;">
+
+---
+
+* Red
+* Green
+* Blue
+
+---
+
+1.  Foo
+2.  Bar
+
+---
+
+*   Abacus
+    * answer
+*   Bubbles
+    1.  bunk
+    2.  bupkis
+        * BELITTLER
+    3. burper
+*   Cunning
+
+---
+
+> #### Headers in blockquotes
+> Followed by some regular text here
+

@@ -52,8 +52,8 @@
       .modal-body {
         position: relative;
         overflow: auto;
-        min-height: 30em;
-        max-height: 30em;
+        min-height: 31em;
+        max-height: 31em;
         @include padding(1em);
 
         @include bp(bp-small) {

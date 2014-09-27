@@ -27,11 +27,11 @@
         background-color: darken($color-off-white, 5%);
       }
 
-      &:focus {
-        background-color: darken($color-off-white, 20%);
-        background-image: 0;
-        outline: none;
-      }
+      // &:focus {
+      //   background-color: darken($color-off-white, 20%);
+      //   background-image: 0;
+      //   outline: none;
+      // }
 
       &.btn-primary,
       &.button-primary {

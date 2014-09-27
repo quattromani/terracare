@@ -8,51 +8,12 @@ categories:
 author: cristin_tarr
 ---
 
-# I'm an H1
-## I'm an H2
-### I'm an H3
-#### I'm an H4
-
-One or more consecutive lines of text separated by one or more blank lines.
- 
-This is another paragraph.
-
-_I'm emphasized text_
-
-**I'm BOLD text**
-
----
-
-An [example link](http://url.com/ "Title")
-
----
+#####Terracare Associates, headquartered in Littleton, Colorado, is pleased to announce the recent acquisition of all assets of a traffic control company out of Sandy, Utah.
 
 <img src="/images/blog/cone.jpg" alt="Traffic Cone" width="200px" height="200px" style="float:right; border: 5px solid white; margin-left: 10px;">
 
----
+Terracare also appointed of Mr. Loran Gillen, past owner of Gillen construction, as the Manager of Terracare Associates Utah operations.  Mr. Gillen has almost 29 years of experience in the industry with ten different certifications.   All American Barricade has provided professional traffic control and safety services since 2009.  Terracare will utilize the skilled, experienced, and state ATSSA certified staff to offer a new service line to assist with all traffic control needs.
 
-* Red
-* Green
-* Blue
 
----
-
-1.  Foo
-2.  Bar
-
----
-
-*   Abacus
-    * answer
-*   Bubbles
-    1.  bunk
-    2.  bupkis
-        * BELITTLER
-    3. burper
-*   Cunning
-
----
-
-> #### Headers in blockquotes
-> Followed by some regular text here
+>“This was a great move for my company after 25 years in the industry, because road maintenance safety is of up most importance. Controlling traffic during events, construction and repairs is a critical piece for minimal impact on traffic flow and keeping the public healthy and safe.”
 

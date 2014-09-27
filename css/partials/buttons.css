@@ -39,14 +39,6 @@ button:hover,
 .cta:hover {
   background-color: #e5e5e5;
 }
-.btn:focus,
-.button:focus,
-button:focus,
-.cta:focus {
-  background-color: #bfbfbf;
-  background-image: 0;
-  outline: none;
-}
 .btn.btn-primary, .btn.button-primary,
 .button.btn-primary,
 .button.button-primary,
