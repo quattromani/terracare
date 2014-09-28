@@ -26,6 +26,12 @@
 
 /* Arrows */
 .slick-prev, .slick-next { position: absolute; display: block; line-height: 0; font-size: 0; cursor: pointer; background: transparent; color: transparent; top: 80%; margin-top: -15px; padding: 0; border: none; outline: none; z-index: 9999;}
+
+  .callout .slick-prev,
+  .callout .slick-next {
+    top: 47.5%;
+  }
+
 .slick-prev:focus, .slick-next:focus { outline: none; }
 .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before { opacity: 0.25; }
 
