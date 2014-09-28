@@ -22,6 +22,12 @@ layout: compress
 
 {% include content.html %}
 
+{% if page.class != 'categories' %}
+<br><br>
+<h2>{{ page.title }}</h2>
+<hr>
+{% endif %}
+
 {{ content }}
 
 {% include end_content.html %}
