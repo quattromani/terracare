@@ -9,7 +9,7 @@
       position: relative;
       margin-bottom: -36px; // magic number to pull image-content-panel up behind
       @include rgba($color-black, .5);
-      z-index: 9;
+      z-index: 9999;
 
       @include bp(bp-medium) {
         position: absolute;

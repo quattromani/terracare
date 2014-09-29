@@ -760,7 +760,7 @@ nav {
   margin-bottom: -36px;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 9; }
+  z-index: 9999; }
   @media (max-width: 62em) {
     nav {
       position: absolute;
