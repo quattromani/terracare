@@ -7,6 +7,7 @@ categories:
     - Responsibility
     - Landscape
 author: nick_vizcay
+comments: true
 ---
 
 ####Water Management part 1

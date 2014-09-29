@@ -7,6 +7,7 @@ categories:
     - Responsibility
     - Public Works
 author: cristin_tarr
+comments: true
 ---
 
 <img src="/images/blog/Water_to_drain.jpg" alt="Water to Drain Photo" width="412px" height="272px" style="float:left; border: 5px solid white; margin-right: 10px;">

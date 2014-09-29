@@ -7,6 +7,7 @@ categories:
     - Landscape 
     - water management
 author: stuart_perry
+comments: true
 ---
 
 Pests and unwanted vegetation can impact man-made lakes, ponds and water features. Here are a few things you should know about residential and commercial lakes, ponds and other general water systems. A lot of residential lakes were developed to manage storm water runoff from the entire development and support the delicate ecosystem in place within the lakes.

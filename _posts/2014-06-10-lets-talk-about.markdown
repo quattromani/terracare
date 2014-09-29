@@ -6,6 +6,7 @@ categories:
     - Team Members
     - Public Works
 author: cristin_tarr
+comments: true
 ---
 <img src="/images/blog/Greg_with_truck.jpg" alt="Ty Wilson Photo" width="320px" height="212px" style="float:left; border: 5px solid white; margin-right: 10px;">
 

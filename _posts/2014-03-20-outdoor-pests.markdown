@@ -6,6 +6,7 @@ categories:
     - Landscape 
     - Industry Information
 author: paul_gebinine
+comments: true
 ---
 
 ####Emerald Ash Borer - Colorado  

@@ -7,6 +7,7 @@ categories:
     - Public Works
     - Industry Information
 author: jacque_wedding_scott
+comments: true
 ---
 
 <img src="/images/blog/PI_clipped.JPG" alt="Terracare staff and equipment" width="400px" height="119px" style="float:none; border: 5px solid white; margin: 0 auto">

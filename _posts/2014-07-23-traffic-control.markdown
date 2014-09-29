@@ -6,6 +6,7 @@ date:   2014-07-23 06:10:00
 categories: 
     - Public Works 
 author: cristin_tarr
+comments: true
 ---
 
 #####Terracare Associates, headquartered in Littleton, Colorado, is pleased to announce the recent acquisition of all assets of a traffic control company out of Sandy, Utah.

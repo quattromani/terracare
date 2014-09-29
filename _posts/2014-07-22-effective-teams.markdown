@@ -7,6 +7,7 @@ categories:
     - Industry Information
     - Team Members 
 author: cristin_tarr
+comments: true
 ---
 
 <img src="/images/blog/string-hands.JPG" alt="Multiple hands with string" width="240px" height="320px" style="float:right; border: 5px solid white; margin-left: 10px;">

@@ -7,6 +7,7 @@ categories:
     - Industry Information
     - Team Members
 author: john_meeker
+comments: true
 ---
 
 http://youtu.be/371IDDHJxF0

@@ -6,6 +6,7 @@ date:   2014-05-02 15:07:13
 categories: 
     - Responsibility
 author: cristin_tarr
+comments: true
 ---
 <img src="/images/blog/community_definition.JPG" alt="Community Definition Photo" width="332px" height="80px" style="float:right; border: 5px solid white; margin-right: 10px;">
 

@@ -8,6 +8,7 @@ categories:
     - Landscape
     - Team Members
 author: shawn_gevedon
+comments: true
 ---
 
 <div class="videoWrapper">
