@@ -63,7 +63,9 @@ Educating the public and training employees is critically important.  Maintainin
 
 Safety is the number one concern of storm management practices. The importance of storm water management in the reduction of flooding and contaminates getting into the water system cannot be overemphasized.   Hayes says; “This is the way we do business, it goes beyond regulations.  Public safety and protecting our environment is what we believe and the way we conduct business every day at Terracare Associates”.
 <hr class="blog">
-Terracare Associates public works division offer a wide variety of public works management services such as right-of-way mowing, all-inclusive roadway and roadside management packages as well as snow removal on a citywide scale. [Find Out More](http://terracareassociates.com/contact-us/ "Find Out More")
+Terracare Associates public works division offer a wide variety of public works management services such as right-of-way mowing, all-inclusive roadway and roadside management packages as well as snow removal on a citywide scale. 
+<br><br>
+<a href="/contact-us">Find Out More <i class="fa fa-angle-right"></i></a>
 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll

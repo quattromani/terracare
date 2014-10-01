@@ -4,21 +4,26 @@
 #   -title: Job title
 
 california:
-  - title: Landscape Enhancement Manager (Sacramento)
-  - title: Commercial Sales representative (Sacramento)
+  - title: Landscape Maintenance Crew Members
 
 colorado:
+  - title: Landscape Acccount Manager
+  - title: Irrigation Manager
   - title: Concrete Foreman
-  - title: Estimator
   - title: Irrigation Technicians
-  - title: Landscape Maintenance Crew Members
-  - title: Enhancement and Flower Crew Members
+  - title: Enhancement Manager
+  - title: On-Call Seasonal Laborers
+    sub:
+      - title: Shovelers
+      - title: CDL Plow Operators
   - title: Right of Way and Road Maintenance Crew Members
   - title: Diesel Mechanic
-  - title: CDL Drivers
+  - title: City Works Operations Manager
+  - title: Small Engine Mechanic
 
 utah:
+  - title: Branch Manager
   - title: Certified Traffic Control Technician
   - title: Right of Way and Road Maintenance Crew Members
   - title: Concrete Worker
-  - title: CDL Drivers
+  - title: CDL Plow Operators

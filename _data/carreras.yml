@@ -4,21 +4,25 @@
 #   -title: Job title
 
 california:
-  - title: Paisaje Mejora Manager (Sacramento)
-  - title: Representante de ventas comerciales (Sacramento)
+  - title: Landscape Maintenance Tripulantes
 
 colorado:
+  - title: Paisaje acccount Gerente
+  - title: Gerente de Riego
   - title: Capataz de hormigón
-  - title: Estimador
-  - title: Los técnicos de riego
-  - title: Landscape Maintenance Tripulantes
-  - title: Mejora y Flor Tripulantes
-  - title: Derecho de paso y mantenimiento vial Tripulantes
-  - title: Diesel Mecánico
-  - title: CDL Conductor
+  - title: Técnicos de Riego
+  - title: Mejora del Administrador
+  - title: On-Call trabajadores estacionales
+  - title: patos cuchara
+  - title: CDL Operadores de arado
+  - title: derecho de paso y mantenimiento vial Tripulantes
+  - title: Diesel Mechanic
+  - title: Obras City Operations Manager
+  - title: Pequeño Mecánico Motor
 
 utah:
+  - title: Gerente de Sucursal
   - title: Certificado Técnico de Control de Tráfico
-  - title: Derecho de paso y mantenimiento vial Tripulantes
+  - title: derecho de paso y mantenimiento vial Tripulantes
   - title: Trabajador de hormigón
-  - title: CDL Conductor
+  - title: CDL Operadores de arado

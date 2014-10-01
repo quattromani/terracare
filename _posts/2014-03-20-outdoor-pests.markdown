@@ -46,10 +46,3 @@ We have a Certified Arborist on staff to assist each customer with building a cu
 [EAB Updates](http://eabcolorado.com/ "EAB Updates")
 
 [FAQ Systemic Insecticides](http://www.emeraldashborer.info/files/Potential_Side_Effects_of_EAB_Insecticides_FAQ.pdf "FAQ Systemic Insecticides")
-
-
-[Terracare Emerald Ash Borer Management Response Plan](http://terracareassociates.com/emerald-ash-borer/emerald-ash-borer-management-response-plan/ "Terracare Emerald Ash Borer Management Response Plan")
-﻿
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com

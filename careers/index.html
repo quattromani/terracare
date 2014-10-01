@@ -38,6 +38,13 @@ espanol_redirect: 'En Español'
       {% for item in site.data.careers.colorado %}
       <li>
         {{ item.title }}
+        {% if item.sub %}
+        <ul>
+        {% for title in item.sub %}
+          <li>{{ title.title }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
       </li>
       {% endfor %}
     </ul>

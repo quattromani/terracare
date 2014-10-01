@@ -61,7 +61,9 @@ Environmentally Responsible – If reducing your water bill, receiving a rebate 
 
 <br>
 
-Terracare Associates offers irrigation audits and educational seminars on water management.  More information contact us here
+Terracare Associates offers free educational seminars on water management and best practices in irrigation systems.  Interested? 
+
+<a class="cta" href="/attend-a-seminar">Attend a Water Management Seminar</a>
 
 
 [jekyll-gh]: https://github.com/mojombo/jekyll

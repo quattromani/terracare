@@ -60,7 +60,9 @@ Drought restrictions are serious, but less apparent as we all have easy access t
 
 <br>
 
-Terracare Associates offers free educational seminars on water management and best practices in irrigation systems.  Interested? [Find Out More](http://terracareassociates.com/contact-us/ "Find Out More").
+Terracare Associates offers free educational seminars on water management and best practices in irrigation systems.  Interested? 
+
+<a class="cta" href="/attend-a-seminar">Attend a Water Management Seminar</a>
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
