@@ -276,7 +276,7 @@ $(function() {
 $('.getYear').getYear();
 
 // Open all external links in a new window
-$('a[href^="http://"]').attr('target','_blank');
+$('a[href^="http://"], a[href^="https://"]').attr('target','_blank');
 
 /* ==========================================================================
     Modal -- Version: 1.9.0.0 - Updated: 4/28/2014
