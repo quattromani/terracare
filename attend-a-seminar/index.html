@@ -31,7 +31,7 @@ banner-cta: ""
           <div class="half">
             <div class="formitem last-name">
               <label class="required" for="last-name">Last Name:</label>
-              <input type="text" id="last-name" name="lname" autocomplete="name" tabindex="3" required>
+              <input type="text" id="last-name" name="lname" autocomplete="name" tabindex="2" required>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ banner-cta: ""
         <div class="row clearfix">
           <div class="formitem phone-number">
             <label for="phone-number" class="required">Phone Number</label>
-            <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" autocomplete="tel" tabindex="9" required>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="XXX-XXX-XXXX" autocomplete="tel" tabindex="3" required>
           </div>
         </div>
         <!-- .Phone -->
@@ -50,7 +50,7 @@ banner-cta: ""
         <div class="row">
           <div class="formitem email">
             <label for="email" class="required">Email Address:</label>
-            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="11" required>
+            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="4" required>
           </div>
         </div>
         <!-- .Email Address -->
@@ -59,7 +59,7 @@ banner-cta: ""
         <div class="row">
           <div class="formitem">
             <label for="field" class="required">Desired Field:</label>
-            <select name="field" id="field" tabindex="7" required>
+            <select name="field" id="field" tabindex="5" required>
               <option value="---" selected="selected">---</option>
               <option value="Account Manager">Account Manager</option>
               <option value="Assistant Project Manager">Assistant Project Manager</option>
@@ -98,7 +98,7 @@ banner-cta: ""
         <div class="row">
           <div class="formitem textarea">
             <label for="textarea">Tell us about your skills:</label>
-            <textarea id="textarea" placeholder="Tell us about your skills or cut and paste a resume." tabindex="13"></textarea>
+            <textarea id="textarea" placeholder="Tell us about your skills or cut and paste a resume." tabindex="6"></textarea>
           </div>
         </div>
         <!-- .About -->
@@ -123,18 +123,18 @@ banner-cta: ""
         <div class="row">
           <label class="required">Were you referred by a Terracare employee?</label>
           <div class="formitem">
-            <input type="radio" class="radio" id="radio-this" name="referred" value="yes">
+            <input type="radio" class="radio" id="radio-this" name="referred" value="yes" tabindex="8">
             <label for="radio-this">Yes</label>
           </div>
           <div class="formitem">
-            <input type="radio" class="radio" id="radio-that" name="referred" value="no">
+            <input type="radio" class="radio" id="radio-that" name="referred" value="no" tabindex="9">
             <label for="radio-that">No</label>
           </div>
         </div>
         <div class="row">
           <div class="formitem email">
             <label for="referral-name" class="required">If so, by whom?</label>
-            <input id="referral-name" type="text" name="referral-name" pattern="[a-zA-Z]+" tabindex="11" required>
+            <input id="referral-name" type="text" name="referral-name" pattern="[a-zA-Z]+" tabindex="10" required>
           </div>
         </div>
         <!-- .Referral -->
