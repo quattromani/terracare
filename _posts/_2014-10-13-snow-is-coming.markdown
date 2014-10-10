@@ -12,16 +12,18 @@ author: cristin_tarr
 comments: true
 ---
 
-**Bill Horn, Vice President is Nominated for Prestigious Industry Award**
+**Snow is Coming to the Mountain States!**
 
-By Cristin Tarr – Terracare Associates
+By Bill Winfield, Manager Operations Public Infrastructure
 
-Bill Horn, Vice President at Terracare Associates, was nominated for Professional Landcare Network, PLANET, Lifetime Leadership Award for his outstanding commitment to the green industry. Planet is a national landcare network representing more than 100,000 landscape and lawn care professionals across the country. Mr. Horn has an impressive back ground with almost 35 years in the landscape industry shared with his devotion for sustainability and a love for giving back to the community. He began his membership with Planet in 1995, almost 20 years ago and remains a very active and contributing member of the organization.
+<img src="/images/blog/snow_blower.jpg" alt="man runnign snow blower" style="float:right; border: 5px solid white; margin-right: 10px;">
 
-Bill Horn has been a Planet Board Member for almost 5 years and served on the Safety Committee for 10 years also he is the current the treasurer of the Green Industry Expositions, a large green expo that takes place each year.  In addition, Horn is a _Paul Harris Fellow_ with Rotary International and worked on various community service projects in the region.
+Have you ever noticed, when talking about forecasting the weather, people always seem to refer to the Farmer's Almanac. During George Washington's first term as president in 1792, the first editor, Robert B. Thomas introduced the premiere issue of _The Old Farmer's Almanac_ and it is still used readily today. The most important information in the almanac is weather predictions so we can plan ahead.
 
-As an executive at Terracare Associates, Horn's career in the green industry is more than a job it's a passion for spreading green beyond the corporate walls. He has incorporated sustainability and environmental policies in daily operations.
+We at Terracare Associates-TCA use a variety of resources to be prepared and plan ahead for the winter snow and ice season. The 2014-15 winter forecast is predicted to be wetter and colder than normal temperatures and starting early.
 
-Bill Horn is well known in the Bay area for his outstanding philanthropic efforts. Community outreach and volunteering is a core value of Terracare Associates and Horn supports this effort as he is committed to providing volunteers, expertise, equipment and other resources to grow a love for and beautify gardens and landscapes. One great partnership he has developed is with Friends of Marsh Creek to assist with creek habitat restoration projects across the East Bay region. 
+<img src="/images/blog/plow_blades.png" alt="trucks with plow blades" style="float:left; border: 5px solid white; margin-right: 10px;">
 
-With deep dedication to connect youth to care for our earth, Mr. Horn and his team organized, built and maintained several edible gardens at neighborhood schools in the Bay area.  Bill Horn is a landscape executive with a remarkable track record and a contributing citizen who believes that dedicating ourselves through service will make the world a better place to live.  The recipient for this prestigious award will be announced by Planet in February, 2015.
+To ensure our readiness for inclement weather, TCA has hired over 200 commercial licensed drivers to man the plows, shovel walks and ensure a safe and reliable winter service for our clients. Every driver will attend a mandatory annual orientation and training program the first weeks of October. Ironically, the average first day of snow in the mountain regions is October 15th! The orientation and training goals are to build important winter skills and reiterate best practices in plowing techniques, loader operation, material distribution, proper documentation and above all safety.  We are always conscious of the balance between safe roads, streets and parking lots while having the least amount of impact on the environment. We are committed to providing the best experience to our clients and offer all the latest storm management technology to ensure maximum efficiency, safety, and reliability. We seek a proactive approach to storm management and snow removal and pride ourselves in the management of each weather-related-event and take all safety needs very seriously.
+
+Last week, several of the management team at TCA received from American Public Works Association the completion of -Winter Maintenance Supervisor workshop. Our staff has decades of experience and a breadth of knowledge and resources to accommodate even the toughest of storms – keeping the public safe and healthy. [Contact US](http://www.myterracare.com/contact-us/) for more information on snow and ice service in your area.
