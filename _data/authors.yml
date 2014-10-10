@@ -11,9 +11,13 @@ cristin_tarr:
   name: Cristin Tarr
   email: ctarr@myterracare.com
 
-jonh_meeker:
+john_meeker:
   name: John Meeker
   email: jmeeker@myterracare.com
+
+bill_winfield:
+  name: Bill Winfield
+  email: bwinfield@myterracare.com
 
 paul_gebinine:
   name: Paul Gebinine
