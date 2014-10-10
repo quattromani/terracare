@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Snow Is Coming"
+title: "Bill Horn Nominated"
 sub-title: ""
 date: 2014-10-13 12:00:00
 categories: 
@@ -15,6 +15,8 @@ comments: true
 **Bill Horn, Vice President is Nominated for Prestigious Industry Award**
 
 By Cristin Tarr – Terracare Associates
+
+<img src="/images/blog/bill_horn_in_garden.jpg" alt="Bill Horn in his garden" style="float:left; border: 5px solid white; margin-right: 10px;">
 
 Bill Horn, Vice President at Terracare Associates, was nominated for Professional Landcare Network, PLANET, Lifetime Leadership Award for his outstanding commitment to the green industry. Planet is a national landcare network representing more than 100,000 landscape and lawn care professionals across the country. Mr. Horn has an impressive back ground with almost 35 years in the landscape industry shared with his devotion for sustainability and a love for giving back to the community. He began his membership with Planet in 1995, almost 20 years ago and remains a very active and contributing member of the organization.
 
