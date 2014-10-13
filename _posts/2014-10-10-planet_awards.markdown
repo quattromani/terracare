@@ -6,7 +6,7 @@ date: 2014-10-10 12:00:00
 categories: 
     - Industry Information
     - Landscape
-author: cristin_tarr
+author: Cristin Tarr
 comments: true
 ---
 

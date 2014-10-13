@@ -2,13 +2,13 @@
 layout: post
 title: "Bill Horn Nominated"
 sub-title: ""
-date: 2014-10-13 12:00:00
+date: 2014-10-13 13:00:00
 categories: 
     - Landscape
-    - Industry News
+    - Industry Information
     - Team Members
     - Responsibility
-author: cristin_tarr
+author: Cristin Tarr
 comments: true
 ---
 

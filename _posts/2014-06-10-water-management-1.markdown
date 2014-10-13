@@ -6,7 +6,7 @@ categories:
     - Water Management
     - Responsibility
     - Landscape
-author: nick_vizcay
+author: Nick Vizcay
 comments: true
 ---
 

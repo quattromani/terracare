@@ -6,7 +6,7 @@ date:   2014-07-22 15:11:00
 categories: 
     - Public Works
     - Industry Information
-author: jacque_wedding_scott
+author: Jacque Wedding-Scott
 comments: true
 ---
 

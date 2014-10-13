@@ -6,7 +6,7 @@ date:   2014-08-20 13:34:13
 categories: 
     - Industry Information
     - Team Members
-author: john_meeker
+author: John Meeker
 comments: true
 ---
 

@@ -5,7 +5,7 @@ date:   2014-05-02 14:07:13
 categories: 
     - Team Members 
     - Landscape
-author: cristin_tarr
+author: Cristin Tarr
 comments: true
 ---
 <img src="/images/blog/Ty-Wilson.jpg" alt="Ty Wilson Photo" width="250px" height="250px" style="float:left; border: 5px solid white; margin-right: 10px;">

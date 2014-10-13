@@ -5,10 +5,10 @@ sub-title: ""
 date: 2014-10-13 12:00:00
 categories: 
     - Landscape
-    - Industry News
+    - Industry Information
     - Team Members
     - Responsibility
-author: cristin_tarr
+author: Bill Winfield
 comments: true
 ---
 

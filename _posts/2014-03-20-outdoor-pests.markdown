@@ -5,7 +5,7 @@ date:   2014-03-20 13:33:13
 categories: 
     - Landscape 
     - Industry Information
-author: paul_gebinine
+author: Paul Gebinine
 comments: true
 ---
 

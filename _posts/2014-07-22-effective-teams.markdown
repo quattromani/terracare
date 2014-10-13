@@ -6,7 +6,7 @@ date:   2014-07-22 14:08:00
 categories: 
     - Industry Information
     - Team Members 
-author: cristin_tarr
+author: Cristin Tarr
 comments: true
 ---
 

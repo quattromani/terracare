@@ -2,10 +2,10 @@
 layout: post
 title: "New Website Launch"
 sub-title: ""
-date: 2014-10-16 12:00:00
+date: 2014-10-13 16:00:00
 categories: 
-    - Industry News
-author: cristin_tarr
+    - Industry Information
+author: Cristin Tarr
 comments: true
 ---
 

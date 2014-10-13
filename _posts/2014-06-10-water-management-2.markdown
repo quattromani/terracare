@@ -7,7 +7,7 @@ categories:
     - Responsibility
     - Landscape
     - Team Members
-author: shawn_gevedon
+author: Shawn Gevedon
 comments: true
 ---
 
