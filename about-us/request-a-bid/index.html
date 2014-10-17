@@ -25,7 +25,7 @@ banner-cta: "Request For Proposal"
         <div class="row">
           <div class="formitem state">
             <label for="state" class="required">Which area is closest to you?</label>
-            <select id="location_of_service" name="location_of_service" tabindex="1">
+            <select id="location_of_service" name="location_of_service" tabindex="1" required>
               <option value="CO" selected>Colorado</option>
               <option value="CA">California</option>
               <option value="UT">Utah</option>
@@ -39,8 +39,9 @@ banner-cta: "Request For Proposal"
         <div class="row">
           <div class="formitem state">
             <label for="state" class="required">Which services are you interested in?</label>
-            <select id="scope_of_work_c" name="scope_of_work_c" tabindex="2">
+            <select id="scope_of_work_c" name="scope_of_work_c" tabindex="2" required>
               <option value="Landscape">Landscape Maintenance</option>
+              <option value="PI">Public Infrastructure</option>
               <option value="Irrigation">Water Management</option>
               <option value="Enhancements">Enhancements</option>
               <option value="Snow_Removal">Snow Removal</option>
@@ -55,14 +56,14 @@ banner-cta: "Request For Proposal"
           <div class="half">
             <div class="formitem first-_name">
               <label class="required" for="first-name">First Name:</label>
-              <input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]+" autocomplete="name" tabindex="3">
+              <input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]+" autocomplete="name" tabindex="3" required>
             </div>
           </div>
 
           <div class="half">
             <div class="formitem last_name">
               <label class="required" for="last-name">Last Name:</label>
-              <input type="text" id="last_name" name="last_name" autocomplete="name" tabindex="4">
+              <input type="text" id="last_name" name="last_name" autocomplete="name" tabindex="4" required>
             </div>
           </div>
         </div>
@@ -90,7 +91,7 @@ banner-cta: "Request For Proposal"
         <div class="row">
           <div class="formitem email">
             <label for="email1" class="required">Email Address:</label>
-            <input id="email1" type="email" name="email1" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="7" onchange="validateEmailAdd();">
+            <input id="email1" type="email" name="email1" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="7" onchange="validateEmailAdd();" required>
           </div>
         </div>
         <!-- .Email Address -->
