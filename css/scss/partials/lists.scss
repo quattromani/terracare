@@ -22,7 +22,7 @@ ol {
 }
 
 ul {
-  @include margin(0,0, $margin / 2);
+  @include margin;
   @include padding;
 
   ul {

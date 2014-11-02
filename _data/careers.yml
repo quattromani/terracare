@@ -3,27 +3,28 @@
 # state:
 #   -title: Job title
 
-california:
-  - title: Landscape Maintenance Crew Members
+state:
+  california:
+    - title: Landscape Maintenance Crew Members
 
-colorado:
-  - title: Landscape Acccount Manager
-  - title: Irrigation Manager
-  - title: Concrete Foreman
-  - title: Irrigation Technicians
-  - title: Enhancement Manager
-  - title: On-Call Seasonal Laborers
-    sub:
-      - title: Shovelers
-      - title: CDL Plow Operators
-  - title: Right of Way and Road Maintenance Crew Members
-  - title: Diesel Mechanic
-  - title: City Works Operations Manager
-  - title: Small Engine Mechanic
+  colorado:
+    - title: Landscape Acccount Manager
+    - title: Irrigation Manager
+    - title: Concrete Foreman
+    - title: Irrigation Technicians
+    - title: Enhancement Manager
+    - title: On-Call Seasonal Laborers
+      sub:
+        - title: Shovelers
+        - title: CDL Plow Operators
+    - title: Right of Way and Road Maintenance Crew Members
+    - title: Diesel Mechanic
+    - title: City Works Operations Manager
+    - title: Small Engine Mechanic
 
-utah:
-  - title: Branch Manager
-  - title: Certified Traffic Control Technician
-  - title: Right of Way and Road Maintenance Crew Members
-  - title: Concrete Worker
-  - title: CDL Plow Operators
+  utah:
+    - title: Branch Manager
+    - title: Certified Traffic Control Technician
+    - title: Right of Way and Road Maintenance Crew Members
+    - title: Concrete Worker
+    - title: CDL Plow Operators
