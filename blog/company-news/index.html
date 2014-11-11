@@ -17,7 +17,8 @@ upcoming_events:
   <div class="two-thirds">
 
     <h3>In the News</h3>
-    <ul class="vertical lined">
+    <div class="news-list"></div>
+    <!-- <ul class="vertical lined">
       <li>
         <a class="b" href="/assets/pdf/TerracareVMC_press_release.pdf">Terracare Announces Acquisition of VMC Landscape</a><br>
         LITTLETON, CO and DALLAS, TX - OCT. 8, 2014 - Terracare Associates announced today the acquisition of VMC Landscape of Dallas, Texas. With 65 combined years in business, the resulting organization will include an extremely seasoned management team and numerous long-term client partnerships.
@@ -47,22 +48,23 @@ upcoming_events:
         <a class="b" href="http://www.bizjournals.com/denver/potmsearch/detail/submission/2410721/Dean_Murphy">People on the Move – Dean Murphy, Denver Business Journal</a><br>
         Dean Murphy appointed as the 2014 President to the board of Associated Landscape Contractors of Colorado.    Dean Murphy is current President of Terracare Associates a leading outdoor maintenance company in Western United States.
       </li>
-    </ul>
+    </ul> -->
 
     <!-- Suggested Reading sidebar addition -->
-    {% if page.upcoming_events != null %}
-    <hr>
+
+    <br>
 
     <h4>Upcoming Events</h4>
 
-    <ul class="vertical lined">
+    <div class="events-list"></div>
+
+<!--     <ul class="vertical lined">
       {% for plug in page.upcoming_events %}
       <li>
         <a href="{{ plug.link }}"><i class="fa fa-calendar"></i> {{ plug.title }}</a>
       </li>
       {% endfor %}
-    </ul>
-    {% endif %}
+    </ul> -->
 
   </div>
 
