@@ -114,7 +114,7 @@ $('.progress').progressButton();
     // }(jQuery));
     // $('.callout').callOutBox();
 
-$.getJSON('https://spreadsheets.google.com/feeds/list/1IT57mBl8Eu8r-yCRt8srnxYb9nAtp57U1ZpHq5nosY0/od6/public/values?alt=json', function(data) {
+$.getJSON('https://spreadsheets.google.com/feeds/list/1IT57mBl8Eu8r-yCRt8srnxYb9nAtp57U1ZpHq5nosY0/od6/public/values?alt=json&callback=?', function(data) {
 
   for (i = 0; i < data.feed.entry.length; i++) {
     var state = data.feed.entry[i]['gsx$state']['$t'];
@@ -142,7 +142,7 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1IT57mBl8Eu8r-yCRt8srnxYb9
 
 });
 
-$.getJSON('https://spreadsheets.google.com/feeds/list/1CnZNSuuKnXgiDRU3I-FkcM8xXvo_Nxpj-zuo4iwyqxE/od6/public/values?alt=json', function(data) {
+$.getJSON('https://spreadsheets.google.com/feeds/list/1CnZNSuuKnXgiDRU3I-FkcM8xXvo_Nxpj-zuo4iwyqxE/od6/public/values?alt=json&callback=?', function(data) {
 
   for (i = 0; i < data.feed.entry.length; i++) {
     var state = data.feed.entry[i]['gsx$state']['$t'];
@@ -288,7 +288,7 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1CnZNSuuKnXgiDRU3I-FkcM8xX
 
 }));
 
-$.getJSON('https://spreadsheets.google.com/feeds/list/1OUfkaY35qyxLa15Fw1mv9KZSYYAh01EBoAH8lC197sc/od6/public/values?alt=json', function(data) {
+$.getJSON('https://spreadsheets.google.com/feeds/list/1OUfkaY35qyxLa15Fw1mv9KZSYYAh01EBoAH8lC197sc/od6/public/values?alt=json&callback=?', function(data) {
 
   for (i = 0; i < data.feed.entry.length; i++) {
     var title = data.feed.entry[i]['gsx$title']['$t'];
