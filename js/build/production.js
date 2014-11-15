@@ -451,7 +451,7 @@ $('a[href^="http://"], a[href^="https://"]').attr('target','_blank');
      $('.modal-overlay').fadeOut('normal');
    }
 
-$.getJSON('https://spreadsheets.google.com/feeds/list/1QqyGdDYVPOgVDtRHw_ehIcM0iRV-vajR5RF0k5AAzWo/od6/public/values?alt=json', function(data) {
+$.getJSON('https://spreadsheets.google.com/feeds/list/1QqyGdDYVPOgVDtRHw_ehIcM0iRV-vajR5RF0k5AAzWo/od6/public/values?alt=json&callback=?', function(data) {
 
   for (i = 0; i < data.feed.entry.length; i++) {
     var title = data.feed.entry[i]['gsx$title']['$t'];
