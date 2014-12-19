@@ -25,6 +25,9 @@ layout: compress
 {% if page.class != 'categories' %}
 <br><br>
 <h2>{{ page.title }}</h2>
+{% if page.sub-title %}
+<h3>{{ page.sub-title }}</h3>
+{% endif %}
 <hr>
 {% endif %}
 
