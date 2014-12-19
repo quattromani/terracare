@@ -31,5 +31,5 @@ In a recent survey poll, 90% of Terracare Associates' employees say that it is o
 
 <hr>
 
-<strong>Terracare Associates</strong>
+<strong>Terracare Associates</strong><br>
 Terracare Associates-TCA is a recognized leader in outdoor maintenance in the Western United States – with 30 years of experience. During all seasons, our certified and experienced staff improves landscapes, parks, roadways and infrastructure for beautiful, safe and sustainable outdoor environments.
