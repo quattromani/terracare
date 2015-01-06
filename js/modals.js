@@ -59,27 +59,27 @@
 		});
 
     // check cookie
-    var visited = $.cookie("visited")
+    // var visited = $.cookie("visited")
 
-    function openSignUp() {
-      if (visited == null) {
-        setTimeout(function() {
-          loadSignUp();
-        },10000);
-        $.cookie('visited', 'yes');
-      }
-      // set cookie, expire after 7 days
-      $.cookie('visited', 'yes', { expires: 7 });
-    }
-    openSignUp();
+    // function openSignUp() {
+    //   if (visited == null) {
+    //     setTimeout(function() {
+    //       loadSignUp();
+    //     },10000);
+    //     $.cookie('visited', 'yes');
+    //   }
+    //   // set cookie, expire after 7 days
+    //   $.cookie('visited', 'yes', { expires: 7 });
+    // }
+    // openSignUp();
 
-    function loadSignUp() {
-      $('#signUp').css({
-        'margin-top': -$('#signUp').height() / 2,
-        'display': 'block'
-      });
-      $('.modal-overlay').fadeIn('normal');
-    }
+    // function loadSignUp() {
+    //   $('#signUp').css({
+    //     'margin-top': -$('#signUp').height() / 2,
+    //     'display': 'block'
+    //   });
+    //   $('.modal-overlay').fadeIn('normal');
+    // }
 
     function loadPopup(modal, currModal) {
      $('#modal' + currModal).css({
