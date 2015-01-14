@@ -93,7 +93,7 @@
       active: "about-us"
 
 - name: "Blog / News"
-  url: "/blog"
+  url: "http://blogs.myterracare.com"
   active: "blog"
   child_links:
     - name: "Company News"
