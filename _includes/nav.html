@@ -16,9 +16,15 @@
           <a href="{{ nav.url }}" class="text-center">{{ nav.name }}</a>
           <ul class="hidden">
             {% for child_link in nav.child_links %}
-            <li>
-              <a href="{{ nav.url }}{{ child_link.url }}">{{ child_link.name }}</a>
-            </li>
+              {% if nav.name == 'Blog / News' %}
+              <li>
+                <a href="/blog{{ child_link.url }}">{{ child_link.name }}</a>
+              </li>
+              {% else %}
+              <li>
+                <a href="{{ nav.url }}{{ child_link.url }}">{{ child_link.name }}</a>
+              </li>
+              {% endif %}
             {% endfor %}
           </ul>
         </li>
