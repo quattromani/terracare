@@ -263,7 +263,10 @@ footer {
         -webkit-transition: all .3s ease;
         transition: all .3s ease-in-out;
         -webkit-transition-delay: .2s;
-        transition-delay: .2s; }
+        transition-delay: .2s;
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05); }
   .excitement .leadership-reveal {
     max-width: 600px;
     margin: 0 auto; }

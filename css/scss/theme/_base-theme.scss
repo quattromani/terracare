@@ -260,6 +260,8 @@
             transition: all .3s ease-in-out;
             -webkit-transition-delay: .2s;
             transition-delay: .2s;
+            -webkit-transform: scale(1.05);
+            transform: scale(1.05);
           }
         }
       }
