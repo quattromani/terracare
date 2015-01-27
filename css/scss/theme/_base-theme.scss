@@ -236,6 +236,42 @@
     .excitement {
       position: relative;
       z-index: 0;
+
+      .image-row {
+        padding-top: 5em;
+
+        img {
+          -webkit-transition: all .3s ease;
+          -moz-transition: all .3s ease;
+          transition: all .3s ease-in-out;
+          -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+          filter: gray;
+          -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+          cursor: pointer;
+
+          &:hover {
+            filter: none;
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            transition: all .3s ease-in-out;
+            -webkit-transition-delay: .2s;
+            transition-delay: .2s;
+          }
+        }
+      }
+
+      .leadership-reveal {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .leadership-hide {
+        display: none;
+      }
     }
 
     .social-feed {
@@ -280,5 +316,5 @@
 
      .logos * {
       vertical-align: middle;
-     }
-   }
+    }
+  }

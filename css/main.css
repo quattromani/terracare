@@ -245,6 +245,30 @@ footer {
 .excitement {
   position: relative;
   z-index: 0; }
+  .excitement .image-row {
+    padding-top: 5em; }
+    .excitement .image-row img {
+      -webkit-transition: all .3s ease;
+      transition: all .3s ease-in-out;
+      -webkit-transition-delay: .2s;
+      transition-delay: .2s;
+      filter: gray;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      cursor: pointer; }
+      .excitement .image-row img:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease-in-out;
+        -webkit-transition-delay: .2s;
+        transition-delay: .2s; }
+  .excitement .leadership-reveal {
+    max-width: 600px;
+    margin: 0 auto; }
+  .excitement .leadership-hide {
+    display: none; }
 
 .social-feed {
   height: 222px;
@@ -442,7 +466,7 @@ footer .logos * {
       float: left;
       width: 31.33333%;
       margin-left: 3%; }
-      .sixth:nth-child(3n) {
+      .sixth:nth-child(4n) {
         margin-left: 0; } }
 
 .seventh {

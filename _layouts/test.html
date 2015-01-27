@@ -1,0 +1,149 @@
+{% include head.html %}
+
+{% include banner.html %}
+
+{% include nav.html %}
+
+<div class="excitement">
+  {% if page.class == "team" %}
+  <div class="container image-row">
+    <div class="row">
+      <div class="sixth">
+        <figure>
+          <img class="image-swap" id="image1" src="/images/employees/Dean.jpg" alt="Dean Murphy">
+        </figure>
+      </div>
+      <div class="sixth">
+        <figure>
+          <img class="image-swap" id="image2" src="/images/employees/Jeff.jpg" alt="Jeff">
+        </figure>
+      </div>
+      <div class="sixth">
+        <figure>
+          <img class="image-swap" id="image3" src="/images/employees/Justin.jpg" alt="Justin">
+        </figure>
+      </div>
+      <div class="sixth">
+        <figure>
+          <img class="image-swap" id="image4" src="/images/employees/Brent.jpg" alt="Brent Trujillo">
+        </figure>
+      </div>
+      <div class="sixth">
+        <figure>
+          <img class="image-swap" id="image5" src="/images/employees/Bruce.jpg" alt="Bruce">
+        </figure>
+      </div>
+      <div class="sixth">
+        <figure>
+          <img class="image-swap" id="image6" src="/images/employees/Ty.jpg" alt="Ty">
+        </figure>
+      </div>
+    </div>
+  </div>
+  <div class="hidden container leadership-reveal image1" id="1">
+    <figcaption>
+      <span class="h4">Dean Murphy</span><br>
+      <span class="job-title">President</span>
+      <hr>
+      <p>
+        Mr. Murphy has over twenty-five years experience in the construction industry. His ability to quickly assess the needs of clients and staff as well as a deep knowledge of construction implementation and successful management techniques make him an invaluable component of the Terracare Associates team.
+      </p>
+      <span class="education">David Lipscomb University – Bachelor in Science, Management; Minor Marketing</span>
+    </figcaption>
+  </div>
+
+  <div class="hidden container leadership-reveal image2" id="2">
+    <figcaption>
+      <span class="h4">Jeff Rudolph</span><br>
+      <span class="job-title">Chief Financial Officer</span>
+      <hr>
+      <p>
+        Mr. Rudolph oversees the finance and accounting operations and brings over 25 years of financial experience including 12 years with the public accounting firm of Coopers and Lybrand and 10 years of Chief Financial Officer duties for private, pre-IPO, as well as publicly traded companies, subject to SEC and Sarbanes Oxley reporting requirements. In these roles, Mr. Rudolph led various operational and substantive initiatives related to financial operations, M&amp;A, financial planning, and multiple financial functions.
+      </p>
+      <span class="education">Wittenberg University – Bachelor of Arts<br>
+        University of Denver – MBA</span>
+      </figcaption>
+    </div>
+
+    <div class="hidden container leadership-reveal image3" id="3">
+      <figcaption>
+        <span class="h4">Justin Stewart</span><br>
+        <span class="job-title">Vice President</span>
+        <hr>
+        <p>
+          Mr. Stewart has been with Terracare Associates, formerly American Civil Constructors, ACC for the past thirteen years. Mr. Stewart currently manages our public infrastructure division and is responsible for securing and retaining public works and infrastructure projects as well as the overall management of a sixty person team. Mr. Stewart’s attention to detail and focused management style has allowed the division to be a success.
+        </p>
+        <span class="education">Temple University – Landscape Architecture and Horticulture<br>
+          Rutgers University – Turf Management</span>
+        </figcaption>
+      </div>
+
+      <div class="hidden container leadership-reveal image4" id="4">
+        <figcaption>
+          <span class="h4">Brent Trujillo</span><br>
+          <span class="job-title">Vice President</span>
+          <hr>
+          <p>
+            Mr. Trujillo has almost three decades of experience in the landscape management industry. He currently oversees all Colorado landscape operations. Mr. Trujillo’s ability to motivate his staff by creating a positive workplace environment provides an excellent atmosphere for growth and professionalism in the organization. Since starting in a role as the Southwest Branch Manager in 2004, Mr. Trujillos responsibilities have been expanded to the overall management of the Colorado maintenance team. Mr. Trujillos attention to detail and focused management style has led not only to his personal success, but to the success of the overall company.
+          </p>
+        </figcaption>
+      </div>
+
+      <div class="hidden container leadership-reveal image5" id="5">
+        <figcaption>
+          <span class="h4">Dean Murphy</span><br>
+          <span class="job-title">President</span>
+          <hr>
+          <p>
+            Mr. Murphy has over twenty-five years experience in the construction industry. His ability to quickly assess the needs of clients and staff as well as a deep knowledge of construction implementation and successful management techniques make him an invaluable component of the Terracare Associates team.
+          </p>
+          <span class="education">David Lipscomb University – Bachelor in Science, Management; Minor Marketing</span>
+        </figcaption>
+      </div>
+
+      <div class="hidden container leadership-reveal image6" id="6">
+        <figcaption>
+          <span class="h4">Dean Murphy</span><br>
+          <span class="job-title">President</span>
+          <hr>
+          <p>
+            Mr. Murphy has over twenty-five years experience in the construction industry. His ability to quickly assess the needs of clients and staff as well as a deep knowledge of construction implementation and successful management techniques make him an invaluable component of the Terracare Associates team.
+          </p>
+          <span class="education">David Lipscomb University – Bachelor in Science, Management; Minor Marketing</span>
+        </figcaption>
+      </div>
+
+      <div class="container leadership-reveal intro">
+        <h2>Leadership Team</h2>
+        <p>Our Terracare Associates-TCA Executive Leadership Team is the highest qualified group of industry leaders. Select an image to learn more about our executive leadership team.</p>
+      </div>
+
+      {% else %}
+      <div class="image-content-panel panel image-focus-3" style="background-image: url(/images/banners/{{ page.banner }})" alt="{{ page.alt }}">
+        <div class="feature">
+          <div class="container">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.banner-heading }}</p>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    {% include content.html %}
+
+    <!-- Add Spanish Page button -->
+    {% if page.espanol != null %}
+    <a href="{{ page.espanol_url }}" class="btn btn-primary mobile-full">{{ page.espanol_redirect }} <i class="fa fa-angle-right"></i></a>
+    <hr>
+    {% endif %}
+    <!-- .Spanish -->
+
+    {{ content }}
+
+    {% include end_content.html %}
+    {% include footer.html %}
+
+    <div class="modal-overlay"></div>
+
+    {% include foot.html %}

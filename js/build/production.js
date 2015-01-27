@@ -305,6 +305,15 @@ $.getJSON('https://spreadsheets.google.com/feeds/list/1OUfkaY35qyxLa15Fw1mv9KZSY
 
 var smallBreakPoint = 640;
 var mediumBreakPoint = 768;
+$('.image-swap').hover(
+  function () {
+    $('.' + $(this).attr("id")).slideToggle();
+  }
+  // function () {
+  //   $('.' + $(this).attr("id")).css('display', 'none');
+  // }
+);
+
 (function($) {
 
 	$.fn.jumpTo = function() {
