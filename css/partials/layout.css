@@ -215,7 +215,7 @@
     width: 31.33333%;
     margin-left: 3%;
   }
-  .seventh:nth-child(3n) {
+  .seventh:nth-child(4n) {
     margin-left: 0;
   }
 }

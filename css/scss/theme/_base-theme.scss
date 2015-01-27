@@ -238,7 +238,7 @@
       z-index: 0;
 
       .image-row {
-        padding-top: 5em;
+        padding-top: 2.25em;
 
         img {
           -webkit-transition: all .3s ease;
@@ -252,6 +252,7 @@
           cursor: pointer;
 
           &:hover {
+            position: relative;
             filter: none;
             -webkit-filter: grayscale(0);
             filter: grayscale(0);
@@ -262,6 +263,7 @@
             transition-delay: .2s;
             -webkit-transform: scale(1.05);
             transform: scale(1.05);
+            z-index: 9999;
           }
         }
       }

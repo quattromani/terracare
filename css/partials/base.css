@@ -311,7 +311,7 @@ footer .footer-ctas {
   z-index: 0;
 }
 .excitement .image-row {
-  padding-top: 5em;
+  padding-top: 2.25em;
 }
 .excitement .image-row img {
   -webkit-transition: all .3s ease;
@@ -325,6 +325,7 @@ footer .footer-ctas {
   cursor: pointer;
 }
 .excitement .image-row img:hover {
+  position: relative;
   filter: none;
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
@@ -335,6 +336,7 @@ footer .footer-ctas {
   transition-delay: .2s;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+  z-index: 9999;
 }
 .excitement .leadership-reveal {
   max-width: 600px;
