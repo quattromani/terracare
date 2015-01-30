@@ -1,6 +1,6 @@
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 .content {
   position: relative;
   overflow: auto;
@@ -47,7 +47,7 @@
 
 /* ==========================
     Grid
-   ========================== */
+    ========================== */
 .row {
   clear: both;
   display: inline-block;
@@ -214,6 +214,11 @@
     float: left;
     width: 31.33333%;
     margin-left: 3%;
+  }
+  .marginless .seventh {
+    float: left;
+    width: 33.33333%;
+    margin-left: 0;
   }
   .seventh:nth-child(4n) {
     margin-left: 0;
@@ -557,7 +562,7 @@
 
 /* ==========================
     Multi Column
-   ========================== */
+    ========================== */
 [class*='two_column_'] {
   -webkit-column-count: 2;
   -moz-column-count: 2;

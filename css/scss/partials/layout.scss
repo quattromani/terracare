@@ -3,27 +3,27 @@
 
 /* ==========================================================================
     Layout -- Version: 1.9.0.2 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-.content {
-  position: relative;
-  overflow: auto;
-  @include padding(($padding * 2.5), 0, ($padding / 2));
-  z-index: 0;
+    .content {
+      position: relative;
+      overflow: auto;
+      @include padding(($padding * 2.5), 0, ($padding / 2));
+      z-index: 0;
 
-  @include bp(bp-small) {
-    @include padding(1em, 0);
-  }
-}
+      @include bp(bp-small) {
+        @include padding(1em, 0);
+      }
+    }
 
-.container {
-  position: relative;
-  display: block;
-  max-width: $site-width;
-  @include margin(0, auto);
-  @include padding(0, $padding);
-  overflow: visible;
-}
+    .container {
+      position: relative;
+      display: block;
+      max-width: $site-width;
+      @include margin(0, auto);
+      @include padding(0, $padding);
+      overflow: visible;
+    }
 
 // Clearfix
 .clearfix,
@@ -43,274 +43,278 @@
 
 /* ==========================
     Grid
-   ========================== */
+    ========================== */
 
-.row {
-  @include row;
+    .row {
+      @include row;
 
-  &:first-child,
-  &:only-child {
-    margin-bottom: 0;
-  }
-}
-
-.full {
-  @include col($site-column-count);
-}
-
-.half {
-  @include col($site-column-count / 2);
-
-  .marginless & {
-    @include marginless-col($site-column-count / 2);
-  }
-
-  &:nth-of-type(odd) {
-    @include first;
-  }
-
-  @include bp(bp-small) {
-    @include col($site-column-count);
-  }
-}
-
-.third {
-  @include col($site-column-count / 3);
-
-  .marginless & {
-    @include marginless-col($site-column-count / 3);
-  }
-
-  &:first-child {
-    @include first;
-  }
-
-  @include bp(bp-medium) {
-    @include col($site-column-count / 2);
-
-    &:nth-child(even) {
-      @include first;
+      &:first-child,
+      &:only-child {
+        margin-bottom: 0;
+      }
     }
-  }
 
-  @include bp(bp-small) {
-    @include col($site-column-count);
-  }
-}
-
-.fourth {
-  @include col($site-column-count / 4);
-
-  .marginless & {
-    @include marginless-col($site-column-count / 4);
-  }
-
-  &:first-child {
-    @include first;
-  }
-
-  @include bp(bp-medium) {
-    @include col($site-column-count / 2);
-
-    &:nth-child(even) {
-      @include first;
+    .full {
+      @include col($site-column-count);
     }
-  }
 
-  @include bp(bp-small) {
-    @include col($site-column-count);
-    @include first;
-  }
-}
+    .half {
+      @include col($site-column-count / 2);
 
-.fifth {
-  @include col($site-column-count / 5);
+      .marginless & {
+        @include marginless-col($site-column-count / 2);
+      }
 
-  .marginless & {
-    @include marginless-col($site-column-count / 5);
-  }
+      &:nth-of-type(odd) {
+        @include first;
+      }
 
-  &:first-child {
-    @include first;
-  }
-
-  @include bp(bp-medium) {
-    @include col($site-column-count);
-    @include first;
-  }
-}
-
-.sixth {
-  @include col($site-column-count / 6);
-
-  .marginless & {
-    @include marginless-col($site-column-count / 6);
-  }
-
-  &:first-child {
-    @include first;
-  }
-
-  @include bp(bp-medium) {
-    @include col($site-column-count / 3);
-
-    &:nth-child(4n) {
-      @include first;
+      @include bp(bp-small) {
+        @include col($site-column-count);
+      }
     }
-  }
-}
 
-.seventh {
-  @include col($site-column-count / 7);
+    .third {
+      @include col($site-column-count / 3);
 
-  .marginless & {
-    @include marginless-col($site-column-count / 7);
-  }
+      .marginless & {
+        @include marginless-col($site-column-count / 3);
+      }
 
-  &:first-child {
-    @include first;
-  }
+      &:first-child {
+        @include first;
+      }
 
-  @include bp(bp-medium) {
-    @include col($site-column-count / 3);
+      @include bp(bp-medium) {
+        @include col($site-column-count / 2);
 
-    &:nth-child(4n) {
-      @include first;
+        &:nth-child(even) {
+          @include first;
+        }
+      }
+
+      @include bp(bp-small) {
+        @include col($site-column-count);
+      }
     }
-  }
-}
 
-.eighth {
-  @include col($site-column-count / 8);
+    .fourth {
+      @include col($site-column-count / 4);
 
-  .marginless & {
-    @include marginless-col($site-column-count / 8);
-  }
+      .marginless & {
+        @include marginless-col($site-column-count / 4);
+      }
 
-  &:first-child {
-    @include first;
-  }
+      &:first-child {
+        @include first;
+      }
 
-  @include bp(bp-medium) {
-    @include col($site-column-count / 4);
+      @include bp(bp-medium) {
+        @include col($site-column-count / 2);
 
-    &:nth-child(4n) {
-      @include first;
+        &:nth-child(even) {
+          @include first;
+        }
+      }
+
+      @include bp(bp-small) {
+        @include col($site-column-count);
+        @include first;
+      }
     }
-  }
 
-  @include bp(bp-small) {
-    @include col($site-column-count / 2);
+    .fifth {
+      @include col($site-column-count / 5);
 
-    &:nth-child(2n) {
-      @include first;
+      .marginless & {
+        @include marginless-col($site-column-count / 5);
+      }
+
+      &:first-child {
+        @include first;
+      }
+
+      @include bp(bp-medium) {
+        @include col($site-column-count);
+        @include first;
+      }
     }
-  }
-}
 
-.ninth {
-  @include col($site-column-count / 9);
+    .sixth {
+      @include col($site-column-count / 6);
 
-  .marginless & {
-    @include marginless-col($site-column-count / 9);
-  }
+      .marginless & {
+        @include marginless-col($site-column-count / 6);
+      }
 
-  &:first-child {
-    @include first;
-  }
+      &:first-child {
+        @include first;
+      }
 
-  @include bp(bp-medium) {
-    @include col($site-column-count / 3);
+      @include bp(bp-medium) {
+        @include col($site-column-count / 3);
 
-    &:nth-child(3n) {
-      @include first;
+        &:nth-child(4n) {
+          @include first;
+        }
+      }
     }
-  }
-}
 
-.tenth {
-  @include col($site-column-count / 10);
+    .seventh {
+      @include col($site-column-count / 7);
 
-  .marginless & {
-    @include marginless-col($site-column-count / 10);
-  }
+      .marginless & {
+        @include marginless-col($site-column-count / 7);
+      }
 
-  &:first-child {
-    @include first;
-  }
+      &:first-child {
+        @include first;
+      }
 
-  @include bp(bp-medium) {
-    @include col($site-column-count / 4);
+      @include bp(bp-medium) {
+        @include col($site-column-count / 3);
 
-    &:nth-child(4n) {
-      @include first;
+        .marginless & {
+          @include marginless-col($site-column-count / 3);
+        }
+
+        &:nth-child(4n) {
+          @include first;
+        }
+      }
     }
-  }
 
-  @include bp(bp-small) {
-    @include col($site-column-count / 2);
+    .eighth {
+      @include col($site-column-count / 8);
 
-    &:nth-child(2n) {
-      @include first;
+      .marginless & {
+        @include marginless-col($site-column-count / 8);
+      }
+
+      &:first-child {
+        @include first;
+      }
+
+      @include bp(bp-medium) {
+        @include col($site-column-count / 4);
+
+        &:nth-child(4n) {
+          @include first;
+        }
+      }
+
+      @include bp(bp-small) {
+        @include col($site-column-count / 2);
+
+        &:nth-child(2n) {
+          @include first;
+        }
+      }
     }
-  }
-}
 
-.eleventh {
-  @include col($site-column-count / 11);
+    .ninth {
+      @include col($site-column-count / 9);
 
-  .marginless & {
-    @include marginless-col($site-column-count / 11);
-  }
+      .marginless & {
+        @include marginless-col($site-column-count / 9);
+      }
 
-  &:first-child {
-    @include first;
-  }
+      &:first-child {
+        @include first;
+      }
 
-  @include bp(bp-medium) {
-    @include col($site-column-count / 4);
+      @include bp(bp-medium) {
+        @include col($site-column-count / 3);
 
-    &:nth-child(4n) {
-      @include first;
+        &:nth-child(3n) {
+          @include first;
+        }
+      }
     }
-  }
 
-  @include bp(bp-small) {
-    @include col($site-column-count / 2);
+    .tenth {
+      @include col($site-column-count / 10);
 
-    &:nth-child(2n) {
-      @include first;
+      .marginless & {
+        @include marginless-col($site-column-count / 10);
+      }
+
+      &:first-child {
+        @include first;
+      }
+
+      @include bp(bp-medium) {
+        @include col($site-column-count / 4);
+
+        &:nth-child(4n) {
+          @include first;
+        }
+      }
+
+      @include bp(bp-small) {
+        @include col($site-column-count / 2);
+
+        &:nth-child(2n) {
+          @include first;
+        }
+      }
     }
-  }
-}
 
-.twelfth {
-  @include col($site-column-count / 12);
+    .eleventh {
+      @include col($site-column-count / 11);
 
-  .marginless & {
-    @include marginless-col($site-column-count / 12);
-  }
+      .marginless & {
+        @include marginless-col($site-column-count / 11);
+      }
 
-  &:first-child {
-    @include first;
-  }
+      &:first-child {
+        @include first;
+      }
 
-  @include bp(bp-medium) {
-    @include col($site-column-count / 6);
+      @include bp(bp-medium) {
+        @include col($site-column-count / 4);
 
-    &:nth-child(6n) {
-      @include first;
+        &:nth-child(4n) {
+          @include first;
+        }
+      }
+
+      @include bp(bp-small) {
+        @include col($site-column-count / 2);
+
+        &:nth-child(2n) {
+          @include first;
+        }
+      }
     }
-  }
 
-  @include bp(bp-medium) {
-    @include col($site-column-count / 3);
+    .twelfth {
+      @include col($site-column-count / 12);
 
-    &:nth-child(3n) {
-      @include first;
+      .marginless & {
+        @include marginless-col($site-column-count / 12);
+      }
+
+      &:first-child {
+        @include first;
+      }
+
+      @include bp(bp-medium) {
+        @include col($site-column-count / 6);
+
+        &:nth-child(6n) {
+          @include first;
+        }
+      }
+
+      @include bp(bp-medium) {
+        @include col($site-column-count / 3);
+
+        &:nth-child(3n) {
+          @include first;
+        }
+      }
     }
-  }
-}
 
 // Combinations
 .golden-long {
@@ -451,16 +455,16 @@
 
 /* ==========================
     Multi Column
-   ========================== */
+    ========================== */
 
-[class*='two_column_'] {
-  @include columns(2, ($padding * 2));
-}
+    [class*='two_column_'] {
+      @include columns(2, ($padding * 2));
+    }
 
-[class*='three_column_'] {
-  @include columns(3, ($padding * 2));
-}
+    [class*='three_column_'] {
+      @include columns(3, ($padding * 2));
+    }
 
-[class*='four_column_'] {
-  @include columns(4, ($padding * 2));
-}
+    [class*='four_column_'] {
+      @include columns(4, ($padding * 2));
+    }
