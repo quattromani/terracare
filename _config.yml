@@ -2,7 +2,7 @@ name: TERRACARE ASSOCIATES
 url: http://terracareassociates.com
 twitter_username: TerracareAssoc
 markdown: redcarpet
-highlighter: true
+pygments: true
 
 paginate: 20
 paginate_path: 'blog/page:num'
