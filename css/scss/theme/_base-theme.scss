@@ -28,6 +28,10 @@
         @include padding(1em);
       }
 
+      form {
+        display: inline-block;
+      }
+
       a.logo {
         color: #4a7817;
         line-height: .75;
@@ -45,7 +49,6 @@
 
         img {
           float: left;
-          height: 77px;
 
           @include bp(bp-medium) {
             float: none;
@@ -66,7 +69,6 @@
 
       &-ctas {
         @include bp(bp-small) {
-          @include margin(2em, 0, 0);
           text-align: center;
 
           .text-right {
@@ -76,8 +78,6 @@
       }
 
       .form-ctas {
-        margin-top: 2em;
-
         a {
           color: $color-black;
           font-weight: bold;
@@ -89,12 +89,40 @@
         }
       }
 
-      .tca-icon {
-        float: right;
+      input[type=text] {
+        width: auto;
+        margin-bottom: 1.5em;
 
-        @include bp(bp-medium) {
-          float: none;
+        @include bp(bp-small) {
+          margin-top: 1em;
         }
+      }
+
+      .fa {
+        position: relative;
+        top: .2em;
+        color: $color-light-grey;
+        @include transition(color, .2s, ease);
+      }
+
+      .fa-linkedin-square:hover {
+        color: #0065aa;
+      }
+
+      .fa-youtube-square:hover {
+        color: #db1117;
+      }
+
+      .fa-facebook-square:hover {
+        color: #3b5998;
+      }
+
+      .fa-twitter-square:hover {
+        color: #1c96db;
+      }
+
+      .fa-envelope-square:hover {
+        color: $text;
       }
     }
 
@@ -159,30 +187,6 @@
         @include bp(bp-large) {
           text-align: right;
         }
-      }
-
-      .fa {
-        color: $color-light-grey;
-        @include transition(color, .2s, ease);
-      }
-      .fa-linkedin-square:hover {
-        color: #0065aa;
-      }
-
-      .fa-youtube-square:hover {
-        color: #db1117;
-      }
-
-      .fa-facebook-square:hover {
-        color: #3b5998;
-      }
-
-      .fa-twitter-square:hover {
-        color: #1c96db;
-      }
-
-      .fa-envelope-square:hover {
-        color: $text;
       }
 
       @include bp(bp-medium) {
@@ -293,7 +297,7 @@
 
       h5 {
         margin-bottom: 0;
-        padding-bottom: .5em;
+        padding: .5em 0;
         background-color: $color-white;
       }
 

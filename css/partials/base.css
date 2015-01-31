@@ -88,6 +88,9 @@ body.sticky-footer {
     padding-left: 1em;
   }
 }
+.banner form {
+  display: inline-block;
+}
 .banner a.logo {
   color: #4a7817;
   line-height: .75;
@@ -103,7 +106,6 @@ body.sticky-footer {
 }
 .banner a.logo img {
   float: left;
-  height: 77px;
 }
 @media (max-width: 62em) {
   .banner a.logo img {
@@ -121,18 +123,11 @@ body.sticky-footer {
 }
 @media (max-width: 40em) {
   .banner-ctas {
-    margin-top: 2em;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
     text-align: center;
   }
   .banner-ctas .text-right {
     text-align: center;
   }
-}
-.banner .form-ctas {
-  margin-top: 2em;
 }
 .banner .form-ctas a {
   color: #000;
@@ -147,13 +142,39 @@ body.sticky-footer {
     margin-left: 0;
   }
 }
-.banner .tca-icon {
-  float: right;
+.banner input[type=text] {
+  width: auto;
+  margin-bottom: 1.5em;
 }
-@media (max-width: 62em) {
-  .banner .tca-icon {
-    float: none;
+@media (max-width: 40em) {
+  .banner input[type=text] {
+    margin-top: 1em;
   }
+}
+.banner .fa {
+  position: relative;
+  top: .2em;
+  color: #ccc;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+.banner .fa-linkedin-square:hover {
+  color: #0065aa;
+}
+.banner .fa-youtube-square:hover {
+  color: #db1117;
+}
+.banner .fa-facebook-square:hover {
+  color: #3b5998;
+}
+.banner .fa-twitter-square:hover {
+  color: #1c96db;
+}
+.banner .fa-envelope-square:hover {
+  color: #454545;
 }
 
 .teams .job-title {
@@ -218,29 +239,6 @@ footer a {
   footer .social {
     text-align: right;
   }
-}
-footer .fa {
-  color: #ccc;
-  -webkit-transition: color 0.2s ease;
-  -moz-transition: color 0.2s ease;
-  -ms-transition: color 0.2s ease;
-  -o-transition: color 0.2s ease;
-  transition: color 0.2s ease;
-}
-footer .fa-linkedin-square:hover {
-  color: #0065aa;
-}
-footer .fa-youtube-square:hover {
-  color: #db1117;
-}
-footer .fa-facebook-square:hover {
-  color: #3b5998;
-}
-footer .fa-twitter-square:hover {
-  color: #1c96db;
-}
-footer .fa-envelope-square:hover {
-  color: #454545;
 }
 @media (max-width: 62em) {
   footer {
@@ -361,7 +359,7 @@ footer .footer-ctas {
 }
 .homepage-pseudo-footer h5 {
   margin-bottom: 0;
-  padding-bottom: .5em;
+  padding: .5em 0;
   background-color: #fff;
 }
 .homepage-pseudo-footer .social-feed {

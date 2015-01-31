@@ -76,6 +76,8 @@ body {
       padding-right: 1em;
       padding-bottom: 1em;
       padding-left: 1em; } }
+  .banner form {
+    display: inline-block; }
   .banner a.logo {
     color: #4a7817;
     line-height: .75; }
@@ -87,8 +89,7 @@ body {
       letter-spacing: .09em;
       color: #454545; }
     .banner a.logo img {
-      float: left;
-      height: 77px; }
+      float: left; }
       @media (max-width: 62em) {
         .banner a.logo img {
           float: none;
@@ -101,30 +102,41 @@ body {
       color: #5b3821; }
   @media (max-width: 40em) {
     .banner-ctas {
-      margin-top: 2em;
-      margin-right: 0;
-      margin-bottom: 0;
-      margin-left: 0;
       text-align: center; }
       .banner-ctas .text-right {
         text-align: center; } }
-  .banner .form-ctas {
-    margin-top: 2em; }
-    .banner .form-ctas a {
-      color: #000;
-      font-weight: bold; }
+  .banner .form-ctas a {
+    color: #000;
+    font-weight: bold; }
+  @media (max-width: 40em) {
+    .banner .form-ctas {
+      float: none;
+      margin-top: 0;
+      margin-right: 0;
+      margin-bottom: 1em;
+      margin-left: 0; } }
+  .banner input[type=text] {
+    width: auto;
+    margin-bottom: 1.5em; }
     @media (max-width: 40em) {
-      .banner .form-ctas {
-        float: none;
-        margin-top: 0;
-        margin-right: 0;
-        margin-bottom: 1em;
-        margin-left: 0; } }
-  .banner .tca-icon {
-    float: right; }
-    @media (max-width: 62em) {
-      .banner .tca-icon {
-        float: none; } }
+      .banner input[type=text] {
+        margin-top: 1em; } }
+  .banner .fa {
+    position: relative;
+    top: .2em;
+    color: #ccc;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease; }
+  .banner .fa-linkedin-square:hover {
+    color: #0065aa; }
+  .banner .fa-youtube-square:hover {
+    color: #db1117; }
+  .banner .fa-facebook-square:hover {
+    color: #3b5998; }
+  .banner .fa-twitter-square:hover {
+    color: #1c96db; }
+  .banner .fa-envelope-square:hover {
+    color: #454545; }
 
 .teams .job-title {
   font-weight: bold; }
@@ -176,20 +188,6 @@ footer {
   @media (min-width: 62em) {
     footer .social {
       text-align: right; } }
-  footer .fa {
-    color: #ccc;
-    -webkit-transition: color 0.2s ease;
-    transition: color 0.2s ease; }
-  footer .fa-linkedin-square:hover {
-    color: #0065aa; }
-  footer .fa-youtube-square:hover {
-    color: #db1117; }
-  footer .fa-facebook-square:hover {
-    color: #3b5998; }
-  footer .fa-twitter-square:hover {
-    color: #1c96db; }
-  footer .fa-envelope-square:hover {
-    color: #454545; }
   @media (max-width: 62em) {
     footer {
       text-align: center; } }
@@ -289,7 +287,7 @@ footer {
   background-color: rgba(50, 80, 8, 0.35); }
   .homepage-pseudo-footer h5 {
     margin-bottom: 0;
-    padding-bottom: .5em;
+    padding: .5em 0;
     background-color: #fff; }
   .homepage-pseudo-footer .social-feed {
     padding-top: 0;
@@ -2924,10 +2922,10 @@ label + .pill,
     color: #454545; }
   .callouts .callout {
     background-color: #fff;
-    padding-top: 0.75em;
-    padding-right: 0.75em;
-    padding-bottom: 0.5em;
-    padding-left: 0.75em;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
     border-radius: 0;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
@@ -2935,19 +2933,9 @@ label + .pill,
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out; }
-    .callouts .callout:hover {
-      padding-top: 0.5em;
-      padding-right: 0.5em;
-      padding-bottom: 0.5em;
-      padding-left: 0.5em; }
-      @media (max-width: 40em) {
-        .callouts .callout:hover {
-          padding-top: 0.75em;
-          padding-right: 0.75em;
-          padding-bottom: 0.5em;
-          padding-left: 0.75em; } }
     .callouts .callout h5 {
-      text-align: center; }
+      text-align: center;
+      margin-bottom: .5em; }
   @media (max-width: 40em) {
     .callouts .callout-message {
       display: none; } }
@@ -2959,11 +2947,6 @@ label + .pill,
     .homepage-pseudo-footer .callouts .callout {
       -webkit-box-shadow: none;
       box-shadow: none; }
-      .homepage-pseudo-footer .callouts .callout:hover {
-        padding-top: 0.75em;
-        padding-right: 0.75em;
-        padding-bottom: 0.5em;
-        padding-left: 0.75em; }
   .callouts .slick-slider {
     margin: 0; }
 

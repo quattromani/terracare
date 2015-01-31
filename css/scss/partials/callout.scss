@@ -20,21 +20,22 @@
 
       .callout {
         background-color: $color-white;
-        @include padding(.75em, .75em, .5em);
+        @include padding(2px);
         @include border-radius(0);
         @include box-shadow;
         @include transition(all, .2s, ease-in-out);
 
-        &:hover {
-          @include padding(.5em);
+        // &:hover {
+        //   @include padding(.125em);
 
-          @include bp(bp-small) {
-            @include padding(.75em, .75em, .5em);
-          }
-        }
+        //   @include bp(bp-small) {
+        //     @include padding(.125em, .125em, .125em);
+        //   }
+        // }
 
         h5 {
           text-align: center;
+          margin-bottom: .5em;
         }
       }
 
@@ -50,9 +51,9 @@
         .callout {
           box-shadow: none;
 
-          &:hover {
-            @include padding(.75em, .75em, .5em);
-          }
+          // &:hover {
+          //   @include padding(.75em, .75em, .5em);
+          // }
         }
       }
 
