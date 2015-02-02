@@ -19,10 +19,10 @@
 }
 .callouts .callout {
   background-color: #fff;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-bottom: 2px;
-  padding-left: 2px;
+  padding-top: 0.75em;
+  padding-right: 0.75em;
+  padding-bottom: 0.5em;
+  padding-left: 0.75em;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -38,9 +38,22 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+.callouts .callout:hover {
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+@media (max-width: 40em) {
+  .callouts .callout:hover {
+    padding-top: 0.75em;
+    padding-right: 0.75em;
+    padding-bottom: 0.5em;
+    padding-left: 0.75em;
+  }
+}
 .callouts .callout h5 {
   text-align: center;
-  margin-bottom: .5em;
 }
 @media (max-width: 40em) {
   .callouts .callout-message {
@@ -55,6 +68,12 @@
 }
 .homepage-pseudo-footer .callouts .callout {
   box-shadow: none;
+}
+.homepage-pseudo-footer .callouts .callout:hover {
+  padding-top: 0.75em;
+  padding-right: 0.75em;
+  padding-bottom: 0.5em;
+  padding-left: 0.75em;
 }
 .callouts .slick-slider {
   margin: 0;
