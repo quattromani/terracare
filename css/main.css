@@ -3441,7 +3441,6 @@ audio {
     Tables -- Version: 0.4.1- Compiled: timestamp()
    ========================================================================== */
 table {
-  table-layout: fixed;
   width: 100%;
   max-width: 100%; }
 
@@ -3518,6 +3517,54 @@ hr {
       font-size: 40px;
       font-size: 4rem;
       color: #ccc; }
+
+/* ==========================================================================
+    SmartRecruiters -- Version: 1.9.0.0 - Compiled: timestamp()
+   ========================================================================== */
+.srSearch {
+  display: inline-block;
+  min-width: 100% !important;
+  height: auto !important; }
+  @media (max-width: 40em) {
+    .srSearch {
+      display: none; } }
+
+.srSearchOptionText {
+  width: auto !important; }
+
+.srJobList .srJobListTitles * {
+  font-size: 16px !important; }
+
+.srJobList .srJobListJobEven *,
+.srJobList .srJobListJobOdd * {
+  font-size: 16px !important; }
+
+.srJobList {
+  margin: 0 0 1em !important;
+  min-width: 300px; }
+  .srJobList tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; }
+  .srJobList th {
+    display: none; }
+  .srJobList td {
+    display: block; }
+    .srJobList td:first-child {
+      padding-top: .5em; }
+      .srJobList td:first-child:after {
+        float: right;
+        font-family: "FontAwesome";
+        content: '\f054'; }
+    .srJobList td:last-child {
+      padding-bottom: .5em; }
+  .srJobList th, .srJobList td {
+    text-align: left; }
+    @media (min-width: 40em) {
+      .srJobList th, .srJobList td {
+        display: table-cell;
+        padding: .25em .5em; }
+        .srJobList th:after, .srJobList td:after {
+          display: none; } }
 
 /* ==========================================================================
     Jump To -- Version: 1.9.0.0 - Compiled: timestamp()

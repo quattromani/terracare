@@ -1,0 +1,89 @@
+// Pull globals for individually compiled css files
+@import '../globals/allGlobals';
+
+/* ==========================================================================
+    SmartRecruiters -- Version: 1.9.0.0 - Compiled: #{timestamp()}
+   ========================================================================== */
+
+.srSearch {
+  display: inline-block;
+  min-width: 100% !important;
+  height: auto !important;
+
+  @include bp(bp-small) {
+    display: none;
+  }
+}
+
+.srSearchOptionText {
+  width: auto !important;
+}
+
+.srJobList .srJobListTitles * {
+  font-size: 16px !important;
+}
+
+.srJobList .srJobListJobEven *,
+.srJobList .srJobListJobOdd * {
+  font-size: 16px !important;
+}
+
+
+// .srJobList .srJobListJobOdd:hover *,
+// .srJobList .srJobListJobEven:hover * {
+//   background-color: mix($color-primary-green, $color-white, 70%) !important;
+//   color: $color-white !important;
+// }
+
+.srJobList {
+  margin: 0 0 1em !important;
+  min-width: 300px; // adjust to your needs
+
+  tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    display: none; // for accessibility, use a visually hidden method here instead! Thanks, reddit!
+  }
+
+  td {
+    display: block;
+
+    &:first-child {
+      padding-top: .5em;
+
+      &:after {
+        float: right;
+        font-family: $fontawesome;
+        content: '\f054';
+      }
+    }
+    &:last-child {
+      padding-bottom: .5em;
+    }
+
+    // &:before {
+    //   content: attr(data-th)": "; // who knew you could do this? The internet, that's who.
+    //   font-weight: bold;
+
+    //   @media (min-width: $bp-small) {
+    //     display: none;
+    //   }
+    // }
+  }
+
+  th, td {
+    text-align: left;
+
+    @media (min-width: $bp-small) {
+      display: table-cell;
+      padding: .25em .5em;
+
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
