@@ -1,14 +1,19 @@
 /* ==========================================================================
     SmartRecruiters -- Version: 1.9.0.0 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 .srSearch {
   display: inline-block;
   min-width: 100% !important;
   height: auto !important;
 }
+
+#facet_department {
+  display: none;
+}
+
 @media (max-width: 40em) {
-  .srSearch {
-    display: none;
+  .srSearchInput {
+    width: 75px !important;
   }
 }
 

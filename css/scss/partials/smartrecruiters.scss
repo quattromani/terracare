@@ -3,40 +3,39 @@
 
 /* ==========================================================================
     SmartRecruiters -- Version: 1.9.0.0 - Compiled: #{timestamp()}
-   ========================================================================== */
+    ========================================================================== */
 
-.srSearch {
-  display: inline-block;
-  min-width: 100% !important;
-  height: auto !important;
+    .srSearch {
+      display: inline-block;
+      min-width: 100% !important;
+      height: auto !important;
+    }
 
-  @include bp(bp-small) {
-    display: none;
-  }
-}
+    #facet_department {
+      display: none;
+    }
 
-.srSearchOptionText {
-  width: auto !important;
-}
+    .srSearchInput {
+      @include bp(bp-small) {
+        width: 75px !important;
+      }
+    }
 
-.srJobList .srJobListTitles * {
-  font-size: 16px !important;
-}
+    .srSearchOptionText {
+      width: auto !important;
+    }
 
-.srJobList .srJobListJobEven *,
-.srJobList .srJobListJobOdd * {
-  font-size: 16px !important;
-}
+    .srJobList .srJobListTitles * {
+      font-size: 16px !important;
+    }
 
+    .srJobList .srJobListJobEven *,
+    .srJobList .srJobListJobOdd * {
+      font-size: 16px !important;
+    }
 
-// .srJobList .srJobListJobOdd:hover *,
-// .srJobList .srJobListJobEven:hover * {
-//   background-color: mix($color-primary-green, $color-white, 70%) !important;
-//   color: $color-white !important;
-// }
-
-.srJobList {
-  margin: 0 0 1em !important;
+    .srJobList {
+      margin: 0 0 1em !important;
   min-width: 300px; // adjust to your needs
 
   tr {
@@ -64,14 +63,6 @@
       padding-bottom: .5em;
     }
 
-    // &:before {
-    //   content: attr(data-th)": "; // who knew you could do this? The internet, that's who.
-    //   font-weight: bold;
-
-    //   @media (min-width: $bp-small) {
-    //     display: none;
-    //   }
-    // }
   }
 
   th, td {

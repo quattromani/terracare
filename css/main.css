@@ -3520,14 +3520,18 @@ hr {
 
 /* ==========================================================================
     SmartRecruiters -- Version: 1.9.0.0 - Compiled: timestamp()
-   ========================================================================== */
+    ========================================================================== */
 .srSearch {
   display: inline-block;
   min-width: 100% !important;
   height: auto !important; }
-  @media (max-width: 40em) {
-    .srSearch {
-      display: none; } }
+
+#facet_department {
+  display: none; }
+
+@media (max-width: 40em) {
+  .srSearchInput {
+    width: 75px !important; } }
 
 .srSearchOptionText {
   width: auto !important; }
