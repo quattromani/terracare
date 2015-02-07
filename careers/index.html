@@ -19,207 +19,28 @@ espanol_redirect: 'En Español'
 
 <hr>
 
-<div class="row">
-  <div class="half">
-    <h3>Current Opportunities</h3>
-    <h4>California</h4>
-    <div class="california-list"></div>
-    <hr>
-    <h4>Colorado</h4>
-    <div class="colorado-list"></div>
-    <hr>
-    <h4>Texas</h4>
-    <div class="texas-list"></div>
-    <hr>
-    <h4>Utah</h4>
-    <div class="utah-list"></div>
-  </div>
+<h3>Current Opportunities</h3>
 
-<!-- <div class="row">
-  <div class="half">
-    <h3>Current Opportunities</h3>
-    <h4>California</h4>
-    <ul class="bulleted">
-      {% for item in site.data.careers.california %}
-      <li>
-        {{ item.title }}
-      </li>
-      {% endfor %}
-    </ul>
-
-    <hr>
-
-    <h4>Colorado</h4>
-    <ul class="bulleted">
-      {% for item in site.data.careers.colorado %}
-      <li>
-        {{ item.title }}
-        {% if item.sub %}
-        <ul>
-        {% for title in item.sub %}
-          <li>{{ title.title }}</li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-
-    <hr>
-
-    <h4>Utah</h4>
-    <ul class="bulleted">
-      {% for item in site.data.careers.utah %}
-      <li>
-        {{ item.title }}
-      </li>
-      {% endfor %}
-    </ul>
-  </div> -->
-
-  <div class="half">
-
-    <form action="//forms.brace.io/careers@myterracare.com" method="POST">
-      <input type="hidden" name="form" value="Careers">
-      <fieldset>
-        <h3>Apply Today!</h3>
-        <p>* Indicates a required field</p>
-
-        <!-- First Name / Last Name -->
-        <div class="row">
-          <div class="half">
-            <div class="formitem first_name">
-              <label class="required" for="first-name">First Name:</label>
-              <input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]+" autocomplete="name" tabindex="1" required>
-            </div>
-          </div>
-
-          <div class="half">
-            <div class="formitem last_name">
-              <label class="required" for="last_name">Last Name:</label>
-              <input type="text" id="last_name" name="last_name" autocomplete="name" tabindex="2" required>
-            </div>
-          </div>
-        </div>
-        <!-- .First Name / Last Name -->
-
-        <!-- Phone -->
-        <div class="row clearfix">
-          <div class="formitem phone_number">
-            <label for="phone-number" class="required">Phone Number</label>
-            <input type="tel" id="phone_number" name="phone_number" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}" autocomplete="tel" tabindex="3" required>
-          </div>
-        </div>
-        <!-- .Phone -->
-
-        <!-- Email Address -->
-        <div class="row">
-          <div class="formitem email">
-            <label for="email" class="required">Email Address:</label>
-            <input id="email" type="email" name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="4" required>
-          </div>
-        </div>
-        <!-- .Email Address -->
-
-        <!-- Desired Field -->
-        <div class="row">
-          <div class="formitem">
-            <label for="field" class="required">Desired Field:</label>
-            <select name="field" id="field" tabindex="5" required>
-              <option value="---" selected="selected">---</option>
-              <option value="Account Manager">Account Manager</option>
-              <option value="Assistant Project Manager">Assistant Project Manager</option>
-              <option value="Aquatics">Aquatics</option>
-              <option value="Branch Manager">Branch Manager</option>
-              <option value="Business Development">Business Development</option>
-              <option value="CDL Driver">CDL Driver</option>
-              <option value="Concrete Foreman">Concrete Foreman</option>
-              <option value="Concrete Worker">Concrete Worker</option>
-              <option value="Diesel Mechanic">Diesel Mechanic</option>
-              <option value="Enhancement Manager">Enhancement Manager</option>
-              <option value="Enhancement Crew">Enhancement Crew</option>
-              <option value="Estimator">Estimator</option>
-              <option value="Flower Crew">Flower Crew</option>
-              <option value="Irrigation Manager">Irrigation Manager</option>
-              <option value="Irrigation Technician">Irrigation Technician</option>
-              <option value="Landscape Construction">Landscape Construction</option>
-              <option value="Landscape Foreman">Landscape Foreman</option>
-              <option value="Landscape Laborer">Landscape Laborer</option>
-              <option value="Mechanic">Mechanic</option>
-              <option value="On-call CDL Snow Driver">On-call CDL Snow Driver</option>
-              <option value="Operations Manager">Operations Manager</option>
-              <option value="Plant Healthcare Tech.">Plant Healthcare Tech.</option>
-              <option value="Project Manager">Project Manager</option>
-              <option value="Road Maintenance Crew">Road Maintenance Crew</option>
-              <option value="Snow Driver">Snow Driver</option>
-              <option value="Snow Crew">Snow Crew</option>
-              <option value="Small Equipment Mechanic">Small Equipment Mechanic</option>
-              <option value="Traffic Control Technician">Traffic Control Technician</option>
-            </select>
-          </div>
-        </div>
-        <!-- .Desired Area -->
-
-        <!-- About -->
-        <div class="row">
-          <div class="formitem textarea">
-            <label for="textarea">Tell us about your skills:</label>
-            <textarea id="textarea" placeholder="Tell us about your skills or cut and paste a resume." tabindex="6"></textarea>
-          </div>
-        </div>
-        <!-- .About -->
-
-        <!-- Desired Area -->
-        <div class="row">
-          <div class="formitem state">
-            <label for="state" class="required">Where are you seeking employment?</label>
-            <select name="state" id="state" tabindex="7" required>
-              <option value="" selected="selected">Please Select a location</option>
-              <option value="CA - Bay Area">CA - Bay Area</option>
-              <option value="CA - Sacramento Area">CA - Sacramento Area</option>
-              <option value="CO - Denver North">CO - Denver North</option>
-              <option value="CO - Denver South">CO - Denver South</option>
-              <option value="UT - Cottonwood Heights">UT - Cottonwood Heights</option>
-            </select>
-          </div>
-        </div>
-        <!-- .Desired Field -->
-
-        <!-- Referral -->
-        <div class="row">
-          <label class="required">Were you referred by a Terracare employee?</label>
-          <div class="formitem">
-            <input type="radio" class="radio" id="radio-this" name="referred" value="yes" tabindex="8">
-            <label for="radio-this">Yes</label>
-          </div>
-          <div class="formitem">
-            <input type="radio" class="radio" id="radio-that" name="referred" value="no" tabindex="8">
-            <label for="radio-that">No</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="formitem email">
-            <label for="referral-name">If so, by whom?</label>
-            <input id="referral-name" type="text" name="referral-name" pattern="[a-zA-Z]+" tabindex="10">
-          </div>
-        </div>
-        <!-- .Referral -->
-
-        <!-- Form Housekeeping -->
-        <input type="hidden" name="_next" value="http://myterracare.com/thank-you/" />
-        <input type="text" name="_gotcha" style="display:none">
-        <!-- .Form Housekeeping -->
-
-        <div class="formitem">
-          <button class="btn btn-primary" type="submit" name="submit" value="submit">
-            <span>Submit</span>
-          </button>
-
-          <button type="reset" name="reset" value="reset">
-            <span>Clear</span>
-          </button>
-        </div>
-      </fieldset>
-    </form>
-  </div>
-</div>
+<script type='text/javascript' src='https://www.smartrecruiters.com/img/script/smartWidget/smart_widget.js'>
+</script>
+<script type='text/javascript' class='job_widget'>
+widget({
+  "searchField":"",
+  "company_code":"TerracareAssociates",
+  "bg_color_widget":"#ffffff",
+  "bg_color_headers":"#969696",
+  "bg_color_links":"#99ccff",
+  "txt_color_headers":"#454545",
+  "txt_color_job":"#454545",
+  "bg_color_even_row":"#ffffff",
+  "bg_color_odd_row":"#f7f7f7",
+  "custom_css_url":"https://www.smartrecruiters.com/img/style/smartWidget/smart_widget.css",
+  "auto_width":"auto",
+  "auto_height":"auto",
+  "number":"on",
+  "job_title":"true",
+  "location":"true",
+  "remove_headers":"true",
+  "add_search":"true"
+});
+</script>
