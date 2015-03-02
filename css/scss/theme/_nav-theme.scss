@@ -36,7 +36,8 @@
           @include font-size(16);
 
           &:hover {
-            background: $color-primary-green;
+            background: $color-primary-yellow;
+            color: $text;
           }
 
           @include bp(bp-large) {
@@ -69,11 +70,11 @@
                   }
 
                   &:hover {
-                    background: rgba($color-primary-green, .75);
+                    background: rgba($color-primary-yellow, .75);
 
                     @if $support-legacy {
                       .ie8 & {
-                        background-color: $color-primary-green;
+                        background-color: $color-primary-yellow;
                       }
                     }
                   }
@@ -95,7 +96,7 @@
           }
 
           &.active {
-            background: $color-primary-green;
+            background: $color-primary-yellow;
 
             @include bp(bp-large) {
               &:before {
@@ -107,7 +108,7 @@
                 width: 0;
                 height: 0;
                 margin-left: -.75em;
-                border-color: $color-primary-green transparent transparent transparent;
+                border-color: $color-primary-yellow transparent transparent transparent;
                 border-style: solid;
                 border-width: .75em;
                 z-index: 99;
@@ -160,8 +161,8 @@
         display: block;
 
         & li {
-          border-top: 1px solid lighten($color-secondary-green, 5%);
-          background: rgba($color-primary-green, .75);
+          border-top: 1px solid lighten($color-secondary-yellow, 5%);
+          background: rgba($color-primary-yellow, .75);
 
           &:first-child {
             border: none;

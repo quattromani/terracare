@@ -40,10 +40,12 @@ banner-cta: "Request For Proposal"
           <div class="formitem state">
             <label for="state" class="required">Which services are you interested in?</label>
             <select id="scope_of_work_c" name="scope_of_work_c" tabindex="2" required>
-              <option value="Landscape">Landscape Maintenance</option>
-              <option value="PI">Public Infrastructure</option>
-              <option value="Irrigation">Water Management</option>
-              <option value="Enhancements">Enhancements</option>
+              <option value="Landscape">Landscape Maintenance Services</option>
+              <option value="PWI">Public Works Contractor</option>
+              <option value="PIS">Public Infrastructure Services</option>
+              <option value="PMS">Highway Maintenance Services</option>
+              <option value="Irrigation">Water Management - Irrigation Services</option>
+              <option value="Enhancements">Enhancements and Renovation Services</option>
               <option value="Snow_Removal">Snow Removal</option>
               <option value="Other">Other</option>
             </select>
@@ -78,11 +80,27 @@ banner-cta: "Request For Proposal"
         </div>
         <!-- .Phone -->
 
+        <!-- Referral -->
+        <div class="row">
+          <div class="formitem state">
+            <label for="state" class="required">How did you hear about us?</label>
+            <select id="referral" name="referral" tabindex="6" required>
+              <option value="current_customer">Current Customer</option>
+              <option value="business_dev">Business Development Person</option>
+              <option value="event">Event/Conference</option>
+              <option value="referral">Referral - word of mouth</option>
+              <option value="trucks">Trucks</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <!-- .Referral -->
+
         <!-- Account Name -->
         <div class="row clearfix">
           <div class="formitem account">
             <label for="account_name">Company Name</label>
-            <input type="text" id="account_name" name="account_name" tabindex="6">
+            <input type="text" id="account_name" name="account_name" tabindex="7">
           </div>
         </div>
         <!-- .Account Name -->
@@ -91,7 +109,7 @@ banner-cta: "Request For Proposal"
         <div class="row">
           <div class="formitem email">
             <label for="email1" class="required">Email Address:</label>
-            <input id="email1" type="email" name="email1" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="7" onchange="validateEmailAdd();" required>
+            <input id="email1" type="email" name="email1" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" autocomplete="email" placeholder="milk@cereal.com" tabindex="8" onchange="validateEmailAdd();" required>
           </div>
         </div>
         <!-- .Email Address -->
@@ -100,7 +118,7 @@ banner-cta: "Request For Proposal"
         <div class="row">
           <div class="formitem textarea">
             <label for="description">Message:</label>
-            <textarea id="description" name="description" tabindex="8"></textarea>
+            <textarea id="description" name="description" tabindex="9"></textarea>
           </div>
         </div>
         <!-- .About -->
