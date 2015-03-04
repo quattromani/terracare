@@ -182,7 +182,7 @@ body.sticky-footer {
 }
 .teams .bio {
   position: relative;
-  padding: 0 0 0 10.5em;
+  padding: 0 0 0 20em;
 }
 .teams .bio img {
   position: absolute;
@@ -192,6 +192,18 @@ body.sticky-footer {
 }
 .teams .bio .education {
   font-style: italic;
+}
+@media (max-width: 40em) {
+  .teams .bio {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .teams .bio img {
+    position: relative;
+    width: 100%;
+  }
 }
 
 a.modal-button {
