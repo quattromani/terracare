@@ -13,8 +13,8 @@ banner-cta: ""
   <div class="half">
 
     <form action="http://formspree.io/web@myterracare.com" method="POST">
-      <input type="hidden" name="form" value="Careers">
-      <input type="hidden" name="_subject" value="Water Management Seminar" />
+      <input type="hidden" name="form" value="seminar">
+      <input type="hidden" name="_subject" value="Attend a Seminar" />
       <fieldset>
         <h3>Sign-Up Now</h3>
         <p>* Indicates a required field</p>
@@ -58,37 +58,17 @@ banner-cta: ""
         <!-- Desired Field -->
         <div class="row">
           <div class="formitem">
-            <label for="field" class="required">Desired Field:</label>
-            <select name="field" id="field" tabindex="5" required>
+            <label for="interest" class="required">Topics of Interest:</label>
+            <select name="interest" id="interest" tabindex="5" required>
               <option value="---" selected="selected">---</option>
-              <option value="Account Manager">Account Manager</option>
-              <option value="Assistant Project Manager">Assistant Project Manager</option>
-              <option value="Aquatics">Aquatics</option>
-              <option value="Branch Manager">Branch Manager</option>
-              <option value="Business Development">Business Development</option>
-              <option value="CDL Driver">CDL Driver</option>
-              <option value="Concrete Foreman">Concrete Foreman</option>
-              <option value="Concrete Worker">Concrete Worker</option>
-              <option value="Diesel Mechanic">Diesel Mechanic</option>
-              <option value="Enhancement Manager">Enhancement Manager</option>
-              <option value="Enhancement Crew">Enhancement Crew</option>
-              <option value="Estimator">Estimator</option>
-              <option value="Flower Crew">Flower Crew</option>
-              <option value="Irrigation Manager">Irrigation Manager</option>
-              <option value="Irrigation Technician">Irrigation Technician</option>
-              <option value="Landscape Construction">Landscape Construction</option>
-              <option value="Landscape Foreman">Landscape Foreman</option>
-              <option value="Landscape Laborer">Landscape Laborer</option>
-              <option value="Mechanic">Mechanic</option>
-              <option value="On-call CDL Snow Driver">On-call CDL Snow Driver</option>
-              <option value="Operations Manager">Operations Manager</option>
-              <option value="Plant Healthcare Tech.">Plant Healthcare Tech.</option>
-              <option value="Project Manager">Project Manager</option>
-              <option value="Road Maintenance Crew">Road Maintenance Crew</option>
-              <option value="Snow Driver">Snow Driver</option>
-              <option value="Snow Crew">Snow Crew</option>
-              <option value="Small Equipment Mechanic">Small Equipment Mechanic</option>
-              <option value="Traffic Control Technician">Traffic Control Technician</option>
+              <option value="turf-conversion">Turf Conversion</option>
+              <option value="rfp">The ABC’s of RFP’s (what you need to know about generating RFP’s) </option>
+              <option value="landscape-maintenance">Landscape Maintenance - general</option>
+              <option value="plant-health-care">Plant Health Care</option>
+              <option value="irrigation">Irrigation</option>
+              <option value="water-management">Water Management</option>
+              <option value="public-private-partnerships">Public Private Partnerships</option>
+              <option value="aquatics-management">Aquatics Management</option>
             </select>
           </div>
         </div>
@@ -97,23 +77,36 @@ banner-cta: ""
         <!-- About -->
         <div class="row">
           <div class="formitem textarea">
-            <label for="textarea">Tell us about your skills:</label>
-            <textarea id="textarea" placeholder="Tell us about your skills or cut and paste a resume." tabindex="6"></textarea>
+            <label for="textarea">What industry topics are of most interest to you?:</label>
+            <textarea id="textarea" placeholder="" tabindex="6"></textarea>
           </div>
         </div>
         <!-- .About -->
 
+        <!-- Referral -->
+        <div class="row">
+          <label class="required">Are you interested in attending our next seminar in your area?</label>
+          <div class="formitem">
+            <input type="radio" class="radio" id="attended-yes" name="attended" value="yes" tabindex="8">
+            <label for="attended-yes">Yes</label>
+          </div>
+          <div class="formitem">
+            <input type="radio" class="radio" id="attended-no" name="attended" value="no" tabindex="9">
+            <label for="attended-no">No</label>
+          </div>
+        </div>
+        <!-- .Referral -->
+
         <!-- Desired Area -->
         <div class="row">
           <div class="formitem state">
-            <label for="state" class="required">Where are you seeking employment?</label>
+            <label for="state" class="required">Locations</label>
             <select name="state" id="state" tabindex="7" required>
               <option value="" selected="selected">Please Select a location</option>
-              <option value="CA - Bay Area">CA - Bay Area</option>
-              <option value="CA - Sacramento Area">CA - Sacramento Area</option>
-              <option value="CO - Denver North">CO - Denver North</option>
-              <option value="CO - Denver South">CO - Denver South</option>
-              <option value="UT - Cottonwood Heights">UT - Cottonwood Heights</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="UT">Utah</option>
+              <option value="TX">Texas</option>
             </select>
           </div>
         </div>
@@ -131,13 +124,16 @@ banner-cta: ""
             <label for="radio-that">No</label>
           </div>
         </div>
+        <!-- .Referral -->
+
+        <!-- Contest -->
         <div class="row">
-          <div class="formitem email">
-            <label for="referral-name" class="required">If so, by whom?</label>
-            <input id="referral-name" type="text" name="referral-name" pattern="[a-zA-Z]+" tabindex="10" required>
+          <div class="formitem textarea">
+            <label for="textarea">Have you attended a seminar?<br>Submit contest answers here:</label>
+            <textarea id="textarea" placeholder="" tabindex="6"></textarea>
           </div>
         </div>
-        <!-- .Referral -->
+        <!-- .Contest -->
 
         <!-- Form Housekeeping -->
         <input type="hidden" name="_next" value="http://myterracare.com/thank-you/" />
