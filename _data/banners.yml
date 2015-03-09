@@ -21,7 +21,7 @@ banner:
     alt: 'Flower Garden'
     title: COMMERCIAL LANDSCAPE MAINTENANCE
     text: Absolute customer confidence
-    location: 'Travis Credit Union - Vacaville, California'
+    location: 'Thanksgiving Tower, Dallas Texas'
 
   - img: 'images/banners/PI_bobcat_home_banner.jpg'
     url: '/public-services/'
@@ -44,7 +44,7 @@ banner:
     text:  'Investing in safety, environment &  our community'
     location: 'TMA - I-25 Urban Corridor, Colorado'
 
-  - img: 'images/banners/snow_removal.JPG'
+  - img: 'images/banners/snow-plan.jpg'
     url: '/commercial-services/snow-removal/'
     alt: 'Snow Plows - Snow Removal'
     title: SNOW REMOVAL
