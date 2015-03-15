@@ -57,7 +57,8 @@
         @include padding(1em);
 
         @include bp(bp-small) {
-          max-height: 15.625em;
+        	min-height: 10em;
+          max-height: 12.625em;
         }
       }
 
