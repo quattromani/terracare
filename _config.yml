@@ -9,6 +9,9 @@ paginate_path: 'blog/page:num'
 
 exclude: ['node_modules', 'brand', 'css/scss', 'css/partials', 'css/syntax.css', 'sandbox', '*.json', 'npm-debug.log', 'Gruntfile.js', 'README.md', 'LICENSE']
 
+google_analytics: true
+google_analytics_id: UA-17676310-3
+
 sitemap:
   file: "/sitemap.xml"
   exclude:
