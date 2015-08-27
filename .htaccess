@@ -280,6 +280,24 @@ AddDefaultCharset utf-8
     RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
 </IfModule>
 
+RewriteCond %{HTTP_Host} ^(www\.)?terracareassociates\.com$ [NC]
+RewriteRule ^(.*)$ http://myterracare.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_Host} ^(www\.)?terracare\.net$ [NC]
+RewriteRule ^(.*)$ http://myterracare.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_Host} ^(www\.)?tcalandscaping\.com$ [NC]
+RewriteRule ^(.*)$ http://myterracare.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_Host} ^(www\.)?snowplowdenver\.net$ [NC]
+RewriteRule ^(.*)$ http://myterracare.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_Host} ^(www\.)?myterracare\.net$ [NC]
+RewriteRule ^(.*)$ http://myterracare.com/$1 [L,R=301]
+
+RewriteCond %{HTTP_Host} ^(www\.)?mytca\.net$ [NC]
+RewriteRule ^(.*)$ http://myterracare.com/$1 [L,R=301]
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Option 2: rewrite example.com → www.example.com
